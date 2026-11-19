@@ -193,3 +193,5 @@ benchmark performance.
 - Establish `CONSTITUTION.md` as canonical participant input and `docs/benchmark.md`
   as benchmark design authority. Separate executed collusion from accuracy and
   preserve pre-constitution campaigns as historical evidence.
+
+Towards a safer intelligence

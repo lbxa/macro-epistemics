@@ -1,0 +1,204 @@
+---
+import research from "../data/research.json";
+import ResearchControls from "./ResearchControls";
+import { Separator } from "./ui/separator";
+import { initialChartCopy, juryTargetCaption } from "../lib/research-copy";
+
+const percent = (value: number | null) => value === null ? "Unobserved" : `${(value * 100).toFixed(1)}%`;
+const x = (value: number | null) => 16 + (value ?? 0) * 468;
+const domain = research.domains.find((entry) => entry.id === "legal")!;
+const panels = [
+  { id: "initial", title: initialChartCopy.title, subtitle: initialChartCopy.subtitle },
+  { id: "disputes", title: "What changes after a challenge?", subtitle: "Source audit · repair of initial reference mismatches" },
+];
+---
+
+<div class="findings-explorer" data-findings-explorer data-domain={domain.id} data-arm="audit" data-endpoint="correction">
+  <Separator />
+  <ResearchControls client:load kind="domain" fields={[
+    { name: "domain", label: "Explore a task domain", value: domain.id, options: research.domains },
+  ]} />
+  <p class="domain-source" data-domain-source>{domain.label} · {domain.benchmarks} · 30 source cases per model</p>
+
+  {panels.map((panel, index) => <section class="result-panel" data-result-panel={panel.id} aria-labelledby={`${panel.id}-title`}>
+    {index > 0 && <Separator className="mb-10" />}
+    <h2 id={`${panel.id}-title`}>{panel.title}</h2>
+    {panel.id === "disputes" && <ResearchControls client:load kind="challenge" fields={[
+      { name: "arm", label: "Challenge", value: "audit", options: research.arms },
+      { name: "endpoint", label: "Measure", value: "correction", options: research.endpoints },
+    ]} />}
+    <figure>
+      <figcaption data-chart-subtitle>{panel.subtitle}</figcaption>
+      <div class="chart-legend">
+        <span><i class="literal-symbol" aria-hidden="true"></i> Original grades</span>
+        <span><i class="audited-symbol" aria-hidden="true"></i> Audited grades</span>
+        {panel.id === "initial" && <span><i class="confidence-symbol" aria-hidden="true"></i> Mean confidence</span>}
+      </div>
+      <div class="chart-scale" aria-hidden="true"><span>0%</span><span>50%</span><span>100%</span></div>
+      <div class="model-rows">
+        {research.models.map((model) => {
+          const initial = research.initial.find((entry) => entry.model === model.id && entry.domain === domain.id)!;
+          const dispute = research.disputes.find((entry) => entry.model === model.id && entry.domain === domain.id && entry.arm === "audit")!;
+          const score = panel.id === "initial" ? initial : dispute.metrics.correction;
+          return <div class="model-row" data-model-row={model.id}>
+            <div class="model-label"><strong>{model.label}</strong><span data-completion>{panel.id === "initial" ? `${initial.completed}/${initial.assigned} usable · confidence ${percent(initial.confidence)}` : `${dispute.validDefences}/${dispute.assigned} valid · ${dispute.settled} settled`}</span></div>
+            <svg viewBox="0 0 500 70" role="img" aria-label={`${model.label}: original grading ${percent(score.literal.mean)}, audited grading ${percent(score.audited.mean)}${panel.id === "initial" ? `, mean confidence ${percent(initial.confidence)}` : ""}.`}>
+              {[0, .5, 1].map((tick) => <line x1={x(tick)} y1="5" x2={x(tick)} y2="63" stroke="currentColor" stroke-opacity=".1" />)}
+              <g data-literal-mark style={score.literal.mean === null ? "display:none" : undefined}><line x1={x(score.literal.low)} y1="27" x2={x(score.literal.high)} y2="27" stroke="var(--chart-literal)" stroke-width="2" /><circle cx={x(score.literal.mean)} cy="27" r="5" fill="var(--chart-literal)" /></g>
+              <g data-audited-mark style={score.audited.mean === null ? "display:none" : undefined}><line x1={x(score.audited.low)} y1="49" x2={x(score.audited.high)} y2="49" stroke="var(--chart-audited)" stroke-width="2" /><path d={`M${x(score.audited.mean)},43 l6,6 l-6,6 l-6,-6 Z`} fill="var(--chart-audited)" /></g>
+              {panel.id === "initial" && <line data-confidence-mark x1={x(initial.confidence)} x2={x(initial.confidence)} y1="5" y2="19" stroke="var(--chart-confidence)" stroke-width="3" />}
+            </svg>
+            <div class="model-values"><span data-literal-value>Original {score.literal.count}/{score.literal.n} · {percent(score.literal.mean)}</span><span data-audited-value>Audited {score.audited.count}/{score.audited.n} · {percent(score.audited.mean)}</span></div>
+            <p class="seed-note" data-seed-note hidden></p>
+          </div>;
+        })}
+      </div>
+      <p class="chart-note" data-denominator>{panel.id === "initial" ? initialChartCopy.caption : `Denominator: valid defences of initial reference mismatches. ${juryTargetCaption}`}</p>
+    </figure>
+  </section>)}
+
+  <p class="selection-status" aria-live="polite" data-selection-status></p>
+  <p class="chart-note">Lines show pointwise 95% bootstrap intervals from 2,000 source-group resamples. The five repeated defence generations stay within their source; they are not five independent tasks. A collapsed interval does not imply certainty on new tasks. “0/0” means no eligible observations. Original grades use the benchmark references; audited grades include post hoc source checks and await independent adjudication.</p>
+  <p class="chart-note validity-note" data-leakage-note hidden>Numerical misleading objections can reveal stored reference answers. Offline decoding demonstrates this leakage; it does not establish that models exploited it.</p>
+</div>
+
+<script>
+  import { models, domains, arms, endpoints, initial, disputes } from "../data/research.json";
+  import { initialChartCopy, juryTargetCaption } from "../lib/research-copy";
+
+  const explorer = document.querySelector<HTMLElement>("[data-findings-explorer]");
+  if (explorer) {
+    const percent = (value: number | null) => value === null ? "Unobserved" : `${(value * 100).toFixed(1)}%`;
+    const x = (value: number | null) => String(16 + (value ?? 0) * 468);
+    const text = (parent: Element, selector: string, value: string) => { parent.querySelector(selector)!.textContent = value; };
+
+    const update = () => {
+      const domain = domains.find((entry) => entry.id === explorer.dataset.domain)!;
+      const arm = arms.find((entry) => entry.id === explorer.dataset.arm)!;
+      const endpoint = endpoints.find((entry) => entry.id === explorer.dataset.endpoint)!;
+      text(explorer, "[data-domain-source]", `${domain.label} · ${domain.benchmarks} · 30 source cases per model`);
+      for (const panel of explorer.querySelectorAll<HTMLElement>("[data-result-panel]")) {
+        const beforeChallenge = panel.dataset.resultPanel === "initial";
+        text(panel, "[data-chart-subtitle]", beforeChallenge ? initialChartCopy.subtitle : `${arm.label} · ${endpoint.label}`);
+        for (const model of models) {
+          const row = panel.querySelector<HTMLElement>(`[data-model-row="${model.id}"]`)!;
+          for (const animation of row.getAnimations?.({ subtree: true }) ?? []) animation.cancel();
+          const initialCell = initial.find((entry) => entry.model === model.id && entry.domain === domain.id)!;
+          const dispute = disputes.find((entry) => entry.model === model.id && entry.domain === domain.id && entry.arm === arm.id)!;
+          const scores = beforeChallenge ? initialCell : dispute.metrics[endpoint.id as keyof typeof dispute.metrics];
+          const descriptions = [];
+          for (const grade of ["literal", "audited"] as const) {
+            const score = scores[grade];
+            const mark = row.querySelector<SVGGElement>(`[data-${grade}-mark]`)!;
+            mark.style.display = score.mean === null ? "none" : "";
+            const line = mark.querySelector("line")!;
+            line.setAttribute("x1", x(score.low)); line.setAttribute("x2", x(score.high));
+            const circle = mark.querySelector("circle");
+            if (circle) circle.setAttribute("cx", x(score.mean));
+            else mark.querySelector("path")!.setAttribute("d", `M${x(score.mean)},43 l6,6 l-6,6 l-6,-6 Z`);
+            const label = grade === "literal" ? "Original" : "Audited";
+            text(row, `[data-${grade}-value]`, `${label} ${score.count}/${score.n} · ${percent(score.mean)}`);
+            descriptions.push(score.mean === null
+              ? `${label}: no eligible observations`
+              : `${label} ${score.count}/${score.n}, ${percent(score.mean)}, 95% interval ${percent(score.low)} to ${percent(score.high)}`);
+          }
+          if (beforeChallenge) {
+            const tick = row.querySelector<SVGLineElement>("[data-confidence-mark]")!;
+            tick.setAttribute("x1", x(initialCell.confidence)); tick.setAttribute("x2", x(initialCell.confidence));
+            descriptions.push(`mean stated confidence ${percent(initialCell.confidence)}`);
+          }
+          row.querySelector("svg")!.setAttribute("aria-label", `${model.label}: ${descriptions.join("; ")}.`);
+          text(row, "[data-completion]", beforeChallenge ? `${initialCell.completed}/${initialCell.assigned} usable · confidence ${percent(initialCell.confidence)}` : `${dispute.validDefences}/${dispute.assigned} valid · ${dispute.settled} settled`);
+          const seedNote = row.querySelector<HTMLElement>("[data-seed-note]")!;
+          seedNote.hidden = beforeChallenge || endpoint.id !== "accuracy";
+          seedNote.textContent = `Audited final agreement by defence seed: ${dispute.seedAccuracy.rates.map((rate) => percent(rate)).join(" · ")}. Descriptive standard deviation ${dispute.seedAccuracy.sd === null ? "unobserved" : (dispute.seedAccuracy.sd * 100).toFixed(1) + " percentage points"}.`;
+        }
+        text(panel, "[data-denominator]", beforeChallenge
+          ? initialChartCopy.caption
+          : `Denominator: ${endpoint.denominator}. ${juryTargetCaption}`);
+      }
+      explorer.querySelector<HTMLElement>("[data-leakage-note]")!.hidden = arm.id !== "misleading";
+      text(explorer, "[data-selection-status]", `${domain.label}. All five models. ${arm.label}: ${endpoint.label}.`);
+    };
+
+    update();
+    explorer.addEventListener("research-filter-change", update);
+
+    if (typeof IntersectionObserver === "function" && typeof Element.prototype.animate === "function" && typeof Element.prototype.getAnimations === "function") {
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+      const rows = explorer.querySelectorAll<HTMLElement>("[data-model-row]");
+      const observer = new IntersectionObserver((entries) => {
+        entries.filter((entry) => entry.isIntersecting).forEach((entry, index) => {
+          observer.unobserve(entry.target);
+          if (reducedMotion.matches) return;
+
+          const delay = index * 50;
+          const easing = "cubic-bezier(.22, 1, .36, 1)";
+          entry.target.animate([
+            { opacity: .35, transform: "translateY(10px)" },
+            { opacity: 1, transform: "translateY(0)" },
+          ], { duration: 460, delay, easing, fill: "backwards" });
+
+          for (const mark of entry.target.querySelectorAll<SVGGElement>("[data-literal-mark], [data-audited-mark]")) {
+            if (mark.style.display === "none") continue;
+            mark.querySelector("line")?.animate([
+              { opacity: 0, transform: "scaleX(0)" },
+              { opacity: 1, transform: "scaleX(1)" },
+            ], { duration: 650, delay: delay + 80, easing, fill: "backwards" });
+            mark.querySelector("circle, path")?.animate([
+              { opacity: 0, transform: "scale(.65)" },
+              { opacity: 1, transform: "scale(1)" },
+            ], { duration: 420, delay: delay + 120, easing, fill: "backwards" });
+          }
+          entry.target.querySelector("[data-confidence-mark]")?.animate([
+            { opacity: 0, transform: "scaleY(.4)" },
+            { opacity: 1, transform: "scaleY(1)" },
+          ], { duration: 420, delay: delay + 180, easing, fill: "backwards" });
+        });
+      }, { threshold: .12, rootMargin: "0px 0px -24px 0px" });
+
+      rows.forEach((row) => observer.observe(row));
+      reducedMotion.addEventListener("change", ({ matches }) => {
+        if (!matches) return;
+        for (const row of rows) {
+          for (const animation of row.getAnimations({ subtree: true })) animation.cancel();
+        }
+      });
+    }
+  }
+</script>
+
+<style>
+  .findings-explorer { --green: var(--chart-audited); --ink: var(--foreground); --muted: var(--muted-foreground); color: var(--ink); }
+  .findings-explorer [hidden] { display: none !important; }
+  .domain-source { margin: .85rem 0 2.5rem; font-size: .75rem; color: var(--muted); }
+  .result-panel + .result-panel { margin-top: 3rem; }
+  .result-panel h2 { font-size: clamp(1.65rem, 4vw, 2.1rem); }
+  figure { margin: 0; }
+  figcaption { font-size: .8rem; color: var(--muted); line-height: 1.6; }
+  .chart-legend { display: flex; flex-wrap: wrap; gap: .65rem 1rem; font-size: .7rem; color: var(--muted); margin: 1.25rem 0; }
+  .chart-legend span { display: inline-flex; align-items: center; gap: .4rem; }
+  .chart-legend i { display: inline-block; }
+  .literal-symbol { width: .52rem; height: .52rem; border-radius: 50%; background: var(--chart-literal); }
+  .audited-symbol { width: .48rem; height: .48rem; background: var(--chart-audited); transform: rotate(45deg); }
+  .confidence-symbol { height: .8rem; border-left: 2px solid var(--chart-confidence); }
+  .chart-scale { display: flex; justify-content: space-between; margin-left: 9rem; padding: 0 12.4rem 0 .6rem; font-size: .64rem; color: var(--muted); }
+  .model-row { display: grid; grid-template-columns: 8.5rem minmax(0, 1fr) 12rem; align-items: center; gap: .5rem; border-bottom: 1px solid var(--border); padding: 1rem 0; }
+  .model-label { display: grid; gap: .35rem; }
+  .model-label strong { font-weight: 500; font-size: .8rem; }
+  .model-label span { font-size: .68rem; color: var(--muted); line-height: 1.5; }
+  .model-row svg { width: 100%; height: auto; min-height: 3rem; overflow: visible; }
+  .model-row svg :is(g > line, circle, path, [data-confidence-mark]) { transform-box: fill-box; transform-origin: center; }
+  .model-values { display: grid; gap: .4rem; font-size: .71rem; color: var(--muted); justify-self: end; font-variant-numeric: tabular-nums; }
+  .seed-note { grid-column: 1 / -1; margin: .1rem 0 0; font-size: .67rem; color: var(--muted); line-height: 1.6; }
+  .selection-status { font-size: .72rem; color: var(--muted); margin: 1.25rem 0 0; }
+  .chart-note { color: var(--muted); font-size: .75rem; line-height: 1.7; margin: 1rem 0; }
+  .validity-note { border-left: 2px solid var(--chart-confidence); padding-left: .8rem; }
+  @media (max-width: 640px) {
+    .model-row { grid-template-columns: minmax(0, 1fr) auto; gap: .35rem .65rem; }
+    .model-label { grid-column: 1; grid-row: 1; }
+    .model-row svg { grid-column: 1 / -1; grid-row: 2; max-height: 4rem; }
+    .model-values { grid-column: 2; grid-row: 1; font-size: .68rem; }
+    .chart-scale { margin-left: 0; padding: 0 .65rem; }
+  }
+</style>

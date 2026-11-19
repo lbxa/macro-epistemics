@@ -1,0 +1,150 @@
+{
+  "FinQA_reference_program_checks": {
+    "passed": 153,
+    "disagreement": 17,
+    "outside_arithmetic_checker_scope": 10
+  },
+  "disagreements": [
+    {
+      "task_id": "finqa:PM/2017/page_32.pdf-2",
+      "program_result": -99.89,
+      "reference": -99.89,
+      "source_answer": "11",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:SNA/2007/page_49.pdf-4",
+      "program_result": 2.027777777777778,
+      "reference": 2.02778,
+      "source_answer": "2.7%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:AMT/2007/page_29.pdf-2",
+      "program_result": 1.7301038062283735e-05,
+      "reference": 2e-05,
+      "source_answer": "64.5%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:DVN/2018/page_35.pdf-2",
+      "program_result": 940.0,
+      "reference": 940.0,
+      "source_answer": "940%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:JPM/2010/page_281.pdf-3",
+      "program_result": 0.7958778625954198,
+      "reference": 0.79588,
+      "source_answer": "79.6",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:PNC/2012/page_247.pdf-1",
+      "program_result": 0.3046875,
+      "reference": 0.30469,
+      "source_answer": "30.4%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:CME/2010/page_69.pdf-4",
+      "program_result": 0.5606666666666666,
+      "reference": 0.56067,
+      "source_answer": "3.2",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:MSI/2008/page_69.pdf-1",
+      "program_result": 2.870728985866601,
+      "reference": 2.87073,
+      "source_answer": "-287%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:SNA/2013/page_84.pdf-3",
+      "program_result": 0.0272644098810613,
+      "reference": 0.02726,
+      "source_answer": "2.9%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:PNC/2012/page_247.pdf-3",
+      "program_result": 2.500000000000002,
+      "reference": 2.5,
+      "source_answer": "2.5%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:UNP/2011/page_33.pdf-1",
+      "program_result": 0.761,
+      "reference": 0.761,
+      "source_answer": "81.6%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:AMT/2012/page_118.pdf-2",
+      "program_result": 0.189625,
+      "reference": 0.18962,
+      "source_answer": "189625",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:V/2014/page_126.pdf-2",
+      "program_result": 5.079999999999998,
+      "reference": 5.08,
+      "source_answer": "13.0%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:ETR/2004/page_212.pdf-2",
+      "program_result": -0.031568774830881566,
+      "reference": -0.03157,
+      "source_answer": "3.16%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:STT/2009/page_127.pdf-3",
+      "program_result": 2.1815403422982884,
+      "reference": 2.18154,
+      "source_answer": "-68%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:CMCSA/2015/page_112.pdf-3",
+      "program_result": -530.0,
+      "reference": -530.0,
+      "source_answer": "530",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    },
+    {
+      "task_id": "finqa:ANSS/2012/page_93.pdf-2",
+      "program_result": 9.3,
+      "reference": 9.3,
+      "source_answer": "10.7%",
+      "program_matches_reference": true,
+      "answer_matches_reference_at_stated_rounding": false
+    }
+  ],
+  "tolerance": {
+    "relative": 0.001,
+    "absolute": 0.001
+  },
+  "scope": "Checks arithmetic in author-supplied programs and compares the separate answer display under literal numeric/percentage normalization and stated rounding. Display flags can reflect unit conventions, sign conventions or annotation inconsistencies; they require review and are not confirmed source-label errors. Does not validate the source question or document interpretation."
+}

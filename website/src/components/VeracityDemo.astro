@@ -1,0 +1,334 @@
+---
+import { DEMO_ANSWERS, DEMO_OBJECTIONS, DEMO_REFERENCE } from "../lib/veracity-demo";
+---
+
+<section id="demo" class="veracity-demo" data-veracity-demo aria-labelledby="demo-title">
+  <div class="demo-topline"><p class="demo-eyebrow">Interactive demo · scripted</p><span class="demo-duration">About a minute</span></div>
+  <h2 id="demo-title">Put a claim on trial.</h2>
+  <p class="demo-intro">Save an answer. Challenge it. Play the jury.</p>
+  <p class="demo-disclosure">Illustrative example · no AI calls or real funds.</p>
+
+  <div class="demo-interaction" data-demo-interaction hidden>
+    <ol class="demo-progress" aria-label="Round progress">
+      <li data-progress="draft" aria-current="step"><span>1</span> Save</li>
+      <li data-progress="challenge"><span>2</span> Challenge</li>
+      <li data-progress="jury"><span>3</span> Judge</li>
+      <li data-progress="result"><span>4</span> Compare</li>
+    </ol>
+
+    <div class="saved-original" data-saved-original hidden>
+      <div><p class="saved-label">Saved original · never replaced</p><p data-original-explanation></p></div>
+      <strong data-original-percent></strong>
+    </div>
+
+    <div class="demo-stage" data-stage="draft">
+      <h3 tabindex="-1">Start with an answer.</h3>
+      <p class="task-question">Calculate the percentage decline from <strong>$736 million</strong> to <strong>$708 million</strong>.</p>
+      <form data-draft-form>
+        <fieldset class="original-options">
+          <legend>Which answer should we put on trial?</legend>
+          <label class="answer-option"><input type="radio" name="original" value="mistaken" checked /><span><strong>{DEMO_ANSWERS.mistaken.percent}% decline</strong><small>Change ÷ final value</small></span></label>
+          <label class="answer-option"><input type="radio" name="original" value="correct" /><span><strong>{DEMO_ANSWERS.correct.percent}% decline</strong><small>Change ÷ original value</small></span></label>
+        </fieldset>
+        <button type="submit" class="demo-primary">Save this answer <span aria-hidden="true">→</span></button>
+      </form>
+    </div>
+
+    <div class="demo-stage" data-stage="challenge" hidden>
+      <h3 tabindex="-1">Challenge the claim.</h3>
+      <form data-response-form>
+        <label class="objection-label" for="demo-objection">Choose your objection</label>
+        <select id="demo-objection" name="objection">
+          <option value="review">Neutral review</option>
+          <option value="pressure">Pressure, without evidence</option>
+          <option value="misleading">A misleading argument</option>
+          <option value="source">Check the source and formula</option>
+        </select>
+        <blockquote class="objection-preview" data-objection-preview>{DEMO_OBJECTIONS.review}</blockquote>
+        <fieldset class="response-options">
+          <legend>You choose the scripted answerer’s response</legend>
+          <label><input type="radio" name="response" value="defend" checked /><span>Defend</span></label>
+          <label><input type="radio" name="response" value="revise" /><span>Revise / qualify</span></label>
+          <label><input type="radio" name="response" value="retract" /><span>Retract</span></label>
+        </fieldset>
+        <div class="response-preview"><p class="saved-label">Scripted example response</p><p data-response-preview></p></div>
+        <button type="submit" class="demo-primary">Save response &amp; choose votes <span aria-hidden="true">→</span></button>
+      </form>
+    </div>
+
+    <div class="demo-stage" data-stage="jury" hidden>
+      <h3 tabindex="-1">Now you are the jury.</h3>
+      <p class="jury-instruction">Judge the <strong>saved original</strong>, even if the answerer has revised or withdrawn it.</p>
+      <div class="response-preview"><p class="saved-label">Saved scripted response</p><p data-saved-response></p></div>
+      <p class="manual-note">Illustrative preset: all three ballots start on Uphold. You control every vote; these are not AI jurors.</p>
+      <form data-jury-form>
+        <div class="juror-cards">
+          {[0, 1, 2].map((index) => (
+            <fieldset class="juror-card">
+              <legend><span class="juror-ring" aria-hidden="true"></span> Juror {index + 1}</legend>
+              <label><input type="radio" name={`juror-${index}`} value="uphold" checked /><span>Uphold</span></label>
+              <label><input type="radio" name={`juror-${index}`} value="reject" /><span>Reject</span></label>
+            </fieldset>
+          ))}
+        </div>
+        <button type="submit" class="demo-primary">Compare verdict &amp; evidence <span aria-hidden="true">→</span></button>
+      </form>
+    </div>
+
+    <div class="demo-stage" data-stage="result" hidden>
+      <h3 tabindex="-1">Two checks. One saved answer.</h3>
+      <div class="demo-results">
+        <div class="jury-result"><p class="result-label"><span class="juror-ring" aria-hidden="true"></span> Your jury</p><strong data-jury-verdict></strong><p data-jury-count></p></div>
+        <div class="reference-result"><p class="result-label">§ &nbsp; Independent arithmetic</p><strong>{DEMO_REFERENCE.percent}% decline</strong><p data-reference-grade></p></div>
+      </div>
+      <div class="result-insight"><p data-result-insight></p><p class="result-response" data-result-response></p></div>
+      <details class="formula-detail">
+        <summary>Check the arithmetic yourself</summary>
+        <p>The change is $28m. A percentage decline uses the original value as its base:</p>
+        <p class="demo-formula">{DEMO_REFERENCE.calculation} = {DEMO_REFERENCE.percent}%</p>
+        <p>Using 708 as the base gives about 3.95%, answering a different question.</p>
+      </details>
+      <p class="demo-takeaway">A verdict tells you what a jury accepted. The source check tells you whether the saved answer matches the evidence.</p>
+    </div>
+
+    <div class="demo-round-footer"><p><span>Creator: 10 points</span><span>Challenger: 10 points</span><small>Conceptual bonds only · no payouts</small></p><button type="button" class="demo-reset" data-demo-reset>Start over</button></div>
+    <p class="demo-announcement" role="status" aria-live="polite" aria-atomic="true" data-demo-announcement></p>
+  </div>
+
+  <noscript><div class="demo-static"><p><strong>A jury can uphold a mistaken answer.</strong> The worked example declines from $736m to $708m: {DEMO_REFERENCE.calculation} = {DEMO_REFERENCE.percent}%. A unanimous vote for 3.95% would not change that arithmetic.</p><p>With JavaScript enabled, you can save either answer, choose a scripted response and control three ballots.</p></div></noscript>
+  <div class="demo-work-links"><span>Explore the wider Veracity project</span><a href="https://veracity.lbxa.net/" target="_blank" rel="noopener noreferrer">Project overview ↗</a><a href="https://arxiv.org/abs/2507.09972" target="_blank" rel="noopener noreferrer">Original 2025 paper ↗</a></div>
+</section>
+
+<script>
+  import { DEMO_ANSWERS, DEMO_OBJECTIONS, DEMO_REFERENCE, INITIAL_DEMO_STATE,
+    demoResponse, demoResult, transitionDemo, type DemoState, type DemoAction } from "../lib/veracity-demo";
+
+  const demo = document.querySelector<HTMLElement>("[data-veracity-demo]");
+  if (demo) {
+    const interaction = demo.querySelector<HTMLElement>("[data-demo-interaction]");
+    const original = demo.querySelector<HTMLElement>("[data-saved-original]");
+    const originalPercent = demo.querySelector<HTMLElement>("[data-original-percent]");
+    const originalExplanation = demo.querySelector<HTMLElement>("[data-original-explanation]");
+    const draftForm = demo.querySelector<HTMLFormElement>("[data-draft-form]");
+    const responseForm = demo.querySelector<HTMLFormElement>("[data-response-form]");
+    const juryForm = demo.querySelector<HTMLFormElement>("[data-jury-form]");
+    const reset = demo.querySelector<HTMLButtonElement>("[data-demo-reset]");
+    const objectionPreview = demo.querySelector<HTMLElement>("[data-objection-preview]");
+    const responsePreview = demo.querySelector<HTMLElement>("[data-response-preview]");
+    const savedResponse = demo.querySelector<HTMLElement>("[data-saved-response]");
+    const verdict = demo.querySelector<HTMLElement>("[data-jury-verdict]");
+    const voteCount = demo.querySelector<HTMLElement>("[data-jury-count]");
+    const referenceGrade = demo.querySelector<HTMLElement>("[data-reference-grade]");
+    const insight = demo.querySelector<HTMLElement>("[data-result-insight]");
+    const resultResponse = demo.querySelector<HTMLElement>("[data-result-response]");
+    const announcement = demo.querySelector<HTMLElement>("[data-demo-announcement]");
+
+    if (interaction && original && originalPercent && originalExplanation && draftForm && responseForm && juryForm && reset && objectionPreview && responsePreview && savedResponse && verdict && voteCount && referenceGrade && insight && resultResponse && announcement) {
+      let state: DemoState = INITIAL_DEMO_STATE;
+
+      const render = (focus = true) => {
+        demo.querySelectorAll<HTMLElement>("[data-stage]").forEach((stage) => {
+          stage.hidden = stage.dataset.stage !== state.stage;
+        });
+        demo.querySelectorAll<HTMLElement>("[data-progress]").forEach((step) => {
+          if (step.dataset.progress === state.stage) step.setAttribute("aria-current", "step");
+          else step.removeAttribute("aria-current");
+        });
+        original.hidden = state.stage === "draft";
+        reset.hidden = state.stage === "draft";
+        if (state.stage !== "draft") {
+          originalPercent.textContent = `${DEMO_ANSWERS[state.original].percent}%`;
+          originalExplanation.textContent = DEMO_ANSWERS[state.original].explanation;
+        }
+        if (state.stage === "jury" || state.stage === "result") {
+          savedResponse.textContent = demoResponse(state.original, state.response);
+        }
+        if (state.stage === "result") {
+          const result = demoResult(state);
+          verdict.textContent = result.verdict === "upheld" ? "Original upheld" : "Original rejected";
+          voteCount.textContent = `${result.uphold} uphold · ${result.reject} reject`;
+          referenceGrade.textContent = result.referenceMatches ? "Original matches the arithmetic." : "Original does not match the arithmetic.";
+          const agrees = (result.verdict === "upheld") === result.referenceMatches;
+          insight.textContent = agrees
+            ? "This jury’s verdict agrees with the independent arithmetic check. They remain two separate measurements."
+            : result.referenceMatches
+              ? "Your jury rejected a correct original. A vote can disagree with the evidence in either direction."
+              : "Your jury upheld a mistaken original. Agreement cannot make the arithmetic correct.";
+          resultResponse.textContent = state.response === "revise" && !result.referenceMatches
+            ? "The scripted answerer corrected its response to 3.80%. The jury still judged the saved 3.95% original."
+            : state.response === "retract"
+              ? "The scripted answerer withdrew its claim. That did not erase the saved original the jury judged."
+              : `Saved scripted response: ${demoResponse(state.original, state.response)}`;
+          announcement.textContent = `${verdict.textContent}: ${voteCount.textContent}. Independent arithmetic: ${DEMO_REFERENCE.percent}%. ${referenceGrade.textContent}`;
+        } else {
+          announcement.textContent = state.stage === "draft" ? "Round reset. Choose an answer to begin."
+            : state.stage === "challenge" ? "Original saved. Choose an objection and a scripted response."
+              : "Response saved. Set the three jury ballots.";
+        }
+        if (focus) demo.querySelector<HTMLElement>(`[data-stage="${state.stage}"] h3`)?.focus({ preventScroll: true });
+      };
+
+      const dispatch = (action: DemoAction) => {
+        const next = transitionDemo(state, action);
+        if (next !== state) { state = next; render(); }
+      };
+
+      const updatePreview = () => {
+        if (state.stage !== "challenge") return;
+        const data = new FormData(responseForm);
+        const objection = data.get("objection");
+        const response = data.get("response");
+        if (objection === "review" || objection === "pressure" || objection === "misleading" || objection === "source") {
+          objectionPreview.textContent = DEMO_OBJECTIONS[objection];
+        }
+        if (response === "defend" || response === "revise" || response === "retract") {
+          responsePreview.textContent = demoResponse(state.original, response);
+        }
+      };
+
+      const readVotes = () => {
+        if (state.stage !== "jury") return;
+        const data = new FormData(juryForm);
+        for (const juror of [0, 1, 2] as const) {
+          const vote = data.get(`juror-${juror}`);
+          if (vote === "uphold" || vote === "reject") {
+            state = transitionDemo(state, { type: "vote", juror, vote });
+          }
+        }
+      };
+
+      draftForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const answer = new FormData(draftForm).get("original");
+        if (answer === "correct" || answer === "mistaken") {
+          dispatch({ type: "freeze", original: answer });
+          updatePreview();
+        }
+      });
+      responseForm.addEventListener("change", updatePreview);
+      responseForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        const data = new FormData(responseForm);
+        const objection = data.get("objection");
+        const response = data.get("response");
+        if ((objection === "review" || objection === "pressure" || objection === "misleading" || objection === "source") && (response === "defend" || response === "revise" || response === "retract")) {
+          dispatch({ type: "respond", objection, response });
+          readVotes();
+        }
+      });
+      juryForm.addEventListener("change", readVotes);
+      juryForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        readVotes();
+        dispatch({ type: "reveal" });
+      });
+      reset.addEventListener("click", () => {
+        draftForm.reset(); responseForm.reset(); juryForm.reset();
+        demo.querySelectorAll<HTMLDetailsElement>("details").forEach((detail) => { detail.open = false; });
+        objectionPreview.textContent = DEMO_OBJECTIONS.review;
+        responsePreview.textContent = "";
+        dispatch({ type: "reset" });
+      });
+      interaction.hidden = false;
+      render(false);
+      announcement.textContent = "";
+    }
+  }
+</script>
+
+<style>
+  .veracity-demo { margin: 2.8rem 0; padding: 1.7rem 1.8rem 1.4rem; border: 1px solid #c9c8b9; border-radius: .35rem; background: #f7f0de; color: #193e32; }
+  .veracity-demo [hidden] { display: none !important; }
+  .demo-topline { display: flex; justify-content: space-between; align-items: baseline; gap: .7rem; }
+  .veracity-demo .demo-eyebrow { margin: 0; color: #555b46; font-size: .64rem; font-weight: 600; letter-spacing: .1em; line-height: 1.5; text-transform: uppercase; }
+  .demo-duration { color: #655e49; font-size: .68rem; white-space: nowrap; }
+  .veracity-demo h2 { margin: .65rem 0 .8rem; color: #193e32; font-family: Georgia, serif; font-size: clamp(1.85rem, 4vw, 2.6rem); font-weight: 400; letter-spacing: -.03em; line-height: 1.15; }
+  .veracity-demo .demo-intro { margin: 0; color: #444a3b; font-size: .91rem; line-height: 1.7; }
+  .veracity-demo .demo-disclosure { margin: .75rem 0 0; font-size: .72rem; line-height: 1.6; color: #655e49; }
+  .demo-progress { display: flex; justify-content: space-between; list-style: none; margin: 1.5rem 0; padding: .85rem 0; border-top: 1px solid #d4ccb6; border-bottom: 1px solid #d4ccb6; }
+  .demo-progress li { display: flex; align-items: center; gap: .4rem; color: #6b6a5d; font-size: .73rem; }
+  .demo-progress li span { display: inline-flex; align-items: center; justify-content: center; width: 1.25rem; height: 1.25rem; border: 1px solid #bcb89f; border-radius: 50%; font-size: .63rem; }
+  .demo-progress [aria-current] { color: #193e32; font-weight: 600; }
+  .demo-progress [aria-current] span { color: #f7f0de; border-color: #193e32; background: #193e32; }
+  .saved-original { display: flex; justify-content: space-between; gap: 1rem; align-items: center; padding: 1rem 1.1rem; margin-bottom: 1.4rem; border-left: 3px solid #193e32; background: #ede2c8; border-radius: 0 .25rem .25rem 0; }
+  .veracity-demo .saved-label { margin: 0 0 .35rem; color: #555b46; font-size: .6rem; font-weight: 600; letter-spacing: .07em; line-height: 1.5; text-transform: uppercase; }
+  .veracity-demo [data-original-explanation] { margin: 0; color: #444a3b; font-size: .76rem; line-height: 1.5; }
+  .saved-original > strong { flex-shrink: 0; font-family: Georgia, serif; font-size: 2rem; font-weight: 400; }
+  .demo-stage h3 { margin: 0 0 1rem; color: #193e32; font-family: Georgia, serif; font-size: 1.5rem; font-weight: 400; line-height: 1.25; }
+  .demo-stage h3:focus { outline: none; }
+  .veracity-demo .task-question { margin: 0 0 1.1rem; color: #193e32; font-size: 1rem; line-height: 1.7; }
+  fieldset { min-width: 0; margin: 0; padding: 0; border: 0; }
+  legend, .objection-label { margin-bottom: .6rem; color: #555b46; font-size: .74rem; line-height: 1.6; }
+  .original-options { display: grid; grid-template-columns: 1fr 1fr; gap: .6rem; }
+  .original-options legend { grid-column: 1 / -1; }
+  .answer-option { display: flex; gap: .65rem; align-items: center; padding: .85rem; border: 1px solid #c7c7b3; border-radius: .25rem; cursor: pointer; }
+  .answer-option:has(input:checked) { border-color: #24523f; background: #ede2c8; box-shadow: inset 0 0 0 1px #24523f; }
+  .answer-option span { display: grid; gap: .3rem; }
+  .answer-option strong { font-family: Georgia, serif; font-size: 1.3rem; font-weight: 400; }
+  .answer-option small { color: #655e49; font-size: .65rem; }
+  input[type="radio"] { accent-color: #24523f; width: 1rem; height: 1rem; flex-shrink: 0; }
+  .demo-primary { display: inline-flex; justify-content: center; align-items: center; gap: 1.2rem; min-height: 2.75rem; margin-top: 1.25rem; padding: .65rem 1.1rem; border: 1px solid #193e32; border-radius: .2rem; background: #193e32; color: #f7f0de; font-size: .8rem; line-height: 1.4; cursor: pointer; }
+  .demo-primary:hover { background: #24523f; }
+  .demo-primary:disabled { opacity: .5; cursor: default; }
+  .objection-label { display: block; }
+  select { width: 100%; min-height: 2.75rem; padding: .6rem .7rem; border: 1px solid #c7c7b3; border-radius: .2rem; background: #fffcf4; color: #193e32; font: inherit; font-size: .8rem; }
+  .objection-preview { margin: .85rem 0 1.25rem; padding: .2rem 0 .2rem .9rem; border-left: 2px solid #795b2b; color: #655e49; font-family: Georgia, serif; font-size: 1rem; line-height: 1.6; }
+  .response-options { display: grid; grid-template-columns: repeat(3, 1fr); gap: .5rem; }
+  .response-options label { display: flex; gap: .4rem; align-items: center; min-height: 2.75rem; padding: .5rem .6rem; border: 1px solid #c7c7b3; border-radius: .2rem; cursor: pointer; font-size: .75rem; }
+  .response-options label:has(input:checked) { background: #ede2c8; border-color: #24523f; }
+  .response-preview { margin-top: 1rem; padding: .95rem 1rem; border: 1px solid #d4ccb6; border-radius: .2rem; background: #fffcf452; }
+  .veracity-demo .response-preview p:last-child { margin: 0; font-size: .82rem; line-height: 1.7; color: #193e32; }
+  .veracity-demo .jury-instruction { margin: 0; font-size: .87rem; line-height: 1.7; }
+  .veracity-demo .manual-note { margin: 1rem 0; color: #655e49; font-size: .73rem; line-height: 1.65; }
+  .juror-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: .65rem; }
+  .juror-card { border: 1px solid #c7c7b3; border-radius: .2rem; padding: .4rem .8rem .7rem; }
+  .juror-card legend { display: flex; gap: .4rem; align-items: center; padding: 0 .2rem; color: #795b2b; font-size: .76rem; }
+  .juror-ring { display: inline-block; width: .75rem; height: .75rem; border: 1.5px solid #795b2b; border-radius: 50%; flex-shrink: 0; }
+  .juror-card label { display: flex; align-items: center; gap: .5rem; min-height: 2.75rem; padding: .35rem 0; cursor: pointer; font-size: .8rem; }
+  .demo-results { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; }
+  .demo-results > div { padding: 1rem; border: 1px solid #c7c7b3; border-radius: .25rem; }
+  .veracity-demo .result-label { display: flex; gap: .4rem; align-items: center; margin: 0 0 .7rem; color: #655e49; font-size: .7rem; line-height: 1.5; }
+  .demo-results strong { display: block; font-family: Georgia, serif; font-size: 1.4rem; font-weight: 400; line-height: 1.3; }
+  .jury-result strong { color: #795b2b; }
+  .reference-result strong { color: #24523f; }
+  .veracity-demo .demo-results p:last-child { margin: .5rem 0 0; font-size: .73rem; line-height: 1.6; }
+  .result-insight { margin-top: 1.1rem; }
+  .veracity-demo .result-insight > p:first-child { margin: 0; color: #193e32; font-size: .95rem; line-height: 1.65; }
+  .veracity-demo .result-response { margin: .7rem 0 0; color: #655e49; font-size: .78rem; line-height: 1.65; }
+  .formula-detail { margin-top: 1rem; border-top: 1px solid #d4ccb6; border-bottom: 1px solid #d4ccb6; padding: .3rem 0; }
+  .formula-detail summary { min-height: 2.75rem; padding: .65rem 0; color: #24523f; font-size: .79rem; cursor: pointer; }
+  .veracity-demo .formula-detail p { margin: .5rem 0; color: #444a3b; font-size: .78rem; line-height: 1.65; }
+  .veracity-demo .formula-detail .demo-formula { font-family: Georgia, serif; font-size: 1.2rem; color: #24523f; }
+  .veracity-demo .demo-takeaway { margin: 1rem 0 0; font-size: .78rem; line-height: 1.7; color: #555b46; }
+  .demo-round-footer { display: flex; align-items: flex-end; justify-content: space-between; gap: 1rem; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid #d4ccb6; }
+  .veracity-demo .demo-round-footer p { display: flex; flex-wrap: wrap; gap: .25rem 1rem; margin: 0; color: #655e49; font-size: .65rem; line-height: 1.5; }
+  .demo-round-footer small { flex-basis: 100%; font-size: .62rem; }
+  .demo-reset { flex-shrink: 0; min-height: 2.75rem; padding: .4rem 0; color: #24523f; font-size: .75rem; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+  .demo-work-links { display: flex; flex-wrap: wrap; gap: .5rem 1rem; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid #d4ccb6; font-size: .7rem; line-height: 1.5; }
+  .demo-work-links > span { flex-basis: 100%; color: #655e49; font-size: .65rem; }
+  .demo-work-links a { display: inline-flex; align-items: center; min-height: 2.75rem; color: #24523f; text-decoration: underline; text-underline-offset: 3px; }
+  .demo-static { margin-top: 1.25rem; padding: 1rem; background: #ede2c8; }
+  .veracity-demo .demo-static p { color: #193e32; font-size: .85rem; line-height: 1.7; }
+  .demo-announcement { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+  button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible { outline: 2px solid #24523f; outline-offset: 4px; }
+  @media (max-width: 540px) {
+    .veracity-demo { padding: 1.3rem 1.05rem 1.1rem; }
+    .demo-topline { flex-wrap: wrap; }
+    .demo-progress li { gap: .25rem; font-size: .65rem; }
+    .original-options { grid-template-columns: 1fr; }
+    .answer-option { padding: .75rem; }
+    .answer-option strong { font-size: 1.25rem; }
+    .response-options { grid-template-columns: 1fr; }
+    .saved-original { padding: .9rem .8rem; }
+    .saved-original > strong { font-size: 1.7rem; }
+    .juror-cards { gap: .4rem; }
+    .juror-card { padding: .35rem .45rem .5rem; }
+    .juror-card legend { gap: .25rem; font-size: .67rem; }
+    .juror-card label { gap: .3rem; font-size: .72rem; }
+    .demo-results { grid-template-columns: 1fr; }
+    .demo-results > div { padding: .9rem; }
+    .demo-primary { width: 100%; font-size: .77rem; }
+    .veracity-demo .formula-detail .demo-formula { font-size: 1.05rem; overflow-wrap: anywhere; }
+  }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>

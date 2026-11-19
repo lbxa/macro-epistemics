@@ -1,0 +1,151 @@
+{
+  "checked_at": "2026-11-16",
+  "artifact": "sector-study-da7e42f28ba54247:v8",
+  "checks": [
+    {
+      "source_job": "f7961bb499a782bfb697ad605b94",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "53c72bbe6586a7a90f5e6b12437c",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "81025c3d14309eecf3685a0f580b",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "999c207f9a877a0c4fb1a42a8b94",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "c2afa730d0e50a5669b5463a2655",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "a987e6abc30af09b767e0bbd3abe",
+      "numeric_representation": false,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "44e38a654f10cee9e26e24a79f03",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "8f066a989f1832348f3fbc16049c",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "eee719b5355b0583b7daca8a6071",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "fa443f67b4d9cc1bc74475168cb2",
+      "numeric_representation": false,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "e1cab0f7a681ef58120979bf3cba",
+      "numeric_representation": false,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "eb5dd27dcd460587b0c48a6ecda5",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "642d0c1abb9a4a936074c0dd65b8",
+      "numeric_representation": false,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "ea9b5f7d796917cc58add138626b",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "d74c772fd98186968c754f1c4ff6",
+      "numeric_representation": false,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "499cdf5352afd152d2a671ac9106",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "d905896a643b9bdba2f7a67844fa",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "154354c3a0d60a98425b17f2a0ed",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "9375995772cf96ccfc08c966f637",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "0a0a9f6f8b206ac55c5bd831ccec",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "3e5efb74d5a7e64b5ffcbde1b76e",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "1c01239502c21cbc9ebaf2a8e355",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "51ec767f3d9b24309280ab09c4c1",
+      "numeric_representation": false,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "dfc7599380f0a48a40bbdfff70b5",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "3ae4eec590bf474ee795709a0951",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "ba587b53a70046b810a9ae3e07f1",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "5b210b9109e1e1b2cae805598d72",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "dd67c8e3570153e2f87eb7548b9a",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    },
+    {
+      "source_job": "9311df701a18116f639f70c86e80",
+      "numeric_representation": true,
+      "answer_value_preserved": true
+    }
+  ]
+}

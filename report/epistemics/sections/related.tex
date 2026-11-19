@@ -1,0 +1,37 @@
+% !TEX root = ../main.tex
+\section{Related Work}
+\label{sec:related-work}
+\textbf{Benchmark work as an evidential anchor.}
+FinQA~\cite{chen2021} and TAT-QA~\cite{zhu2021} ground financial calculations
+in reports and tables. ContractNLI~\cite{koreeda2021} provides contract
+inference labels, SciFact~\cite{wadden2020} scientific claims with annotated
+evidence, and MathDial~\cite{macina2023} mathematical tutoring dialogues.
+Our disputes reuse these sources; scalar and categorical grading excludes
+broader outcomes such as MathDial's pedagogical quality.
+
+\textbf{Confidence and answer revision.}
+Kadavath et al.~\cite{kadavath2022} distinguish answer validity from
+answerability; Tian et al.~\cite{tian2023} evaluate elicited probabilities.
+Sycophancy~\cite{sharma2024} and limitations of self-correction without
+external feedback~\cite{huang2024} motivate our pressure, review and audit
+controls.
+
+\textbf{Evaluating the evaluator.}
+LLM-as-a-judge studies document agreement with humans and systematic
+biases~\cite{zheng2023}, including response-order effects~\cite{wang2024},
+prompt-complexity sensitivity and leniency~\cite{thakur2025}.
+CALM~\cite{ye2024} tests biases through controlled modifications. Our grading
+audit and cross-family replay test whether consensus preserves errors.
+
+\textbf{Argumentation and verification.}
+Khan et al.~\cite{khan2024} find that opposing expert arguments help weaker
+judges on reading comprehension. We instead test authors' responses to
+controlled objections and juries' acceptance of the original claim. The
+numerical extension varies defence and checked-calculation visibility.
+Veracity predates this adaptation and cohort.
+
+\textbf{Benchmark validity.}
+LiveBench refreshes questions to reduce contamination~\cite{white2024}; our
+audit examines answer leakage through generated objections. Unlike
+$\tau$-bench's final-database checks~\cite{yao2024}, our text tasks do not verify
+completed professional actions.

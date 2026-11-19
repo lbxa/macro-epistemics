@@ -1,0 +1,91 @@
+[
+  {
+    "task_id": "finqa:GPN/2018/page_94.pdf-2",
+    "source_assertions": ["shares ( in thousands )", "unvested at december 31 2018 | 1084 | $ 108.51"],
+    "steps": [{"operation": "multiply", "operands": ["1084", "108.51"], "result": "117624.84"}],
+    "final_value": "117624.84",
+    "scale": "",
+    "explanation": "The question asks monetary value at weighted-average grant-date fair value. Shares in thousands multiplied by price per share give monetary value in thousands. The product 117628.84 is four too large."
+  },
+  {
+    "task_id": "finqa:GS/2017/page_86.pdf-1",
+    "source_assertions": ["minimum supplementary leverage ratio of 5.0%", "a 2.0% ( 2.0 % ) buffer"],
+    "steps": [
+      {"operation": "divide", "operands": ["2", "5"], "result": "0.4"},
+      {"operation": "multiply", "operands": ["0.4", "100"], "result": "40"}
+    ],
+    "final_value": "40",
+    "scale": "percent",
+    "explanation": "Interpreting what percent of the minimum ratio consisted of a buffer as the buffer's share of the whole requirement gives 40%. The buffer itself is 2 percentage points; that is a different quantity."
+  },
+  {
+    "task_id": "mathdial:6000070/4/row12",
+    "source_assertions": ["prepare gourmet hot dogs for 36 guests", "half of the guests to be able to have two hotdogs", "40 guests showed up"],
+    "steps": [
+      {"operation": "divide", "operands": ["36", "2"], "result": "18"},
+      {"operation": "add", "operands": ["36", "18"], "result": "54"},
+      {"operation": "subtract", "operands": ["54", "40"], "result": "14"},
+      {"operation": "subtract", "operands": ["40", "14"], "result": "26"}
+    ],
+    "final_value": "26",
+    "scale": "",
+    "explanation": "Preparing one hot dog for each planned guest plus seconds for half produces 54 hot dogs. Once each of the actual 40 guests receives one, 14 seconds remain, so 26 guests cannot receive a second."
+  },
+  {
+    "task_id": "mathdial:5000226/5/row272",
+    "source_assertions": ["Kylie uses 3 bath towels", "daughters use a total of 6 bath towels", "husband uses a total of 3 bath towels", "fit 4 bath towels for one load"],
+    "steps": [
+      {"operation": "add", "operands": ["3", "6"], "result": "9"},
+      {"operation": "add", "operands": ["9", "3"], "result": "12"},
+      {"operation": "divide", "operands": ["12", "4"], "result": "3"}
+    ],
+    "final_value": "3",
+    "scale": "",
+    "explanation": "The household uses 12 towels in total, exactly three loads of four. The student's 15-towel total double-counts Kylie."
+  },
+  {
+    "task_id": "finqa:PKG/2005/page_74.pdf-4",
+    "source_assertions": ["total purchase commitments over the next two years", "2006 | $ 2408", "2007 | 1364", "( in thousands )"],
+    "steps": [{"operation": "add", "operands": ["2408", "1364"], "result": "3772"}],
+    "final_value": "3772",
+    "scale": "",
+    "explanation": "The two annual commitments sum to 3772 in the question's thousands units."
+  },
+  {
+    "task_id": "finqa:AMT/2007/page_127.pdf-3",
+    "source_assertions": ["$ 33.93 , $ 24.98 and $ 15.32 , respectively", "during the 2007 , 2006 and 2005"],
+    "steps": [
+      {"operation": "subtract", "operands": ["24.98", "15.32"], "result": "9.66"},
+      {"operation": "divide", "operands": ["9.66", "15.32"], "result": "483/766"},
+      {"operation": "multiply", "operands": ["483/766", "100"], "result": "24150/383"}
+    ],
+    "final_value": "63.1",
+    "scale": "percent",
+    "round_places": 1,
+    "explanation": "Growth uses the 2005 price as denominator. The exact percentage 24150/383 is approximately 63.0548%, which rounds to 63.1% at one decimal place."
+  },
+  {
+    "task_id": "mathdial:6000055/3/row372",
+    "source_assertions": ["Food costs $25 per week", "Treats cost $20 per month", "Medicine costs $100 per month", "4 weeks in a month"],
+    "steps": [
+      {"operation": "multiply", "operands": ["25", "4"], "result": "100"},
+      {"operation": "add", "operands": ["100", "20"], "result": "120"},
+      {"operation": "add", "operands": ["120", "100"], "result": "220"},
+      {"operation": "multiply", "operands": ["220", "12"], "result": "2640"}
+    ],
+    "final_value": "2640",
+    "scale": "",
+    "explanation": "Under the problem's explicit four-week month, monthly cost is 220 dollars and twelve months cost 2640 dollars."
+  },
+  {
+    "task_id": "mathdial:5001038/5/row389",
+    "source_assertions": ["With 82 students", "16 more students", "2 students per computer"],
+    "steps": [
+      {"operation": "add", "operands": ["82", "16"], "result": "98"},
+      {"operation": "divide", "operands": ["98", "2"], "result": "49"}
+    ],
+    "final_value": "49",
+    "scale": "",
+    "explanation": "There are 98 students after the increase; two students per computer require 49 computers in total."
+  }
+]

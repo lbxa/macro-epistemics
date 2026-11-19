@@ -1,0 +1,36 @@
+/target/
+/.harness/
+/.claude/worktrees/
+/.claude/settings.local.json
+/.env
+/.env.*
+!/.env.example
+/artifacts/
+/.tools/
+/contracts/out/
+/contracts/cache/
+/contracts/broadcast/
+**/__pycache__/
+*.py[cod]
+/harness/.venv/
+# Run results are archived in W&B (veracity-harness-wandb), not in git.
+/harness/results/
+# Generated review inputs are distributed in stages through the operator.
+/harness/research/sector-expansion/peer-review/adjudication/operator-only/
+/harness/research/sector-expansion/peer-review/adjudication/reviewer/stage-1/sources.json
+/harness/research/sector-expansion/peer-review/adjudication/reviewer/stage-2/responses.json
+/harness/build/
+/harness/dist/
+/harness/*.egg-info/
+/results/
+/wandb/
+/harness/wandb/
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+
+video

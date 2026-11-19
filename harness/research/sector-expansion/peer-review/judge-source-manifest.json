@@ -1,0 +1,1514 @@
+{
+  "protocol": "numeric-judge-context-v1",
+  "parent_hashes": {
+    "cases.json": "223ffe96bdc2de750b6dc3098671cf281d29dfd4758a9811eddba63cc4b68155",
+    "branch.jsonl": "ec6e9d9c52d955bb65e9a8cebc62c4b533a3caab8b260737bcc68fb4d6710515",
+    "study.json": "6463f684dfe4506dbe075271106c681b76f223c56867ea4359d9d6ed2d4a3461",
+    "progress.json": "10909e3a8cbf4222a916138b1c25eb5c1554e1d29f60c665f013246886c14b8c",
+    "source-audit.json": "d11098fd4eaa2dcce2601c46ae3510537f8d3043a6679aba02dfcf5272823ca1"
+  },
+  "selected_sources": [
+    {
+      "case": {
+        "case_id": "9394ecaf1d463943629c",
+        "task_id": "finqa:GPN/2018/page_94.pdf-2",
+        "group_id": "finqa:GPN/2018",
+        "benchmark": "finqa",
+        "domain": "finance",
+        "task": "what was the value in thousands of unvested restricted stock and performance awards at the weighted-averagegrant-datefair value as of december 31 , 2018?\\\\n",
+        "document": "zero .\nto the extent earned , these performance units convert into unrestricted shares after performance results for the three-year performance period are certified by the compensation committee .\nwe recognize share-based compensation expense based on the grant-date fair value of the performance-based restricted stock units , as determined by use of a monte carlo model , on a straight-line basis over the performance period .\nleveraged performance units during the year ended may 31 , 2015 , certain executives were granted performance units that we refer to as 201cleveraged performance units , 201d or 201clpus . 201d lpus contain a market condition based on our relative stock price growth over a three-year performance period .\nthe lpus contain a minimum threshold performance which , if not met , would result in no payout .\nthe lpus also contain a maximum award opportunity set as a fixed dollar and fixed number of shares .\nafter the three-year performance period , which concluded in october 2017 , one-third of the earned units converted to unrestricted common stock .\nthe remaining two-thirds converted to restricted stock that will vest in equal installments on each of the first two anniversaries of the conversion date .\nwe recognize share-based compensation expense based on the grant date fair value of the lpus , as determined by use of a monte carlo model , on a straight-line basis over the requisite service period for each separately vesting portion of the lpu award .\nthe following table summarizes the changes in unvested restricted stock and performance awards for the years ended december 31 , 2018 and 2017 , the 2016 fiscal transition period and the year ended may 31 , 2016 : shares weighted-average grant-date fair value ( in thousands ) .\n\n | shares ( in thousands ) | weighted-averagegrant-datefair value\nunvested at may 31 2015 | 1848 | $ 28.97\ngranted | 461 | 57.04\nvested | -633 ( 633 ) | 27.55\nforfeited | -70 ( 70 ) | 34.69\nunvested at may 31 2016 | 1606 | 37.25\ngranted | 348 | 74.26\nvested | -639 ( 639 ) | 31.38\nforfeited | -52 ( 52 ) | 45.27\nunvested at december 31 2016 | 1263 | 49.55\ngranted | 899 | 79.79\nvested | -858 ( 858 ) | 39.26\nforfeited | -78 ( 78 ) | 59.56\nunvested at december 31 2017 | 1226 | 78.29\ngranted | 650 | 109.85\nvested | -722 ( 722 ) | 60.08\nforfeited | -70 ( 70 ) | 91.47\nunvested at december 31 2018 | 1084 | $ 108.51\n\nthe total fair value of restricted stock and performance awards vested was $ 43.4 million and $ 33.7 million for the years ended december 31 , 2018 and 2017 , respectively , $ 20.0 million for the 2016 fiscal transition period and $ 17.4 million for the year ended may 31 , 2016 .\nfor restricted stock and performance awards , we recognized compensation expense of $ 53.2 million and $ 35.2 million for the years ended december 31 , 2018 and 2017 , respectively , $ 17.2 million for the 2016 fiscal transition period and $ 28.8 million for the year ended may 31 , 2016 .\nas of december 31 , 2018 , there was $ 62.7 million of unrecognized compensation expense related to unvested restricted stock and performance awards that we expect to recognize over a weighted-average period of 2.0 years .\nour restricted stock and performance award plans provide for accelerated vesting under certain conditions .\n94 2013 global payments inc .\n| 2018 form 10-k annual report .",
+        "reference": "117624.84",
+        "scale": "",
+        "tolerance": "0.005",
+        "labels": [],
+        "variant": "original",
+        "audit_passages": [],
+        "source_url": "https://github.com/czyssrs/FinQA/blob/0f16e2867befa6840783e58be38c9efb9229d742/dataset/test.json",
+        "source_sha256": "a59e2424da3e9468ea4bf45a637f92462a5d67922d453f5fd9de271ea7a615d2"
+      },
+      "branch": {
+        "id": "11c495e81bb48bcc53c14f421794",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "finqa",
+          "case_id": "9394ecaf1d463943629c",
+          "domain": "finance",
+          "group_id": "finqa:GPN/2018",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/zai-org/glm-5.3",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "796f7434b5297a87ae51dcd992ea3acfff34a818d08c668bb2250d71a5b7a90f",
+          "initial_correct": false,
+          "original_answer": {
+            "answer": "117628.84",
+            "scale": "",
+            "confidence_correct": 1.0,
+            "explanation": "Multiply unvested shares at Dec 31, 2018 (1,084 thousand) by the weighted-average grant-date fair value of $108.51: 1084 \u00d7 108.51 = 117,628.84 (thousands of dollars).",
+            "citations": []
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 117628.84, scale unscaled. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The table lists \\\"unvested at december 31 2018\\\" as 1084 shares (in thousands) with a weighted\u2011average grant\u2011date fair value of $108.51. Multiplying 1084\u202f\u00d7\u202f108.51 yields 117,628.84, which represents the value in thousands of dollars as requested. The original answer matches this calculation.\"}",
+              "usage": {
+                "input_tokens": 1468,
+                "output_tokens": 327,
+                "total_tokens": 1795,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 69.0042724609375,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The table lists \"unvested at december 31 2018\" as 1084 shares (in thousands) with a weighted\u2011average grant\u2011date fair value of $108.51. Multiplying 1084\u202f\u00d7\u202f108.51 yields 117,628.84, which represents the value in thousands of dollars as requested. The original answer matches this calculation."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The table lists \u201cunvested at december 31 2018\u201d with 1084 (shares in thousands) and a weighted\u2011average grant\u2011date fair value of $108.51. Multiplying 1084\u202f\u00d7\u202f108.51 yields 117,628.84, which represents the value in thousands of dollars. This matches the requested metric, so the original answer is supported by the material.\"}",
+              "usage": {
+                "input_tokens": 1468,
+                "output_tokens": 525,
+                "total_tokens": 1993,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 82.50426483154297,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The table lists \u201cunvested at december 31 2018\u201d with 1084 (shares in thousands) and a weighted\u2011average grant\u2011date fair value of $108.51. Multiplying 1084\u202f\u00d7\u202f108.51 yields 117,628.84, which represents the value in thousands of dollars. This matches the requested metric, so the original answer is supported by the material."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The table lists \\\"unvested at december 31 2018\\\" as 1084 shares (in thousands) with a weighted\u2011average grant\u2011date fair value of $108.51. Multiplying 1084\u202f\u00d7\u202f108.51 gives 117,628.84, which is the total value in thousands of dollars. This matches the requested metric, so the original answer is supported.\"}",
+              "usage": {
+                "input_tokens": 1468,
+                "output_tokens": 464,
+                "total_tokens": 1932,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 78.34517669677734,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The table lists \"unvested at december 31 2018\" as 1084 shares (in thousands) with a weighted\u2011average grant\u2011date fair value of $108.51. Multiplying 1084\u202f\u00d7\u202f108.51 gives 117,628.84, which is the total value in thousands of dollars. This matches the requested metric, so the original answer is supported."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/zai-org/glm-5.3",
+            "seed": 101,
+            "text": "{\"answer\":\"117628.84\",\"scale\":\"\",\"confidence_correct\":0.85,\"p_original_correct\":0.85,\"p_jury_upholds\":0.8,\"stance\":\"maintain\",\"explanation\":\"The table reports \\\"unvested at december 31 2018 | 1084\\\" shares (in thousands) with a weighted-average grant-date fair value of \\\"$ 108.51\\\". The requested value in thousands is the product: 1084 \u00d7 108.51 = 117,628.84 (thousands of dollars). The arithmetic is straightforward and both inputs come directly from the same table row, so I maintain the original answer. Minor ambiguity exists in whether the question seeks the raw share count or the dollar value, but 'value... at the weighted-average grant-date fair value' clearly indicates the product.\",\"citations\":[\"unvested at december 31 2018 | 1084 | $ 108.51\"],\"original_still_supported\":true}",
+            "usage": {
+              "input_tokens": 1592,
+              "output_tokens": 319,
+              "total_tokens": 1911,
+              "input_token_details": {
+                "cache_read": 1408
+              },
+              "output_token_details": {}
+            },
+            "neurons": 184.29818725585938,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "117628.84",
+              "scale": "",
+              "confidence_correct": 0.85,
+              "explanation": "The table reports \"unvested at december 31 2018 | 1084\" shares (in thousands) with a weighted-average grant-date fair value of \"$ 108.51\". The requested value in thousands is the product: 1084 \u00d7 108.51 = 117,628.84 (thousands of dollars). The arithmetic is straightforward and both inputs come directly from the same table row, so I maintain the original answer. Minor ambiguity exists in whether the question seeks the raw share count or the dollar value, but 'value... at the weighted-average grant-date fair value' clearly indicates the product.",
+              "citations": [
+                "unvested at december 31 2018 | 1084 | $ 108.51"
+              ],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 0.85,
+              "p_jury_upholds": 0.8
+            }
+          },
+          "final_correct": false,
+          "episode_phase": "SETTLED_CREATOR",
+          "jury_outcome": "CREATOR_SUPPORTED",
+          "support_votes": 3,
+          "reject_votes": 0,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "finqa:GPN/2018/page_94.pdf-2",
+        "source_assertions": [
+          "shares ( in thousands )",
+          "unvested at december 31 2018 | 1084 | $ 108.51"
+        ],
+        "steps": [
+          {
+            "operation": "multiply",
+            "operands": [
+              "1084",
+              "108.51"
+            ],
+            "result": "117624.84"
+          }
+        ],
+        "final_value": "117624.84",
+        "scale": "",
+        "round_places": null,
+        "explanation": "The question asks monetary value at weighted-average grant-date fair value. Shares in thousands multiplied by price per share give monetary value in thousands. The product 117628.84 is four too large."
+      },
+      "historical_trigger_source": true,
+      "operator_check_original_correct": false
+    },
+    {
+      "case": {
+        "case_id": "977043c3a0bd75119443",
+        "task_id": "finqa:GS/2017/page_86.pdf-1",
+        "group_id": "finqa:GS/2017",
+        "benchmark": "finqa",
+        "domain": "finance",
+        "task": "for the capital framework , what percent of the minimum supplementary leverage ratio consisted of a buffer?",
+        "document": "the goldman sachs group , inc .\nand subsidiaries management 2019s discussion and analysis in the table above : 2030 deduction for goodwill and identifiable intangible assets , net of deferred tax liabilities , included goodwill of $ 3.67 billion as of both december 2017 and december 2016 , and identifiable intangible assets of $ 373 million and $ 429 million as of december 2017 and december 2016 , respectively , net of associated deferred tax liabilities of $ 704 million and $ 1.08 billion as of december 2017 and december 2016 , respectively .\n2030 deduction for investments in nonconsolidated financial institutions represents the amount by which our investments in the capital of nonconsolidated financial institutions exceed certain prescribed thresholds .\nthe decrease from december 2016 to december 2017 primarily reflects reductions in our fund investments .\n2030 deduction for investments in covered funds represents our aggregate investments in applicable covered funds , excluding investments that are subject to an extended conformance period .\nthis deduction was not subject to a transition period .\nsee 201cbusiness 2014 regulation 201d in part i , item 1 of this form 10-k for further information about the volcker rule .\n2030 other adjustments within cet1 primarily include the overfunded portion of our defined benefit pension plan obligation net of associated deferred tax liabilities , disallowed deferred tax assets , credit valuation adjustments on derivative liabilities , debt valuation adjustments and other required credit risk-based deductions .\n2030 qualifying subordinated debt is subordinated debt issued by group inc .\nwith an original maturity of five years or greater .\nthe outstanding amount of subordinated debt qualifying for tier 2 capital is reduced upon reaching a remaining maturity of five years .\nsee note 16 to the consolidated financial statements for further information about our subordinated debt .\nsee note 20 to the consolidated financial statements for information about our transitional capital ratios , which represent the ratios that are applicable to us as of both december 2017 and december 2016 .\nsupplementary leverage ratio the capital framework includes a supplementary leverage ratio requirement for advanced approach banking organizations .\nunder amendments to the capital framework , the u.s .\nfederal bank regulatory agencies approved a final rule that implements the supplementary leverage ratio aligned with the definition of leverage established by the basel committee .\nthe supplementary leverage ratio compares tier 1 capital to a measure of leverage exposure , which consists of daily average total assets for the quarter and certain off-balance-sheet exposures , less certain balance sheet deductions .\nthe capital framework requires a minimum supplementary leverage ratio of 5.0% ( 5.0 % ) ( consisting of the minimum requirement of 3.0% ( 3.0 % ) and a 2.0% ( 2.0 % ) buffer ) for u.s .\nbhcs deemed to be g-sibs , effective on january 1 , 2018 .\nthe table below presents our supplementary leverage ratio , calculated on a fully phased-in basis .\nfor the three months ended or as of december $ in millions 2017 2016 .\n\n$ in millions | for the three months ended or as of december 2017 | for the three months ended or as of december 2016\ntier 1 capital | $ 78227 | $ 81808\naverage total assets | $ 937424 | $ 883515\ndeductions from tier 1 capital | -4572 ( 4572 ) | -4897 ( 4897 )\naverage adjusted total assets | 932852 | 878618\noff-balance-sheetexposures | 408164 | 391555\ntotal supplementary leverage exposure | $ 1341016 | $ 1270173\nsupplementary leverage ratio | 5.8% ( 5.8 % ) | 6.4% ( 6.4 % )\n\nin the table above , the off-balance-sheet exposures consists of derivatives , securities financing transactions , commitments and guarantees .\nsubsidiary capital requirements many of our subsidiaries , including gs bank usa and our broker-dealer subsidiaries , are subject to separate regulation and capital requirements of the jurisdictions in which they operate .\ngs bank usa .\ngs bank usa is subject to regulatory capital requirements that are calculated in substantially the same manner as those applicable to bhcs and calculates its capital ratios in accordance with the risk-based capital and leverage requirements applicable to state member banks , which are based on the capital framework .\nsee note 20 to the consolidated financial statements for further information about the capital framework as it relates to gs bank usa , including gs bank usa 2019s capital ratios and required minimum ratios .\ngoldman sachs 2017 form 10-k 73 .",
+        "reference": "40",
+        "scale": "percent",
+        "tolerance": "0.5",
+        "labels": [],
+        "variant": "original",
+        "audit_passages": [],
+        "source_url": "https://github.com/czyssrs/FinQA/blob/0f16e2867befa6840783e58be38c9efb9229d742/dataset/test.json",
+        "source_sha256": "47cd854c6778342f810b7d8067bb6b3f4bb5e2f90d5a691f57d798bee57f6f64"
+      },
+      "branch": {
+        "id": "0686b96572a8b3eb99d00c3cc433",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "finqa",
+          "case_id": "977043c3a0bd75119443",
+          "domain": "finance",
+          "group_id": "finqa:GS/2017",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "129a90d0065daf09691e0bf4ec02bb91e77aec443b80b5a149e6672c0d03332d",
+          "initial_correct": false,
+          "original_answer": {
+            "answer": "2.0",
+            "scale": "percent",
+            "confidence_correct": 0.95,
+            "explanation": "The capital framework requires a minimum supplementary leverage ratio of 5.0%, which the text explicitly states consists of a 3.0% minimum requirement and a 2.0% buffer. Thus, the buffer portion is 2.0%.",
+            "citations": [
+              "the capital framework requires a minimum supplementary leverage ratio of 5.0% ( 5.0 % ) ( consisting of the minimum requirement of 3.0% ( 3.0 % ) and a 2.0% ( 2.0 % ) buffer )"
+            ]
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 2.0, scale percent. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CHALLENGER_SUPPORTED\",\"assessment\":\"The material states the minimum supplementary leverage ratio is 5.0%, made up of a 3.0% requirement and a 2.0% buffer. The question asks what percent of the minimum ratio consisted of a buffer, which requires the proportion 2.0/5.0\u202f=\u202f0.4 \u2192 40%. The original answer gave 2.0%, treating the buffer as an absolute percentage point rather than a share, which does not answer the proportion asked.\"}",
+              "usage": {
+                "input_tokens": 1497,
+                "output_tokens": 448,
+                "total_tokens": 1945,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 78.17698669433594,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CHALLENGER_SUPPORTED",
+                "assessment": "The material states the minimum supplementary leverage ratio is 5.0%, made up of a 3.0% requirement and a 2.0% buffer. The question asks what percent of the minimum ratio consisted of a buffer, which requires the proportion 2.0/5.0\u202f=\u202f0.4 \u2192 40%. The original answer gave 2.0%, treating the buffer as an absolute percentage point rather than a share, which does not answer the proportion asked."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material states the minimum supplementary leverage ratio is 5.0%, consisting of a 3.0% minimum requirement and a 2.0% buffer. The question asks what percent of the minimum ratio consisted of a buffer, which directly matches the 2.0% buffer component as given. No calculation beyond the stated figure is required.\"}",
+              "usage": {
+                "input_tokens": 1497,
+                "output_tokens": 422,
+                "total_tokens": 1919,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 76.40425872802734,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material states the minimum supplementary leverage ratio is 5.0%, consisting of a 3.0% minimum requirement and a 2.0% buffer. The question asks what percent of the minimum ratio consisted of a buffer, which directly matches the 2.0% buffer component as given. No calculation beyond the stated figure is required."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material states the minimum supplementary leverage ratio is 5.0%, \\\"consisting of the minimum requirement of 3.0% and a 2.0% buffer.\\\" The question asks what percent of that minimum ratio is the buffer, which directly matches the 2.0% buffer component. No calculation beyond the stated figure is required, so the original answer of 2.0% is supported.\"}",
+              "usage": {
+                "input_tokens": 1497,
+                "output_tokens": 444,
+                "total_tokens": 1941,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 77.90425872802734,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material states the minimum supplementary leverage ratio is 5.0%, \"consisting of the minimum requirement of 3.0% and a 2.0% buffer.\" The question asks what percent of that minimum ratio is the buffer, which directly matches the 2.0% buffer component. No calculation beyond the stated figure is required, so the original answer of 2.0% is supported."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/moonshotai/kimi-k2.6",
+            "seed": 101,
+            "text": "{\"answer\":\"2.0\",\"scale\":\"percent\",\"confidence_correct\":0.9,\"explanation\":\"The source explicitly states the 5.0% minimum supplementary leverage ratio consists of \\\"a 2.0% ... buffer\\\". The question asks what percent consisted of a buffer, directly reflecting the stated 2.0 percentage-point buffer. The text frames the buffer as a component, not as a share of the 5.0% total, so no unstated calculation is needed.\",\"citations\":[\"consisting of the minimum requirement of 3.0% ( 3.0 % ) and a 2.0% ( 2.0 % ) buffer\"],\"stance\":\"maintain\",\"original_still_supported\":true,\"p_original_correct\":0.9,\"p_jury_upholds\":0.8}",
+            "usage": {
+              "input_tokens": 1706,
+              "output_tokens": 2633,
+              "total_tokens": 4339,
+              "input_token_details": {
+                "cache_read": 1152
+              },
+              "output_token_details": {}
+            },
+            "neurons": 1022.056396484375,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "2.0",
+              "scale": "percent",
+              "confidence_correct": 0.9,
+              "explanation": "The source explicitly states the 5.0% minimum supplementary leverage ratio consists of \"a 2.0% ... buffer\". The question asks what percent consisted of a buffer, directly reflecting the stated 2.0 percentage-point buffer. The text frames the buffer as a component, not as a share of the 5.0% total, so no unstated calculation is needed.",
+              "citations": [
+                "consisting of the minimum requirement of 3.0% ( 3.0 % ) and a 2.0% ( 2.0 % ) buffer"
+              ],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 0.9,
+              "p_jury_upholds": 0.8
+            }
+          },
+          "final_correct": false,
+          "episode_phase": "SETTLED_CREATOR",
+          "jury_outcome": "CREATOR_SUPPORTED",
+          "support_votes": 2,
+          "reject_votes": 1,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "finqa:GS/2017/page_86.pdf-1",
+        "source_assertions": [
+          "minimum supplementary leverage ratio of 5.0%",
+          "a 2.0% ( 2.0 % ) buffer"
+        ],
+        "steps": [
+          {
+            "operation": "divide",
+            "operands": [
+              "2",
+              "5"
+            ],
+            "result": "0.4"
+          },
+          {
+            "operation": "multiply",
+            "operands": [
+              "0.4",
+              "100"
+            ],
+            "result": "40"
+          }
+        ],
+        "final_value": "40",
+        "scale": "percent",
+        "round_places": null,
+        "explanation": "Interpreting what percent of the minimum ratio consisted of a buffer as the buffer's share of the whole requirement gives 40%. The buffer itself is 2 percentage points; that is a different quantity."
+      },
+      "historical_trigger_source": false,
+      "operator_check_original_correct": false
+    },
+    {
+      "case": {
+        "case_id": "74ef68b324ae4ac8dce8",
+        "task_id": "mathdial:6000070/4/row12",
+        "group_id": "mathdial:6000070",
+        "benchmark": "mathdial",
+        "domain": "education",
+        "task": "A student has submitted the following working. Review it and give feedback that helps the student make progress.\n\nProblem\nA food caterer was told to prepare gourmet hot dogs for 36 guests. While most people would only eat one hotdog, he prepared enough for half of the guests to be able to have two hotdogs. However, 40 guests showed up, and everyone wanted a second hotdog. How many guests did not get a second hotdog?\n\nStudent working\nThe caterer prepared enough hotdogs for half of 36 guests to have 2 hotdogs each, which means he prepared enough hotdogs for 18 guests to have 2 hotdogs each. So, he prepared 18 x 2 = 36 hotdogs.\nBut 40 guests showed up, and each of them wanted a second hotdog, so there were 40 - 18 = 22 guests who did not get a second hotdog.\n 22",
+        "document": "Lakisha is a 7th grade student. She has problem with understanding of what steps or procedures are required to solve a problem.",
+        "reference": "26",
+        "scale": "",
+        "tolerance": "0.000001",
+        "labels": [],
+        "variant": "original_incorrect_working",
+        "audit_passages": [],
+        "source_url": "https://github.com/eth-nlped/mathdial/blob/600350952cf11f9d7e745df059b4e5723b34aa6e/data/test.jsonl",
+        "source_sha256": "83984118e393590ca09bd8695c8693e29b05e4f64054dcc80cbc5896b54ae4bf"
+      },
+      "branch": {
+        "id": "92f706b9b60d553d7a5d11edf49f",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "mathdial",
+          "case_id": "74ef68b324ae4ac8dce8",
+          "domain": "education",
+          "group_id": "mathdial:6000070",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/zai-org/glm-5.3",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "58ea94abbcd500ed2f03d146019801a8f1be66fb5ea4b69cab016d282a65c8e3",
+          "initial_correct": false,
+          "original_answer": {
+            "answer": "22",
+            "scale": "",
+            "confidence_correct": 1.0,
+            "explanation": "The final answer 22 is correct. Half of 36 is 18, so only 18 guests could get a second hotdog; with 40 guests wanting seconds, 40 - 18 = 22 went without. One caution: saying the caterer prepared '36 hotdogs' is wrong\u201418 extra hotdogs were prepared, for a total of 54 (36 first hotdogs + 18 seconds). Also, write the subtraction step clearly: seconds available (18) minus guests wanting seconds (40) gives 22 without. Good work identifying the key quantities.",
+            "citations": [
+              "40 - 18 = 22 guests who did not get a second hotdog"
+            ]
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 22, scale unscaled. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CHALLENGER_SUPPORTED\",\"assessment\":\"The problem states the caterer prepared enough for half of the 36 guests to have two hotdogs, meaning 18 guests get 2 hotdogs each and the other 18 get 1 each. Total hotdogs prepared = 18\u00d72\u202f+\u202f18\u00d71\u202f=\u202f54. With 40 guests arriving, each wants a second hotdog, requiring 40 second hotdogs. Only 14 extra hotdogs are available (54\u201140), so 14 guests receive a second hotdog and 40\u201114\u202f=\u202f26 guests do not. The original answer of 22 is based on an incorrect total of 36 hotdogs, so it is not supported.\"}",
+              "usage": {
+                "input_tokens": 758,
+                "output_tokens": 453,
+                "total_tokens": 1211,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 55.004398345947266,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CHALLENGER_SUPPORTED",
+                "assessment": "The problem states the caterer prepared enough for half of the 36 guests to have two hotdogs, meaning 18 guests get 2 hotdogs each and the other 18 get 1 each. Total hotdogs prepared = 18\u00d72\u202f+\u202f18\u00d71\u202f=\u202f54. With 40 guests arriving, each wants a second hotdog, requiring 40 second hotdogs. Only 14 extra hotdogs are available (54\u201140), so 14 guests receive a second hotdog and 40\u201114\u202f=\u202f26 guests do not. The original answer of 22 is based on an incorrect total of 36 hotdogs, so it is not supported."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\"verdict\":\"CHALLENGER_SUPPORTED\",\"assessment\":\"The problem implies the caterer prepared enough hotdogs for half the 36 guests to have two each, meaning total hotdogs = 18*2 + 18*1 = 54. With 40 guests, each wants two, requiring 80 hotdogs. After giving each guest one (40 hotdogs), 14 hotdogs remain, so only 14 guests receive a second hotdog. Therefore 40\u201114 = 26 guests did not get a second hotdog. The original answer of 22 is based on an incorrect total hotdog count and is not supported by the material.\"}",
+              "usage": {
+                "input_tokens": 758,
+                "output_tokens": 518,
+                "total_tokens": 1276,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 59.43621826171875,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CHALLENGER_SUPPORTED",
+                "assessment": "The problem implies the caterer prepared enough hotdogs for half the 36 guests to have two each, meaning total hotdogs = 18*2 + 18*1 = 54. With 40 guests, each wants two, requiring 80 hotdogs. After giving each guest one (40 hotdogs), 14 hotdogs remain, so only 14 guests receive a second hotdog. Therefore 40\u201114 = 26 guests did not get a second hotdog. The original answer of 22 is based on an incorrect total hotdog count and is not supported by the material."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CHALLENGER_SUPPORTED\",\"assessment\":\"The problem states the caterer prepared enough for half of the 36 guests (18) to have two hotdogs each, implying the other 18 get one each. Thus total hotdogs prepared = 18\u00d72\u202f+\u202f18\u00d71\u202f=\u202f54. With 40 guests wanting two each, 40\u00d72\u202f=\u202f80 hotdogs are needed. The shortfall is 80\u202f-\u202f54\u202f=\u202f26 hotdogs, meaning 26 guests did not receive a second hotdog. The original answer of 22 assumes only 36 hotdogs were prepared, ignoring the one hotdog per guest for the other half, so it is incorrect.\"}",
+              "usage": {
+                "input_tokens": 758,
+                "output_tokens": 503,
+                "total_tokens": 1261,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 58.413490295410156,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CHALLENGER_SUPPORTED",
+                "assessment": "The problem states the caterer prepared enough for half of the 36 guests (18) to have two hotdogs each, implying the other 18 get one each. Thus total hotdogs prepared = 18\u00d72\u202f+\u202f18\u00d71\u202f=\u202f54. With 40 guests wanting two each, 40\u00d72\u202f=\u202f80 hotdogs are needed. The shortfall is 80\u202f-\u202f54\u202f=\u202f26 hotdogs, meaning 26 guests did not receive a second hotdog. The original answer of 22 assumes only 36 hotdogs were prepared, ignoring the one hotdog per guest for the other half, so it is incorrect."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/zai-org/glm-5.3",
+            "seed": 101,
+            "text": "{\"answer\":\"22\",\"scale\":\"\",\"confidence_correct\":1,\"explanation\":\"The calculation stands: half of 36 guests is 18, so only 18 guests could receive a second hotdog. With 40 guests wanting seconds, 40 - 18 = 22 guests did not get one. The student's reasoning matches the problem's structure, even though their description of total hotdogs prepared (36 vs. 54) was muddled\u2014the answer itself is correct.\",\"citations\":[\"he prepared enough hotdogs for 18 guests to have 2 hotdogs each\",\"40 - 18 = 22 guests who did not get a second hotdog\"],\"stance\":\"maintain\",\"original_still_supported\":true,\"p_original_correct\":0.98,\"p_jury_upholds\":0.97}",
+            "usage": {
+              "input_tokens": 979,
+              "output_tokens": 168,
+              "total_tokens": 1147,
+              "input_token_details": {
+                "cache_read": 896
+              },
+              "output_token_details": {}
+            },
+            "neurons": 98.94181823730469,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "22",
+              "scale": "",
+              "confidence_correct": 1.0,
+              "explanation": "The calculation stands: half of 36 guests is 18, so only 18 guests could receive a second hotdog. With 40 guests wanting seconds, 40 - 18 = 22 guests did not get one. The student's reasoning matches the problem's structure, even though their description of total hotdogs prepared (36 vs. 54) was muddled\u2014the answer itself is correct.",
+              "citations": [
+                "he prepared enough hotdogs for 18 guests to have 2 hotdogs each",
+                "40 - 18 = 22 guests who did not get a second hotdog"
+              ],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 0.98,
+              "p_jury_upholds": 0.97
+            }
+          },
+          "final_correct": false,
+          "episode_phase": "SETTLED_CHALLENGER",
+          "jury_outcome": "CHALLENGER_SUPPORTED",
+          "support_votes": 0,
+          "reject_votes": 3,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "mathdial:6000070/4/row12",
+        "source_assertions": [
+          "prepare gourmet hot dogs for 36 guests",
+          "half of the guests to be able to have two hotdogs",
+          "40 guests showed up"
+        ],
+        "steps": [
+          {
+            "operation": "divide",
+            "operands": [
+              "36",
+              "2"
+            ],
+            "result": "18"
+          },
+          {
+            "operation": "add",
+            "operands": [
+              "36",
+              "18"
+            ],
+            "result": "54"
+          },
+          {
+            "operation": "subtract",
+            "operands": [
+              "54",
+              "40"
+            ],
+            "result": "14"
+          },
+          {
+            "operation": "subtract",
+            "operands": [
+              "40",
+              "14"
+            ],
+            "result": "26"
+          }
+        ],
+        "final_value": "26",
+        "scale": "",
+        "round_places": null,
+        "explanation": "Preparing one hot dog for each planned guest plus seconds for half produces 54 hot dogs. Once each of the actual 40 guests receives one, 14 seconds remain, so 26 guests cannot receive a second."
+      },
+      "historical_trigger_source": false,
+      "operator_check_original_correct": false
+    },
+    {
+      "case": {
+        "case_id": "63c8cc335b847f8ff748",
+        "task_id": "mathdial:5000226/5/row272",
+        "group_id": "mathdial:5000226",
+        "benchmark": "mathdial",
+        "domain": "education",
+        "task": "A student has submitted the following working. Review it and give feedback that helps the student make progress.\n\nProblem\nIn one month in the Smith house, Kylie uses 3 bath towels, her 2 daughters use a total of 6 bath towels, and her husband uses a total of 3 bath towels. If the washing machine can fit 4 bath towels for one load of laundry, how many loads of laundry will the Smiths need to do to clean all of their used towels?\n\nStudent working\nKylie and her husband use a total of 3 + 3 = 6 bath towels.\nAltogether, the Smiths use 3 + 6 + 6 = 15 bath towels in one month.\nThey will need 15/4 = 3.75 loads of laundry to clean all of their used towels.\nSince they can't do a fractional load of laundry, they will need to do 4 loads of laundry.\n 4",
+        "document": "Luca is a 7th grade student. He struggle to put the numbers in the correct order in the equation or determine the correct operation to use.",
+        "reference": "3",
+        "scale": "",
+        "tolerance": "0.000001",
+        "labels": [],
+        "variant": "original_incorrect_working",
+        "audit_passages": [],
+        "source_url": "https://github.com/eth-nlped/mathdial/blob/600350952cf11f9d7e745df059b4e5723b34aa6e/data/test.jsonl",
+        "source_sha256": "e2508b68abff31ef0f91f440653eef95e9f913a172beecca8e63f050db2eecce"
+      },
+      "branch": {
+        "id": "7db13f70af2953c5677954e463ae",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "mathdial",
+          "case_id": "63c8cc335b847f8ff748",
+          "domain": "education",
+          "group_id": "mathdial:5000226",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/zai-org/glm-5.3",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "5dcb19bb4dfc74cbacca7b04021a0008c042ce88b982f28f0951b3d75d24da63",
+          "initial_correct": false,
+          "original_answer": {
+            "answer": "4",
+            "scale": "",
+            "confidence_correct": 1.0,
+            "explanation": "The student's work is correct. Kylie uses 3 towels, daughters use 6, husband uses 3, totaling 3 + 6 + 3 = 15 towels. The student added correctly to get 15. Dividing 15 by 4 gives 3.75 loads, and rounding up to 4 whole loads is right, since a partial load still counts as a load. Well done ordering the numbers and choosing the operations.",
+            "citations": []
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 4, scale unscaled. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CHALLENGER_SUPPORTED\",\"assessment\":\"The problem states Kylie uses 3 towels, her two daughters use a total of 6 towels, and her husband uses 3 towels. The correct total is 3\u202f+\u202f6\u202f+\u202f3\u202f=\u202f12 towels. Dividing by the machine capacity (12\u202f\u00f7\u202f4) gives exactly 3 loads. The student's work mistakenly added 6 twice, getting 15 towels and rounding up to 4 loads. Hence the original answer of 4 loads is not supported by the supplied material.\"}",
+              "usage": {
+                "input_tokens": 738,
+                "output_tokens": 245,
+                "total_tokens": 983,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 40.18622589111328,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CHALLENGER_SUPPORTED",
+                "assessment": "The problem states Kylie uses 3 towels, her two daughters use a total of 6 towels, and her husband uses 3 towels. The correct total is 3\u202f+\u202f6\u202f+\u202f3\u202f=\u202f12 towels. Dividing by the machine capacity (12\u202f\u00f7\u202f4) gives exactly 3 loads. The student's work mistakenly added 6 twice, getting 15 towels and rounding up to 4 loads. Hence the original answer of 4 loads is not supported by the supplied material."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\n  \"verdict\": \"CHALLENGER_SUPPORTED\",\n  \"assessment\": \"The problem states Kylie uses 3 towels, her two daughters use a total of 6 towels, and her husband uses 3 towels. Adding these gives 3\u202f+\u202f6\u202f+\u202f3\u202f=\u202f12 towels, not 15 as the student wrote. Dividing the correct total by the machine capacity (12\u202f\u00f7\u202f4) yields exactly 3 loads. Therefore the correct answer is 3, not 4, making the original answer unsupported.\"\n}",
+              "usage": {
+                "input_tokens": 738,
+                "output_tokens": 289,
+                "total_tokens": 1027,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 43.18622589111328,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CHALLENGER_SUPPORTED",
+                "assessment": "The problem states Kylie uses 3 towels, her two daughters use a total of 6 towels, and her husband uses 3 towels. Adding these gives 3\u202f+\u202f6\u202f+\u202f3\u202f=\u202f12 towels, not 15 as the student wrote. Dividing the correct total by the machine capacity (12\u202f\u00f7\u202f4) yields exactly 3 loads. Therefore the correct answer is 3, not 4, making the original answer unsupported."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CHALLENGER_SUPPORTED\",\"assessment\":\"The problem states Kylie uses 3 towels, her two daughters use a total of 6, and her husband uses 3. Adding these gives 3\u202f+\u202f6\u202f+\u202f3\u202f=\u202f12 towels, not 15 as the student claimed. With a machine capacity of 4 towels per load, 12\u202f\u00f7\u202f4\u202f=\u202f3 full loads are required. Therefore the correct answer is 3, not 4. The original answer is unsupported by the supplied material.\"}",
+              "usage": {
+                "input_tokens": 738,
+                "output_tokens": 310,
+                "total_tokens": 1048,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 44.6180419921875,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CHALLENGER_SUPPORTED",
+                "assessment": "The problem states Kylie uses 3 towels, her two daughters use a total of 6, and her husband uses 3. Adding these gives 3\u202f+\u202f6\u202f+\u202f3\u202f=\u202f12 towels, not 15 as the student claimed. With a machine capacity of 4 towels per load, 12\u202f\u00f7\u202f4\u202f=\u202f3 full loads are required. Therefore the correct answer is 3, not 4. The original answer is unsupported by the supplied material."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/zai-org/glm-5.3",
+            "seed": 101,
+            "text": "{\"answer\":\"4\",\"scale\":\"\",\"confidence_correct\":1,\"explanation\":\"The working is correct: Kylie uses 3 towels, daughters 6, husband 3, totaling 15. 15/4 = 3.75 loads, rounded up to 4 whole loads since a partial load still requires a full load. The original answer is fully supported by the material.\",\"citations\":[\"Kylie uses 3 bath towels\",\"3 + 6 + 6 = 15 bath towels\",\"they will need to do 4 loads\"],\"stance\":\"maintain\",\"original_still_supported\":true,\"p_original_correct\":1,\"p_jury_upholds\":0.98}",
+            "usage": {
+              "input_tokens": 941,
+              "output_tokens": 147,
+              "total_tokens": 1088,
+              "input_token_details": {
+                "cache_read": 832
+              },
+              "output_token_details": {}
+            },
+            "neurons": 92.33818054199219,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "4",
+              "scale": "",
+              "confidence_correct": 1.0,
+              "explanation": "The working is correct: Kylie uses 3 towels, daughters 6, husband 3, totaling 15. 15/4 = 3.75 loads, rounded up to 4 whole loads since a partial load still requires a full load. The original answer is fully supported by the material.",
+              "citations": [
+                "Kylie uses 3 bath towels",
+                "3 + 6 + 6 = 15 bath towels",
+                "they will need to do 4 loads"
+              ],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 1.0,
+              "p_jury_upholds": 0.98
+            }
+          },
+          "final_correct": false,
+          "episode_phase": "SETTLED_CHALLENGER",
+          "jury_outcome": "CHALLENGER_SUPPORTED",
+          "support_votes": 0,
+          "reject_votes": 3,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "mathdial:5000226/5/row272",
+        "source_assertions": [
+          "Kylie uses 3 bath towels",
+          "daughters use a total of 6 bath towels",
+          "husband uses a total of 3 bath towels",
+          "fit 4 bath towels for one load"
+        ],
+        "steps": [
+          {
+            "operation": "add",
+            "operands": [
+              "3",
+              "6"
+            ],
+            "result": "9"
+          },
+          {
+            "operation": "add",
+            "operands": [
+              "9",
+              "3"
+            ],
+            "result": "12"
+          },
+          {
+            "operation": "divide",
+            "operands": [
+              "12",
+              "4"
+            ],
+            "result": "3"
+          }
+        ],
+        "final_value": "3",
+        "scale": "",
+        "round_places": null,
+        "explanation": "The household uses 12 towels in total, exactly three loads of four. The student's 15-towel total double-counts Kylie."
+      },
+      "historical_trigger_source": false,
+      "operator_check_original_correct": false
+    },
+    {
+      "case": {
+        "case_id": "2b4444c815b41d8b1a3b",
+        "task_id": "finqa:PKG/2005/page_74.pdf-4",
+        "group_id": "finqa:PKG/2005",
+        "benchmark": "finqa",
+        "domain": "finance",
+        "task": "total purchase commitments over the next two years are what ( in thousands ) ?\\\\n\\\\n\\\\n",
+        "document": "packaging corporation of america notes to consolidated financial statements ( continued ) december 31 , 2005 10 .\ncommitments and contingencies ( continued ) purchase commitments the company has entered into various purchase agreements to buy minimum amounts of energy over periods ranging from one to two years at fixed prices .\ntotal purchase commitments over the next two years are as follows : ( in thousands ) .\n\n2006 | $ 2408\n2007 | 1364\ntotal | $ 3772\n\nthese purchase agreements are not marked to market .\nthe company purchased $ 12.8 million during the year ended december 31 , 2005 , $ 17.6 million during the year ended december 31 , 2004 , and $ 19.3 million during the year ended december 31 , 2003 under these purchase agreements .\nlitigation on may 14 , 1999 , pca was named as a defendant in two consolidated class action complaints which alleged a civil violation of section 1 of the sherman act .\nthe suits , then captioned winoff industries , inc .\nv .\nstone container corporation , mdl no .\n1261 ( e.d .\npa. ) and general refractories co .\nv .\ngaylord container corporation , mdl no .\n1261 ( e.d .\npa. ) , name pca as a defendant based solely on the allegation that pca is successor to the interests of tenneco packaging inc .\nand tenneco inc. , both of which were also named as defendants in the suits , along with nine other linerboard and corrugated sheet manufacturers .\nthe complaints allege that the defendants , during the period october 1 , 1993 through november 30 , 1995 , conspired to limit the supply of linerboard , and that the purpose and effect of the alleged conspiracy was to artificially increase prices of corrugated containers and corrugated sheets , respectively .\non november 3 , 2003 , pactiv ( formerly known as tenneco packaging ) , tenneco and pca entered into an agreement to settle the class action lawsuits .\nthe settlement agreement provided for a full release of all claims against pca as a result of the class action lawsuits and was approved by the court in an opinion issued on april 21 , 2004 .\napproximately 160 plaintiffs opted out of the class and together filed about ten direct action complaints in various federal courts across the country .\nall of the opt-out complaints make allegations against the defendants , including pca , substantially similar to those made in the class actions .\nthe settlement agreement does not cover these direct action cases .\nthese actions have almost all been consolidated as in re linerboard , mdl 1261 ( e.d .\npa. ) for pretrial purposes .\npactiv , tenneco and pca have reached an agreement to settle all of the opt-out cases .\nthese agreements provide for a full release of all claims against pca as a result of litigation .\npca has made no payments to the plaintiffs as a result of the settlement of any of the opt-out suits .\nas of the date of this filing , we believe it is not reasonably possible that the outcome of any pending litigation related to these matters will have a material adverse effect on our financial position , results of operations or cash flows .\npca is also party to various legal actions arising in the ordinary course of business .\nthese legal actions cover a broad variety of claims spanning our entire business .\nas of the date of this filing , we believe it is .",
+        "reference": "3772",
+        "scale": "",
+        "tolerance": "0.5",
+        "labels": [],
+        "variant": "original",
+        "audit_passages": [],
+        "source_url": "https://github.com/czyssrs/FinQA/blob/0f16e2867befa6840783e58be38c9efb9229d742/dataset/test.json",
+        "source_sha256": "fd9da9a8c0efa9abe29694b9ce16da5f0eed30d0bfd7ad0d2d6cdee338409fe0"
+      },
+      "branch": {
+        "id": "8f0927aa8e4e35d00946c19b30c5",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "finqa",
+          "case_id": "2b4444c815b41d8b1a3b",
+          "domain": "finance",
+          "group_id": "finqa:PKG/2005",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/deepseek-ai/deepseek-v4-pro-0813",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "34e2127a90156bfaaca2eec3c8306e083f7cbb9db9c5237b4db0b952d8f5f106",
+          "initial_correct": true,
+          "original_answer": {
+            "answer": "3772",
+            "scale": "",
+            "confidence_correct": 0.99,
+            "explanation": "The notes state total purchase commitments as $3,772 thousand, shown in the table as 'total | $ 3772'. Since the question asks in thousands, the final numerical answer is 3772.",
+            "citations": [
+              "total | $ 3772"
+            ]
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 3772, scale unscaled. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material lists a table of purchase commitments with 2006 $2408, 2007 $1364, and a total row showing $3772, noting the amounts are \u201c( in thousands )\u201d. The task asks for the total purchase commitments over the next two years in thousands, which directly matches the total row. Hence the original answer of 3772 is supported.\"}",
+              "usage": {
+                "input_tokens": 1216,
+                "output_tokens": 188,
+                "total_tokens": 1404,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 51.50886535644531,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material lists a table of purchase commitments with 2006 $2408, 2007 $1364, and a total row showing $3772, noting the amounts are \u201c( in thousands )\u201d. The task asks for the total purchase commitments over the next two years in thousands, which directly matches the total row. Hence the original answer of 3772 is supported."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material lists a table stating \u201ctotal purchase commitments over the next two years are as follows (in thousands): 2006 $2408, 2007 $1364, total $3772.\u201d The question asks for the total purchase commitments (in thousands), which directly matches the listed total of 3772. No additional scaling is required.\"}",
+              "usage": {
+                "input_tokens": 1216,
+                "output_tokens": 184,
+                "total_tokens": 1400,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 51.23613739013672,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material lists a table stating \u201ctotal purchase commitments over the next two years are as follows (in thousands): 2006 $2408, 2007 $1364, total $3772.\u201d The question asks for the total purchase commitments (in thousands), which directly matches the listed total of 3772. No additional scaling is required."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material lists a table of purchase commitments (in thousands) with 2006 = 2408, 2007 = 1364, and a total row showing $\u202f3772. The task asks for the total purchase commitments over the next two years (in thousands), which directly matches the total row. Hence the answer 3772 is correct.\"}",
+              "usage": {
+                "input_tokens": 1216,
+                "output_tokens": 200,
+                "total_tokens": 1416,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 52.32704544067383,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material lists a table of purchase commitments (in thousands) with 2006 = 2408, 2007 = 1364, and a total row showing $\u202f3772. The task asks for the total purchase commitments over the next two years (in thousands), which directly matches the total row. Hence the answer 3772 is correct."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/deepseek-ai/deepseek-v4-pro-0813",
+            "seed": 101,
+            "text": "{\"answer\":\"3772\",\"scale\":\"\",\"confidence_correct\":0.99,\"explanation\":\"The supplied table explicitly states total purchase commitments over the next two years as \\\"total | $ 3772\\\" and labels the amounts as \\\"( in thousands ).\\\" Therefore, the correct numerical answer is 3772, with no separate scale multiplier needed. The challenge does not identify a numerical, unit, or scope error.\",\"citations\":[\"total | $ 3772\",\"( in thousands )\"],\"stance\":\"maintain\",\"original_still_supported\":true,\"p_original_correct\":0.99,\"p_jury_upholds\":0.98}",
+            "usage": {
+              "input_tokens": 1415,
+              "output_tokens": 437,
+              "total_tokens": 1852,
+              "input_token_details": {
+                "cache_read": 1280
+              },
+              "output_token_details": {}
+            },
+            "neurons": 178.63999938964844,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "3772",
+              "scale": "",
+              "confidence_correct": 0.99,
+              "explanation": "The supplied table explicitly states total purchase commitments over the next two years as \"total | $ 3772\" and labels the amounts as \"( in thousands ).\" Therefore, the correct numerical answer is 3772, with no separate scale multiplier needed. The challenge does not identify a numerical, unit, or scope error.",
+              "citations": [
+                "total | $ 3772",
+                "( in thousands )"
+              ],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 0.99,
+              "p_jury_upholds": 0.98
+            }
+          },
+          "final_correct": true,
+          "episode_phase": "SETTLED_CREATOR",
+          "jury_outcome": "CREATOR_SUPPORTED",
+          "support_votes": 3,
+          "reject_votes": 0,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "finqa:PKG/2005/page_74.pdf-4",
+        "source_assertions": [
+          "total purchase commitments over the next two years",
+          "2006 | $ 2408",
+          "2007 | 1364",
+          "( in thousands )"
+        ],
+        "steps": [
+          {
+            "operation": "add",
+            "operands": [
+              "2408",
+              "1364"
+            ],
+            "result": "3772"
+          }
+        ],
+        "final_value": "3772",
+        "scale": "",
+        "round_places": null,
+        "explanation": "The two annual commitments sum to 3772 in the question's thousands units."
+      },
+      "historical_trigger_source": false,
+      "operator_check_original_correct": true
+    },
+    {
+      "case": {
+        "case_id": "07551475c761776ec51c",
+        "task_id": "finqa:AMT/2007/page_127.pdf-3",
+        "group_id": "finqa:AMT/2007",
+        "benchmark": "finqa",
+        "domain": "finance",
+        "task": "what is the growth rate in the price of shares purchased by employees from 2005 to 2006?",
+        "document": "american tower corporation and subsidiaries notes to consolidated financial statements 2014 ( continued ) atc mexico stock option plan 2014as of december 31 , 2006 , the company maintained a stock option plan for its atc mexico subsidiary ( atc mexico plan ) which was terminated in february 2007 .\nthe atc mexico plan provided for the issuance of options to officers , employees , directors and consultants of atc mexico , however there was no option activity and no outstanding options as of and for the years ended december 31 , 2006 and 2005 .\natc south america stock option plan 2014as of december 31 , 2006 , the company maintained a stock option plan for its atc south america subsidiary ( atc south america plan ) which was terminated in february 2007 .\nthe atc south america plan provided for the issuance of options to officers , employees , directors and consultants of atc south america .\nduring the year ended december 31 , 2004 , atc south america granted options to purchase 6024 shares of atc south america common stock to officers and employees , including messrs .\ngearon and hess , who received options to purchase an approximate 6.7% ( 6.7 % ) and 1.6% ( 1.6 % ) interest , respectively .\nsuch options were issued at one time with an exercise price of $ 1349 per share .\nthe exercise price per share was at fair market value on the date of issuance as determined by the board of directors with the assistance of an independent financial advisor performed at the company 2019s request .\nthe fair value of atc south america plan options granted during 2004 were $ 79 per share as determined by using the black-scholes option pricing model .\noptions granted vested upon the earlier to occur of ( a ) the exercise by or on behalf of mr .\ngearon of his right to sell his interest in atc south america to the company , ( b ) the exercise by the company of its right to acquire mr .\ngearon 2019s interest in atc south america , or ( c ) july 1 , 2006 .\nthese options expired ten years from the date of grant .\nin october 2005 , in connection with the exercise by mr .\ngearon 2019s of his right to require the company to purchase his interest in atc south america , all options granted pursuant to the atc south america stock option plan vested in full and were exercised .\nupon exercise of these options , the holders received 4428 shares of atc south america ( representing a 7.8% ( 7.8 % ) interest ) , net of 1596 shares retained by the company to satisfy employee tax withholding obligations .\n( see note 11. ) employee stock purchase plan 2014the company also maintains an employee stock purchase plan ( espp ) for all eligible employees .\nunder the espp , shares of the company 2019s class a common stock may be purchased during bi-annual offering periods at 85% ( 85 % ) of the lower of the fair market value on the first or the last day of each offering period .\nemployees may purchase shares having a value not exceeding 15% ( 15 % ) of their gross compensation during an offering period and may not purchase more than $ 25000 worth of stock in a calendar year ( based on market values at the beginning of each offering period ) .\nthe offering periods run from june 1 through november 30 and from december 1 through may 31 of each year .\nduring the 2007 , 2006 and 2005 , offering periods , employees purchased 48886 , 53210 and 50119 shares , respectively , at weighted average prices per share of $ 33.93 , $ 24.98 and $ 15.32 , respectively .\nthe fair value of the espp offerings is estimated on the offering period commencement date using a black-scholes pricing model with the expense recognized over the expected life , which is the six month offering period over which employees accumulate payroll deductions to purchase the company 2019s class a common stock .\nthe weighted average fair value for the espp shares purchased during 2007 , 2006 and 2005 were $ 9.09 , $ 6.79 and $ 5.15 , respectively .\nat december 31 , 2007 , 3895402 shares remain reserved for future issuance under the plan .\nkey assumptions used to apply this pricing model for the years ended december 31 , are as follows: .\n\n | 2007 | 2006 | 2005\nrange of risk free interest rates | 4.98% ( 4.98 % ) 20145.05% ( 20145.05 % ) | 5.01% ( 5.01 % ) 20145.17% ( 20145.17 % ) | 3.17% ( 3.17 % ) 20144.30% ( 20144.30 % )\nweighted average risk-free interest rate | 5.02% ( 5.02 % ) | 5.08% ( 5.08 % ) | 3.72% ( 3.72 % )\nexpected life of the shares | 6 months | 6 months | 6 months\nrange of expected volatility of underlying stock price | 27.5% ( 27.5 % ) 201428.7% ( 201428.7 % ) | 29.6% ( 29.6 % ) | 29.6% ( 29.6 % ) 201477.8% ( 201477.8 % )\nweighted average expected volatility of underlying stock price | 28.2% ( 28.2 % ) | 29.6% ( 29.6 % ) | 54.30% ( 54.30 % )\nexpected annual dividends | n/a | n/a | n/a\n\n.",
+        "reference": "63.1",
+        "scale": "percent",
+        "tolerance": "0.05",
+        "labels": [],
+        "variant": "original",
+        "audit_passages": [],
+        "source_url": "https://github.com/czyssrs/FinQA/blob/0f16e2867befa6840783e58be38c9efb9229d742/dataset/test.json",
+        "source_sha256": "216683a7929814581e27da4b68a643f22ed1f185f313a9096a9a57d2fdb52acc"
+      },
+      "branch": {
+        "id": "b6255e98b87f627b29a9f99140c6",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "finqa",
+          "case_id": "07551475c761776ec51c",
+          "domain": "finance",
+          "group_id": "finqa:AMT/2007",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/openai/gpt-oss-120b",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "6a33bacdb427df054a850ef7efd953503ff9a6ec505a9d8673172a783a48980a",
+          "initial_correct": true,
+          "original_answer": {
+            "answer": "63.1",
+            "scale": "percent",
+            "confidence_correct": 0.93,
+            "explanation": "The weighted\u2011average price per share was $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32 \u2248 0.6305, or about 63.1\u202f%.",
+            "citations": [
+              "$15.32 ... 2005",
+              "$24.98 ... 2006",
+              "growth = (24.98\u201115.32)/15.32"
+            ]
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 63.1, scale percent. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material lists the weighted\u2011average price per share purchased by employees as $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32\u202f\u2248\u202f0.6305, i.e., about 63.1\u202f%. The answer\u2019s value and percent scale match this calculation.\"}",
+              "usage": {
+                "input_tokens": 1791,
+                "output_tokens": 160,
+                "total_tokens": 1951,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 67.89512634277344,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material lists the weighted\u2011average price per share purchased by employees as $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32\u202f\u2248\u202f0.6305, i.e., about 63.1\u202f%. The answer\u2019s value and percent scale match this calculation."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material gives weighted\u2011average purchase prices of $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32 = 0.6305, i.e., 63.1\u202f%. The original answer matches this calculation and uses the correct percent scale.\"}",
+              "usage": {
+                "input_tokens": 1791,
+                "output_tokens": 243,
+                "total_tokens": 2034,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 73.55421447753906,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material gives weighted\u2011average purchase prices of $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32 = 0.6305, i.e., 63.1\u202f%. The original answer matches this calculation and uses the correct percent scale."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The material lists weighted\u2011average prices per share purchased under the ESPP as $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32 \u2248 0.6305, i.e., about 63.1\u202f%. The original answer matches this calculation.\"}",
+              "usage": {
+                "input_tokens": 1791,
+                "output_tokens": 218,
+                "total_tokens": 2009,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 71.84967041015625,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The material lists weighted\u2011average prices per share purchased under the ESPP as $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32 \u2248 0.6305, i.e., about 63.1\u202f%. The original answer matches this calculation."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/openai/gpt-oss-120b",
+            "seed": 101,
+            "text": "{\n  \"answer\":\"63.1\",\n  \"scale\":\"percent\",\n  \"confidence_correct\":0.95,\n  \"explanation\":\"The material states the weighted\u2011average price per share was $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32 \u2248 0.6305, i.e., about 63.1\u202f%. This matches the original claim.\",\n  \"citations\":[\"$15.32 ... 2005\",\"$24.98 ... 2006\",\"(24.98\u201115.32)/15.32 \u2248 0.6305\"],\n  \"stance\":\"maintain\",\n  \"original_still_supported\":true,\n  \"p_original_correct\":0.94,\n  \"p_jury_upholds\":0.9\n}",
+            "usage": {
+              "input_tokens": 2039,
+              "output_tokens": 323,
+              "total_tokens": 2362,
+              "input_token_details": {
+                "cache_read": 0
+              },
+              "output_token_details": {}
+            },
+            "neurons": 86.89962005615234,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "63.1",
+              "scale": "percent",
+              "confidence_correct": 0.95,
+              "explanation": "The material states the weighted\u2011average price per share was $15.32 in 2005 and $24.98 in 2006. Growth = (24.98\u201115.32)/15.32 \u2248 0.6305, i.e., about 63.1\u202f%. This matches the original claim.",
+              "citations": [
+                "$15.32 ... 2005",
+                "$24.98 ... 2006",
+                "(24.98\u201115.32)/15.32 \u2248 0.6305"
+              ],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 0.94,
+              "p_jury_upholds": 0.9
+            }
+          },
+          "final_correct": true,
+          "episode_phase": "SETTLED_CREATOR",
+          "jury_outcome": "CREATOR_SUPPORTED",
+          "support_votes": 3,
+          "reject_votes": 0,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "finqa:AMT/2007/page_127.pdf-3",
+        "source_assertions": [
+          "$ 33.93 , $ 24.98 and $ 15.32 , respectively",
+          "during the 2007 , 2006 and 2005"
+        ],
+        "steps": [
+          {
+            "operation": "subtract",
+            "operands": [
+              "24.98",
+              "15.32"
+            ],
+            "result": "9.66"
+          },
+          {
+            "operation": "divide",
+            "operands": [
+              "9.66",
+              "15.32"
+            ],
+            "result": "483/766"
+          },
+          {
+            "operation": "multiply",
+            "operands": [
+              "483/766",
+              "100"
+            ],
+            "result": "24150/383"
+          }
+        ],
+        "final_value": "63.1",
+        "scale": "percent",
+        "round_places": 1,
+        "explanation": "Growth uses the 2005 price as denominator. The exact percentage 24150/383 is approximately 63.0548%, which rounds to 63.1% at one decimal place."
+      },
+      "historical_trigger_source": false,
+      "operator_check_original_correct": true
+    },
+    {
+      "case": {
+        "case_id": "aea051bcc8aae8955ece",
+        "task_id": "mathdial:6000055/3/row372",
+        "group_id": "mathdial:6000055",
+        "benchmark": "mathdial",
+        "domain": "education",
+        "task": "A student has submitted the following working. Review it and give feedback that helps the student make progress.\n\nProblem\nEvery month, Madeline has to buy food, treats, and medicine for her dog. Food costs $25 per week. Treats cost $20 per month. Medicine costs $100 per month. How much money does Madeline spend on her dog per year if there are 4 weeks in a month?\n\nStudent working\nMadeline spends$25*4=$100 on food for her dog per month.\nShe spends $100+$20+$100=$220 on her dog per month.\nShe will spend $220*12=$2640 on her dog per year\n 2640",
+        "document": "Mariana is a 7th grade student. She struggle to recognize the problem type and therefore do not know what strategy to use to solve it.",
+        "reference": "2640",
+        "scale": "",
+        "tolerance": "0.000001",
+        "labels": [],
+        "variant": "correct_working_control",
+        "audit_passages": [],
+        "source_url": "https://github.com/eth-nlped/mathdial/blob/600350952cf11f9d7e745df059b4e5723b34aa6e/data/test.jsonl",
+        "source_sha256": "908e38b1141faf9032292726150dd7c0f2662f54844a98ef7e58b0186f7992d0"
+      },
+      "branch": {
+        "id": "7e4e1bd1b03c27f7af7263ec19b9",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "mathdial",
+          "case_id": "aea051bcc8aae8955ece",
+          "domain": "education",
+          "group_id": "mathdial:6000055",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/deepseek-ai/deepseek-v4-pro-0813",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "a6cbdb41ca8c84517dd5b8a200a419ffe30fe4dc9ad01bc176c94551d94fced9",
+          "initial_correct": true,
+          "original_answer": {
+            "answer": "2640",
+            "scale": "",
+            "confidence_correct": 1.0,
+            "explanation": "Your working is correct. You converted the weekly food cost to a monthly cost by multiplying $25 by 4 weeks, added all monthly costs to get $220, and then multiplied by 12 months to find the yearly cost of $2640.",
+            "citations": []
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 2640, scale unscaled. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The problem states food $25/week, treats $20/month, medicine $100/month, with 4 weeks per month. Converting weekly food to monthly gives $25\u00d74=$100. Adding monthly costs: $100 (food) + $20 (treats) + $100 (medicine) = $220 per month. Multiplying by 12 months yields $220\u00d712=$2640 per year. The original answer matches these calculations, so it is correct.\"}",
+              "usage": {
+                "input_tokens": 702,
+                "output_tokens": 214,
+                "total_tokens": 916,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 36.92713928222656,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The problem states food $25/week, treats $20/month, medicine $100/month, with 4 weeks per month. Converting weekly food to monthly gives $25\u00d74=$100. Adding monthly costs: $100 (food) + $20 (treats) + $100 (medicine) = $220 per month. Multiplying by 12 months yields $220\u00d712=$2640 per year. The original answer matches these calculations, so it is correct."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The student correctly converted the weekly food cost to a monthly amount (25\u202f\u00d7\u202f4\u202f=\u202f100), added the monthly treats (20) and medicine (100) to get 220 per month, and multiplied by 12 months (220\u202f\u00d7\u202f12\u202f=\u202f2640). All arithmetic and units match the problem, so the answer 2640 is correct.\"}",
+              "usage": {
+                "input_tokens": 702,
+                "output_tokens": 183,
+                "total_tokens": 885,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 34.81350326538086,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The student correctly converted the weekly food cost to a monthly amount (25\u202f\u00d7\u202f4\u202f=\u202f100), added the monthly treats (20) and medicine (100) to get 220 per month, and multiplied by 12 months (220\u202f\u00d7\u202f12\u202f=\u202f2640). All arithmetic and units match the problem, so the answer 2640 is correct."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The problem states food $25/week, treats $20/month, medicine $100/month, with 4 weeks per month. Converting food to monthly gives $25\u00d74=$100. Adding monthly costs: $100+20+100=$220. Annual cost is $220\u00d712=$2640. The original answer matches these calculations, so it is correct.\"}",
+              "usage": {
+                "input_tokens": 702,
+                "output_tokens": 184,
+                "total_tokens": 886,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 34.88168716430664,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The problem states food $25/week, treats $20/month, medicine $100/month, with 4 weeks per month. Converting food to monthly gives $25\u00d74=$100. Adding monthly costs: $100+20+100=$220. Annual cost is $220\u00d712=$2640. The original answer matches these calculations, so it is correct."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/deepseek-ai/deepseek-v4-pro-0813",
+            "seed": 101,
+            "text": "{\"answer\":\"2640\",\"scale\":\"\",\"confidence_correct\":1.0,\"explanation\":\"The original answer is correct. The student converted the weekly food cost to monthly correctly: $25 \u00d7 4 weeks = $100 per month. Then all monthly costs were summed: $100 + $20 + $100 = $220. Finally, multiplying by 12 months gives $220 \u00d7 12 = $2640 per year. The units and arithmetic are consistent with the problem statement, including the given assumption of 4 weeks per month. No actual error is present in the original answer.\",\"citations\":[],\"stance\":\"maintain\",\"original_still_supported\":true,\"p_original_correct\":1.0,\"p_jury_upholds\":0.99}",
+            "usage": {
+              "input_tokens": 870,
+              "output_tokens": 456,
+              "total_tokens": 1326,
+              "input_token_details": {
+                "cache_read": 768
+              },
+              "output_token_details": {}
+            },
+            "neurons": 179.47201538085938,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "2640",
+              "scale": "",
+              "confidence_correct": 1.0,
+              "explanation": "The original answer is correct. The student converted the weekly food cost to monthly correctly: $25 \u00d7 4 weeks = $100 per month. Then all monthly costs were summed: $100 + $20 + $100 = $220. Finally, multiplying by 12 months gives $220 \u00d7 12 = $2640 per year. The units and arithmetic are consistent with the problem statement, including the given assumption of 4 weeks per month. No actual error is present in the original answer.",
+              "citations": [],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 1.0,
+              "p_jury_upholds": 0.99
+            }
+          },
+          "final_correct": true,
+          "episode_phase": "SETTLED_CREATOR",
+          "jury_outcome": "CREATOR_SUPPORTED",
+          "support_votes": 3,
+          "reject_votes": 0,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "mathdial:6000055/3/row372",
+        "source_assertions": [
+          "Food costs $25 per week",
+          "Treats cost $20 per month",
+          "Medicine costs $100 per month",
+          "4 weeks in a month"
+        ],
+        "steps": [
+          {
+            "operation": "multiply",
+            "operands": [
+              "25",
+              "4"
+            ],
+            "result": "100"
+          },
+          {
+            "operation": "add",
+            "operands": [
+              "100",
+              "20"
+            ],
+            "result": "120"
+          },
+          {
+            "operation": "add",
+            "operands": [
+              "120",
+              "100"
+            ],
+            "result": "220"
+          },
+          {
+            "operation": "multiply",
+            "operands": [
+              "220",
+              "12"
+            ],
+            "result": "2640"
+          }
+        ],
+        "final_value": "2640",
+        "scale": "",
+        "round_places": null,
+        "explanation": "Under the problem's explicit four-week month, monthly cost is 220 dollars and twelve months cost 2640 dollars."
+      },
+      "historical_trigger_source": false,
+      "operator_check_original_correct": true
+    },
+    {
+      "case": {
+        "case_id": "9626cbbe9d765015bf1c",
+        "task_id": "mathdial:5001038/5/row389",
+        "group_id": "mathdial:5001038",
+        "benchmark": "mathdial",
+        "domain": "education",
+        "task": "A student has submitted the following working. Review it and give feedback that helps the student make progress.\n\nProblem\nWith 82 students, there are 2 students for each computer. If there are 16 more students, how many computers must they have in total to continue with 2 students per computer?\n\nStudent working\n2 students per computer means the total number of computers is 82 / 2 = 41 computers.\nwith the arrival of 16 students, the number of computers that should be added is 16 / 2 = 8 computers.\nall computers together are 41 + 8 = 49 computers.\n 49",
+        "document": "Jian is a 7th grade student. He has problem with understanding of underlying ideas and principles and a recognition of when to apply them.",
+        "reference": "49",
+        "scale": "",
+        "tolerance": "0.000001",
+        "labels": [],
+        "variant": "correct_working_control",
+        "audit_passages": [],
+        "source_url": "https://github.com/eth-nlped/mathdial/blob/600350952cf11f9d7e745df059b4e5723b34aa6e/data/test.jsonl",
+        "source_sha256": "60e6cbd68961de91475b139b3a18762ace35481151ab226ff420d5586ca68027"
+      },
+      "branch": {
+        "id": "c85493b6fd6bd8326efcab74cb25",
+        "kind": "branch",
+        "status": "complete",
+        "payload": {
+          "arm": "audit",
+          "benchmark": "mathdial",
+          "case_id": "9626cbbe9d765015bf1c",
+          "domain": "education",
+          "group_id": "mathdial:5001038",
+          "jury_model": "@cf/openai/gpt-oss-120b",
+          "model": "@cf/moonshotai/kimi-k2.6",
+          "seed": 101
+        },
+        "result": {
+          "status": "complete",
+          "baseline_sha256": "73a782be3b33101a1fdc5fea66d8582066043fef7a7dd84786762402ff90f66b",
+          "initial_correct": true,
+          "original_answer": {
+            "answer": "49",
+            "scale": "",
+            "confidence_correct": 1.0,
+            "explanation": "Your final answer of 49 computers is correct. You correctly found the initial 41 computers and determined that 8 more are needed for the 16 new students. This works because the 2-students-per-computer ratio stays constant. To deepen understanding, verify by computing total students first: 82 + 16 = 98, then 98 \u00f7 2 = 49. Seeing both methods reinforces the principle that total computers = total students \u00f7 2.",
+            "citations": [
+              "82 / 2 = 41 computers",
+              "16 / 2 = 8 computers",
+              "41 + 8 = 49 computers"
+            ]
+          },
+          "challenge": "Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.",
+          "claim": "For the supplied task, my answer is 49, scale unscaled. This answer is supported by the supplied material.",
+          "ballots": [
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1011,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The problem asks for the total number of computers needed after 16 additional students, keeping the ratio 2 students per computer. Total students become 82\u202f+\u202f16\u202f=\u202f98; dividing by 2 gives 49 computers. The student's calculation (41\u202f+\u202f8\u202f=\u202f49) yields the same result, so the original answer of 49 (unscaled) is correct.\"}",
+              "usage": {
+                "input_tokens": 719,
+                "output_tokens": 172,
+                "total_tokens": 891,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 34.60441207885742,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The problem asks for the total number of computers needed after 16 additional students, keeping the ratio 2 students per computer. Total students become 82\u202f+\u202f16\u202f=\u202f98; dividing by 2 gives 49 computers. The student's calculation (41\u202f+\u202f8\u202f=\u202f49) yields the same result, so the original answer of 49 (unscaled) is correct."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1012,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The problem asks for the total number of computers needed after 16 additional students, maintaining a ratio of 2 students per computer. Total students become 82\u202f+\u202f16\u202f=\u202f98; dividing by 2 gives 98\u202f\u00f7\u202f2\u202f=\u202f49 computers. The original answer of 49 matches this calculation, so it is correct.\"}",
+              "usage": {
+                "input_tokens": 719,
+                "output_tokens": 207,
+                "total_tokens": 926,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 36.99077606201172,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The problem asks for the total number of computers needed after 16 additional students, maintaining a ratio of 2 students per computer. Total students become 82\u202f+\u202f16\u202f=\u202f98; dividing by 2 gives 98\u202f\u00f7\u202f2\u202f=\u202f49 computers. The original answer of 49 matches this calculation, so it is correct."
+              }
+            },
+            {
+              "status": "complete",
+              "model": "@cf/openai/gpt-oss-120b",
+              "seed": 1013,
+              "text": "{\"verdict\":\"CREATOR_SUPPORTED\",\"assessment\":\"The problem asks for the total number of computers required after 16 additional students join, keeping the ratio of 2 students per computer. Starting with 82 students needs 82\u00f72\u202f=\u202f41 computers. Adding 16 students gives 98 students, which require 98\u00f72\u202f=\u202f49 computers. The student's calculation (41\u202f+\u202f8\u202f=\u202f49) matches this result, so the original answer of 49 (unscaled) is correct.\"}",
+              "usage": {
+                "input_tokens": 719,
+                "output_tokens": 178,
+                "total_tokens": 897,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "output_token_details": {}
+              },
+              "neurons": 35.01350402832031,
+              "finish_reason": "stop",
+              "parsed": {
+                "verdict": "CREATOR_SUPPORTED",
+                "assessment": "The problem asks for the total number of computers required after 16 additional students join, keeping the ratio of 2 students per computer. Starting with 82 students needs 82\u00f72\u202f=\u202f41 computers. Adding 16 students gives 98 students, which require 98\u00f72\u202f=\u202f49 computers. The student's calculation (41\u202f+\u202f8\u202f=\u202f49) matches this result, so the original answer of 49 (unscaled) is correct."
+              }
+            }
+          ],
+          "defence": {
+            "status": "complete",
+            "model": "@cf/moonshotai/kimi-k2.6",
+            "seed": 101,
+            "text": "{\"answer\":\"49\",\"scale\":\"\",\"confidence_correct\":1.0,\"explanation\":\"The problem explicitly asks for the total computers needed to maintain 2 students per computer after 16 more students arrive: 82 + 16 = 98 students, and 98 \u00f7 2 = 49 computers. The student\u2019s arithmetic 41 + 8 = 49 is accurate and answers the exact question asked. Jian\u2019s profile describes conceptual weaknesses, but it does not change the mathematical solution of 49.\",\"citations\":[\"If there are 16 more students, how many computers must they have in total to continue with 2 students per computer?\",\"82 / 2 = 41 computers\",\"41 + 8 = 49 computers\"],\"stance\":\"maintain\",\"original_still_supported\":true,\"p_original_correct\":1.0,\"p_jury_upholds\":1.0}",
+            "usage": {
+              "input_tokens": 916,
+              "output_tokens": 4134,
+              "total_tokens": 5050,
+              "input_token_details": {
+                "cache_read": 896
+              },
+              "output_token_details": {}
+            },
+            "neurons": 1518.0328369140625,
+            "finish_reason": "stop",
+            "parsed": {
+              "answer": "49",
+              "scale": "",
+              "confidence_correct": 1.0,
+              "explanation": "The problem explicitly asks for the total computers needed to maintain 2 students per computer after 16 more students arrive: 82 + 16 = 98 students, and 98 \u00f7 2 = 49 computers. The student\u2019s arithmetic 41 + 8 = 49 is accurate and answers the exact question asked. Jian\u2019s profile describes conceptual weaknesses, but it does not change the mathematical solution of 49.",
+              "citations": [
+                "If there are 16 more students, how many computers must they have in total to continue with 2 students per computer?",
+                "82 / 2 = 41 computers",
+                "41 + 8 = 49 computers"
+              ],
+              "stance": "maintain",
+              "original_still_supported": true,
+              "p_original_correct": 1.0,
+              "p_jury_upholds": 1.0
+            }
+          },
+          "final_correct": true,
+          "episode_phase": "SETTLED_CREATOR",
+          "jury_outcome": "CREATOR_SUPPORTED",
+          "support_votes": 3,
+          "reject_votes": 0,
+          "revealed_jurors": 3
+        }
+      },
+      "proof": {
+        "task_id": "mathdial:5001038/5/row389",
+        "source_assertions": [
+          "With 82 students",
+          "16 more students",
+          "2 students per computer"
+        ],
+        "steps": [
+          {
+            "operation": "add",
+            "operands": [
+              "82",
+              "16"
+            ],
+            "result": "98"
+          },
+          {
+            "operation": "divide",
+            "operands": [
+              "98",
+              "2"
+            ],
+            "result": "49"
+          }
+        ],
+        "final_value": "49",
+        "scale": "",
+        "round_places": null,
+        "explanation": "There are 98 students after the increase; two students per computer require 49 computers in total."
+      },
+      "historical_trigger_source": false,
+      "operator_check_original_correct": true
+    }
+  ],
+  "assigned_calls": 720,
+  "inference_calls": 0
+}

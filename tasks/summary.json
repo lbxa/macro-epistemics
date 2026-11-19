@@ -1,0 +1,210 @@
+{
+  "categories": 22,
+  "occupations": 974,
+  "occupational_tasks": 19530,
+  "economic_metrics": 41518,
+  "benchmarks": 27,
+  "tasks": 2061,
+  "evaluator_references": 1510,
+  "source_ready_candidates": 810,
+  "conditions": 8,
+  "source_counts": [
+    {
+      "name": "AVeriTeC",
+      "benchmark_id": "averitec",
+      "indexed_tasks": 163,
+      "prompts_included": 163,
+      "self_contained_inputs": 0
+    },
+    {
+      "name": "CRMArena-Pro",
+      "benchmark_id": "crmarena",
+      "indexed_tasks": 220,
+      "prompts_included": 220,
+      "self_contained_inputs": 0
+    },
+    {
+      "name": "ContractNLI",
+      "benchmark_id": "contractnli",
+      "indexed_tasks": 180,
+      "prompts_included": 180,
+      "self_contained_inputs": 180
+    },
+    {
+      "name": "EngDesign-Open",
+      "benchmark_id": "engdesign",
+      "indexed_tasks": 67,
+      "prompts_included": 67,
+      "self_contained_inputs": 0
+    },
+    {
+      "name": "FinQA",
+      "benchmark_id": "finqa",
+      "indexed_tasks": 180,
+      "prompts_included": 180,
+      "self_contained_inputs": 180
+    },
+    {
+      "name": "GDPval gold public set",
+      "benchmark_id": "gdpval",
+      "indexed_tasks": 220,
+      "prompts_included": 0,
+      "self_contained_inputs": 0
+    },
+    {
+      "name": "MathDial task source",
+      "benchmark_id": "mathdial",
+      "indexed_tasks": 120,
+      "prompts_included": 120,
+      "self_contained_inputs": 120
+    },
+    {
+      "name": "MedAgentBench",
+      "benchmark_id": "medagentbench",
+      "indexed_tasks": 100,
+      "prompts_included": 100,
+      "self_contained_inputs": 0
+    },
+    {
+      "name": "SciFact",
+      "benchmark_id": "scifact",
+      "indexed_tasks": 180,
+      "prompts_included": 180,
+      "self_contained_inputs": 180
+    },
+    {
+      "name": "TAT-QA",
+      "benchmark_id": "tatqa",
+      "indexed_tasks": 167,
+      "prompts_included": 167,
+      "self_contained_inputs": 167
+    },
+    {
+      "name": "TheAgentCompany",
+      "benchmark_id": "tac",
+      "indexed_tasks": 174,
+      "prompts_included": 174,
+      "self_contained_inputs": 0
+    },
+    {
+      "name": "WritingBench",
+      "benchmark_id": "writingbench",
+      "indexed_tasks": 90,
+      "prompts_included": 0,
+      "self_contained_inputs": 0
+    },
+    {
+      "name": "tau-bench current pinned repository",
+      "benchmark_id": "tau",
+      "indexed_tasks": 200,
+      "prompts_included": 150,
+      "self_contained_inputs": 0
+    }
+  ],
+  "status_counts": [
+    {
+      "input_status": "evidence_cards_need_primary_source_snapshot",
+      "tasks": 163
+    },
+    {
+      "input_status": "pointer_only_embedded_third_party_text",
+      "tasks": 90
+    },
+    {
+      "input_status": "pointer_only_license_and_assets",
+      "tasks": 220
+    },
+    {
+      "input_status": "requires_CRM_environment",
+      "tasks": 220
+    },
+    {
+      "input_status": "requires_FHIR_environment",
+      "tasks": 100
+    },
+    {
+      "input_status": "requires_customer_service_environment",
+      "tasks": 200
+    },
+    {
+      "input_status": "requires_simulator_and_assets",
+      "tasks": 67
+    },
+    {
+      "input_status": "requires_workplace_environment",
+      "tasks": 174
+    },
+    {
+      "input_status": "self_contained",
+      "tasks": 827
+    }
+  ],
+  "categories_without_indexed_tasks": [
+    {
+      "code": "31",
+      "name": "Healthcare Support"
+    },
+    {
+      "code": "35",
+      "name": "Food Preparation and Serving Related"
+    },
+    {
+      "code": "37",
+      "name": "Building and Grounds Cleaning and Maintenance"
+    },
+    {
+      "code": "45",
+      "name": "Farming, Fishing, and Forestry"
+    },
+    {
+      "code": "47",
+      "name": "Construction and Extraction"
+    },
+    {
+      "code": "49",
+      "name": "Installation, Maintenance, and Repair"
+    },
+    {
+      "code": "53",
+      "name": "Transportation and Material Moving"
+    }
+  ],
+  "category_usage_sum": 98.74,
+  "repeated_input_clusters": [
+    {
+      "benchmark_id": "crmarena",
+      "content_sha256": "aa220de6fa3d2dca9a8baf7aa79b60508c9a95d936056d1af2e54b032d9774fc",
+      "records": 2
+    },
+    {
+      "benchmark_id": "tac",
+      "content_sha256": "2d035db61aa768cc8ea5971e9be2d7c99db908a93186002fd3e958bd512369cf",
+      "records": 2
+    },
+    {
+      "benchmark_id": "tau",
+      "content_sha256": "26d12a3aa2b1cca2a82ebb14dcddff9c0ad1723dfd42618ac99e7aa08f89f864",
+      "records": 2
+    },
+    {
+      "benchmark_id": "tau",
+      "content_sha256": "516f869306a49cf5d5ddab80b6be2c2083700aa3cc141157581351c83fcd40ba",
+      "records": 33
+    },
+    {
+      "benchmark_id": "tau",
+      "content_sha256": "77ddb84ccc07a770ed62348fb425dcbcf4247c85c0086bb4f55dd9e051850af1",
+      "records": 12
+    },
+    {
+      "benchmark_id": "tau",
+      "content_sha256": "8508ad7bb208fed5479613666af91cf0e3f8b97de4ac8de0815bf7698d80e224",
+      "records": 2
+    },
+    {
+      "benchmark_id": "tau",
+      "content_sha256": "a47b20866aa8d865bec517b2a6e239056a54f380a917760e09c058ceb03baafb",
+      "records": 2
+    }
+  ]
+}

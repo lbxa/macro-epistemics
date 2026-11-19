@@ -1,0 +1,49 @@
+{
+  "kind": "one_task_infrastructure_calibration",
+  "cohort": [
+    {
+      "attempt": "attempt-20261114-04-stakes-1x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/jg2yunnp",
+      "source_revision": "c7cfbd779718116ad679a22719bb68ec31ae5825",
+      "study_sha256": "0c6d50df6c2c1b5e9d40751e30855bba13633a74af3e11ecf3d20c5f66516953",
+      "measurements_sha256": "08ba505448cf903f277936d38f443e94dfa7eaebf1d761e9255e1df1fa9e11de",
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-jg2yunnp:v28",
+      "artifact_digest": "0c5d7fb271fc346fbdb8fe7ea1d4f601"
+    },
+    {
+      "attempt": "attempt-20261114-05-stakes-10x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/j3ehsj7s",
+      "source_revision": "c7cfbd779718116ad679a22719bb68ec31ae5825",
+      "study_sha256": "9d8f3212abf3e9fbdbc9dc02d0e48aa5f2ed4ecfeff4a8aed0c3ad6c116a3167",
+      "measurements_sha256": "6c6b57a64ee66f88c93e147bbf754152fef813e8871a8305838b60dee3d25fa1",
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-j3ehsj7s:v26",
+      "artifact_digest": "c04037c317af5652b36d793546b7279e"
+    },
+    {
+      "attempt": "attempt-20261114-06-stakes-100x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/4zjopw6q",
+      "source_revision": "c7cfbd779718116ad679a22719bb68ec31ae5825",
+      "study_sha256": "18e8f758f78c779407b6f2480cc08b425422e7b34924236b7e92f23eaae3b7c6",
+      "measurements_sha256": "aed5e087ceaca2fd1542e2cd57c87c81f724e6f5af5da686a1fba8a8b2ca5a88",
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-4zjopw6q:v33",
+      "artifact_digest": "62b4e20c204814b36a7788605812066f"
+    },
+    {
+      "attempt": "attempt-20261114-07-stakes-1000x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/p51zowlb",
+      "source_revision": "c7cfbd779718116ad679a22719bb68ec31ae5825",
+      "study_sha256": "285324caa2c46ecdd3573b4966586e4a88d58ccb7cfa674cb5c84dbda979dd01",
+      "measurements_sha256": "74281e1cfe8bdacf6d594e8da6e835cd31e15e855471f11d9823212777043048",
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-p51zowlb:v28",
+      "artifact_digest": "07940e07396a1537ff5b0c1aba846397"
+    }
+  ],
+  "csv_sha256": "1778733c4a348022da0ff5fb5a3348d71db8acd1fa79bf356edae29eb022bd47",
+  "initial_answers": 2,
+  "source_tasks": 1,
+  "rows": 12,
+  "submitted_rounds": 8,
+  "missing_jury_forecasts": 5,
+  "source_archive_sha256": "6838b421584f5c1a9a164d35cacb77c898e78555e4f6d6c2edd79443cd3032db",
+  "previous_comparison_artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-stakes-comparison:v0"
+}

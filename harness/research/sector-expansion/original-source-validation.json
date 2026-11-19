@@ -1,0 +1,912 @@
+{
+  "checked_at": "2026-11-16",
+  "source_file_sha256": {
+    "apart-sector-finqa-test.json": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+    "apart-sector-tatqa-tatqa_dataset_dev.json": "8da095a819af6db3c14877c6df2d4d29960e41d1a63dd1fa853507bd2a616af5",
+    "apart-contract-original.zip": "e03fc77bbf8b53e2976a250e81d8a294bc3d5e5fb014521e477dee9340d6287b",
+    "apart-sector-mathdial-test.jsonl": "3ec54ee8ab921dc6191bf5e2ee766d4e7916b4264394eb17a6be9b3fe486e50b",
+    "apart-sector-scifact-data.tar.gz": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be"
+  },
+  "checks": [
+    {
+      "task_id": "finqa:JPM/2008/page_117.pdf-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:PKG/2005/page_74.pdf-4",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:AAL/2014/page_15.pdf-4",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:GPN/2018/page_94.pdf-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:GIS/2017/page_31.pdf-4",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:PPG/2006/page_42.pdf-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:RCL/2016/page_6.pdf-1",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:RSG/2018/page_135.pdf-1",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:AMT/2007/page_127.pdf-3",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:HOLX/2008/page_143.pdf-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:GPN/2010/page_89.pdf-4",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:ECL/2017/page_94.pdf-1",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:GS/2017/page_86.pdf-1",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:CB/2008/page_229.pdf-3",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "finqa:ZBH/2008/page_57.pdf-4",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:9e3493de-9a29-4db8-ad06-52dc6ff1fdaf",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:378b81b7-c7d6-46f9-aca6-58729440a889",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:a6cc136d-ceb2-49d7-9a0b-fae5b6d0424c",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:54b11fb5-014a-4042-affa-fe96ea5e5eaa",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:aef42c33-65c0-40a3-92e7-fefd107aacdb",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:a032279a-fde8-4152-9350-e5a9340f27c4",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:3d8a0eb1-e9be-49e7-855c-cce8b1f2ee03",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:8c38b541-2093-416e-82c5-a107e8928782",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:9551fa01-dfe4-4bbb-bd0f-cb4ec1c83d3b",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:dba26022-09e9-486b-bc40-e2a9627384ed",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:d8ef780b-5c02-4c2e-a0c5-b9fd8dba625c",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:8c6bc2ca-b758-49f8-82e3-c1ede110102b",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:f1d5753b-05a9-4752-b03a-493e97804fb7",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:ed47e72c-c67c-4c61-abfa-9aefcf4caa89",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "tatqa:52b32d22-da73-4420-81e4-8cdad82d2125",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:429/nda-3",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:65/nda-5",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:523/nda-10",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:47/nda-18",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:537/nda-18",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:565/nda-8",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:540/nda-10",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:395/nda-18",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:38/nda-19",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:289/nda-7",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:218/nda-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:451/nda-20",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:611/nda-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:310/nda-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:497/nda-17",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:74/nda-20",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:227/nda-1",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:60/nda-20",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:11/nda-2",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:40/nda-1",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:225/nda-10",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:53/nda-1",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:542/nda-3",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:496/nda-16",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:455/nda-17",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:30/nda-11",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:80/nda-3",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:600/nda-18",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:452/nda-5",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "contractnli:539/nda-16",
+      "text_matches_original": true,
+      "question_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:1086",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:124",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:179",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:443",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:431",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:50",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:343",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:3",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:1019",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:1319",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:1221",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:185",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:216",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:598",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:42",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:54",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:1370",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:513",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:873",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:452",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:587",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:421",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:814",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:294",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:560",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:659",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:691",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:1363",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:702",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "scifact:1200",
+      "variant": "original",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000703/5/row437",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5001095/5/row569",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000977/2/row434",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000043/5/row287",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000338/4/row256",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000504/2/row494",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5001038/5/row389",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000867/4/row491",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000055/3/row372",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000489/4/row593",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000379/3/row545",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000381/2/row564",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000242/3/row560",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000226/5/row272",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000044/5/row160",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000070/4/row12",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000005/3/row240",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000015/1/row273",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000037/2/row6",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000736/1/row187",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5001060/5/row482",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000723/5/row574",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000019/2/row454",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000028/3/row114",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000058/2/row586",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000709/2/row274",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000798/2/row381",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5001131/2/row407",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:5000751/1/row495",
+      "variant": "correct_working_control",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    },
+    {
+      "task_id": "mathdial:6000015/5/row589",
+      "variant": "original_incorrect_working",
+      "text_matches_original": true,
+      "question_or_declared_control_matches_original": true,
+      "reference_matches_original": true,
+      "source_sha256_matches": true
+    }
+  ]
+}

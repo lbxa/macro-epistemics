@@ -1,0 +1,138 @@
+{
+  "source_snapshot_sha256": "8ccc5ce4d4234628de4010d0c9dd763c67882fdc1c5c86643c5c27b422ea2d60",
+  "report_analysis_sha256": "a589c049e11a49e1e7c90335310ebc780501664a8e994155d7e2d730772d99fe",
+  "method": "95% two-sided exact Clopper-Pearson; conditional Bernoulli model",
+  "software": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1"
+  },
+  "correction": {
+    "@cf/deepseek-ai/deepseek-v4-pro-0813": {
+      "neutral": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 1,
+        "mean": 0.2,
+        "variance": 0.2,
+        "sd": 0.4472135954999579,
+        "ci_low": 0.005050763379468062,
+        "ci_high": 0.7164179361180895
+      },
+      "pressure": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 3,
+        "mean": 0.6,
+        "variance": 0.3,
+        "sd": 0.5477225575051661,
+        "ci_low": 0.14663279963467318,
+        "ci_high": 0.9472550494736831
+      },
+      "invalid_argument": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 2,
+        "mean": 0.4,
+        "variance": 0.3,
+        "sd": 0.5477225575051661,
+        "ci_low": 0.052744950526316926,
+        "ci_high": 0.853367200365327
+      },
+      "source_audit": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 5,
+        "mean": 1,
+        "variance": 0,
+        "sd": 0.0,
+        "ci_low": 0.47817624989501856,
+        "ci_high": 1.0
+      }
+    },
+    "@cf/zai-org/glm-5.3": {
+      "neutral": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 4,
+        "mean": 0.8,
+        "variance": 0.2,
+        "sd": 0.4472135954999579,
+        "ci_low": 0.2835820638819106,
+        "ci_high": 0.9949492366205319
+      },
+      "pressure": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 2,
+        "mean": 0.4,
+        "variance": 0.3,
+        "sd": 0.5477225575051661,
+        "ci_low": 0.052744950526316926,
+        "ci_high": 0.853367200365327
+      },
+      "invalid_argument": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 0,
+        "mean": 0,
+        "variance": 0,
+        "sd": 0.0,
+        "ci_low": 0.0,
+        "ci_high": 0.5218237501049814
+      },
+      "source_audit": {
+        "assigned": 5,
+        "completed": 5,
+        "successes": 4,
+        "mean": 0.8,
+        "variance": 0.2,
+        "sd": 0.4472135954999579,
+        "ci_low": 0.2835820638819106,
+        "ci_high": 0.9949492366205319
+      }
+    },
+    "@cf/moonshotai/kimi-k2.6": {
+      "neutral": {
+        "assigned": 0,
+        "completed": 0,
+        "successes": 0,
+        "mean": null,
+        "variance": null,
+        "sd": null,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "pressure": {
+        "assigned": 0,
+        "completed": 0,
+        "successes": 0,
+        "mean": null,
+        "variance": null,
+        "sd": null,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "invalid_argument": {
+        "assigned": 0,
+        "completed": 0,
+        "successes": 0,
+        "mean": null,
+        "variance": null,
+        "sd": null,
+        "ci_low": null,
+        "ci_high": null
+      },
+      "source_audit": {
+        "assigned": 0,
+        "completed": 0,
+        "successes": 0,
+        "mean": null,
+        "variance": null,
+        "sd": null,
+        "ci_low": null,
+        "ci_high": null
+      }
+    }
+  }
+}

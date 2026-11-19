@@ -1,0 +1,2788 @@
+{
+  "czyssrs/FinQA": {
+    "sha": "0f16e2867befa6840783e58be38c9efb9229d742",
+    "tree": [
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb3b513238ba5ec7e0799cb1190ff30c759a5bdf",
+        "size": 1067,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/fb3b513238ba5ec7e0799cb1190ff30c759a5bdf"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8fc89f8402714c39385a80c3d7d5e947ae27fcab",
+        "size": 6518,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/8fc89f8402714c39385a80c3d7d5e947ae27fcab"
+      },
+      {
+        "path": "code",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0870c56f35f6b27b7af9c51a12d5049e8380b210",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/0870c56f35f6b27b7af9c51a12d5049e8380b210"
+      },
+      {
+        "path": "code/evaluate",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "00dd0f603a328260fbcc8427db70b78858e068e8",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/00dd0f603a328260fbcc8427db70b78858e068e8"
+      },
+      {
+        "path": "code/evaluate/evaluate.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4829a4ca58a5725fb3f7a46b3b23b7f7e848a512",
+        "size": 14305,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/4829a4ca58a5725fb3f7a46b3b23b7f7e848a512"
+      },
+      {
+        "path": "code/evaluate/example_predictions.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4703f5821fe58b7d193946af03d5b61ae2c65647",
+        "size": 238844,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/4703f5821fe58b7d193946af03d5b61ae2c65647"
+      },
+      {
+        "path": "code/evaluate/test.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "090dc7e7f1839d94b5be8fde1f2a88b34b6b878f",
+        "size": 9763443,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/090dc7e7f1839d94b5be8fde1f2a88b34b6b878f"
+      },
+      {
+        "path": "code/generator",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e6e42bbacb830790e60e62b77064db788d08568f",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/e6e42bbacb830790e60e62b77064db788d08568f"
+      },
+      {
+        "path": "code/generator/Convert.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "aff7b1c14a1c3ba40aa70d8a097c76d7ae518d00",
+        "size": 11710,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/aff7b1c14a1c3ba40aa70d8a097c76d7ae518d00"
+      },
+      {
+        "path": "code/generator/Main.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "afc02b5d4dad8859d7f7347775c5d7605c48a192",
+        "size": 11036,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/afc02b5d4dad8859d7f7347775c5d7605c48a192"
+      },
+      {
+        "path": "code/generator/Model_new.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "f757606c2f660f7cc0fd142ce5bb9fdf1b23e8e7",
+        "size": 13570,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/f757606c2f660f7cc0fd142ce5bb9fdf1b23e8e7"
+      },
+      {
+        "path": "code/generator/Test.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "12858c61a419a729ac5b06fd5e6a40a14443075e",
+        "size": 6866,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/12858c61a419a729ac5b06fd5e6a40a14443075e"
+      },
+      {
+        "path": "code/generator/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b4045bcd024d44df9a87d345295c68bb27564a3f",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/b4045bcd024d44df9a87d345295c68bb27564a3f"
+      },
+      {
+        "path": "code/generator/__pycache__/DataLoader.cpython-37.pyc",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "f310c8417010bfa3f89c99d181d3410901b2bab5",
+        "size": 7136,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/f310c8417010bfa3f89c99d181d3410901b2bab5"
+      },
+      {
+        "path": "code/generator/__pycache__/Model.cpython-37.pyc",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "d3b941359f9fe2ae155fba1b67c212a2b79dec3b",
+        "size": 5404,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/d3b941359f9fe2ae155fba1b67c212a2b79dec3b"
+      },
+      {
+        "path": "code/generator/__pycache__/Model_new.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1f1e81ed46509746e932ea5af2ec492d035f4170",
+        "size": 6165,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/1f1e81ed46509746e932ea5af2ec492d035f4170"
+      },
+      {
+        "path": "code/generator/__pycache__/config.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0bac6fb9337ec774e1eafabde6681076f950e5a",
+        "size": 1412,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/d0bac6fb9337ec774e1eafabde6681076f950e5a"
+      },
+      {
+        "path": "code/generator/__pycache__/finqa_utils.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "550b624c259f25f9670b8c6bc6945d2f95fe5f3c",
+        "size": 7922,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/550b624c259f25f9670b8c6bc6945d2f95fe5f3c"
+      },
+      {
+        "path": "code/generator/__pycache__/mathqa_utils.cpython-37.pyc",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "cd5758b5f540b1234bf24c38faf04250d208590e",
+        "size": 6516,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/cd5758b5f540b1234bf24c38faf04250d208590e"
+      },
+      {
+        "path": "code/generator/__pycache__/utils.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8732792b81bdfbe89f65da03789767d98043d968",
+        "size": 16185,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/8732792b81bdfbe89f65da03789767d98043d968"
+      },
+      {
+        "path": "code/generator/config.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a1aba012a1ecf544b6bbcfe4d093b50246acfe89",
+        "size": 1985,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/a1aba012a1ecf544b6bbcfe4d093b50246acfe89"
+      },
+      {
+        "path": "code/generator/constant_list.txt",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "1a1eed3d16d62fd60b343bd9b235573dd9cb2998",
+        "size": 220,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/1a1eed3d16d62fd60b343bd9b235573dd9cb2998"
+      },
+      {
+        "path": "code/generator/finqa_utils.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "4daa8ecbaed5be1637961a403f7d4b86e8a177cd",
+        "size": 12684,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/4daa8ecbaed5be1637961a403f7d4b86e8a177cd"
+      },
+      {
+        "path": "code/generator/operation_list.txt",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "5627b72be166683c527446fdaf7098d547b3f5c2",
+        "size": 84,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/5627b72be166683c527446fdaf7098d547b3f5c2"
+      },
+      {
+        "path": "code/generator/run_model.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "4f76baef094e05868b6897f99b5e8c986cbc7428",
+        "size": 65,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/4f76baef094e05868b6897f99b5e8c986cbc7428"
+      },
+      {
+        "path": "code/generator/utils.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "e78cfa764e8ef1e52da15f2d3be305c3a1529515",
+        "size": 25374,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/e78cfa764e8ef1e52da15f2d3be305c3a1529515"
+      },
+      {
+        "path": "code/retriever",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8104840831d3cb947e0c74c74b0c54ad677a334b",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/8104840831d3cb947e0c74c74b0c54ad677a334b"
+      },
+      {
+        "path": "code/retriever/Main.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "8ae8d305495c6f5827e476366f0b6c93aa9580e3",
+        "size": 8275,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/8ae8d305495c6f5827e476366f0b6c93aa9580e3"
+      },
+      {
+        "path": "code/retriever/Model.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "d848228a63a18492615b36ca397120f0b1f50b4c",
+        "size": 1504,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/d848228a63a18492615b36ca397120f0b1f50b4c"
+      },
+      {
+        "path": "code/retriever/Test.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "560920a71fd75c47a4308bfd492aaad696a8ed35",
+        "size": 4590,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/560920a71fd75c47a4308bfd492aaad696a8ed35"
+      },
+      {
+        "path": "code/retriever/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a66d0e7cb51e387cadfd5ed31bbbc90d173e5d54",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/a66d0e7cb51e387cadfd5ed31bbbc90d173e5d54"
+      },
+      {
+        "path": "code/retriever/__pycache__/DataLoader.cpython-37.pyc",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "f310c8417010bfa3f89c99d181d3410901b2bab5",
+        "size": 7136,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/f310c8417010bfa3f89c99d181d3410901b2bab5"
+      },
+      {
+        "path": "code/retriever/__pycache__/Model.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e5398e10669fa67828ae94eddceb62bd99bd1336",
+        "size": 1583,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/e5398e10669fa67828ae94eddceb62bd99bd1336"
+      },
+      {
+        "path": "code/retriever/__pycache__/config.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ab7de62ba129e6bf81de44f70ef71349ec79b2fe",
+        "size": 1369,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/ab7de62ba129e6bf81de44f70ef71349ec79b2fe"
+      },
+      {
+        "path": "code/retriever/__pycache__/finqa_utils.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2695786768f3263a5b62583380c8ca905e88145f",
+        "size": 7512,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/2695786768f3263a5b62583380c8ca905e88145f"
+      },
+      {
+        "path": "code/retriever/__pycache__/mathqa_utils.cpython-37.pyc",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "cd5758b5f540b1234bf24c38faf04250d208590e",
+        "size": 6516,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/cd5758b5f540b1234bf24c38faf04250d208590e"
+      },
+      {
+        "path": "code/retriever/__pycache__/utils.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d6a1cc8a784965f28fdd1af05f6193e0ba2c6e3",
+        "size": 9732,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/8d6a1cc8a784965f28fdd1af05f6193e0ba2c6e3"
+      },
+      {
+        "path": "code/retriever/config.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b903f9e17b215c8ea731f4d9d238f9565fae884f",
+        "size": 1363,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/b903f9e17b215c8ea731f4d9d238f9565fae884f"
+      },
+      {
+        "path": "code/retriever/constant_list.txt",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "1a1eed3d16d62fd60b343bd9b235573dd9cb2998",
+        "size": 220,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/1a1eed3d16d62fd60b343bd9b235573dd9cb2998"
+      },
+      {
+        "path": "code/retriever/finqa_utils.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "a501af935495f41adbcc21e3b673a216b8547261",
+        "size": 11738,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/a501af935495f41adbcc21e3b673a216b8547261"
+      },
+      {
+        "path": "code/retriever/operation_list.txt",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "5627b72be166683c527446fdaf7098d547b3f5c2",
+        "size": 84,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/5627b72be166683c527446fdaf7098d547b3f5c2"
+      },
+      {
+        "path": "code/retriever/run_model.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "8edefa61a989d582ac4353bd9c3e529bd88fce14",
+        "size": 64,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/8edefa61a989d582ac4353bd9c3e529bd88fce14"
+      },
+      {
+        "path": "code/retriever/utils.py",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "ddeeea7ccd9a6083723795728ff38ceeb5d32b44",
+        "size": 13173,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/ddeeea7ccd9a6083723795728ff38ceeb5d32b44"
+      },
+      {
+        "path": "code/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "21101d3107ca6df03b198d0b341482994ce355ed",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/21101d3107ca6df03b198d0b341482994ce355ed"
+      },
+      {
+        "path": "code/utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "code/utils/__pycache__",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "11d2792b437feb366056a4ac79530184ea8d8359",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/11d2792b437feb366056a4ac79530184ea8d8359"
+      },
+      {
+        "path": "code/utils/__pycache__/general_utils.cpython-37.pyc",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "742557f09bf1c190d6e332da433de29842b6d40f",
+        "size": 822,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/742557f09bf1c190d6e332da433de29842b6d40f"
+      },
+      {
+        "path": "code/utils/general_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bcd54fab833ae6dbcecd0dc562014fff59a96e15",
+        "size": 607,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/bcd54fab833ae6dbcecd0dc562014fff59a96e15"
+      },
+      {
+        "path": "dataset",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "53276732073992a2ce2d293bada54e501483308e",
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/trees/53276732073992a2ce2d293bada54e501483308e"
+      },
+      {
+        "path": "dataset/dev.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "970f239f591c782b17df420c0d343b780737f3da",
+        "size": 10954658,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/970f239f591c782b17df420c0d343b780737f3da"
+      },
+      {
+        "path": "dataset/private_test.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "af7ef36c00f4d4d31c77d54512a01ba32bf7be92",
+        "size": 5597114,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/af7ef36c00f4d4d31c77d54512a01ba32bf7be92"
+      },
+      {
+        "path": "dataset/test.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59958c7c3bb3b21f4dff6bc912a0fe0ae710aee0",
+        "size": 14395143,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/59958c7c3bb3b21f4dff6bc912a0fe0ae710aee0"
+      },
+      {
+        "path": "dataset/train.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a6c2c5a60f9abe3fba5a793cc4d9e1dee2e09209",
+        "size": 78216616,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/a6c2c5a60f9abe3fba5a793cc4d9e1dee2e09209"
+      },
+      {
+        "path": "eg-intro.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "513d0fb2f3b8a8be5061a53070542c1c4d6672bf",
+        "size": 32077,
+        "url": "https://api.github.com/repos/czyssrs/FinQA/git/blobs/513d0fb2f3b8a8be5061a53070542c1c4d6672bf"
+      }
+    ]
+  },
+  "NExTplusplus/TAT-QA": {
+    "sha": "870accc41953dcde885aabeb963d94aabdc0fbc3",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b593f12de174876040ab959619cf9e4613006aa6",
+        "size": 64,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/b593f12de174876040ab959619cf9e4613006aa6"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7855a66ee0e672eda63b018d8b0d37f848b4015a",
+        "size": 1068,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/7855a66ee0e672eda63b018d8b0d37f848b4015a"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13718343e75798a4708851c54af99e1daf7b4397",
+        "size": 4689,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/13718343e75798a4708851c54af99e1daf7b4397"
+      },
+      {
+        "path": "__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "dataset_raw",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "01304b7f7fa72b8a58c6e283a996ffb5c6b33726",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/01304b7f7fa72b8a58c6e283a996ffb5c6b33726"
+      },
+      {
+        "path": "dataset_raw/tatqa_dataset_dev.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "48075c812af3fe6698b1d5cb50d9dbf358d52784",
+        "size": 1637431,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/48075c812af3fe6698b1d5cb50d9dbf358d52784"
+      },
+      {
+        "path": "dataset_raw/tatqa_dataset_test.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6237a65d21fdafaf11855ad06a74e64fd31db02",
+        "size": 1146306,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e6237a65d21fdafaf11855ad06a74e64fd31db02"
+      },
+      {
+        "path": "dataset_raw/tatqa_dataset_test_gold.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3d5d3b691af572646ba9b1ac4d8f78c5dca09732",
+        "size": 2167546,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/3d5d3b691af572646ba9b1ac4d8f78c5dca09732"
+      },
+      {
+        "path": "dataset_raw/tatqa_dataset_train.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ec6a61be61ea7bb92c3278877e46e8488cc5203c",
+        "size": 12845647,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/ec6a61be61ea7bb92c3278877e46e8488cc5203c"
+      },
+      {
+        "path": "dataset_tagop",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f82d1febcd7abcd1972b4505b9cc6358e4f8590f",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/f82d1febcd7abcd1972b4505b9cc6358e4f8590f"
+      },
+      {
+        "path": "dataset_tagop/tatqa_dataset_dev.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4089cdab842bf7e581612318b05717ad433e3802",
+        "size": 915046,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/4089cdab842bf7e581612318b05717ad433e3802"
+      },
+      {
+        "path": "dataset_tagop/tatqa_dataset_train.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd3f5105abbe752fcb5ff445fff8e090a0d2ed2e",
+        "size": 16361279,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/cd3f5105abbe752fcb5ff445fff8e090a0d2ed2e"
+      },
+      {
+        "path": "docs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "562d6512df8b40adf55495bfd176b9b4e916ced5",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/562d6512df8b40adf55495bfd176b9b4e916ced5"
+      },
+      {
+        "path": "docs/assets",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "394d289896f04063504713aa01d6956510f25384",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/394d289896f04063504713aa01d6956510f25384"
+      },
+      {
+        "path": "docs/assets/next.jpeg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "408c996f962cfbf1f63b5327f032f22954a688b9",
+        "size": 1370,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/408c996f962cfbf1f63b5327f032f22954a688b9"
+      },
+      {
+        "path": "docs/assets/tatqa-sample.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12daeb1694b8f212072cfa10fdb48685a202659a",
+        "size": 243773,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/12daeb1694b8f212072cfa10fdb48685a202659a"
+      },
+      {
+        "path": "docs/fonts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9a12a29882df786a18a5a327a108f684a629d5a3",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/9a12a29882df786a18a5a327a108f684a629d5a3"
+      },
+      {
+        "path": "docs/fonts/Lobster-Regular.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5e848bb34c0a2ba39c8471700ceaba689f0f4ff3",
+        "size": 429716,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/5e848bb34c0a2ba39c8471700ceaba689f0f4ff3"
+      },
+      {
+        "path": "docs/fonts/OFL.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c4fb382cc4f2989c99c6826ecf0a4f16c3b2f0c1",
+        "size": 4580,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/c4fb382cc4f2989c99c6826ecf0a4f16c3b2f0c1"
+      },
+      {
+        "path": "docs/fonts/glyphicons-halflings-regular.eot",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b93a4953fff68df523aa7656497ee339d6026d64",
+        "size": 20127,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/b93a4953fff68df523aa7656497ee339d6026d64"
+      },
+      {
+        "path": "docs/fonts/glyphicons-halflings-regular.svg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "94fb5490a2ed10b2c69a4a567a4fd2e4f706d841",
+        "size": 108738,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/94fb5490a2ed10b2c69a4a567a4fd2e4f706d841"
+      },
+      {
+        "path": "docs/fonts/glyphicons-halflings-regular.ttf",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1413fc609ab6f21774de0cb7e01360095584f65b",
+        "size": 45404,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/1413fc609ab6f21774de0cb7e01360095584f65b"
+      },
+      {
+        "path": "docs/fonts/glyphicons-halflings-regular.woff",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9e612858f802245ddcbf59788a0db942224bab35",
+        "size": 23424,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/9e612858f802245ddcbf59788a0db942224bab35"
+      },
+      {
+        "path": "docs/fonts/glyphicons-halflings-regular.woff2",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "64539b54c3751a6d9adb44c8e3a45ba5a73b77f0",
+        "size": 18028,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/64539b54c3751a6d9adb44c8e3a45ba5a73b77f0"
+      },
+      {
+        "path": "docs/index.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9c25c98f8fa37809f2392fae37adc41e90a65847",
+        "size": 29514,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/9c25c98f8fa37809f2392fae37adc41e90a65847"
+      },
+      {
+        "path": "docs/scripts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fc6e902c6f257c8a0ff4e4d1649139c461439046",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/fc6e902c6f257c8a0ff4e4d1649139c461439046"
+      },
+      {
+        "path": "docs/scripts/bootstrap.min.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9bcd2fccaed9442f1460191d6670ca5e8e08520c",
+        "size": 37045,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/9bcd2fccaed9442f1460191d6670ca5e8e08520c"
+      },
+      {
+        "path": "docs/scripts/jquery-3.2.1.min.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "644d35e274fd64ddaf6d12af813e820c424176a9",
+        "size": 86659,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/644d35e274fd64ddaf6d12af813e820c424176a9"
+      },
+      {
+        "path": "docs/scripts/jquery.easing.min.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6cf5f20c456dbde0f77537280d35c4bedb8babb0",
+        "size": 5564,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/6cf5f20c456dbde0f77537280d35c4bedb8babb0"
+      },
+      {
+        "path": "docs/scripts/scrolling-nav.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "01d756125e97f26857f6dd78d0df19ea1c110af8",
+        "size": 356,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/01d756125e97f26857f6dd78d0df19ea1c110af8"
+      },
+      {
+        "path": "docs/scripts/show-json.js",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b024c5597203a0a9623899ccead8197f08dc95bd",
+        "size": 766,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/b024c5597203a0a9623899ccead8197f08dc95bd"
+      },
+      {
+        "path": "docs/styles",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1973f68c693b707248489bdf033d0b96ae1e8a7d",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/1973f68c693b707248489bdf033d0b96ae1e8a7d"
+      },
+      {
+        "path": "docs/styles/bootstrap.min.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ed3905e0e0c91d4ed7d8aa14412dffeb038745ff",
+        "size": 121200,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/ed3905e0e0c91d4ed7d8aa14412dffeb038745ff"
+      },
+      {
+        "path": "docs/styles/common.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "608ee6409795a8e829c70515eb65a54f14aacdf5",
+        "size": 3566,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/608ee6409795a8e829c70515eb65a54f14aacdf5"
+      },
+      {
+        "path": "docs/styles/show-json.css",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "43ad7cf76cef690372a555d03421be8c0abcef4d",
+        "size": 240,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/43ad7cf76cef690372a555d03421be8c0abcef4d"
+      },
+      {
+        "path": "requirement.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21a1a17b0682256e3b7bdc965dbe357925ff18d2",
+        "size": 172,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/21a1a17b0682256e3b7bdc965dbe357925ff18d2"
+      },
+      {
+        "path": "sample_prediction.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c8d1df4a62a5c6a5459713e7bb9c68b5b39467c",
+        "size": 163005,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/5c8d1df4a62a5c6a5459713e7bb9c68b5b39467c"
+      },
+      {
+        "path": "tag_op",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "867cf491a734ccaa9fcbb10c0c0818b67d98374b",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/867cf491a734ccaa9fcbb10c0c0818b67d98374b"
+      },
+      {
+        "path": "tag_op/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tag_op/data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "b5100f3300326fa0e263f0c65fcab1a0045e89c7",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/b5100f3300326fa0e263f0c65fcab1a0045e89c7"
+      },
+      {
+        "path": "tag_op/data/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tag_op/data/data_util.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "760351f2ce3474d65d49de38e68a1734def26427",
+        "size": 8480,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/760351f2ce3474d65d49de38e68a1734def26427"
+      },
+      {
+        "path": "tag_op/data/file_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd2c6c3ac0990e6f6afb0b9690580ebb2e6db729",
+        "size": 46313,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/cd2c6c3ac0990e6f6afb0b9690580ebb2e6db729"
+      },
+      {
+        "path": "tag_op/data/tatqa_batch_gen.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b4e4534679886cfddb9d1d07fa70f9d6176e0f45",
+        "size": 12339,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/b4e4534679886cfddb9d1d07fa70f9d6176e0f45"
+      },
+      {
+        "path": "tag_op/data/tatqa_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "32f1b92f34bef5dcba7a98cf5cbd964722457d02",
+        "size": 55868,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/32f1b92f34bef5dcba7a98cf5cbd964722457d02"
+      },
+      {
+        "path": "tag_op/data/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a6ccf067df96f0b3e122ce53b66576ee0aecafb0",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/a6ccf067df96f0b3e122ce53b66576ee0aecafb0"
+      },
+      {
+        "path": "tag_op/data/utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tag_op/data/utils/dummy_flax_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77e932652def84cf41dc6a8b987c35ca9e7907af",
+        "size": 490,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/77e932652def84cf41dc6a8b987c35ca9e7907af"
+      },
+      {
+        "path": "tag_op/data/utils/dummy_pt_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6d70a53615aad28d5fd1d3e6cb8d299eba74f3f",
+        "size": 44826,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/c6d70a53615aad28d5fd1d3e6cb8d299eba74f3f"
+      },
+      {
+        "path": "tag_op/data/utils/dummy_sentencepiece_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0c9b64aacea4727ad7c9ec35e7c35aea3b78518",
+        "size": 2409,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/d0c9b64aacea4727ad7c9ec35e7c35aea3b78518"
+      },
+      {
+        "path": "tag_op/data/utils/dummy_tf_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21a85e436346dc11575c16b9aed0bd0ceb3a49c1",
+        "size": 28147,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/21a85e436346dc11575c16b9aed0bd0ceb3a49c1"
+      },
+      {
+        "path": "tag_op/data/utils/dummy_tokenizers_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9ae88b371e62c6cc71c940ae4ee82c70c0aabeb",
+        "size": 5813,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/a9ae88b371e62c6cc71c940ae4ee82c70c0aabeb"
+      },
+      {
+        "path": "tag_op/data/utils/hp_naming.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6954da95a6b61bbcc323f5d8670f3e5383f04824",
+        "size": 4364,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/6954da95a6b61bbcc323f5d8670f3e5383f04824"
+      },
+      {
+        "path": "tag_op/data/utils/logging.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad514f707a0a87fb6bf6d0c4f74034fd43132b87",
+        "size": 7026,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/ad514f707a0a87fb6bf6d0c4f74034fd43132b87"
+      },
+      {
+        "path": "tag_op/data/utils/notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd986e2639403985b6555bd9c4b381397d7fc058",
+        "size": 14293,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/fd986e2639403985b6555bd9c4b381397d7fc058"
+      },
+      {
+        "path": "tag_op/data/utils/sentencepiece_model_pb2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20cd7f8bca0eddb5c427c21678307b290f11007a",
+        "size": 39000,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/20cd7f8bca0eddb5c427c21678307b290f11007a"
+      },
+      {
+        "path": "tag_op/options.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c22f7eb8a8b9bd260d1ad2e109b414be3e0f07b3",
+        "size": 2898,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/c22f7eb8a8b9bd260d1ad2e109b414be3e0f07b3"
+      },
+      {
+        "path": "tag_op/predictor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "624b966878565019b41f52088ae6d87a7782441c",
+        "size": 3795,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/624b966878565019b41f52088ae6d87a7782441c"
+      },
+      {
+        "path": "tag_op/prepare_dataset.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c375d7fce230be376055d43019cd4f03884e4afd",
+        "size": 2005,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/c375d7fce230be376055d43019cd4f03884e4afd"
+      },
+      {
+        "path": "tag_op/tagop",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "97b924eeddf9c4db444c679c16f8dc202a626601",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/97b924eeddf9c4db444c679c16f8dc202a626601"
+      },
+      {
+        "path": "tag_op/tagop/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tag_op/tagop/model.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c0c5bd974b12d8059f3adf3aa6e8a6c3a06e476d",
+        "size": 5357,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/c0c5bd974b12d8059f3adf3aa6e8a6c3a06e476d"
+      },
+      {
+        "path": "tag_op/tagop/modeling_tagop.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd0f984df6fed60ecf4b52f249d444064b83b08a",
+        "size": 59302,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/fd0f984df6fed60ecf4b52f249d444064b83b08a"
+      },
+      {
+        "path": "tag_op/tagop/optimizer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f3d1de0d37b8b605b37488602bfa719be215b6bb",
+        "size": 6803,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/f3d1de0d37b8b605b37488602bfa719be215b6bb"
+      },
+      {
+        "path": "tag_op/tagop/tools",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "44a735fea3cce092ad746a1192c31b3fadd1cdca",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/44a735fea3cce092ad746a1192c31b3fadd1cdca"
+      },
+      {
+        "path": "tag_op/tagop/tools/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tag_op/tagop/tools/allennlp.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5b77c60ede5dba7c7b2b0500b05f63ef7e847412",
+        "size": 61269,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/5b77c60ede5dba7c7b2b0500b05f63ef7e847412"
+      },
+      {
+        "path": "tag_op/tagop/tools/util.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c65d45b3c3f0fef6beb548c5eb8ffc30583462d",
+        "size": 8692,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/5c65d45b3c3f0fef6beb548c5eb8ffc30583462d"
+      },
+      {
+        "path": "tag_op/tagop/util.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "160c69a7e573df443031df50e8bbe66f1fc6186b",
+        "size": 4345,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/160c69a7e573df443031df50e8bbe66f1fc6186b"
+      },
+      {
+        "path": "tag_op/tagop/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a6ccf067df96f0b3e122ce53b66576ee0aecafb0",
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/trees/a6ccf067df96f0b3e122ce53b66576ee0aecafb0"
+      },
+      {
+        "path": "tag_op/tagop/utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "tag_op/tagop/utils/dummy_flax_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77e932652def84cf41dc6a8b987c35ca9e7907af",
+        "size": 490,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/77e932652def84cf41dc6a8b987c35ca9e7907af"
+      },
+      {
+        "path": "tag_op/tagop/utils/dummy_pt_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c6d70a53615aad28d5fd1d3e6cb8d299eba74f3f",
+        "size": 44826,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/c6d70a53615aad28d5fd1d3e6cb8d299eba74f3f"
+      },
+      {
+        "path": "tag_op/tagop/utils/dummy_sentencepiece_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d0c9b64aacea4727ad7c9ec35e7c35aea3b78518",
+        "size": 2409,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/d0c9b64aacea4727ad7c9ec35e7c35aea3b78518"
+      },
+      {
+        "path": "tag_op/tagop/utils/dummy_tf_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "21a85e436346dc11575c16b9aed0bd0ceb3a49c1",
+        "size": 28147,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/21a85e436346dc11575c16b9aed0bd0ceb3a49c1"
+      },
+      {
+        "path": "tag_op/tagop/utils/dummy_tokenizers_objects.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a9ae88b371e62c6cc71c940ae4ee82c70c0aabeb",
+        "size": 5813,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/a9ae88b371e62c6cc71c940ae4ee82c70c0aabeb"
+      },
+      {
+        "path": "tag_op/tagop/utils/hp_naming.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6954da95a6b61bbcc323f5d8670f3e5383f04824",
+        "size": 4364,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/6954da95a6b61bbcc323f5d8670f3e5383f04824"
+      },
+      {
+        "path": "tag_op/tagop/utils/logging.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad514f707a0a87fb6bf6d0c4f74034fd43132b87",
+        "size": 7026,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/ad514f707a0a87fb6bf6d0c4f74034fd43132b87"
+      },
+      {
+        "path": "tag_op/tagop/utils/notebook.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fd986e2639403985b6555bd9c4b381397d7fc058",
+        "size": 14293,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/fd986e2639403985b6555bd9c4b381397d7fc058"
+      },
+      {
+        "path": "tag_op/tagop/utils/sentencepiece_model_pb2.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "20cd7f8bca0eddb5c427c21678307b290f11007a",
+        "size": 39000,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/20cd7f8bca0eddb5c427c21678307b290f11007a"
+      },
+      {
+        "path": "tag_op/trainer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e0fe3a0b62cd37ea6494467fb8636e77f5b632cd",
+        "size": 5078,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/e0fe3a0b62cd37ea6494467fb8636e77f5b632cd"
+      },
+      {
+        "path": "tatqa_eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5d40665e0a52630ba078aefa0a31144bc7cba8bc",
+        "size": 2236,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/5d40665e0a52630ba078aefa0a31144bc7cba8bc"
+      },
+      {
+        "path": "tatqa_metric.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "80f45360fd5303110b9e31ad1b54ad6dfd3f9d18",
+        "size": 14129,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/80f45360fd5303110b9e31ad1b54ad6dfd3f9d18"
+      },
+      {
+        "path": "tatqa_metric_test.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "468f381393bc57a1b20dc5c82ef35323b328b0dd",
+        "size": 5170,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/468f381393bc57a1b20dc5c82ef35323b328b0dd"
+      },
+      {
+        "path": "tatqa_utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2c7c7246a73330af3bd290bf746ca9014ef73ebb",
+        "size": 3807,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/2c7c7246a73330af3bd290bf746ca9014ef73ebb"
+      },
+      {
+        "path": "tatqa_utils_test.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cd49e0c6203154d2d9037538e9c7baeac6048961",
+        "size": 1216,
+        "url": "https://api.github.com/repos/NExTplusplus/TAT-QA/git/blobs/cd49e0c6203154d2d9037538e9c7baeac6048961"
+      }
+    ]
+  },
+  "stanfordnlp/contract-nli": {
+    "sha": "eced6528dd3c1d14d73f9a87df8f7bdbc03126f9",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "406b8f2f75efce6a80988366c29096588740267d",
+        "size": 663,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/406b8f2f75efce6a80988366c29096588740267d"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4ea99c213c5c0c005ae4e80df8e52169d06896ec",
+        "size": 18656,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/4ea99c213c5c0c005ae4e80df8e52169d06896ec"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "cce0101e2ccb010310235b36c4395e38a52629f5",
+        "size": 160,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/cce0101e2ccb010310235b36c4395e38a52629f5"
+      },
+      {
+        "path": "_config.yml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3806fd96f051f1afdcd5e3702c294df76e3eaf6d",
+        "size": 46,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/3806fd96f051f1afdcd5e3702c294df76e3eaf6d"
+      },
+      {
+        "path": "_layouts",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "96e60ad0a9636fc7089a9bbfa177e0701bf94768",
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/trees/96e60ad0a9636fc7089a9bbfa177e0701bf94768"
+      },
+      {
+        "path": "_layouts/default.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ae35f85b4c49f4fabf8b064941c09d49015a75d",
+        "size": 2050,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/5ae35f85b4c49f4fabf8b064941c09d49015a75d"
+      },
+      {
+        "path": "index.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7e9d48f33822f348db70c5c274255095630df98",
+        "size": 10914,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/f7e9d48f33822f348db70c5c274255095630df98"
+      },
+      {
+        "path": "resources",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9f2b34f43defaa287a366e03532cd55205ba482c",
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/trees/9f2b34f43defaa287a366e03532cd55205ba482c"
+      },
+      {
+        "path": "resources/contract-nli.zip",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "757fd1dafd29a997fba00c60c6d40b2930a36159",
+        "size": 65362913,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/757fd1dafd29a997fba00c60c6d40b2930a36159"
+      },
+      {
+        "path": "resources/task_overview.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2195913cbe8505f48bbf51702d9535f98c4ee6b6",
+        "size": 230381,
+        "url": "https://api.github.com/repos/stanfordnlp/contract-nli/git/blobs/2195913cbe8505f48bbf51702d9535f98c4ee6b6"
+      }
+    ]
+  },
+  "allenai/scifact": {
+    "sha": "68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "00951976dc98ca99432caaf6b36597735bc7b625",
+        "size": 85,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/00951976dc98ca99432caaf6b36597735bc7b625"
+      },
+      {
+        "path": "LICENSE.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "18a738e109d7e3b28935a75d2134c5ccd602f403",
+        "size": 542,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/18a738e109d7e3b28935a75d2134c5ccd602f403"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b483bc1102536ce1e58b4a4794a567abb66d78f1",
+        "size": 8671,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/b483bc1102536ce1e58b4a4794a567abb66d78f1"
+      },
+      {
+        "path": "covid",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "af40556475eb962d228eccbe05ed5d4b2d572db0",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/af40556475eb962d228eccbe05ed5d4b2d572db0"
+      },
+      {
+        "path": "covid/claims.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b97352ddc22e35d62921b1d791f4ac0f6a38f24a",
+        "size": 2804,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/b97352ddc22e35d62921b1d791f4ac0f6a38f24a"
+      },
+      {
+        "path": "doc",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "07d855d6b6e80b068c237bc898d2698f39c2690a",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/07d855d6b6e80b068c237bc898d2698f39c2690a"
+      },
+      {
+        "path": "doc/claims-with-citances.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "373e5d4a714cca64e19e037c16c05083db388022",
+        "size": 872,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/373e5d4a714cca64e19e037c16c05083db388022"
+      },
+      {
+        "path": "doc/data.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a176e6234751c0cfed277f44327b59d524d0b82e",
+        "size": 4290,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/a176e6234751c0cfed277f44327b59d524d0b82e"
+      },
+      {
+        "path": "doc/evaluation.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c90a885630aa00c1cf764866e24d33b60795d9b7",
+        "size": 5852,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/c90a885630aa00c1cf764866e24d33b60795d9b7"
+      },
+      {
+        "path": "doc/model.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "863c78502a81cdc344f20665aac69942a1bf491f",
+        "size": 4957,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/863c78502a81cdc344f20665aac69942a1bf491f"
+      },
+      {
+        "path": "doc/training.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "be6a5df54b720522f68b3184f83115bbe015ebe5",
+        "size": 4579,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/be6a5df54b720522f68b3184f83115bbe015ebe5"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d0d68f4b421155b096d58720a2fbb4e87296e46",
+        "size": 559,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/7d0d68f4b421155b096d58720a2fbb4e87296e46"
+      },
+      {
+        "path": "script",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "00f1f309385972ba8ea046547805ffb49f0e2dac",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/00f1f309385972ba8ea046547805ffb49f0e2dac"
+      },
+      {
+        "path": "script/download-data.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "ddce40f922bc93b8960c8b93405bc7572b094092",
+        "size": 324,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/ddce40f922bc93b8960c8b93405bc7572b094092"
+      },
+      {
+        "path": "script/download-model.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "ddd033b7dc46a7efa1fa0ab109dcc054ccc5a29a",
+        "size": 1000,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/ddd033b7dc46a7efa1fa0ab109dcc054ccc5a29a"
+      },
+      {
+        "path": "script/label-prediction.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "7aff0c66d8e4666695fe0a168c167b151536b6eb",
+        "size": 2208,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/7aff0c66d8e4666695fe0a168c167b151536b6eb"
+      },
+      {
+        "path": "script/pipeline.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "b37f43fb63857c6ebb6c11bb3547bdeba5cff66c",
+        "size": 3443,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/b37f43fb63857c6ebb6c11bb3547bdeba5cff66c"
+      },
+      {
+        "path": "script/rationale-selection.sh",
+        "mode": "100755",
+        "type": "blob",
+        "sha": "ddbf14cd5f4a56f54346eae5fc3ecb233b84ee87",
+        "size": 1900,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/ddbf14cd5f4a56f54346eae5fc3ecb233b84ee87"
+      },
+      {
+        "path": "script/verify_covid.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f7efb550e825de2f5bf029d8f90a26f79a1129c5",
+        "size": 5283,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/f7efb550e825de2f5bf029d8f90a26f79a1129c5"
+      },
+      {
+        "path": "verisci",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c3c7a547e7c252ef96a7ffff3e5ea68fecf42e61",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/c3c7a547e7c252ef96a7ffff3e5ea68fecf42e61"
+      },
+      {
+        "path": "verisci/covid",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "851d0bc729e0fefcbce1526817a20080ec4e0b93",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/851d0bc729e0fefcbce1526817a20080ec4e0b93"
+      },
+      {
+        "path": "verisci/covid/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de3f84e741866806959328a99997ebf256980cea",
+        "size": 144,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/de3f84e741866806959328a99997ebf256980cea"
+      },
+      {
+        "path": "verisci/covid/abstract_retriever.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "65cd9474ceda1fa9a34f65e3deb3ca9e42c84f28",
+        "size": 2082,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/65cd9474ceda1fa9a34f65e3deb3ca9e42c84f28"
+      },
+      {
+        "path": "verisci/covid/label_predictor.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fa8481f28ec3eaab23efaa51d739417e997539c5",
+        "size": 1905,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/fa8481f28ec3eaab23efaa51d739417e997539c5"
+      },
+      {
+        "path": "verisci/covid/rationale_selector.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d419575d791659ff9dfe7adb9ccf8e6bc55a636e",
+        "size": 1844,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/d419575d791659ff9dfe7adb9ccf8e6bc55a636e"
+      },
+      {
+        "path": "verisci/evaluate",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "0266d2f00fcb5bb9240373ab94dccea2e5a0d7c4",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/0266d2f00fcb5bb9240373ab94dccea2e5a0d7c4"
+      },
+      {
+        "path": "verisci/evaluate/abstract_retrieval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1499b8f1fc05e331268eccf0bccab7effb1c88a4",
+        "size": 800,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/1499b8f1fc05e331268eccf0bccab7effb1c88a4"
+      },
+      {
+        "path": "verisci/evaluate/label_accuracy_gold_inputs.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7d41f7af3734e2677068f0ed0e8dd223078f432b",
+        "size": 1342,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/7d41f7af3734e2677068f0ed0e8dd223078f432b"
+      },
+      {
+        "path": "verisci/evaluate/label_prediction.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c5d0bcbe68fe25683d73e239192b236d7f1f4de",
+        "size": 2291,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/5c5d0bcbe68fe25683d73e239192b236d7f1f4de"
+      },
+      {
+        "path": "verisci/evaluate/lib",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f0ed4c12898c6aea8c7de3932b9122f7c6adf140",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/f0ed4c12898c6aea8c7de3932b9122f7c6adf140"
+      },
+      {
+        "path": "verisci/evaluate/lib/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "verisci/evaluate/lib/data.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "881a0e91eda3c853e35aa45c0d4dc76f404ccfa6",
+        "size": 8911,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/881a0e91eda3c853e35aa45c0d4dc76f404ccfa6"
+      },
+      {
+        "path": "verisci/evaluate/lib/metrics.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e9b0b0ce40ff7a3ec4d43ffd3d302b6dd1acb6b5",
+        "size": 5738,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/e9b0b0ce40ff7a3ec4d43ffd3d302b6dd1acb6b5"
+      },
+      {
+        "path": "verisci/evaluate/pipeline.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "980297f26292a1f34117e8767472ca57bb9fc80e",
+        "size": 1380,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/980297f26292a1f34117e8767472ca57bb9fc80e"
+      },
+      {
+        "path": "verisci/evaluate/rationale_selection.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2a351f8e6761e937fffbc512ef74684a97d88450",
+        "size": 1990,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/2a351f8e6761e937fffbc512ef74684a97d88450"
+      },
+      {
+        "path": "verisci/inference",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6b14b516f858c2cc24dd8486f63cc7e10c39d997",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/6b14b516f858c2cc24dd8486f63cc7e10c39d997"
+      },
+      {
+        "path": "verisci/inference/abstract_retrieval",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "cb4a5c542d7617fff4bc9f0ae0fbf6c2d65e38e3",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/cb4a5c542d7617fff4bc9f0ae0fbf6c2d65e38e3"
+      },
+      {
+        "path": "verisci/inference/abstract_retrieval/oracle.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d932a8469664513a916f7cb298c76276d2b34597",
+        "size": 599,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/d932a8469664513a916f7cb298c76276d2b34597"
+      },
+      {
+        "path": "verisci/inference/abstract_retrieval/tfidf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "50c0e651b018d1c02355df90caa20434fed965b7",
+        "size": 1867,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/50c0e651b018d1c02355df90caa20434fed965b7"
+      },
+      {
+        "path": "verisci/inference/label_prediction",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "06b3355def85cc1ecfffc7b3c0648c3278228909",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/06b3355def85cc1ecfffc7b3c0648c3278228909"
+      },
+      {
+        "path": "verisci/inference/label_prediction/oracle.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "93a9d10b27f8de5050ab43f48374982c009593da",
+        "size": 1257,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/93a9d10b27f8de5050ab43f48374982c009593da"
+      },
+      {
+        "path": "verisci/inference/label_prediction/transformer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bd3c63cc443b8a13b39e1155be2a024722c1e2cd",
+        "size": 2933,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/bd3c63cc443b8a13b39e1155be2a024722c1e2cd"
+      },
+      {
+        "path": "verisci/inference/merge_predictions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "16e103087e72dc4ac5f237aec88c285de8e8a1f0",
+        "size": 2300,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/16e103087e72dc4ac5f237aec88c285de8e8a1f0"
+      },
+      {
+        "path": "verisci/inference/rationale_selection",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "899b8f003b951dce3bdf1c45200bf563128eac11",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/899b8f003b951dce3bdf1c45200bf563128eac11"
+      },
+      {
+        "path": "verisci/inference/rationale_selection/first.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "44b66818cfd16209b69a8a0b1ff8ec09d5b54088",
+        "size": 535,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/44b66818cfd16209b69a8a0b1ff8ec09d5b54088"
+      },
+      {
+        "path": "verisci/inference/rationale_selection/last.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "60c44f921dc43072d4ccb0dd3bb04da1a1d492af",
+        "size": 695,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/60c44f921dc43072d4ccb0dd3bb04da1a1d492af"
+      },
+      {
+        "path": "verisci/inference/rationale_selection/oracle.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a7fadd0cbbf472e57ab0451e8f39a470c05034b",
+        "size": 892,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/1a7fadd0cbbf472e57ab0451e8f39a470c05034b"
+      },
+      {
+        "path": "verisci/inference/rationale_selection/oracle_tfidf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "062f0f4d7104ca472ae4ed3947ed926264f334ed",
+        "size": 1675,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/062f0f4d7104ca472ae4ed3947ed926264f334ed"
+      },
+      {
+        "path": "verisci/inference/rationale_selection/tfidf.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f8b28c4bced9a04e4b687f00d91a388991985970",
+        "size": 1618,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/f8b28c4bced9a04e4b687f00d91a388991985970"
+      },
+      {
+        "path": "verisci/inference/rationale_selection/transformer.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a87309307d7aeb16cdce3eed4e1b4f285160fb7",
+        "size": 3070,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/0a87309307d7aeb16cdce3eed4e1b4f285160fb7"
+      },
+      {
+        "path": "verisci/training",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f59465bf568aa571d80e82722de56f12e2f04934",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/f59465bf568aa571d80e82722de56f12e2f04934"
+      },
+      {
+        "path": "verisci/training/label_prediction",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "8a6b40ea258832191a29d660b1a756f67951f85c",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/8a6b40ea258832191a29d660b1a756f67951f85c"
+      },
+      {
+        "path": "verisci/training/label_prediction/transformer_fever.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4a9993f370dfaa003af2bf78b4ccb17f84ec187e",
+        "size": 6196,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/4a9993f370dfaa003af2bf78b4ccb17f84ec187e"
+      },
+      {
+        "path": "verisci/training/label_prediction/transformer_scifact.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a4e6eaf0c3c3c25cc8d8563d47ded87d13d24d4",
+        "size": 7398,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/3a4e6eaf0c3c3c25cc8d8563d47ded87d13d24d4"
+      },
+      {
+        "path": "verisci/training/label_prediction/transformer_snopes.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68f4fcaa4ce30f1f1fc8b34f266cf30ac6558027",
+        "size": 5431,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/68f4fcaa4ce30f1f1fc8b34f266cf30ac6558027"
+      },
+      {
+        "path": "verisci/training/preprocess_fever.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "dd6d61c729cfb4a8c47e655c98e562daa14407ab",
+        "size": 2886,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/dd6d61c729cfb4a8c47e655c98e562daa14407ab"
+      },
+      {
+        "path": "verisci/training/rationale_selection",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "9b33a2953f51bc07e664f6a6cc80447179b7bf1c",
+        "url": "https://api.github.com/repos/allenai/scifact/git/trees/9b33a2953f51bc07e664f6a6cc80447179b7bf1c"
+      },
+      {
+        "path": "verisci/training/rationale_selection/transformer_fever.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "863dc09226c935a1fd893ee019ecc9f8ea0d0abf",
+        "size": 4678,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/863dc09226c935a1fd893ee019ecc9f8ea0d0abf"
+      },
+      {
+        "path": "verisci/training/rationale_selection/transformer_scifact.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "026ffa1f6722baba17c0ea1da8dafb14c209bafa",
+        "size": 4914,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/026ffa1f6722baba17c0ea1da8dafb14c209bafa"
+      },
+      {
+        "path": "verisci/training/rationale_selection/transformer_snopes.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1e3189dd40b381290e9a864776cdd4ac1b630d20",
+        "size": 5214,
+        "url": "https://api.github.com/repos/allenai/scifact/git/blobs/1e3189dd40b381290e9a864776cdd4ac1b630d20"
+      }
+    ]
+  },
+  "MichSchli/AVeriTeC": {
+    "sha": "7c62d1ec8df3fb560d6efe2b85fa191135636f81",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "68bc17f9ff2104a9d7b6777058bb4c343ca72609",
+        "size": 3078,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/68bc17f9ff2104a9d7b6777058bb4c343ca72609"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "90f013e1c0580ae2b9a0883358132054f73a7c5d",
+        "size": 4771,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/90f013e1c0580ae2b9a0883358132054f73a7c5d"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "4d36bfb84a9740f5dfa88068e2d7ec03113b3984",
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/trees/4d36bfb84a9740f5dfa88068e2d7ec03113b3984"
+      },
+      {
+        "path": "data/dev.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "40974243267f395dc583d805d10f043812419249",
+        "size": 1785475,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/40974243267f395dc583d805d10f043812419249"
+      },
+      {
+        "path": "data/filtered_parallel_src.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "59c72bd791ce5adea8be278afc03c142479c0f07",
+        "size": 147279,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/59c72bd791ce5adea8be278afc03c142479c0f07"
+      },
+      {
+        "path": "data/filtered_parallel_tgt.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "52bde4ca202ef5754522bd91710b8429ad5879f5",
+        "size": 143270,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/52bde4ca202ef5754522bd91710b8429ad5879f5"
+      },
+      {
+        "path": "data/misinfo_list.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d03c66f9b78f2b33d938db67a242d5668bf7e82c",
+        "size": 28159,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/d03c66f9b78f2b33d938db67a242d5668bf7e82c"
+      },
+      {
+        "path": "data/train.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0f190e115cf2ee23416e8a539c8d6ac043d7cc83",
+        "size": 10184813,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/0f190e115cf2ee23416e8a539c8d6ac043d7cc83"
+      },
+      {
+        "path": "data_loaders",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "39ffdf7dc54d214fc0a4a02426fc16e222ab8166",
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/trees/39ffdf7dc54d214fc0a4a02426fc16e222ab8166"
+      },
+      {
+        "path": "data_loaders/DualEncoderDataLoader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3a2d8038fedff3b9b5b1a45e9f46465fc54346c5",
+        "size": 6478,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/3a2d8038fedff3b9b5b1a45e9f46465fc54346c5"
+      },
+      {
+        "path": "data_loaders/JustificationProductionDataLoader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a3a439f746303462010e32e1e782fe2a01f69980",
+        "size": 4569,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/a3a439f746303462010e32e1e782fe2a01f69980"
+      },
+      {
+        "path": "data_loaders/NoEvidenceDataLoader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "464122d9488956033240fd36067ae23232d8cb3e",
+        "size": 3711,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/464122d9488956033240fd36067ae23232d8cb3e"
+      },
+      {
+        "path": "data_loaders/SequenceClassificationDataLoader.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "81dc004c097b28abf73e682515d60ed34ec1c11e",
+        "size": 5807,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/81dc004c097b28abf73e682515d60ed34ec1c11e"
+      },
+      {
+        "path": "eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "487ab6e7fa56b1cc20dd56ac56e54d606d516f43",
+        "size": 9791,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/487ab6e7fa56b1cc20dd56ac56e54d606d516f43"
+      },
+      {
+        "path": "justification_production",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ecab92bfb9c5fb3946c95180f6a30ae947c45adc",
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/trees/ecab92bfb9c5fb3946c95180f6a30ae947c45adc"
+      },
+      {
+        "path": "justification_production/trained_model_justification_generation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5ad4ef1f7e0cecf0c4f7d87066c6a1617011ea34",
+        "size": 3059,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/5ad4ef1f7e0cecf0c4f7d87066c6a1617011ea34"
+      },
+      {
+        "path": "models",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "d45514cb0aa4d288d5e4c69021fcf2516e42ddd3",
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/trees/d45514cb0aa4d288d5e4c69021fcf2516e42ddd3"
+      },
+      {
+        "path": "models/DualEncoderModule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "51a232e173a4d2d181d0ae69b506a2badad48dfa",
+        "size": 3964,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/51a232e173a4d2d181d0ae69b506a2badad48dfa"
+      },
+      {
+        "path": "models/JustificationGenerationModule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ad60453163dc535e877a29f51c5e4651b374b2f9",
+        "size": 6492,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/ad60453163dc535e877a29f51c5e4651b374b2f9"
+      },
+      {
+        "path": "models/NaiveSeqClassModule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f6fe26e67b7da3b8b6978f0a51bca0ca91413d2b",
+        "size": 4384,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/f6fe26e67b7da3b8b6978f0a51bca0ca91413d2b"
+      },
+      {
+        "path": "models/SequenceClassificationModule.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3518db79aa43b63964d5989a3e09606c64ce4049",
+        "size": 5186,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/3518db79aa43b63964d5989a3e09606c64ce4049"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "54298a85bee5e21b0f81c670d9ab21bc1f88325f",
+        "size": 8593,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/54298a85bee5e21b0f81c670d9ab21bc1f88325f"
+      },
+      {
+        "path": "retrieval_coarse",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e29108b6c6a81c23f6553086482e3c1ad53363ea",
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/trees/e29108b6c6a81c23f6553086482e3c1ad53363ea"
+      },
+      {
+        "path": "retrieval_coarse/averitec_search.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "77a1a90c3ae9eff88a9358492946a3b179231b42",
+        "size": 8194,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/77a1a90c3ae9eff88a9358492946a3b179231b42"
+      },
+      {
+        "path": "retrieval_coarse/combine_search_results.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d423426f4fcf5235d35a9075857507046928f427",
+        "size": 906,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/d423426f4fcf5235d35a9075857507046928f427"
+      },
+      {
+        "path": "retrieval_coarse/html2lines.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5c3c86672e3fc990c825a95a815a37d91e927ce9",
+        "size": 1802,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/5c3c86672e3fc990c825a95a815a37d91e927ce9"
+      },
+      {
+        "path": "retrieval_coarse/prompt_question_generation.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "203023dccf40e94a2b8eb6ba77784b380c461942",
+        "size": 3306,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/203023dccf40e94a2b8eb6ba77784b380c461942"
+      },
+      {
+        "path": "retrieval_coarse/prompt_question_generation_vicuna.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "842353ffcd460bdf3f8e4d16f4ec93c69165b907",
+        "size": 3499,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/842353ffcd460bdf3f8e4d16f4ec93c69165b907"
+      },
+      {
+        "path": "retrieval_coarse/split_sentences_for_downloaded_pages.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa826e2f591950df2be98caf42a81cc0bf841a64",
+        "size": 1233,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/aa826e2f591950df2be98caf42a81cc0bf841a64"
+      },
+      {
+        "path": "retrieval_reranking",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "e811052a7e622c8879c8a6f5e39655244c533daa",
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/trees/e811052a7e622c8879c8a6f5e39655244c533daa"
+      },
+      {
+        "path": "retrieval_reranking/combine_decorated_files.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4b7fa29b91cc2205644cec38b83f54765df891a",
+        "size": 1504,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/a4b7fa29b91cc2205644cec38b83f54765df891a"
+      },
+      {
+        "path": "retrieval_reranking/decorate_with_questions.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7567af323731f0d4808deec03119082088ee83e9",
+        "size": 7293,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/7567af323731f0d4808deec03119082088ee83e9"
+      },
+      {
+        "path": "retrieval_reranking/decorate_with_questions_vicuna.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "57a4b58792c46916cd97b5a5f8e6049cb3656645",
+        "size": 7509,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/57a4b58792c46916cd97b5a5f8e6049cb3656645"
+      },
+      {
+        "path": "retrieval_reranking/no_reranker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f8645fdfdb142c72063822aec3b8217cd1fb64b",
+        "size": 998,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/7f8645fdfdb142c72063822aec3b8217cd1fb64b"
+      },
+      {
+        "path": "retrieval_reranking/trained_model_reranker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5f233743a0f78017cce91b4989df6ebbb455cc0f",
+        "size": 2566,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/5f233743a0f78017cce91b4989df6ebbb455cc0f"
+      },
+      {
+        "path": "utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bf6a152a0e93eeee97f2bc351b63b7f875178ad4",
+        "size": 3700,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/bf6a152a0e93eeee97f2bc351b63b7f875178ad4"
+      },
+      {
+        "path": "veracity_prediction",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a983fc0a8956324afbc49f6775a5f7374eb739c6",
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/trees/a983fc0a8956324afbc49f6775a5f7374eb739c6"
+      },
+      {
+        "path": "veracity_prediction/no_evidence.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "163c2bc1e3a095f4e3f79ade7d9f277ffe122660",
+        "size": 3795,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/163c2bc1e3a095f4e3f79ade7d9f277ffe122660"
+      },
+      {
+        "path": "veracity_prediction/veracity_prediction.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6aa4707f8351ae534f127675ecc1cf7d12b29339",
+        "size": 4570,
+        "url": "https://api.github.com/repos/MichSchli/AVeriTeC/git/blobs/6aa4707f8351ae534f127675ecc1cf7d12b29339"
+      }
+    ]
+  },
+  "stanfordmlgroup/MedAgentBench": {
+    "sha": "99260117137b09f04837a8c18d18a1107efa55ae",
+    "tree": [
+      {
+        "path": ".gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "15201acc113da01edf6fa2fb2708b2e9076b6bc5",
+        "size": 3415,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/15201acc113da01edf6fa2fb2708b2e9076b6bc5"
+      },
+      {
+        "path": ".idea",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "da2489d832c73dde2c01e1320917aefcd02393ea",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/da2489d832c73dde2c01e1320917aefcd02393ea"
+      },
+      {
+        "path": ".idea/.gitignore",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "13566b81b018ad684f3a35fee301741b2734c8f4",
+        "size": 176,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/13566b81b018ad684f3a35fee301741b2734c8f4"
+      },
+      {
+        "path": ".idea/MedAgentBench.iml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8b8c395472a5a6b3598af42086e590417ace9933",
+        "size": 441,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/8b8c395472a5a6b3598af42086e590417ace9933"
+      },
+      {
+        "path": ".idea/inspectionProfiles",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "97824ec9b0149e48c91dce4fee530335b327c686",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/97824ec9b0149e48c91dce4fee530335b327c686"
+      },
+      {
+        "path": ".idea/inspectionProfiles/profiles_settings.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "105ce2da2d6447d11dfe32bfb846c3d5b199fc99",
+        "size": 174,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/105ce2da2d6447d11dfe32bfb846c3d5b199fc99"
+      },
+      {
+        "path": ".idea/misc.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d7230b496be82e5221443909a3b283e327cec4a4",
+        "size": 196,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/d7230b496be82e5221443909a3b283e327cec4a4"
+      },
+      {
+        "path": ".idea/modules.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "42d2fe4a3db3e06f02a6f7185c95fea3d78de3b2",
+        "size": 278,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/42d2fe4a3db3e06f02a6f7185c95fea3d78de3b2"
+      },
+      {
+        "path": ".idea/vcs.xml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "35eb1ddfbbc029bcab630581847471d7f238ec53",
+        "size": 167,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/35eb1ddfbbc029bcab630581847471d7f238ec53"
+      },
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "314d33fed539fc5fd678a56523131169a2224f05",
+        "size": 1088,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/314d33fed539fc5fd678a56523131169a2224f05"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "076a40167c9e4cedc641803b7bdf08ea6e6c1022",
+        "size": 3653,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/076a40167c9e4cedc641803b7bdf08ea6e6c1022"
+      },
+      {
+        "path": "configs",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ae468a90643fdd73ac9ca407bb4332cb217dd63a",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/ae468a90643fdd73ac9ca407bb4332cb217dd63a"
+      },
+      {
+        "path": "configs/agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "fcb7533f86472d9ca30afbcfb1d0224b63c8964f",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/fcb7533f86472d9ca30afbcfb1d0224b63c8964f"
+      },
+      {
+        "path": "configs/agents/api_agents.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7df2d6ebb41308903d76f1df50a1aed914e9b1f8",
+        "size": 1573,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/7df2d6ebb41308903d76f1df50a1aed914e9b1f8"
+      },
+      {
+        "path": "configs/agents/claude-chat.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6810a0560e3e92c8e8fe0eef880e9154b883f778",
+        "size": 565,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/6810a0560e3e92c8e8fe0eef880e9154b883f778"
+      },
+      {
+        "path": "configs/agents/fs_agent.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3056e4e51414992ed7b150e18eb3c9703dea592d",
+        "size": 431,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/3056e4e51414992ed7b150e18eb3c9703dea592d"
+      },
+      {
+        "path": "configs/agents/gemini-chat.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4f1480fb8dda2e2b0a864909fddc13625da5c710",
+        "size": 522,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/4f1480fb8dda2e2b0a864909fddc13625da5c710"
+      },
+      {
+        "path": "configs/agents/openai-chat.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fee2c3b6b3fd1c5a2b1eb30ab8063fd6388c7307",
+        "size": 378,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/fee2c3b6b3fd1c5a2b1eb30ab8063fd6388c7307"
+      },
+      {
+        "path": "configs/agents/together-chat.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "786e0d3d5510b8a3a3713cd1fdba4bf05b1150fc",
+        "size": 389,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/786e0d3d5510b8a3a3713cd1fdba4bf05b1150fc"
+      },
+      {
+        "path": "configs/assignments",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "a1494bc2f00ffcb3992d99c5a48cd9f8ce89c024",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/a1494bc2f00ffcb3992d99c5a48cd9f8ce89c024"
+      },
+      {
+        "path": "configs/assignments/default.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ebeae4288a355b8a49fcc29a7f7e21ffac489a1b",
+        "size": 608,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/ebeae4288a355b8a49fcc29a7f7e21ffac489a1b"
+      },
+      {
+        "path": "configs/assignments/definition.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6b00cac0c52674979cf4c5ca74e2eb6b8b336658",
+        "size": 271,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/6b00cac0c52674979cf4c5ca74e2eb6b8b336658"
+      },
+      {
+        "path": "configs/start_task.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea87ff6ee693e7511164a86a875c3c4901ab825a",
+        "size": 79,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/ea87ff6ee693e7511164a86a875c3c4901ab825a"
+      },
+      {
+        "path": "configs/tasks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "c73e685c8c6f32b2a246a08a843e7c13ed3c3e64",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/c73e685c8c6f32b2a246a08a843e7c13ed3c3e64"
+      },
+      {
+        "path": "configs/tasks/medagentbench.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b10e0ff359629e58a38f0d10971e88d5e6a17b25",
+        "size": 329,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/b10e0ff359629e58a38f0d10971e88d5e6a17b25"
+      },
+      {
+        "path": "configs/tasks/task_assembly.yaml",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "23b89847f034ec18e85963411e718b263de8f8a6",
+        "size": 120,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/23b89847f034ec18e85963411e718b263de8f8a6"
+      },
+      {
+        "path": "data",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ddf8e45f2ca97d04217cfb3c360a72ccce9c7aaa",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/ddf8e45f2ca97d04217cfb3c360a72ccce9c7aaa"
+      },
+      {
+        "path": "data/medagentbench",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "2be953eccb3bbd4e81d3b2f8ae90bf25e251e51d",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/2be953eccb3bbd4e81d3b2f8ae90bf25e251e51d"
+      },
+      {
+        "path": "data/medagentbench/final_web.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "625793a62a7b3598e5109865d8d23f89cb0a3b9c",
+        "size": 11544,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/625793a62a7b3598e5109865d8d23f89cb0a3b9c"
+      },
+      {
+        "path": "data/medagentbench/funcs_v1.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9b15acc0ccf402ede8964261c371d6a00889b436",
+        "size": 12571,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/9b15acc0ccf402ede8964261c371d6a00889b436"
+      },
+      {
+        "path": "data/medagentbench/test_data_v1.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ef1ae3444c4d043886533248fbfc190f20ddd926",
+        "size": 39332,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/ef1ae3444c4d043886533248fbfc190f20ddd926"
+      },
+      {
+        "path": "data/medagentbench/test_data_v2.json",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f568f041f9d22e11b5bf31b80efd2219aaaf14f",
+        "size": 118276,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/7f568f041f9d22e11b5bf31b80efd2219aaaf14f"
+      },
+      {
+        "path": "data/medagentbench/web.html",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ea91054d0b4ce3d153b1ab90099f679c393b1de9",
+        "size": 22445,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/ea91054d0b4ce3d153b1ab90099f679c393b1de9"
+      },
+      {
+        "path": "img",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f14780bb3b1d9f31af17b10ab63f175ae9199e9e",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/f14780bb3b1d9f31af17b10ab63f175ae9199e9e"
+      },
+      {
+        "path": "img/architecture.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "85c983bb0387e0dcb8de0535933cbdc370cc135e",
+        "size": 167973,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/85c983bb0387e0dcb8de0535933cbdc370cc135e"
+      },
+      {
+        "path": "img/fhir.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "37f350699d7a7a02649c9ae1d2243d6c335bd775",
+        "size": 363141,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/37f350699d7a7a02649c9ae1d2243d6c335bd775"
+      },
+      {
+        "path": "img/final_logo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "186626ba94073869cfafcf67fe750d709e59ed8f",
+        "size": 140625,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/186626ba94073869cfafcf67fe750d709e59ed8f"
+      },
+      {
+        "path": "img/logo.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "75fcdcba1f735f20da767cf4db749607d0a1d1f2",
+        "size": 164586,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/75fcdcba1f735f20da767cf4db749607d0a1d1f2"
+      },
+      {
+        "path": "img/prompt1.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "aa97b7e3d854599f294b15a5d764075fb035a315",
+        "size": 144848,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/aa97b7e3d854599f294b15a5d764075fb035a315"
+      },
+      {
+        "path": "img/prompt2.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "0a3b4d626bfab580e5fa10f1d5c3b0c188034ed1",
+        "size": 74800,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/0a3b4d626bfab580e5fa10f1d5c3b0c188034ed1"
+      },
+      {
+        "path": "requirements.txt",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fdcdd3e23d356f87e1516b2432eba382153e9fee",
+        "size": 227,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/fdcdd3e23d356f87e1516b2432eba382153e9fee"
+      },
+      {
+        "path": "src",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "6dc71f442b1d848d02ac2138a8ec180c8eb9621c",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/6dc71f442b1d848d02ac2138a8ec180c8eb9621c"
+      },
+      {
+        "path": "src/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "src/assigner.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3f56568fe642be989a7d27e44caa371f4c36616b",
+        "size": 15955,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/3f56568fe642be989a7d27e44caa371f4c36616b"
+      },
+      {
+        "path": "src/client",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "605732a8fee41e5f832f4a7bfb588e0ab459c028",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/605732a8fee41e5f832f4a7bfb588e0ab459c028"
+      },
+      {
+        "path": "src/client/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "d38a09b9c0894c3216e9b384081a03a839013980",
+        "size": 82,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/d38a09b9c0894c3216e9b384081a03a839013980"
+      },
+      {
+        "path": "src/client/agent.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "b343d34ee06b3aa3f995f65264d6ce0141eeee50",
+        "size": 189,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/b343d34ee06b3aa3f995f65264d6ce0141eeee50"
+      },
+      {
+        "path": "src/client/agent_test.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "33d7949de0570c849196d7a281a3ea085c248ad7",
+        "size": 1422,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/33d7949de0570c849196d7a281a3ea085c248ad7"
+      },
+      {
+        "path": "src/client/agents",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ce3decbb3a044e6d6882b0934b23ad4040aba62b",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/ce3decbb3a044e6d6882b0934b23ad4040aba62b"
+      },
+      {
+        "path": "src/client/agents/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8d0fe88c28b7ebc2aa2f89f69588739b51eeb691",
+        "size": 77,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/8d0fe88c28b7ebc2aa2f89f69588739b51eeb691"
+      },
+      {
+        "path": "src/client/agents/fastchat_client.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "828a7e0fc9193c993130e1268f674dbd79302567",
+        "size": 6607,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/828a7e0fc9193c993130e1268f674dbd79302567"
+      },
+      {
+        "path": "src/client/agents/http_agent.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "677f668c5582b37b7637dc76385775a5d831a4e1",
+        "size": 6665,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/677f668c5582b37b7637dc76385775a5d831a4e1"
+      },
+      {
+        "path": "src/client/task.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ff6969ba4418423987f7588cc87f2d88f9547004",
+        "size": 5879,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/ff6969ba4418423987f7588cc87f2d88f9547004"
+      },
+      {
+        "path": "src/configs.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1125887d4a3b93f31f426d8c8938094a02732769",
+        "size": 4788,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/1125887d4a3b93f31f426d8c8938094a02732769"
+      },
+      {
+        "path": "src/server",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f0a7c7fb542cae218b6dfcbb71085e8232e8631f",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/f0a7c7fb542cae218b6dfcbb71085e8232e8631f"
+      },
+      {
+        "path": "src/server/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "src/server/task.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "49241a363ee39b8c7e287a5ac07a198e3f31e2a4",
+        "size": 6208,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/49241a363ee39b8c7e287a5ac07a198e3f31e2a4"
+      },
+      {
+        "path": "src/server/task_controller.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bec10971eb4b77a1e1cc3308182d023634bf4e5e",
+        "size": 25795,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/bec10971eb4b77a1e1cc3308182d023634bf4e5e"
+      },
+      {
+        "path": "src/server/task_worker.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1aef30d5bb65575e342f4b50c7e5d8c9c00307f8",
+        "size": 9557,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/1aef30d5bb65575e342f4b50c7e5d8c9c00307f8"
+      },
+      {
+        "path": "src/server/tasks",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "834b50e48263e7eb2a34ee398f7841ddc98206a5",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/834b50e48263e7eb2a34ee398f7841ddc98206a5"
+      },
+      {
+        "path": "src/server/tasks/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+        "size": 0,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+      },
+      {
+        "path": "src/server/tasks/medagentbench",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "dd6537caf092e3d2d4a4e8fc4114f53b28728440",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/dd6537caf092e3d2d4a4e8fc4114f53b28728440"
+      },
+      {
+        "path": "src/server/tasks/medagentbench/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3bd23129fa78ee81b7d9e99000205d9cde6c39bb",
+        "size": 6231,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/3bd23129fa78ee81b7d9e99000205d9cde6c39bb"
+      },
+      {
+        "path": "src/server/tasks/medagentbench/eval.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f4514dfc8ff7aee515093ee137f0b8d17ab2598b",
+        "size": 438,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/f4514dfc8ff7aee515093ee137f0b8d17ab2598b"
+      },
+      {
+        "path": "src/server/tasks/medagentbench/utils.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "ddf093dc38e746853a588df44b90bace1ec505fc",
+        "size": 1260,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/ddf093dc38e746853a588df44b90bace1ec505fc"
+      },
+      {
+        "path": "src/start_task.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "3486c7162928e3e8fde76ad9428664aa880244ad",
+        "size": 4483,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/3486c7162928e3e8fde76ad9428664aa880244ad"
+      },
+      {
+        "path": "src/typings",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "69f4674a40bdef76920725f1f192b008361da9c7",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/69f4674a40bdef76920725f1f192b008361da9c7"
+      },
+      {
+        "path": "src/typings/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6a555b1b0e032104bffcfece03ddc1d8021e467d",
+        "size": 137,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/6a555b1b0e032104bffcfece03ddc1d8021e467d"
+      },
+      {
+        "path": "src/typings/config.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "bdedcde102a9593608d72e70aac672c0cf2a4000",
+        "size": 5607,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/bdedcde102a9593608d72e70aac672c0cf2a4000"
+      },
+      {
+        "path": "src/typings/exception.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f1ccd2435bc6685bd72dc8853ac31ac4b9bb875b",
+        "size": 1704,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/f1ccd2435bc6685bd72dc8853ac31ac4b9bb875b"
+      },
+      {
+        "path": "src/typings/general.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7e55ee714167ab423e4dc31f1d62d9dc7686ce8c",
+        "size": 1298,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/7e55ee714167ab423e4dc31f1d62d9dc7686ce8c"
+      },
+      {
+        "path": "src/typings/output.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8e8beee85b9a3361f1b06020900b09f297a6adde",
+        "size": 1197,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/8e8beee85b9a3361f1b06020900b09f297a6adde"
+      },
+      {
+        "path": "src/typings/request.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "096bb8f66e381631e3c23f7cc905ce1d555bf315",
+        "size": 762,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/096bb8f66e381631e3c23f7cc905ce1d555bf315"
+      },
+      {
+        "path": "src/typings/status.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "c041fc7189e0b1a08fdf71efdac5eab8c08d73c2",
+        "size": 577,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/c041fc7189e0b1a08fdf71efdac5eab8c08d73c2"
+      },
+      {
+        "path": "src/utils",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ddd2bf635afc3c6824c15dd0cafae8d06d026a10",
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/trees/ddd2bf635afc3c6824c15dd0cafae8d06d026a10"
+      },
+      {
+        "path": "src/utils/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "12285e5d97b9a334ca20f21e817f33ba2b5476f4",
+        "size": 80,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/12285e5d97b9a334ca20f21e817f33ba2b5476f4"
+      },
+      {
+        "path": "src/utils/max_flow.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fe21adf3e7f36068d6149fcb2ee41479945f24ed",
+        "size": 3847,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/fe21adf3e7f36068d6149fcb2ee41479945f24ed"
+      },
+      {
+        "path": "src/utils/others.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "de742fccadec59d5739be59cbde5c449ec9c90eb",
+        "size": 2066,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/de742fccadec59d5739be59cbde5c449ec9c90eb"
+      },
+      {
+        "path": "src/utils/rules.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "a4c22759ffe5183e588ec1288eb96b47c472e62f",
+        "size": 1102,
+        "url": "https://api.github.com/repos/stanfordmlgroup/MedAgentBench/git/blobs/a4c22759ffe5183e588ec1288eb96b47c472e62f"
+      }
+    ]
+  },
+  "Tongyi-Zhiwen/WritingBench": {
+    "sha": "89310bb7582e27846abdcabda8ae0d9dbfcb1dc6",
+    "tree": [
+      {
+        "path": "LICENSE",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+        "size": 11357,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+      },
+      {
+        "path": "README.md",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7f926c6b174761807a71bf38f349eee4ff432608",
+        "size": 7286,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/7f926c6b174761807a71bf38f349eee4ff432608"
+      },
+      {
+        "path": "benchmark_query",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "f0797d2531ad79dab8b5fab99b22427b22f73478",
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/trees/f0797d2531ad79dab8b5fab99b22427b22f73478"
+      },
+      {
+        "path": "benchmark_query/benchmark_all.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "e6cd82aabed6fa845f0a28cd2114daad59c012b9",
+        "size": 14712077,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/e6cd82aabed6fa845f0a28cd2114daad59c012b9"
+      },
+      {
+        "path": "benchmark_query/requirement",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1bd037393d23f80cabef265b0ff9dac4fb8730b6",
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/trees/1bd037393d23f80cabef265b0ff9dac4fb8730b6"
+      },
+      {
+        "path": "benchmark_query/requirement/format",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "91179add5f56c7f56bcc7c9d884377184a0a2e7c",
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/trees/91179add5f56c7f56bcc7c9d884377184a0a2e7c"
+      },
+      {
+        "path": "benchmark_query/requirement/format/format_subset.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6eb9e47a2fc190b28f72129a4fa8e799849833a4",
+        "size": 7468312,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/6eb9e47a2fc190b28f72129a4fa8e799849833a4"
+      },
+      {
+        "path": "benchmark_query/requirement/format/format_subset_C.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "1a015bcb27dd862e13ea4db49d1f56705db1b9b9",
+        "size": 4851990,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/1a015bcb27dd862e13ea4db49d1f56705db1b9b9"
+      },
+      {
+        "path": "benchmark_query/requirement/length",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "bee3fde0bf6f566b06805b6fb1fd8d8c57401735",
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/trees/bee3fde0bf6f566b06805b6fb1fd8d8c57401735"
+      },
+      {
+        "path": "benchmark_query/requirement/length/length_subset.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2bfe99bac25624abe2e2f790118fc49e8e16b94f",
+        "size": 2958345,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/2bfe99bac25624abe2e2f790118fc49e8e16b94f"
+      },
+      {
+        "path": "benchmark_query/requirement/length/length_subset_C.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "f73ed31528a4df95b80bd0d3bc5f8505b8eaef04",
+        "size": 1793656,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/f73ed31528a4df95b80bd0d3bc5f8505b8eaef04"
+      },
+      {
+        "path": "benchmark_query/requirement/style",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "1a07a553405b02ce8e784117171f9f3f6edd50ef",
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/trees/1a07a553405b02ce8e784117171f9f3f6edd50ef"
+      },
+      {
+        "path": "benchmark_query/requirement/style/style_subset.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "5788daafc08e3a3cf8a117dd6b94a1203db2df25",
+        "size": 6570235,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/5788daafc08e3a3cf8a117dd6b94a1203db2df25"
+      },
+      {
+        "path": "benchmark_query/requirement/style/style_subset_C.jsonl",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7df42fc48b86bbba68bf96148da54aabbe3ff675",
+        "size": 4328229,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/7df42fc48b86bbba68bf96148da54aabbe3ff675"
+      },
+      {
+        "path": "evaluate_benchmark.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "53453c8021087a1c0f45dc070f018f2a95015f2c",
+        "size": 5249,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/53453c8021087a1c0f45dc070f018f2a95015f2c"
+      },
+      {
+        "path": "evaluator",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "ac5da1a697b79d2db7baddbf2f2370ccb47f08f4",
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/trees/ac5da1a697b79d2db7baddbf2f2370ccb47f08f4"
+      },
+      {
+        "path": "evaluator/__init__.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "6ccad3420a98e2c593ec60f1f24218090cee0eb7",
+        "size": 60,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/6ccad3420a98e2c593ec60f1f24218090cee0eb7"
+      },
+      {
+        "path": "evaluator/critic.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "252c2bf8e5a1d2a1d2d6711db3a14391442b823e",
+        "size": 2486,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/252c2bf8e5a1d2a1d2d6711db3a14391442b823e"
+      },
+      {
+        "path": "evaluator/llm.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "4d3fd29c90d7cf5c3efdcd7aca33d5132ca10126",
+        "size": 2727,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/4d3fd29c90d7cf5c3efdcd7aca33d5132ca10126"
+      },
+      {
+        "path": "pics",
+        "mode": "040000",
+        "type": "tree",
+        "sha": "354576b7fbd80feb5baaa45e28c74cdc87314e7b",
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/trees/354576b7fbd80feb5baaa45e28c74cdc87314e7b"
+      },
+      {
+        "path": "pics/construction.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "fb318843a2b9d71fccbadce4f089be3aac7c3bb8",
+        "size": 579192,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/fb318843a2b9d71fccbadce4f089be3aac7c3bb8"
+      },
+      {
+        "path": "pics/criteria.png",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "31e3075877d318c21987af9663918f076b7a1f5c",
+        "size": 955566,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/31e3075877d318c21987af9663918f076b7a1f5c"
+      },
+      {
+        "path": "prompt.py",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "8f81b8670e2b09717c4d25c7328ecb87a2e657ec",
+        "size": 2673,
+        "url": "https://api.github.com/repos/Tongyi-Zhiwen/WritingBench/git/blobs/8f81b8670e2b09717c4d25c7328ecb87a2e657ec"
+      }
+    ]
+  },
+  "sierra-research/tau2-bench": {
+    "sha": "c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4"
+  },
+  "TheAgentCompany/TheAgentCompany": {
+    "sha": "98b68ef82a47690c316f42fddb05baafaab56851"
+  },
+  "eth-nlped/mathdial": {
+    "sha": "600350952cf11f9d7e745df059b4e5723b34aa6e"
+  },
+  "AGI4Engineering/EngDesign": {
+    "sha": "c8ec338cc5f846d792d93728b00c9448111139e5"
+  }
+}

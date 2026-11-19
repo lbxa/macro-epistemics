@@ -1,0 +1,12 @@
+{
+  "run_id": "d6279cd7cd7b4136",
+  "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/d6279cd7cd7b4136",
+  "artifact": "lbxa-corp/apart-epistemics-sprint/sector-report-da7e42f28ba54247:v0",
+  "digest": "846fb47c019f51fc8418cd73596e2283",
+  "pdf_sha256": "fc25f5eb4105d2e732c3abdd0d6b35e7a4ca50ef2f17f49a480444e9b8acb688",
+  "files": 107,
+  "state": "finished",
+  "api_host": "https://api.wandb.ai",
+  "manifest_sha256": "d466dde5c3ec9cad1ac256f42cf13edd5a2694f99350840d38b31081ebdd2505",
+  "evidence_register_sha256": "fcf691bcc77db4ecac5aa1ffb0c542b606f063b00ae07e83fe12052e747ada28"
+}

@@ -1,0 +1,23 @@
+{
+  "version": "source-first-human-adjudication-v1",
+  "status": "prepared_not_adjudicated",
+  "source_artifact": "lbxa-corp/apart-epistemics-sprint/sector-study-da7e42f28ba54247:v128",
+  "input_sha256": {
+    "portable_snapshot": "c44d7a3f3963941a0eb661c4a01832005c1742713aaade8b2aeba347d56883f6",
+    "cases.json": "223ffe96bdc2de750b6dc3098671cf281d29dfd4758a9811eddba63cc4b68155",
+    "initial.jsonl": "b45ac93e90070e3804f179389f7133e5a595101d5a86931a1ff7205ce872ca92",
+    "interpretation.jsonl": "75ba4fee05e7ce60d8c101a3fd62b2960b0eab0cade04d21ba12a6718b56f341",
+    "prior_automated_audit": "d11098fd4eaa2dcce2601c46ae3510537f8d3043a6679aba02dfcf5272823ca1"
+  },
+  "source_groups": 120,
+  "usable_originals": 581,
+  "unavailable_originals": 19,
+  "independent_human_reviews_completed": 0,
+  "file_sha256": {
+    "operator-only/join-key.json": "6b192e8d67bebd7c8c2a3f981755f226a33b070190cb2549c8e3d39cfe2400c6",
+    "reviewer/stage-1/source-reviews.csv": "863ee0a02085138aa8aedd64ca790c77826f011407589e5094667e1eaf1ddb2e",
+    "reviewer/stage-1/sources.json": "224fadec1f3fba39ca09c01d4eca935b2eb710e139be5773f476f124d4ae6f0b",
+    "reviewer/stage-2/response-reviews.csv": "4d5e17d0d29a0bd10e00cdf68d108adfe5526d32901640aff2cee5597fb85a83",
+    "reviewer/stage-2/responses.json": "e493f3dcb03dea1a9aa5c4eac06b469226ec14636890a741a06d199eab8e30d5"
+  }
+}

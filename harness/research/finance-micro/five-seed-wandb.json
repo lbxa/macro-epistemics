@@ -1,0 +1,10 @@
+{
+  "id": "ibujnrfi",
+  "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/ibujnrfi",
+  "api_host": "https://api.wandb.ai",
+  "artifact": "lbxa-corp/apart-epistemics-sprint/finance-five-seed-results:v0",
+  "artifact_digest": "3115876418a1c8c9a1e8235092bed98f",
+  "status": "complete_with_participation_gap_and_recovered_network_failures",
+  "remote_final_files_verified": true,
+  "remote_episode_evidence_verified": 40
+}

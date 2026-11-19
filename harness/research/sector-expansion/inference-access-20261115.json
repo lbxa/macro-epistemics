@@ -1,0 +1,124 @@
+{
+  "purpose": "inference_access_only_not_benchmark_evidence",
+  "started_at_utc": "2026-11-16T03:52:22.292737+00:00",
+  "diagnostic_maximum_usd": "0.00951040",
+  "max_completion_tokens": 256,
+  "input_reservation_tokens": 9216,
+  "maximum_calls": 3,
+  "automatic_retries": 0,
+  "prompt": "Reply with exactly OK.",
+  "spending_before": {
+    "limit_usd": "10",
+    "accounted_usd": "2.482302793676757813655",
+    "charged_usd": "1.329688393676757813655",
+    "usage_bounded_usd": "0",
+    "usage_bounded_requests": 0,
+    "requests": 443,
+    "unresolved_requests": 3
+  },
+  "probes": [
+    {
+      "model": "@cf/openai/gpt-oss-120b",
+      "reasoning_effort": "low",
+      "maximum_usd": "0.00341760",
+      "started_at_utc": "2026-11-16T03:52:22.294875+00:00",
+      "status": "inference_succeeded",
+      "visible_response_nonempty": true,
+      "finish_reason": "stop",
+      "usage": {
+        "input_tokens": 72,
+        "output_tokens": 26,
+        "total_tokens": 98,
+        "input_token_details": {
+          "cache_read": 0
+        },
+        "output_token_details": {}
+      },
+      "neurons": 4.06362247467041,
+      "finished_at_utc": "2026-11-16T03:52:23.297245+00:00"
+    },
+    {
+      "model": "@cf/thinkingmachines/inkling-2-small",
+      "reasoning_effort": "none",
+      "maximum_usd": "0.0030208",
+      "started_at_utc": "2026-11-16T03:52:23.298141+00:00",
+      "status": "failed",
+      "error_type": "RuntimeError",
+      "http_status": null,
+      "finished_at_utc": "2026-11-16T03:52:23.301932+00:00"
+    },
+    {
+      "model": "@cf/deepseek-ai/deepseek-v4.1-flash-1017",
+      "reasoning_effort": "none",
+      "maximum_usd": "0.0030720",
+      "started_at_utc": "2026-11-16T03:52:23.302524+00:00",
+      "status": "failed",
+      "error_type": "RuntimeError",
+      "http_status": null,
+      "finished_at_utc": "2026-11-16T03:52:23.305930+00:00"
+    }
+  ],
+  "spending_after": {
+    "limit_usd": "10",
+    "accounted_usd": "2.4885113935243606578917",
+    "charged_usd": "1.3298041935243606578917",
+    "usage_bounded_usd": "0",
+    "usage_bounded_requests": 0,
+    "requests": 448,
+    "unresolved_requests": 5
+  },
+  "diagnostic_accounted_usd": "0.0062085998476028442367",
+  "diagnostic_charged_usd": "0.0001157998476028442367",
+  "manual_recovery": {
+    "reason": "SDK client lifetime error; keep original reservations and disable all automatic retries",
+    "max_additional_usd": "0.0015104",
+    "combined_accounted_upper_bound_usd": "0.007647899847221374510",
+    "max_additional_calls": 2,
+    "max_completion_tokens": 128,
+    "input_reservation_tokens": 2048,
+    "probes": [
+      {
+        "model": "@cf/thinkingmachines/inkling-2-small",
+        "request_id": "28ba777f-a488-4393-9ccc-b1b4bb535c29",
+        "reasoning_effort": "none",
+        "started_at_utc": "2026-11-16T03:54:05.584298+00:00",
+        "status": "inference_succeeded",
+        "maximum_usd": "0.0007424",
+        "visible_response_nonempty": true,
+        "finish_reason": "stop",
+        "usage": {
+          "input_tokens": 20,
+          "output_tokens": 60,
+          "total_tokens": 80,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "output_token_details": {}
+        },
+        "neurons": 6,
+        "finished_at_utc": "2026-11-16T03:54:06.253670+00:00"
+      },
+      {
+        "model": "@cf/deepseek-ai/deepseek-v4.1-flash-1017",
+        "request_id": "ef3ed3d0-de99-4f72-85d5-a8ec1aae6942",
+        "reasoning_effort": "none",
+        "started_at_utc": "2026-11-16T03:54:06.255720+00:00",
+        "status": "inference_succeeded",
+        "maximum_usd": "0.0007680",
+        "visible_response_nonempty": true,
+        "finish_reason": "stop",
+        "usage": {
+          "input_tokens": 9,
+          "output_tokens": 2,
+          "total_tokens": 11,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "output_token_details": {}
+        },
+        "neurons": 0.4636363983154297,
+        "finished_at_utc": "2026-11-16T03:54:16.732707+00:00"
+      }
+    ]
+  }
+}

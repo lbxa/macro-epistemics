@@ -1,0 +1,113 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:02.540
+What if you could challenge the AI
+
+00:00:02.540 --> 00:00:05.760
+shaping your future and see which answers
+
+00:00:05.760 --> 00:00:07.360
+actually stand up?
+
+00:00:10.600 --> 00:00:14.040
+Macro-Epistemics asks how AI claims hold
+
+00:00:14.040 --> 00:00:15.200
+up across domains.
+
+00:00:15.540 --> 00:00:19.620
+Our first instrument, Veracity, makes those
+claims
+
+00:00:19.620 --> 00:00:20.740
+open to challenge.
+
+00:00:22.500 --> 00:00:25.440
+We save an answer, then challenge a claim.
+
+00:00:25.440 --> 00:00:28.200
+The model can defend or revise.
+
+00:00:28.700 --> 00:00:30.960
+Three jurors judge the original.
+
+00:00:31.340 --> 00:00:34.720
+We grade correctness separately, using the
+task's
+
+00:00:34.720 --> 00:00:35.980
+evidence and reference.
+
+00:00:37.600 --> 00:00:40.800
+In our legal pilot, GLM defended an
+
+00:00:40.800 --> 00:00:43.080
+inference with genuine quotations.
+
+00:00:43.480 --> 00:00:45.660
+Three DeepSeek jurors agreed.
+
+00:00:46.040 --> 00:00:48.380
+The benchmark reference disagreed.
+
+00:00:48.740 --> 00:00:50.620
+Even agreement needs checking.
+
+00:00:57.600 --> 00:01:00.840
+On one saved error, DeepSeek corrected itself
+
+00:01:00.840 --> 00:01:03.340
+in one of five reviews and all
+
+00:01:03.340 --> 00:01:04.800
+five source audits.
+
+00:01:05.060 --> 00:01:07.420
+We're looking for the conditions that help
+
+00:01:07.420 --> 00:01:08.900
+models correct themselves.
+
+00:01:12.500 --> 00:01:13.720
+These are early results.
+
+00:01:14.020 --> 00:01:16.940
+Repeating one case cannot establish broad
+reliability.
+
+00:01:16.940 --> 00:01:20.560
+Next, we measure confidence across more tasks,
+
+00:01:20.780 --> 00:01:23.060
+and test whether these signals help people
+
+00:01:23.060 --> 00:01:24.060
+make better decisions.
+
+00:01:25.600 --> 00:01:28.160
+Human knowledge grows when ideas can be
+
+00:01:28.160 --> 00:01:29.680
+questioned and corrected.
+
+00:01:30.340 --> 00:01:33.180
+Imagine giving AI that same discipline.
+
+00:01:33.560 --> 00:01:35.060
+Claims you can inspect.
+
+00:01:35.540 --> 00:01:36.900
+Evidence you can trace.
+
+00:01:37.520 --> 00:01:39.500
+Corrections others can learn from.
+
+00:01:39.860 --> 00:01:43.000
+A shared foundation for decisions we make
+together.
+
+00:01:47.400 --> 00:01:49.680
+Help us build a future where AI
+
+00:01:49.680 --> 00:01:50.860
+earns our trust.

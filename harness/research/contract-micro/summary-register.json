@@ -1,0 +1,26 @@
+{
+  "artifact": "lbxa-corp/apart-epistemics-sprint/contract-micro-summary-g9t35ump:v0",
+  "digest": "90e48a3b32bec4f6c9a537d557c7df29",
+  "files": 16,
+  "file_sha256": {
+    "docs/decisions/contract-micro-allows-one-local-orchestration-trial.md": "359ae8e9f10edd20c32db7c4d8f0192ef2c15ecb1b1c009f6ae4523236e4b7e3",
+    "docs/decisions/contract-micro-keeps-truncated-juries-and-completed-cells.md": "dd8de673aad9187210b7bb01ee2ade2a6cc4f44d67b6fecdce2e21ea1bbbfcdc",
+    "docs/decisions/contract-micro-runs-through-cloudflare-only.md": "6217aab427d84fceaab6aec271e2467996934adbb843ae0774ac117d08456b65",
+    "docs/decisions/contract-micro-uses-native-frontier-models-and-frozen-recovery.md": "712dda868bd86bb7ceeb8b2cbb84f036030eebe213c7e3e3e5ba58f76328efc4",
+    "docs/decisions/contract-micro-uses-source-graded-bounded-text-defences.md": "a341b55fb02d13506aed8ef9ff45d5b8c0039fbf7b979caa6fdc5ee0ac0e06a3",
+    "docs/reporting/paper-brief.md": "b218f1065976fa1e0ac6daffb73f752c8449636b132eadf159df01082f56a8e1",
+    "harness/README.md": "94284058156235d0cdb49c70689e90d4c511cbc3d7c8dac88f80ede6db4df872",
+    "harness/research/contract-micro/FINDINGS.md": "83988737fe5aebe91a1aa329f0d0b43870619ea11c0f8bc43693e4357041e511",
+    "harness/research/contract-micro/HANDOFF.md": "5b2e403affe1ebe8e543a6f6b5d7aa40c1703c5ccbf822d01eddb061a25ee618",
+    "harness/research/contract-micro/README.md": "e9386618e0468e0dda5f96d83a9c912129e2e3f2725752d7aed5fb3d409ea47c",
+    "harness/research/contract-micro/analyze.py": "81539221effdd07db7a7e2fb931044a8a580d2151fd608e91ed07cca8ede6a17",
+    "harness/research/contract-micro/comparison.md": "1a8d92a0ce0e3ffd62d4345d984ac48c884a380f87f6bae813a8a0a699bd8e69",
+    "harness/research/contract-micro/defence.md": "3ae399e340d5f93841961df5a46879e35a1fe71897f082d4683e7c1c1a787d7c",
+    "harness/research/contract-micro/evidence-register.json": "ef74e3931c1a77d3ebed44bb5ec5c91e3d42eb8099958560a188b49e87abf4a7",
+    "harness/research/contract-micro/initial.md": "ce3bfc17488fe91c23056bac0cac8d75749a0c1d585425650841511a30a163a4",
+    "harness/research/contract-micro/jury.md": "94322187c658920efe0d284244632d87a3ad449219aad14d2daf1479165c23d1"
+  },
+  "all_files_verified": true,
+  "verified_at_utc": "2026-11-16T01:09:13.008927+00:00",
+  "run_state": "finished"
+}

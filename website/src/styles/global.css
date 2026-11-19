@@ -1,0 +1,95 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@config "../../tailwind.config.ts";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+    --background: #fafaf9;
+    --foreground: #0c0a09;
+    --card: #fafaf9;
+    --card-foreground: #242821;
+    --popover: #fff;
+    --popover-foreground: #242821;
+    --primary: #193e32;
+    --primary-foreground: #faf7ed;
+    --secondary: #eee9dc;
+    --secondary-foreground: #193e32;
+    --muted: #efefea;
+    --muted-foreground: #62665b;
+    --accent: #eee9dc;
+    --accent-foreground: #193e32;
+    --destructive: #994331;
+    --border: #d6d3d1;
+    --input: #c9cbc2;
+    --ring: #24523f;
+    --radius: .625rem;
+    --chart-literal: #64645e;
+    --chart-audited: #24523f;
+    --chart-confidence: #795b2b;
+  }
+  * { @apply border-border; }
+  body { @apply bg-background text-foreground; }
+  h2 { @apply font-light; }
+}
+
+html { scroll-behavior: smooth; }
+section[id] { scroll-margin-top: 2rem; }
+.skip-link { position: absolute; left: 1rem; top: -5rem; padding: .65rem 1rem; background: var(--primary); color: var(--primary-foreground); }
+.skip-link:focus { top: 1rem; }
+a:not([data-slot="button"]):focus-visible { outline: 2px solid var(--ring); outline-offset: 4px; }
+
+.research-content p { color: #44403c; font-size: .96rem; line-height: 1.8; }
+.research-content h2 { margin: .7rem 0 1.2rem; color: var(--primary); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, "Times New Roman", serif; font-size: clamp(1.85rem, 4vw, 2.65rem); font-weight: 400; line-height: 1.16; letter-spacing: -.025em; text-wrap: balance; }
+.research-intro { max-width: 41rem; margin: 0 auto; text-align: left; }
+.research-intro a { color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
+.research-section { margin-top: 3.5rem; }
+
+.study-scope { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1rem; margin: 2.75rem 0 0; padding: 1.5rem 0; border-top: 1px solid var(--border); }
+.study-scope div { display: flex; flex-direction: column-reverse; gap: .35rem; text-align: center; }
+.study-scope dt { color: var(--muted-foreground); font-size: .7rem; }
+.study-scope dd { color: var(--primary); font-size: 1.65rem; font-variant-numeric: tabular-nums; letter-spacing: -.03em; }
+.study-scope + .research-section { margin-top: 0; }
+.domain-control { padding-block: 1rem; }
+.challenge-controls { margin-block: 1.5rem; }
+.research-content .figure-note { margin-top: .85rem; color: var(--muted-foreground); font-size: .75rem; line-height: 1.7; }
+
+.resources-section { text-align: center; }
+.resources-section h2 { font-size: clamp(1.75rem, 4vw, 2.2rem); }
+.resource-links { display: flex; flex-wrap: wrap; justify-content: center; gap: .3rem 1.4rem; margin-top: 1.25rem; }
+
+@media (max-width: 540px) {
+  .research-section { margin-top: 2.75rem; }
+  .study-scope { grid-template-columns: repeat(2, 1fr); gap: 1.25rem; }
+  .resource-links { gap: .2rem 1.1rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: 0s !important; }
+}

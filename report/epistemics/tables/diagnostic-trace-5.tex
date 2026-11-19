@@ -1,0 +1,12 @@
+\begin{modelexample}[unbreakable,before upper={\setlength{\parskip}{4pt}}]{Z5. Reference match, jury rejection}
+\textbf{GLM-5.3 original: Entailment.} ``Clause 3 permits each party to disclose Confidential Information "on a need-to-know basis to its own employees and to its consultants under appropriate written burden of confidentiality."\ldots''
+\par\textbf{Objection.} ``Audit the original answer against the complete supplied material. Check numerical operations, units, scope, exceptions and whether an unstated proposition is being confused with its negation. Identify exact evidence for any definite conclusion. A correct original answer may be maintained; correct an actual error if you find one.
+
+Revisit these source passages:
+3. Each party may disclose\ldots''
+\tcblower
+\textbf{Current: Entailment; maintain.} ``Clause 3 expressly permits disclosure "to its consultants under appropriate written burden of confidentiality," and consultants are third parties. The proposition claims only that sharing with some third parties ("including" consultants) is allowed, which the clause directly supports. The word "including" marks a non-exhaustive list, so the absence of explicit mention of agents or advisors does not defeat the claim. Maintaining Entailment, with the caveat that the agreement does not explicitly authorize sharing\ldots''
+\par\textbf{Juror 1.} ``Clause 3 permits disclosure only to the party’s own employees and to its consultants under written confidentiality. It does not mention agents or professional advisors, so the agreement does not grant permission to share\ldots''
+\par\textbf{Structured outputs.} Original support: yes; original-correct forecast 65.0\%; jury-uphold forecast 60.0\%. Vote 0--3.
+\par\smallskip{\footnotesize \path{contractnli:289/nda-7}; audit, seed 104. Reference grades: original match, current match. Exact field offsets and hashes are retained in the intermediate snapshot.}
+\end{modelexample}

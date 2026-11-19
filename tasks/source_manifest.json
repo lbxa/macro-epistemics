@@ -1,0 +1,1658 @@
+[
+  {
+    "name": "aei_api.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2026_06_26/data/aei_1p_api_2026-06-26.csv",
+    "sha256": "62197f003e001945ad130c2f26f5e07f3fda45ff41644df91444b04fd524a19f",
+    "size_bytes": 77282477
+  },
+  {
+    "name": "aei_claude_ai.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2026_06_26/data/aei_claude_ai_2026-06-26.csv",
+    "sha256": "f974b358bce0e5a8417510c61da4342234cd0de9d9d0b62acf4c6dbcf8ec7b68",
+    "size_bytes": 219174671
+  },
+  {
+    "name": "aei_documentation.md",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2026_06_26/data_documentation.md",
+    "sha256": "1a01eeb7d34250b192aa9c906098bea1db971644e6bdb04497d87b7a4ed141a5",
+    "size_bytes": 7397
+  },
+  {
+    "name": "aei_readme.md",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/README.md",
+    "sha256": "7f3a9c7c8fb2c04c55794810671926466698f171294cd2641075eb7bc403a9f0",
+    "size_bytes": 5262
+  },
+  {
+    "name": "averitec/dev.json",
+    "url": "https://raw.githubusercontent.com/MichSchli/AVeriTeC/7c62d1ec8df3fb560d6efe2b85fa191135636f81/data/dev.json",
+    "sha256": "499793726b4a5406780928a3d9dedc48d6dd53de778f22437d129cacdb08e300",
+    "size_bytes": 1785475
+  },
+  {
+    "name": "contractnli/LICENSE",
+    "url": "https://raw.githubusercontent.com/stanfordnlp/contract-nli/eced6528dd3c1d14d73f9a87df8f7bdbc03126f9/LICENSE",
+    "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+    "size_bytes": 18656
+  },
+  {
+    "name": "contractnli/contract-nli.zip",
+    "url": "https://raw.githubusercontent.com/stanfordnlp/contract-nli/eced6528dd3c1d14d73f9a87df8f7bdbc03126f9/resources/contract-nli.zip",
+    "sha256": "e03fc77bbf8b53e2976a250e81d8a294bc3d5e5fb014521e477dee9340d6287b",
+    "size_bytes": 65362913
+  },
+  {
+    "name": "crmarena/README.md",
+    "url": "https://huggingface.co/datasets/Salesforce/CRMArenaPro/resolve/8c055f5b45f15f7d996ee99277c4d0ea5049c6a8/README.md",
+    "sha256": "b519f41a168bed1154b924d1898888fd1234851c780347dd38b03430c3b600f3",
+    "size_bytes": 3997
+  },
+  {
+    "name": "crmarena/tasks_b2b.json",
+    "url": "https://huggingface.co/datasets/Salesforce/CRMArenaPro/resolve/8c055f5b45f15f7d996ee99277c4d0ea5049c6a8/tasks_b2b.json",
+    "sha256": "65e90c8a1f962c7fc9db60597a42f27ecbb0933fc81677e6f27c7ef97a64b711",
+    "size_bytes": 3993723
+  },
+  {
+    "name": "crmarena/tasks_b2c.json",
+    "url": "https://huggingface.co/datasets/Salesforce/CRMArenaPro/resolve/8c055f5b45f15f7d996ee99277c4d0ea5049c6a8/tasks_b2c.json",
+    "sha256": "d470f9c9c0033c5ac982b2084dc8ccee986861d7286de0ed92b2c25f51007ab2",
+    "size_bytes": 3996140
+  },
+  {
+    "name": "engdesign/EngDesign-Open/AB_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/AB_01/LLM_prompt.txt",
+    "sha256": "ac4734abe80d35237ac96a7356084b55885491aff523c71a9a21f21003892b2a",
+    "size_bytes": 2244
+  },
+  {
+    "name": "engdesign/EngDesign-Open/AB_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/AB_02/LLM_prompt.txt",
+    "sha256": "e403cff4f7629570a8bc1dbabca52b1fcc52048bc9d59024070d8cbf00488954",
+    "size_bytes": 3157
+  },
+  {
+    "name": "engdesign/EngDesign-Open/AB_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/AB_03/LLM_prompt.txt",
+    "sha256": "011c9d2c466ff4a195d0b59a3e7b4a2d21e5c450a60d34d84ec844467a7e8d1a",
+    "size_bytes": 3270
+  },
+  {
+    "name": "engdesign/EngDesign-Open/AM_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/AM_02/LLM_prompt.txt",
+    "sha256": "dd05947c180be41af6ff724f905369406b4ed054d47695a5e6f2b502dc0a1e0d",
+    "size_bytes": 3068
+  },
+  {
+    "name": "engdesign/EngDesign-Open/AM_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/AM_03/LLM_prompt.txt",
+    "sha256": "a1a8624564dc78bc44d731ab8335780ed0d254fb5f2145b6b0b10e38c6a39c6a",
+    "size_bytes": 3635
+  },
+  {
+    "name": "engdesign/EngDesign-Open/AV_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/AV_02/LLM_prompt.txt",
+    "sha256": "0ebb86974dfcc931a7037431325925b7dbf2282f005fff9bd70401be719562ba",
+    "size_bytes": 893
+  },
+  {
+    "name": "engdesign/EngDesign-Open/AV_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/AV_03/LLM_prompt.txt",
+    "sha256": "5a2729bb935e634d986eb002381ecc676941dc884f8386821be17e19902344fc",
+    "size_bytes": 860
+  },
+  {
+    "name": "engdesign/EngDesign-Open/CY_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/CY_03/LLM_prompt.txt",
+    "sha256": "7266e4b6051002810cb6b7edf96ee1edb3282c599f4ea0e4cbfb520648199277",
+    "size_bytes": 10370
+  },
+  {
+    "name": "engdesign/EngDesign-Open/DL_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/DL_01/LLM_prompt.txt",
+    "sha256": "6d364ab016da3de181368f1a35df4cae5d85f2b446e09a6727f8b8c1e72d3305",
+    "size_bytes": 14866
+  },
+  {
+    "name": "engdesign/EngDesign-Open/DL_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/DL_02/LLM_prompt.txt",
+    "sha256": "18a3b543656042f50a5470cfecd75d5795c1aceac56ef496b0edc831fb42c73d",
+    "size_bytes": 15670
+  },
+  {
+    "name": "engdesign/EngDesign-Open/HC_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/HC_03/LLM_prompt.txt",
+    "sha256": "7e0b78a64230f60a5fd3935a268163cbb5b657da3f7f8b18e5cc60f9398d8cbe",
+    "size_bytes": 640
+  },
+  {
+    "name": "engdesign/EngDesign-Open/HJ_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/HJ_01/LLM_prompt.txt",
+    "sha256": "b67d21ebc18f60a8b8fa01ca2977440b4af2eb18c8cb07f7f6838bce9fbc23bd",
+    "size_bytes": 813
+  },
+  {
+    "name": "engdesign/EngDesign-Open/JY_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/JY_01/LLM_prompt.txt",
+    "sha256": "160935d8567421babf8bd9b5ffae6a64e05f7f22945b4e22fb70a3d259cdc601",
+    "size_bytes": 1057
+  },
+  {
+    "name": "engdesign/EngDesign-Open/JY_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/JY_02/LLM_prompt.txt",
+    "sha256": "dddc52414d2d53c4f5b7c14dff075e9f422d16afc8d6b9ba3f1ff3ac68d73035",
+    "size_bytes": 50222
+  },
+  {
+    "name": "engdesign/EngDesign-Open/JY_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/JY_03/LLM_prompt.txt",
+    "sha256": "a1c766000287beb9dffa01baa338f8abd098e15e3417171151448a1ea7132e57",
+    "size_bytes": 10230
+  },
+  {
+    "name": "engdesign/EngDesign-Open/KV_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/KV_02/LLM_prompt.txt",
+    "sha256": "31375838498e815cf040d74443138dcc4667f5cbcb78b5e1d79d8d30600fab90",
+    "size_bytes": 1562
+  },
+  {
+    "name": "engdesign/EngDesign-Open/KV_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/KV_03/LLM_prompt.txt",
+    "sha256": "0c70364fbd6fda3bc517e87f5d3c0979d6cc7f41b0748b0248c4c37c2ed79bb0",
+    "size_bytes": 3032
+  },
+  {
+    "name": "engdesign/EngDesign-Open/LX_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/LX_02/LLM_prompt.txt",
+    "sha256": "273329802420b730bb861cc1a332b4fe37bdd05aeeae03fa82f1a721b7ab4911",
+    "size_bytes": 2117
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_02/LLM_prompt.txt",
+    "sha256": "f70736f28bd8c3a5aab2228d753a7845b60312515acf58953d9714762c409b53",
+    "size_bytes": 1192
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_03/LLM_prompt.txt",
+    "sha256": "2e71cce72caac4a76e9b98c7bc13da35ca8f677b40577748b778f63bdd979858",
+    "size_bytes": 1893
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_04/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_04/LLM_prompt.txt",
+    "sha256": "bde1a54502134c93659440bb82479bfce4b433099406298ca1ffc5da46ad437e",
+    "size_bytes": 1417
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_05/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_05/LLM_prompt.txt",
+    "sha256": "c140606b4b939f716d354dbb830a31e889aaf6e069b145d35fd1219862454706",
+    "size_bytes": 1716
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_06/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_06/LLM_prompt.txt",
+    "sha256": "13c51985007170f5370baf351814e213358ad91798d5df3edca9e15bcdff3068",
+    "size_bytes": 1516
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_07/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_07/LLM_prompt.txt",
+    "sha256": "abf60d7d93781d7b4d7f75123e9329b9055c1abcc93ca277080e936ec4f8f0db",
+    "size_bytes": 1659
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_08/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_08/LLM_prompt.txt",
+    "sha256": "5707ed46c39bfcf7ad2cbfe1dc5e4a4913e49840efcabf04a22ea71c312761cc",
+    "size_bytes": 1594
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_09/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_09/LLM_prompt.txt",
+    "sha256": "93af98448358d13964208a8eab76374b845c3e944455189dca72320b9648ee24",
+    "size_bytes": 880
+  },
+  {
+    "name": "engdesign/EngDesign-Open/NS_PA_SS_10/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/NS_PA_SS_10/LLM_prompt.txt",
+    "sha256": "107f58db38adc8d8b84743da1e2d5bf983f73d5a959b906a32d8700563163e6c",
+    "size_bytes": 1535
+  },
+  {
+    "name": "engdesign/EngDesign-Open/RK_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/RK_01/LLM_prompt.txt",
+    "sha256": "2adc1952a9265ea1f9ee51d252b31c74ea9883c927f41474dcde4623e0b36833",
+    "size_bytes": 1221
+  },
+  {
+    "name": "engdesign/EngDesign-Open/RK_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/RK_02/LLM_prompt.txt",
+    "sha256": "10daf5da5b55253c2becf1a3859143c0e92a12d71ee47afb875d4de459ca2d4c",
+    "size_bytes": 1303
+  },
+  {
+    "name": "engdesign/EngDesign-Open/RK_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/RK_03/LLM_prompt.txt",
+    "sha256": "d458a1a2089b35d139c9bb61e36d8828e242d7f50e6107e6d228cb0dca8fa383",
+    "size_bytes": 1462
+  },
+  {
+    "name": "engdesign/EngDesign-Open/RK_04/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/RK_04/LLM_prompt.txt",
+    "sha256": "94507d5f9bb1429362ad9b32cef733099eb92f5e808e13ae2f162830641fb1b1",
+    "size_bytes": 1253
+  },
+  {
+    "name": "engdesign/EngDesign-Open/RS_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/RS_01/LLM_prompt.txt",
+    "sha256": "2c988b7ece6345d390bb081c380dd2d63c109bb69cb0f15f4166d9110d3e6177",
+    "size_bytes": 11673
+  },
+  {
+    "name": "engdesign/EngDesign-Open/RS_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/RS_02/LLM_prompt.txt",
+    "sha256": "4c5a86920e822259c4d914b16e62d0dd4e2cfec51d7c70f1b3dc4780d40274e7",
+    "size_bytes": 703
+  },
+  {
+    "name": "engdesign/EngDesign-Open/RS_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/RS_03/LLM_prompt.txt",
+    "sha256": "b5e3ecbad772af91c30e97fb06d638a0b04df261b58a55bcad621f77dd296cc6",
+    "size_bytes": 700
+  },
+  {
+    "name": "engdesign/EngDesign-Open/WJ_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/WJ_01/LLM_prompt.txt",
+    "sha256": "ae7c9b8c728e258566970de3ce81401f1e3810d61cb867f330d7d8f784201b6f",
+    "size_bytes": 5574
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XG_08/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XG_08/LLM_prompt.txt",
+    "sha256": "525a89b70dd6b57d346462cf6b847d52ef57f7c53fe0145285b7276147f6e30d",
+    "size_bytes": 2786
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XG_13/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XG_13/LLM_prompt.txt",
+    "sha256": "562d4f941d6550fb3473beb7709d18d41f7d852daea1724b4267221824cba6e4",
+    "size_bytes": 1053
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XW_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XW_01/LLM_prompt.txt",
+    "sha256": "15ea2260ea8131361f603ccdb0196e22b48ce0eb3b25404b55a29cb4db3ca97d",
+    "size_bytes": 4923
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XW_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XW_02/LLM_prompt.txt",
+    "sha256": "43dc3df785b5f552fe17cd925876707915c38d7eba46da123b208cb7ef4830a6",
+    "size_bytes": 5440
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XW_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XW_03/LLM_prompt.txt",
+    "sha256": "4ef1b910b5d922b6f2092f5e16ee8573c0df2809bf1dc40fb8be1a041cc44413",
+    "size_bytes": 5505
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XW_04/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XW_04/LLM_prompt.txt",
+    "sha256": "0220397d63bf1f9a5c9fefc7694e149ab1e9dccb0738a7ed720a4aafa043d62c",
+    "size_bytes": 5654
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XY_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XY_01/LLM_prompt.txt",
+    "sha256": "e7ec8f2bb05edb9410fec108a2a0a872aa0be76a78875cd920259fb761516372",
+    "size_bytes": 3597
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XY_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XY_03/LLM_prompt.txt",
+    "sha256": "1eeda26ec77fa6cabe03fb4fbd7ddc54a4cd8f8c5f0f09cc27fcfb2d811929ca",
+    "size_bytes": 3778
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XY_04/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XY_04/LLM_prompt.txt",
+    "sha256": "310e11b6298e87fed07e284c744e3384bb7d3f7506d88b165b0a79af959e8c3b",
+    "size_bytes": 2680
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XY_05/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XY_05/LLM_prompt.txt",
+    "sha256": "fa1a0c3810081d6d6d9158d7c6cf405b74d30537f46d5a61bd337f1ae5dfd45e",
+    "size_bytes": 3679
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XZ_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XZ_01/LLM_prompt.txt",
+    "sha256": "9af3d173d7028ea6927c51af9a60b73eeb801849a808a20b02c7c2b099649bbf",
+    "size_bytes": 1522
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XZ_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XZ_02/LLM_prompt.txt",
+    "sha256": "85413d9a853497efb13b579264317c3493ec407f0f7ec20239e64373cd20f622",
+    "size_bytes": 2335
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XZ_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XZ_03/LLM_prompt.txt",
+    "sha256": "ae306f9f48fd487ba834d5e3c586811fef3f9bba3a86149f17a576cd15e58329",
+    "size_bytes": 4824
+  },
+  {
+    "name": "engdesign/EngDesign-Open/XZ_04/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/XZ_04/LLM_prompt.txt",
+    "sha256": "281b21794cbd9c212b0dbe08a11ba36ce81c080f7673b1a17f9ac2e0e64b2f36",
+    "size_bytes": 4670
+  },
+  {
+    "name": "engdesign/EngDesign-Open/YJ_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/YJ_01/LLM_prompt.txt",
+    "sha256": "d82830535ae18c44a8000ce41a306d4147bbfa00fdfb1e6bb80eecbed6b2e2ae",
+    "size_bytes": 111856
+  },
+  {
+    "name": "engdesign/EngDesign-Open/YJ_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/YJ_02/LLM_prompt.txt",
+    "sha256": "323b3f6eb3ee779f98436d418095fc16cd60034b15cb3be4962286ccb0702617",
+    "size_bytes": 1067
+  },
+  {
+    "name": "engdesign/EngDesign-Open/YJ_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/YJ_03/LLM_prompt.txt",
+    "sha256": "53d95af97bd24365e2f7b8e2eff711b7c836fca98355a27bafa110b2711d50ce",
+    "size_bytes": 1513
+  },
+  {
+    "name": "engdesign/EngDesign-Open/YX_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/YX_01/LLM_prompt.txt",
+    "sha256": "0df6575da5af4d30a7d81985b9ea322514c365c8442f5ab2053becf41b569ad9",
+    "size_bytes": 25582
+  },
+  {
+    "name": "engdesign/EngDesign-Open/YX_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/YX_02/LLM_prompt.txt",
+    "sha256": "81ef59fca421cf923a635e45bd7ee9ef45d6e3990288aa6249e89c79b48cfb45",
+    "size_bytes": 3041
+  },
+  {
+    "name": "engdesign/EngDesign-Open/YX_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/YX_03/LLM_prompt.txt",
+    "sha256": "269a1f6fed38bbac77d0d50b74e49f97a5fd2b4421ed000105b6318deeff7ec5",
+    "size_bytes": 10448
+  },
+  {
+    "name": "engdesign/EngDesign-Open/Yiqi_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/Yiqi_01/LLM_prompt.txt",
+    "sha256": "7c77b56fe356d3156ec48cb3854250ac9f1877aa1336bd712b0d9c776f7ea017",
+    "size_bytes": 19701
+  },
+  {
+    "name": "engdesign/EngDesign-Open/Yiqi_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/Yiqi_02/LLM_prompt.txt",
+    "sha256": "0f2ef144e9cfe566928d12c8eb172716bf3e0d134e9e8ab3c51c2731d2c6fc6d",
+    "size_bytes": 19700
+  },
+  {
+    "name": "engdesign/EngDesign-Open/Yuqi_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/Yuqi_01/LLM_prompt.txt",
+    "sha256": "9e1023ada1ad339c9e0a398ad37ad8dbadad079d4c5bfe955110711f25b9d8ee",
+    "size_bytes": 9602
+  },
+  {
+    "name": "engdesign/EngDesign-Open/ZC_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/ZC_02/LLM_prompt.txt",
+    "sha256": "fac532cdaf84601ce0b76417ab3d40debd72c5032b0f6b8eb7cb71bbb38dcd2d",
+    "size_bytes": 1152
+  },
+  {
+    "name": "engdesign/EngDesign-Open/ZC_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/ZC_03/LLM_prompt.txt",
+    "sha256": "b601c0efb8d0f8ec1e1ba1f884104b90882d07dd348d0b06bd8c7191e9a3ad96",
+    "size_bytes": 4243
+  },
+  {
+    "name": "engdesign/EngDesign-Open/ZH_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/ZH_02/LLM_prompt.txt",
+    "sha256": "0f64dccfb1ee2ef07a5e1dfbca1ee973539d663b58e633d49fe1618a3751e3f9",
+    "size_bytes": 946
+  },
+  {
+    "name": "engdesign/EngDesign-Open/ZH_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/ZH_03/LLM_prompt.txt",
+    "sha256": "122e7324726c4c83e84a254a4fb6ecc74f738642f7b7e2de16071fd4ca545b17",
+    "size_bytes": 1414
+  },
+  {
+    "name": "engdesign/EngDesign-Open/ZH_04/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/ZH_04/LLM_prompt.txt",
+    "sha256": "daced7f94363e13d55c7eddfc19a39cd14736ca3c68db6d3278421341402b67a",
+    "size_bytes": 2017
+  },
+  {
+    "name": "engdesign/EngDesign-Open/Ziheng_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/Ziheng_02/LLM_prompt.txt",
+    "sha256": "5cc6a3aec6170c05708bffe671b522f43db7fdbe9e03d960a26d8843554c669a",
+    "size_bytes": 1236
+  },
+  {
+    "name": "engdesign/EngDesign-Open/libin2_01/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/libin2_01/LLM_prompt.txt",
+    "sha256": "1ee585a0d50831448a803c4cef909086d562db1ed5fbe28b6c80b3f7ec4c78d2",
+    "size_bytes": 1507
+  },
+  {
+    "name": "engdesign/EngDesign-Open/libin2_02/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/libin2_02/LLM_prompt.txt",
+    "sha256": "fb62fe18267a1c3bbc371e24ec8602ad7f8ebf46ba40a7dfa4ca9057dcd38b89",
+    "size_bytes": 1116
+  },
+  {
+    "name": "engdesign/EngDesign-Open/libin2_03/LLM_prompt.txt",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/EngDesign-Open/libin2_03/LLM_prompt.txt",
+    "sha256": "13a941e0ddd2d0a6103e0915563971ed651518e3d081fb5b935f11d7fbb297bc",
+    "size_bytes": 1149
+  },
+  {
+    "name": "engdesign/LICENSE",
+    "url": "https://raw.githubusercontent.com/AGI4Engineering/EngDesign/c8ec338cc5f846d792d93728b00c9448111139e5/LICENSE",
+    "sha256": "8ae649abc522ce0212288dc6cfa255f419e3a494b97fa6b03677161ea7fface6",
+    "size_bytes": 1081
+  },
+  {
+    "name": "finqa/LICENSE",
+    "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/LICENSE",
+    "sha256": "92c0e67bd762c15c07ba60de09558338315a8ebf99aac4f51f487179809ac087",
+    "size_bytes": 1067
+  },
+  {
+    "name": "finqa/test.json",
+    "url": "https://raw.githubusercontent.com/czyssrs/FinQA/0f16e2867befa6840783e58be38c9efb9229d742/dataset/test.json",
+    "sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+    "size_bytes": 14395143
+  },
+  {
+    "name": "gdpval.parquet",
+    "url": "https://huggingface.co/datasets/openai/gdpval/resolve/11e7900cdcac61bc4daf59e65feb238acda98fbf/data/train-00000-of-00001.parquet",
+    "sha256": "f8422fab9b21d90c0ee5f0659842ab666d418cb8940842918f9f4b0df7ae0202",
+    "size_bytes": 1913489
+  },
+  {
+    "name": "gdpval_readme.md",
+    "url": "https://huggingface.co/datasets/openai/gdpval/resolve/11e7900cdcac61bc4daf59e65feb238acda98fbf/README.md",
+    "sha256": "1597a46f191bffd916d8140be98edcd5700cc9abb8877f022c869cc470aee2c5",
+    "size_bytes": 1477
+  },
+  {
+    "name": "mathdial/README.md",
+    "url": "https://raw.githubusercontent.com/eth-nlped/mathdial/600350952cf11f9d7e745df059b4e5723b34aa6e/README.md",
+    "sha256": "164093b5868630c6be211be27ae20ff490359b239dde72e46129892156cb9656",
+    "size_bytes": 6517
+  },
+  {
+    "name": "mathdial/test.jsonl",
+    "url": "https://raw.githubusercontent.com/eth-nlped/mathdial/600350952cf11f9d7e745df059b4e5723b34aa6e/data/test.jsonl",
+    "sha256": "3ec54ee8ab921dc6191bf5e2ee766d4e7916b4264394eb17a6be9b3fe486e50b",
+    "size_bytes": 1858054
+  },
+  {
+    "name": "medagentbench/LICENSE",
+    "url": "https://raw.githubusercontent.com/stanfordmlgroup/MedAgentBench/99260117137b09f04837a8c18d18a1107efa55ae/LICENSE",
+    "sha256": "a5dd06db7e5e4d6f790b24d2c54a027e1b5ad7519786bd31a7ff6508cd354828",
+    "size_bytes": 1088
+  },
+  {
+    "name": "medagentbench/test_data_v2.json",
+    "url": "https://raw.githubusercontent.com/stanfordmlgroup/MedAgentBench/99260117137b09f04837a8c18d18a1107efa55ae/data/medagentbench/test_data_v2.json",
+    "sha256": "b6e89b2ef82f1bef27c5778a644a8a66c7b25738bbd6a48d03ab3e5182df6ca8",
+    "size_bytes": 118276
+  },
+  {
+    "name": "onet_task_statements.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2025_02_10/onet_task_statements.csv",
+    "sha256": "82e4c418dc08475ef1263ad1e8c66ffa3357291370cd35ee1065ecea590597ec",
+    "size_bytes": 3592256
+  },
+  {
+    "name": "scifact/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/allenai/scifact/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e/LICENSE.md",
+    "sha256": "56ee69bc639cbab8f0b2e4b67091ec5e9390aa99a1d65f0a35e4274686c9a806",
+    "size_bytes": 542
+  },
+  {
+    "name": "scifact/data.tar.gz",
+    "url": "https://scifact.s3-us-west-2.amazonaws.com/release/latest/data.tar.gz",
+    "sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+    "size_bytes": 3115079
+  },
+  {
+    "name": "soc_structure.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2025_02_10/SOC_Structure.csv",
+    "sha256": "05eb5e689fb471b7a66962b57bba6666dee2c3e6a6854f0f84faf423af68dd17",
+    "size_bytes": 77176
+  },
+  {
+    "name": "tac/LICENSE",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/LICENSE",
+    "sha256": "2d6976a9b482bb14d9cd4f0d97ce6e14305496f1649b8667cb91d027c670930f",
+    "size_bytes": 1072
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-arrange-meeting-rooms/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-arrange-meeting-rooms/task.md",
+    "sha256": "2f05e9aa7a91117d25783bb6610b5e9d13a0100114a464a7e8e0b9814cdef794",
+    "size_bytes": 1789
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-ask-for-meeting-feedback/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-ask-for-meeting-feedback/task.md",
+    "sha256": "85fa5c7f60d4b210a7a0032b7f976cc37a3de5974fb47b0f5a4f0dee3cfa44c8",
+    "size_bytes": 713
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-ask-for-upgrade-reimbursement/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-ask-for-upgrade-reimbursement/task.md",
+    "sha256": "a98ce7f5a792a5d4c35f2617cdb1fb20c673db648488fc84660eb301d31dc9a0",
+    "size_bytes": 400
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-check-employees-budget-and-reply-2/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-check-employees-budget-and-reply-2/task.md",
+    "sha256": "0417904b2bea67342fa6ea7d5ef35bc50c454f5fcb76720ff6223c2804c37367",
+    "size_bytes": 523
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-check-employees-budget-and-reply-and-record/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-check-employees-budget-and-reply-and-record/task.md",
+    "sha256": "425126f7cb37d321b36c7cb397cc285e68ad45b1b805bc1fb813972cc53eab0f",
+    "size_bytes": 869
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-check-employees-budget-and-reply/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-check-employees-budget-and-reply/task.md",
+    "sha256": "6c69a348743702f9ba5635d29c555f58ac6fb132b6ec2ffc90876e68dbf92417",
+    "size_bytes": 559
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-collect-requests-and-compute-total-price/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-collect-requests-and-compute-total-price/task.md",
+    "sha256": "99f979756a092c2ca3a600c0a8f4c564c3535b3d1b910fbbe116dbe5026b2fb0",
+    "size_bytes": 378
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-employee-info-reconciliation/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-employee-info-reconciliation/task.md",
+    "sha256": "2eb7bbf32b4f1cb875840439a77cc47d8273748a2e98fb89cce81c827b3b807f",
+    "size_bytes": 815
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-get-best-vendor-quote/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-get-best-vendor-quote/task.md",
+    "sha256": "5f317f380e8c140a2345d7dcbb72cf492326c85ac0054c57690e983f914a41a5",
+    "size_bytes": 732
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-make-spreadsheet/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-make-spreadsheet/task.md",
+    "sha256": "13e7bf7a25abd43cf6b7a180cca6990df160d386c7871ac7793c1b95de1d3f85",
+    "size_bytes": 461
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-mass-forms-filling/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-mass-forms-filling/task.md",
+    "sha256": "d33c32b1ab8f386535c2add67587b3f533584ca7a64fc5e0d5b8d0dcab754db4",
+    "size_bytes": 521
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-read-survey-and-summarise/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-read-survey-and-summarise/task.md",
+    "sha256": "22cd9136c9517bf422de99f6d27879db2fb8c6e26494cfc3cae017619249fd83",
+    "size_bytes": 448
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-remove-pages-pdf/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-remove-pages-pdf/task.md",
+    "sha256": "94d1fc0c212bc796ecaacc0d742eeda0430b0e7393822fef20c90dcd94fee337",
+    "size_bytes": 543
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-translate-sales-chat/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-translate-sales-chat/task.md",
+    "sha256": "6406b9ccfc5e66d942594b5f0d72695ad8b9b465a45cbe0df230bc9c17f51eb1",
+    "size_bytes": 698
+  },
+  {
+    "name": "tac/workspaces/tasks/admin-watch-video/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/admin-watch-video/task.md",
+    "sha256": "31cd1ec4285bad2ed2fc82e1625133e02a19e7a0a8a8dff167173cbcb7b9b51f",
+    "size_bytes": 362
+  },
+  {
+    "name": "tac/workspaces/tasks/bm-classify-nationality/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/bm-classify-nationality/task.md",
+    "sha256": "9926ded9115a79a5bab54a742f3d456bc45829f752023017c584f951f47680c6",
+    "size_bytes": 621
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-answer-numerical-data-question/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-answer-numerical-data-question/task.md",
+    "sha256": "1632c9ff97bf90632b6417554f7069b8d79a02050ef9e980930e2e076bc9ee08",
+    "size_bytes": 738
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-answer-spreadsheet-questions/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-answer-spreadsheet-questions/task.md",
+    "sha256": "ef038df721e97062e926a357edc58cefefc69feae73dc6e37cf9dda973550cf7",
+    "size_bytes": 834
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-calculate-spreadsheet-stats/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-calculate-spreadsheet-stats/task.md",
+    "sha256": "a1a960de9cd1ae248a3672f9621f0512b16acb0549f39d03bf6d1b7c8459b770",
+    "size_bytes": 806
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-coffee-shop-database-management/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-coffee-shop-database-management/task.md",
+    "sha256": "98971d072fb4c8182946987ae587ec79db6b5654cc439fcc05778b29a88682ae",
+    "size_bytes": 1263
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-find-meeting-spreadsheet/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-find-meeting-spreadsheet/task.md",
+    "sha256": "e6cd279e466be446ddcda3cbbb1443caf1f5c89e087c3d5aaaa89d00f016962b",
+    "size_bytes": 465
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-fix-table-values-and-missing-answers/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-fix-table-values-and-missing-answers/task.md",
+    "sha256": "0288604b27d12541fb45ef5d80961816d6781ed886b3f63f550bad5f941fde44",
+    "size_bytes": 694
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-format-excel-sheets/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-format-excel-sheets/task.md",
+    "sha256": "761bd7450736860cd4a0badf2fb05d566380e2f24c2571d980799148e217a8b5",
+    "size_bytes": 543
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-janusgraph-exercise/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-janusgraph-exercise/task.md",
+    "sha256": "889f086301e5619b19373af2bbf56fe6185da4fde411e94f529ed5349e972193",
+    "size_bytes": 833
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-merge-multiple-sheets/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-merge-multiple-sheets/task.md",
+    "sha256": "3e4c20952deab197c6a7547e79970f698c48e61448ad1b270544a3a5b1c0abe1",
+    "size_bytes": 845
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-organise-report-sus-data/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-organise-report-sus-data/task.md",
+    "sha256": "3a81e2c3f83c04968503e0003b8757eaa2d2a85f866e65e46fe4d98575949127",
+    "size_bytes": 1653
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-predictive-modeling/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-predictive-modeling/task.md",
+    "sha256": "81c1e7c8fbcf0967218edada51e992d700ce0fccd44d8861475ea8c6f5cd6c5c",
+    "size_bytes": 515
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-sql-exercise/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-sql-exercise/task.md",
+    "sha256": "d278c63acf80a41a3df3ea25a380229b9f04c55def5930cc1aa2ebf88adced95",
+    "size_bytes": 811
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-stock-analysis-slides/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-stock-analysis-slides/task.md",
+    "sha256": "621281d20fa3e0b4dbf6903ff871e035c99bb194a80b4fe3e1188f7f7954281b",
+    "size_bytes": 1733
+  },
+  {
+    "name": "tac/workspaces/tasks/ds-visualize-data-in-pie-and-bar-chart/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ds-visualize-data-in-pie-and-bar-chart/task.md",
+    "sha256": "bc660d27ec4358e6f3ddd5f08dc8f18c109ad017ec20f71776374cd95985c1cc",
+    "size_bytes": 401
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-apply-tax-credit/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-apply-tax-credit/task.md",
+    "sha256": "e0e59c9071970fae4ab16679c5240a4c3a3c8be2d1bb19b82b08a21be51067a7",
+    "size_bytes": 731
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-budget-variance/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-budget-variance/task.md",
+    "sha256": "5248e3849a49c79e244a9ceba928e97c1c8c7001f55dc2f49666d17a2ad56ae5",
+    "size_bytes": 1005
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-check-attendance-payroll/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-check-attendance-payroll/task.md",
+    "sha256": "079240bbb083878b4d6efccb302c5e7f9e628ec2c0a90dbc62d2cf7fd7f91a8a",
+    "size_bytes": 767
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-create-10k-income-report/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-create-10k-income-report/task.md",
+    "sha256": "54affe577ad5164612de0b1ec7af5ed8b126fcd795b88538f7751d5e81c65e92",
+    "size_bytes": 1111
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-expense-validation/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-expense-validation/task.md",
+    "sha256": "3c16dc33e9aea3e685e9aec9c834faa0d311295b74b1430cf8cdca34390743fd",
+    "size_bytes": 1370
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-find-signatories/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-find-signatories/task.md",
+    "sha256": "0d61b70c0bc2a1e876841f426bda8b77089f00f9a649224313106b4ffc8924f4",
+    "size_bytes": 994
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-invoice-matching/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-invoice-matching/task.md",
+    "sha256": "4f320542f7dd6dce9a529a6ff15df2c1f2943092e5e7f15650223cb349e3abd4",
+    "size_bytes": 1131
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-nonqualified-bill-ask-for-reimburse/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-nonqualified-bill-ask-for-reimburse/task.md",
+    "sha256": "26f14825316db96811bc0b2a1f42c344d2134845f28b1ee68c2dfe4e780640e1",
+    "size_bytes": 427
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-qualified-bill-ask-for-reimburse/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-qualified-bill-ask-for-reimburse/task.md",
+    "sha256": "a885c6c1c0da5bfa7df851f8baf629bbeeee5d419da378a968576e00061ef194",
+    "size_bytes": 400
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-r-d-activities/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-r-d-activities/task.md",
+    "sha256": "41cb7ad23bb2f6aeb855be2f57adb2d1020f6538b612d3b87a6e12c630540278",
+    "size_bytes": 1328
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-revenue-reconciliation/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-revenue-reconciliation/task.md",
+    "sha256": "c98db8886ede071a237b7dfd2355d8526efd91633b9d1be48e9e2733fa5d7e76",
+    "size_bytes": 1263
+  },
+  {
+    "name": "tac/workspaces/tasks/finance-substantial-presence-test/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/finance-substantial-presence-test/task.md",
+    "sha256": "ecd2dffa88be1746a8d06c2ac6f9f2a6462380a6d98b91eccfb6e5c4a324d250",
+    "size_bytes": 884
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-analyze-outing-bills/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-analyze-outing-bills/task.md",
+    "sha256": "ab8017378e635948b88a272e620703101753951af70a3fb65845ea26e1422557",
+    "size_bytes": 1126
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-check-attendance-multiple-days-department-with-chat/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-check-attendance-multiple-days-department-with-chat/task.md",
+    "sha256": "1505c27a34003d679f9ed0be2405b39abd12c21cf4c0a8be485c8590209b4436",
+    "size_bytes": 1320
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-check-attendance-multiple-days-department/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-check-attendance-multiple-days-department/task.md",
+    "sha256": "896bd57da14d645da0373dd963c604d09af71aadfbca606cdb6e1342454dab96",
+    "size_bytes": 1155
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-check-attendance-multiple-days/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-check-attendance-multiple-days/task.md",
+    "sha256": "d92160905f7b0ab328a5adb89009c03baa259be372962257a1212564c5400bc9",
+    "size_bytes": 917
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-check-attendance-one-day/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-check-attendance-one-day/task.md",
+    "sha256": "0972614fa1088964a55472ca37952c3168ed03b944339f6597507c41df0e02db",
+    "size_bytes": 690
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-check-for-invalid-passwords-and-ask-for-valid-passwords/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-check-for-invalid-passwords-and-ask-for-valid-passwords/task.md",
+    "sha256": "ee2ba79ed8b541159d95c3b59ff187890aad682a9640056dd4a8d074092087b6",
+    "size_bytes": 953
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-collect-feedbacks/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-collect-feedbacks/task.md",
+    "sha256": "297bb3b06ca6a85f5e347a8ae65f8a760aeb5b17b5636a3f94ee5100e85cc078",
+    "size_bytes": 710
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-collect-multiple-valid-passwords/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-collect-multiple-valid-passwords/task.md",
+    "sha256": "5d5d46f5624d3159c04ede35514191d72a2d8e3dbc30e52f3564c7ceeb6a73a9",
+    "size_bytes": 805
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-create-career-ladder/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-create-career-ladder/task.md",
+    "sha256": "16d19bab8ae028eb8e396a0dec6cafd63e8e4f7190e87b592c1cda751f611234",
+    "size_bytes": 909
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-create-employee-manual/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-create-employee-manual/task.md",
+    "sha256": "1768a544c4a7db9051d542d3f3fc207d17c855da74f76bae351cd2b76bf05908",
+    "size_bytes": 623
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-delete-and-insert-user/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-delete-and-insert-user/task.md",
+    "sha256": "973e5b0b7cae444fb761d390fbf1fb7f397620249557f4ed6f25033dc72ba72c",
+    "size_bytes": 146
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-get-valid-password/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-get-valid-password/task.md",
+    "sha256": "432f274765fc8667102ad5b6965d8832b4cc84c24c100566bbdd24363a4958b7",
+    "size_bytes": 721
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-green-card-consultation/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-green-card-consultation/task.md",
+    "sha256": "9bb2f93a14aa0f4e733b85397301e81805c039f7749a759a12db571ace52962b",
+    "size_bytes": 701
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-internal-tooling-slides/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-internal-tooling-slides/task.md",
+    "sha256": "b0ea9ab5b530a282d7cd0ca5f8ebc4046ec7fea37b0e6fc5b9e2c3541284373f",
+    "size_bytes": 1973
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-make-slides-introduce-leadership/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-make-slides-introduce-leadership/task.md",
+    "sha256": "bcfd6d66d62abeac8cf166735d09c6d71e0797507f2be0980d319f72345dda2f",
+    "size_bytes": 740
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-mass-survey/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-mass-survey/task.md",
+    "sha256": "62aba9151ca561da59869ea72ed23a7848f8aeb4f645b5bd0de5e0567e20b132",
+    "size_bytes": 1045
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-massive-resume-screening/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-massive-resume-screening/task.md",
+    "sha256": "409e738b6ccb39fce0adb3407da59fb9a4b50588c2aad6d4764dd7fa204bb5f7",
+    "size_bytes": 677
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-new-grad-job-description-2/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-new-grad-job-description-2/task.md",
+    "sha256": "1d1e2043d50e1719c9dd7dafafaf0899df900d0132b3b2f3d3a45f182d94f4af",
+    "size_bytes": 748
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-new-grad-job-description-3/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-new-grad-job-description-3/task.md",
+    "sha256": "a1de9eecee97a47ed503f297ad32ef124d394e19f54af87d31a7a06e65a64ec2",
+    "size_bytes": 839
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-new-grad-job-description/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-new-grad-job-description/task.md",
+    "sha256": "5538e0214cffddd8edf1d5b02ae67b33e03d2f535a84442c4084e614529a8ceb",
+    "size_bytes": 683
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-organize-talent-info/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-organize-talent-info/task.md",
+    "sha256": "b60cbfe6d49bdc73b72be24fcc053dfe653de81842297d8687fe655a8947f1bc",
+    "size_bytes": 319
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-pick-interviewer-1/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-pick-interviewer-1/task.md",
+    "sha256": "75cb080cf864c1d99cb65bb305931f901682933a73450636a1b970e1a3ed0d31",
+    "size_bytes": 861
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-pick-interviewer-2/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-pick-interviewer-2/task.md",
+    "sha256": "fb999cb8c82428bc9a25703f337c278d5fa5b9787b2bed5509d7b792c535642b",
+    "size_bytes": 383
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-pick-interviewer-3/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-pick-interviewer-3/task.md",
+    "sha256": "58445aeee22689d968f8b4eaeb56a825b5b8fc3b3ea158409b598e0d5308c328",
+    "size_bytes": 155
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-populate-salary-increase-memo/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-populate-salary-increase-memo/task.md",
+    "sha256": "2dc2650251c72bca070d7d9c70c7a0f89e2e1318ae14b27b6f2fa11e92e14551",
+    "size_bytes": 513
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-resume-categorization/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-resume-categorization/task.md",
+    "sha256": "9c6aabe66759feaa4505668854d47365ab025998d783672b5cf6c7c4e5fefa91",
+    "size_bytes": 908
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-resume-screening/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-resume-screening/task.md",
+    "sha256": "55996429db87c4103bad34e11f38dcad5cfe5dd2718da1eefff0437f0d3c423b",
+    "size_bytes": 621
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-salary-analysis/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-salary-analysis/task.md",
+    "sha256": "4b7978b66998d58a79da40bd109e00b4afdca8efb24d080f7e702932747b1f36",
+    "size_bytes": 348
+  },
+  {
+    "name": "tac/workspaces/tasks/hr-transfer-group/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/hr-transfer-group/task.md",
+    "sha256": "b1fd7ed975e88a1176841aeb4ab88c9fd393a9ba608d47d625df10d89abce1e9",
+    "size_bytes": 276
+  },
+  {
+    "name": "tac/workspaces/tasks/ml-generate-gradcam/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ml-generate-gradcam/task.md",
+    "sha256": "0bd5ae08dcd6a576996a0477ff38c45e6204c67452848e5b16846cffcf107565",
+    "size_bytes": 1316
+  },
+  {
+    "name": "tac/workspaces/tasks/ml-grade-exam/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/ml-grade-exam/task.md",
+    "sha256": "9ecdfb6ac36876ff36727a0e8ef2da1352ceb9054d0a8d34b52616c7cc41038c",
+    "size_bytes": 1182
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-add-new-moderator/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-add-new-moderator/task.md",
+    "sha256": "9062862e061ea2d032aa7e8e8e4cfa13a992e128690e08d0dd0cae262d82c241",
+    "size_bytes": 168
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-ask-for-issue-and-create-in-gitlab/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-ask-for-issue-and-create-in-gitlab/task.md",
+    "sha256": "5860429d2a092149a815e59a50972bfd46341097d7fe7bfd30dfce9dc1495217",
+    "size_bytes": 511
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-ask-issue-assignee-for-issue-status-and-update-in-plane/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-ask-issue-assignee-for-issue-status-and-update-in-plane/task.md",
+    "sha256": "cced741f379907f9e209d825dd5d461a7b923cc8cb181427903655386ebf2c7b",
+    "size_bytes": 595
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-assign-issues/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-assign-issues/task.md",
+    "sha256": "13557758d1206b3ffcb9b773f5dc9e5668a38cfe1022d0a557d445e124c9f9e3",
+    "size_bytes": 529
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-change-channel-ownership/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-change-channel-ownership/task.md",
+    "sha256": "810855c26f5406be2b06ce288dcc768d609aa5fdf75e437dbfcb3e0ad0005cda",
+    "size_bytes": 156
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-check-backlog-update-issues/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-check-backlog-update-issues/task.md",
+    "sha256": "820d35877d6861c5c7fa12309d217f854d3b51d33c9ba95cf9194d521c9a2db4",
+    "size_bytes": 1176
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-copy-plane-issues-to-gitlab/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-copy-plane-issues-to-gitlab/task.md",
+    "sha256": "c778b0c121137e8b5d482472a119f5b1e450d026f23ee82ef918492600ab9ca5",
+    "size_bytes": 387
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-create-channel-message-medium/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-create-channel-message-medium/task.md",
+    "sha256": "f892dc38a675af91ede0e54fe2b6bc0eac8ffdd6391d6a6d2ff95bcec069eb7c",
+    "size_bytes": 522
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-create-channel-message/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-create-channel-message/task.md",
+    "sha256": "714082766fb76d261be0c3317bf74a95f0588f76f3975d9eace0006b2a98ab80",
+    "size_bytes": 227
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-create-channel-new-leader/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-create-channel-new-leader/task.md",
+    "sha256": "dd483cada74cc504249979b887e13efc067cfea83c01f27aeb9caeedbc611570",
+    "size_bytes": 179
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-create-plane-issue/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-create-plane-issue/task.md",
+    "sha256": "713c57fdbbed14ba1fdfaafd487e8d2f4579fb77dadf5d48f26b4c55fb0a4689",
+    "size_bytes": 155
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-create-teammate-channel-from-spreadsheet/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-create-teammate-channel-from-spreadsheet/task.md",
+    "sha256": "79b9642749ec28233db8e86dd97162f85cc9be28572b13f97984730b4d66f950",
+    "size_bytes": 826
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-distribute-information/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-distribute-information/task.md",
+    "sha256": "8c39d2854af85ed4d01d585a291f790c69d62913394b662339e2549b2bdda39a",
+    "size_bytes": 478
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-monitor-new-bug-issues/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-monitor-new-bug-issues/task.md",
+    "sha256": "eae2bff5e7714f90b39eb1067070df89466b9accd60fc55db35e93291b4a46e2",
+    "size_bytes": 392
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-monthly-attendance-slides/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-monthly-attendance-slides/task.md",
+    "sha256": "8776455b017c0ede2580a01f2de4589fa121954e23401d052ab5f355787c7681",
+    "size_bytes": 678
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-plan-personnel-for-new-project/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-plan-personnel-for-new-project/task.md",
+    "sha256": "47fc4125664c39a099c768d6f90d8a7a53ea6eb7f2453c5b7099ea76b4cefd7d",
+    "size_bytes": 996
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-prepare-meeting-with-customers/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-prepare-meeting-with-customers/task.md",
+    "sha256": "eb8a006788c291de4c76a47e8f72a33670395d1f2999c99b45c7e0dd8c5bbdef",
+    "size_bytes": 602
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-present-engineer-group-members/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-present-engineer-group-members/task.md",
+    "sha256": "636711453ef81a5e948e0f617b05d9a2e42dee141627a89d06486ae9af52c71f",
+    "size_bytes": 751
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-present-gitlab-info-as-ppt/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-present-gitlab-info-as-ppt/task.md",
+    "sha256": "c8f04427aa726c69a25ab593c0ef65ea6a0a9503d79c9138d6b4afa296d57a37",
+    "size_bytes": 701
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-projects-analytics/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-projects-analytics/task.md",
+    "sha256": "9d7c78fb21fd1309b6ce21f02780fa99a6e6c0156dc4ed6cb9522eaef07605c4",
+    "size_bytes": 656
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-schedule-meeting-1/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-schedule-meeting-1/task.md",
+    "sha256": "e60024b16e80b00a08e2286aba1c14970e31680218f28cc324355bfaa1355e12",
+    "size_bytes": 619
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-schedule-meeting-2/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-schedule-meeting-2/task.md",
+    "sha256": "e60024b16e80b00a08e2286aba1c14970e31680218f28cc324355bfaa1355e12",
+    "size_bytes": 619
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-send-hello-message/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-send-hello-message/task.md",
+    "sha256": "e06772808d95fcd46e570579fefc7b859bcaaaa91e43815e16180ad37b389f7d",
+    "size_bytes": 259
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-send-notification-to-corresponding-user/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-send-notification-to-corresponding-user/task.md",
+    "sha256": "0f68b4b5ed0ad91befe5c1505b881eea5645c3107465015e178901061cad1917",
+    "size_bytes": 112
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-update-gitlab-issue-from-plane-status/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-update-gitlab-issue-from-plane-status/task.md",
+    "sha256": "9d43b6e7682d26903bf823fb00cd9b3bae3f522f3a2f057ed250e886d6703b1b",
+    "size_bytes": 579
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-update-plane-issue-from-gitlab-status/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-update-plane-issue-from-gitlab-status/task.md",
+    "sha256": "a708b0d03cae89b1382cdd20bd8bb7df0932f23558d10cf0cfe6d7f1bf455c79",
+    "size_bytes": 666
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-update-project-milestones/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-update-project-milestones/task.md",
+    "sha256": "d79cf279ce0319b0277b6646c85e8f99f3b15582c22649ffbbec19cd152966c9",
+    "size_bytes": 702
+  },
+  {
+    "name": "tac/workspaces/tasks/pm-update-sprint-cycles/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/pm-update-sprint-cycles/task.md",
+    "sha256": "d2ad64814c172dccc9e999a26d9d61be15183b739eab0142d997d6e9092d1620",
+    "size_bytes": 824
+  },
+  {
+    "name": "tac/workspaces/tasks/qa-escalate-emergency/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/qa-escalate-emergency/task.md",
+    "sha256": "d42cf57aca77fde8756a3e6085ffcd970f2e9917ac615747e6d1f8dffe996742",
+    "size_bytes": 503
+  },
+  {
+    "name": "tac/workspaces/tasks/qa-update-issue-status-according-to-colleagues/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/qa-update-issue-status-according-to-colleagues/task.md",
+    "sha256": "9e5b91d9db24e4499bac32099a4b8281a06b6d5a0fe94da130d293286a678236",
+    "size_bytes": 794
+  },
+  {
+    "name": "tac/workspaces/tasks/research-answer-questions-on-paper/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/research-answer-questions-on-paper/task.md",
+    "sha256": "e15b7e910982054939e370eed86ee8852ebeeb127d52dc9080f60cd5d706eb1c",
+    "size_bytes": 620
+  },
+  {
+    "name": "tac/workspaces/tasks/research-reproduce-figures/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/research-reproduce-figures/task.md",
+    "sha256": "c3c71fbdcb496bbfe20ff1079c580b81ccc2fe04c06a9105b40cac711286d82d",
+    "size_bytes": 1397
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-add-all-repos-to-docs/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-add-all-repos-to-docs/task.md",
+    "sha256": "d8eb0910cfe3ca0ab84d3062e86847fb3ad4d52fc38b344a219d6ea31d2bd162",
+    "size_bytes": 854
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-add-one-gitlab-pipeline/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-add-one-gitlab-pipeline/task.md",
+    "sha256": "d5cf03b476d032ac977bfa524ad77ec87b1aef6ec892c92de27aa88ad1bbf80c",
+    "size_bytes": 159
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-add-wiki-page/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-add-wiki-page/task.md",
+    "sha256": "58dbc616b602fbcb65d2ec8ab888c2a1af7034781bd1915e513ed133ab01028e",
+    "size_bytes": 358
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-change-branch-policy/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-change-branch-policy/task.md",
+    "sha256": "1fadeb108f1df252c6d04921553d008ec0056e8e63a4cff992b3df379e20665b",
+    "size_bytes": 170
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-change-license-easy/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-change-license-easy/task.md",
+    "sha256": "455d770701ddcb0295cc058db18362596092be2c9abeb00c464d32a6d820cb5c",
+    "size_bytes": 301
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-change-license-hard/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-change-license-hard/task.md",
+    "sha256": "42e994bed849dafb807f92a6637878de4ccace635c179ff81bbce67e0e5f5604",
+    "size_bytes": 638
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-check-and-run-unit-test/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-check-and-run-unit-test/task.md",
+    "sha256": "320c0107c3183f7a89962811e60aed0ac5f828e59365f99e7d78f6454a46f7f9",
+    "size_bytes": 279
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-check-high-priority-issue/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-check-high-priority-issue/task.md",
+    "sha256": "9a6dab09d61236cb18a168b75abcda14397a662091ae8b88d454ec8cce7b67f3",
+    "size_bytes": 364
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-close-all-gitlab-issues/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-close-all-gitlab-issues/task.md",
+    "sha256": "6237cbac993546cfbad641c75b9cad64559bd09dcf9e25566c9a34054a298308",
+    "size_bytes": 90
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-close-all-issue-on-all-project-under-tac-workspace/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-close-all-issue-on-all-project-under-tac-workspace/task.md",
+    "sha256": "ceab175a15f42ed4637ee2db16c5df8ebad1fc1e010708c511ed103a90595dcc",
+    "size_bytes": 168
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-close-all-prs/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-close-all-prs/task.md",
+    "sha256": "a01b0602b8b9a93ccfdc01ff17ef40e10e10350537adc01f1ef5161434a12e8c",
+    "size_bytes": 76
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-close-an-issue/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-close-an-issue/task.md",
+    "sha256": "afee141707d4d39a4a2e3f092367e3e30982342e1e452d8b6a34e488cbe6e1a0",
+    "size_bytes": 134
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-collect-open-issues/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-collect-open-issues/task.md",
+    "sha256": "306bee58b9d6ae166c8634dbfdfbcd5a8c1f059089a9dac841b29e9aaff7b6fc",
+    "size_bytes": 160
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-copilot-arena-server-easy-add-suffix/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-copilot-arena-server-easy-add-suffix/task.md",
+    "sha256": "888030768160f583906bfc8ae12759537e39baedcc1ef33b897887e3f111a037",
+    "size_bytes": 462
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-copilot-arena-server-new-endpoint/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-copilot-arena-server-new-endpoint/task.md",
+    "sha256": "0812e26f40187c498c8cb1a6d6a309a01cd87ce66055c42e5c9e896fab5101e0",
+    "size_bytes": 674
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-copilot-arena-server-setup/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-copilot-arena-server-setup/task.md",
+    "sha256": "eba4a36ea82c3a0a236603039dc47045a973948081709468f8b1d6c003d9b0fe",
+    "size_bytes": 352
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-copy-issues-to-plane/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-copy-issues-to-plane/task.md",
+    "sha256": "f8d9472216dd1cb72544e6828301ef490a77a7dbcaaf6ef23a8275cb573eb897",
+    "size_bytes": 234
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-copy-table-from-pdf-to-xlsx/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-copy-table-from-pdf-to-xlsx/task.md",
+    "sha256": "98e9f84b32db7014f593aeea2f1a263f80bdbc784ad8769b60c5e1f87322305d",
+    "size_bytes": 504
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-create-commit-table-for-all-gitlab-users/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-create-commit-table-for-all-gitlab-users/task.md",
+    "sha256": "55e4ac5dd7b5d5469e9f059d758eb9cf3c346429f51ab53a6dc1b4dda99cd919",
+    "size_bytes": 399
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-create-new-characters/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-create-new-characters/task.md",
+    "sha256": "bc3d9c4f6c92dfe053fe3ba4da80a54d44b2caf86dcb5d2c94004d9c430d9bd5",
+    "size_bytes": 589
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-create-new-gitlab-project-logo/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-create-new-gitlab-project-logo/task.md",
+    "sha256": "ecabeacb11b24cd14a49e427abba480a55133688f0633bb873efafbd3f62a038",
+    "size_bytes": 364
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-create-new-release/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-create-new-release/task.md",
+    "sha256": "ec4b71c8b116c0e11d96836e4e0e297548e6750e29c350d9a4236758c98d5ff3",
+    "size_bytes": 815
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-create-new-repo/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-create-new-repo/task.md",
+    "sha256": "73a4881533a3acc389dd327b37b5a10488b326eb5fd38fc337b946ecabeb2b35",
+    "size_bytes": 541
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-create-sqlite-database/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-create-sqlite-database/task.md",
+    "sha256": "ccb1f7afd8a336f858c63a2ec23598beeb9fa8f0314d46710b48f9b69dfc47d1",
+    "size_bytes": 596
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-debug-crashed-server/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-debug-crashed-server/task.md",
+    "sha256": "b3758f2712752f999f7fd1180bd498e1ffa6b48d468a3a077112b7746d8a9360",
+    "size_bytes": 415
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-delete-all-project-under-plane/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-delete-all-project-under-plane/task.md",
+    "sha256": "2c9e9314a248453adee243bc92530fbcb30e399bd7bdb8f637829464c8684e74",
+    "size_bytes": 99
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-delete-all-repos/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-delete-all-repos/task.md",
+    "sha256": "9187bb34a1444e7d6e1203fa203e3c2b1648320d2f24bc5e668f90104c204207",
+    "size_bytes": 61
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-delete-stale-branch/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-delete-stale-branch/task.md",
+    "sha256": "0d34862c70f0f48183e2d86f606012e796de2c62dc8ffb536416b4755eee5165",
+    "size_bytes": 90
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-dependency-change-1/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-dependency-change-1/task.md",
+    "sha256": "2fbdd8364b5ae56f56cb152c06e917e51600811b822bc2dcfeebff7d79f1505e",
+    "size_bytes": 370
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-find-answer-in-codebase-1/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-find-answer-in-codebase-1/task.md",
+    "sha256": "203c23c3b15f8d8adbfb791803472e14e538c447c0be98e40e07320eba724d5b",
+    "size_bytes": 354
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-find-answer-in-codebase-2/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-find-answer-in-codebase-2/task.md",
+    "sha256": "c0281619c9bb3f9c9b0b3f8b24a9c880cbf7b345e8819a7ae67cce908b0c7123",
+    "size_bytes": 324
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-find-answer-in-codebase-3/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-find-answer-in-codebase-3/task.md",
+    "sha256": "933ecd4f41da7266bf8b44a842a0846901c1b8e6e4c8a2671ec00cecb4bd0bbc",
+    "size_bytes": 570
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-find-api/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-find-api/task.md",
+    "sha256": "0162d31e9f38165f1fe0c1ea3860d6a5f6d8f6512defa54e69a5a546db0bee2d",
+    "size_bytes": 485
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-fix-factual-mistake/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-fix-factual-mistake/task.md",
+    "sha256": "6135a77fcebf3aa38922abd86bf917d574d49949896c88276992d846b7539aa4",
+    "size_bytes": 261
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-fix-rising-wave-datatype/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-fix-rising-wave-datatype/task.md",
+    "sha256": "515b66e6fd62a487e54a753667b1fee8394d06a464a7b94ff05630dc8314435a",
+    "size_bytes": 352
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-implement-buffer-pool-manager-bustub/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-implement-buffer-pool-manager-bustub/task.md",
+    "sha256": "15adacbdb82c7fc7ab0df370e6b3d64799309165ab1ed0dd65eb510f00dbfc56",
+    "size_bytes": 352
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-implement-covering-index-in-janusgraph/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-implement-covering-index-in-janusgraph/task.md",
+    "sha256": "84276b3c8ad1445c9fec2e894bb2525f358bae501bfd46e69717b354fb9b2c14",
+    "size_bytes": 1375
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-implement-hyperloglog/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-implement-hyperloglog/task.md",
+    "sha256": "5687e94f124fc82c2e327537c286b64c879e837ad7cf5ce9150e0026642dbc05",
+    "size_bytes": 650
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-implement-raft-in-go/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-implement-raft-in-go/task.md",
+    "sha256": "23ed4ad7811dca5cb12302fef97090fe4f3669608aad27af6f9c1a90e8b041c5",
+    "size_bytes": 154
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-install-go/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-install-go/task.md",
+    "sha256": "3a3008966a50a272d79879c48a0e83764edcdc340f3204d6825f9525fac47409",
+    "size_bytes": 15
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-install-openjdk/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-install-openjdk/task.md",
+    "sha256": "0022a8aaae574acd5d41a13cddf19970384086d3741df68378930fe7444e812b",
+    "size_bytes": 18
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-issue-label-management/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-issue-label-management/task.md",
+    "sha256": "5b2b0cfc29010d68c9019e0b2d033a84e2049636b112a7517e0b775523e03ff8",
+    "size_bytes": 167
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-migrate-package-manager/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-migrate-package-manager/task.md",
+    "sha256": "64cbfe0a49886c995d1ae6737cea5ecbf8cef7a535b7920ceeccfcbef0248264",
+    "size_bytes": 692
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-milestone-meeting/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-milestone-meeting/task.md",
+    "sha256": "89dfcd3026f0a8d4275635e85bb4bddfa95eb201c7f6e7387cc8c4b309661c12",
+    "size_bytes": 592
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-move-bustub-wiki/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-move-bustub-wiki/task.md",
+    "sha256": "1ee61489aae0403b4d1fbc117206cbcdade442fa263715cbc8fbfae6e1e5680a",
+    "size_bytes": 488
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-move-page-to-cloud/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-move-page-to-cloud/task.md",
+    "sha256": "501728c47e34b65578b10747164ef712bc44d7d78811c27ef0402d1ad141e34a",
+    "size_bytes": 380
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-pitch-idea-to-manager/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-pitch-idea-to-manager/task.md",
+    "sha256": "76a7fa8216c1783695e422ec80baa05bccaea8a87e94c5face78500577db63d2",
+    "size_bytes": 781
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-reply-community-issue-by-asking-npc/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-reply-community-issue-by-asking-npc/task.md",
+    "sha256": "a1c63c84203e8962bced6f95ec6ebc669745163fc016cbd756613cfbe81dcff9",
+    "size_bytes": 195
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-reply-community-issue-with-fixed-reply/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-reply-community-issue-with-fixed-reply/task.md",
+    "sha256": "f52cfb4235a41af5155685b8da98cbd26450da328dbfb13067650ce25bd45170",
+    "size_bytes": 372
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-repo_profile_pic/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-repo_profile_pic/task.md",
+    "sha256": "5ad57bbe3aaf9b08a11d06bc18a4cb326ed6fb85acf93b579e946d945eb0b7cb",
+    "size_bytes": 370
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-report-agent-repos/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-report-agent-repos/task.md",
+    "sha256": "c1bcace8a0753a78f080cf448d669a8c6d6b58c4ba84c7262ab8d3deaed78746",
+    "size_bytes": 715
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-report-unit-test-coverage-to-plane/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-report-unit-test-coverage-to-plane/task.md",
+    "sha256": "22a2698082dbc2a5031923aee7bf74678bbfbbea8dbf823467cf15ab8c17e49e",
+    "size_bytes": 467
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-run-all-unit-test/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-run-all-unit-test/task.md",
+    "sha256": "c264ef7936f152cefb9943b84bc4779310c909022841bcb0a5f73d3a21ff4ceb",
+    "size_bytes": 125
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-run-janusgraph/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-run-janusgraph/task.md",
+    "sha256": "65134c0cc6c755e7ad7e86aa363ea22489ced466bb9bbeceeab28db60ed5cc3c",
+    "size_bytes": 269
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-run-linter-on-openhands/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-run-linter-on-openhands/task.md",
+    "sha256": "4671fd7b1d7441bf945d631241d705882bd54f8efb41c278db512cd1b9462f56",
+    "size_bytes": 430
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-run-rising-wave-locally/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-run-rising-wave-locally/task.md",
+    "sha256": "24d698ba104207910c1ec17a8010c7a15f70ae31837487b4dd4900788ec2a642",
+    "size_bytes": 802
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-sotopia-create-agent-wo-repo/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-sotopia-create-agent-wo-repo/task.md",
+    "sha256": "4434f9ca52b3fc5119d63c20a11872c47ca232dfd846504c97d87771c8e2cd22",
+    "size_bytes": 356
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-sotopia-create-agent/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-sotopia-create-agent/task.md",
+    "sha256": "13578d7ce9760416feea2631e13a395cf807a88060192a6977c04f71de0e952f",
+    "size_bytes": 371
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-sotopia-dev-container/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-sotopia-dev-container/task.md",
+    "sha256": "97df43d6117e039a0149545144123ef5038deb727f0fcd27f0648149e48bd645",
+    "size_bytes": 419
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-sotopia-update-ci/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-sotopia-update-ci/task.md",
+    "sha256": "1497aeba5aeb6c0bb03c3a2fdd64d72ef945227a1196ff29b466bd18891d9664",
+    "size_bytes": 400
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-summarize-recent-issues/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-summarize-recent-issues/task.md",
+    "sha256": "5ea97db451260cc7f3369c2e514c85817dbc956ea8b33675adbed6f9d4f5a212",
+    "size_bytes": 364
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-sync-from-origin-repo/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-sync-from-origin-repo/task.md",
+    "sha256": "2bc9aa5e089f10ed40bb3e7ca08ec6bff9ccf637a7f8c68cd0c474ad618ed941",
+    "size_bytes": 354
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-troubleshoot-dev-setup/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-troubleshoot-dev-setup/task.md",
+    "sha256": "19bd23f0ee74337c2465243ff0ef4d63db5f69660385bac644d7d52b89b7d34b",
+    "size_bytes": 880
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-update-dev-document/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-update-dev-document/task.md",
+    "sha256": "b581ce6c8727e67a6d633385a3ee4337a232b43d6e728887d55e542a4dbe7e2f",
+    "size_bytes": 564
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-update-issue-status-on-plane/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-update-issue-status-on-plane/task.md",
+    "sha256": "e2a93d65d0e3f380cc81f03285f9f918ab2daadc2c9ee426769bfb2c36e095a6",
+    "size_bytes": 382
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-update-readme/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-update-readme/task.md",
+    "sha256": "9b6126aae2f37c93ae2fa2faa51a3e1ea354b09edc04fb9c8d117d6a40df95ca",
+    "size_bytes": 535
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-write-a-unit-test-for-append_file-function/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-write-a-unit-test-for-append_file-function/task.md",
+    "sha256": "d2b8598d180ee11ed423770fe1fbc935034523752dcf1ecda15cd981d2bbafe7",
+    "size_bytes": 530
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-write-a-unit-test-for-scroll_down-function/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-write-a-unit-test-for-scroll_down-function/task.md",
+    "sha256": "e15217c6dbafde9d838e6946ca82a9118c01660846954846989e5a6e0b62273e",
+    "size_bytes": 529
+  },
+  {
+    "name": "tac/workspaces/tasks/sde-write-a-unit-test-for-search_file-function/task.md",
+    "url": "https://raw.githubusercontent.com/TheAgentCompany/TheAgentCompany/98b68ef82a47690c316f42fddb05baafaab56851/workspaces/tasks/sde-write-a-unit-test-for-search_file-function/task.md",
+    "sha256": "4c034424725c163457bc8dd79ba2af7f8ddae8f60b44c134f59ae05559b9844a",
+    "size_bytes": 530
+  },
+  {
+    "name": "tatqa/LICENSE",
+    "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/LICENSE",
+    "sha256": "46e27ffbc49c3fd44a9595c2213f8a5f4319a81b53238e49ce1eec39e7e25662",
+    "size_bytes": 1068
+  },
+  {
+    "name": "tatqa/tatqa_dataset_dev.json",
+    "url": "https://raw.githubusercontent.com/NExTplusplus/TAT-QA/870accc41953dcde885aabeb963d94aabdc0fbc3/dataset_raw/tatqa_dataset_dev.json",
+    "sha256": "8da095a819af6db3c14877c6df2d4d29960e41d1a63dd1fa853507bd2a616af5",
+    "size_bytes": 1637431
+  },
+  {
+    "name": "tau/LICENSE",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4/LICENSE",
+    "sha256": "e67c5aa0074dfcaefd3c3a1aedb94cb539234aecd15d5a972574e3200e6252fe",
+    "size_bytes": 1072
+  },
+  {
+    "name": "tau/README.md",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4/README.md",
+    "sha256": "7ae047a745ef93b311edb0da5d74fbc2bd784a35ce285a73ab3af8b6aed3e34b",
+    "size_bytes": 14718
+  },
+  {
+    "name": "tau/data_tau2_benchmarks_text.json",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4/data/tau2/benchmarks/text.json",
+    "sha256": "ec60753bfc4d750b52196ce5f606284403cfde93bc567c0a0ecf542047562de5",
+    "size_bytes": 3362
+  },
+  {
+    "name": "tau/data_tau2_domains_airline_tasks.json",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4/data/tau2/domains/airline/tasks.json",
+    "sha256": "ccd8ba737b4cc371415af70151187788f728d6108d0916e73bb4317b40542052",
+    "size_bytes": 155528
+  },
+  {
+    "name": "tau/data_tau2_domains_banking_knowledge_tasks.json",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4/data/tau2/domains/banking_knowledge/tasks.json",
+    "sha256": "213c7f3e6dc0420b1184ee271e39e38c6ece3c43edfa362db49a560828ebd543",
+    "size_bytes": 1138204
+  },
+  {
+    "name": "tau/data_tau2_domains_retail_tasks.json",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4/data/tau2/domains/retail/tasks.json",
+    "sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+    "size_bytes": 345982
+  },
+  {
+    "name": "tau/data_tau2_domains_telecom_tasks.json",
+    "url": "https://raw.githubusercontent.com/sierra-research/tau2-bench/c06b07dd7c4d4ec61ba6ff9bcdf0b15dd7ef36d4/data/tau2/domains/telecom/tasks.json",
+    "sha256": "37e562e1ae3242577407e1303b1548bc64e7ea68e37d36173e6747990ceaf8a4",
+    "size_bytes": 13977063
+  },
+  {
+    "name": "writingbench/LICENSE",
+    "url": "https://raw.githubusercontent.com/Tongyi-Zhiwen/WritingBench/89310bb7582e27846abdcabda8ae0d9dbfcb1dc6/LICENSE",
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "size_bytes": 11357
+  },
+  {
+    "name": "writingbench/benchmark_all.jsonl",
+    "url": "https://raw.githubusercontent.com/Tongyi-Zhiwen/WritingBench/89310bb7582e27846abdcabda8ae0d9dbfcb1dc6/benchmark_query/benchmark_all.jsonl",
+    "sha256": "026e3f9482ff3474c802cd43f5cae9fd584e10d0848d3e0a152695434becbc98",
+    "size_bytes": 14712077
+  }
+]

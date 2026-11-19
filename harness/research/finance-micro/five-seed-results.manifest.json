@@ -1,0 +1,513 @@
+{
+  "kind": "one_task_frozen_answer_jury_replications",
+  "seeds": [
+    20261114,
+    20261115,
+    20261116,
+    20261117,
+    20261118
+  ],
+  "stake_multipliers": [
+    1,
+    10,
+    100,
+    1000
+  ],
+  "source_tasks": 1,
+  "initial_answers": 2,
+  "rows": 60,
+  "cells": [
+    {
+      "stake_multiplier": 1,
+      "condition": "aware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 5,
+      "vote_splits": {
+        "3-0 (0 missing)": 5
+      }
+    },
+    {
+      "stake_multiplier": 1,
+      "condition": "unaware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 5,
+      "vote_splits": {
+        "3-0 (0 missing)": 5
+      }
+    },
+    {
+      "stake_multiplier": 10,
+      "condition": "aware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 5,
+      "vote_splits": {
+        "3-0 (0 missing)": 5
+      }
+    },
+    {
+      "stake_multiplier": 10,
+      "condition": "unaware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 5,
+      "vote_splits": {
+        "3-0 (0 missing)": 5
+      }
+    },
+    {
+      "stake_multiplier": 100,
+      "condition": "aware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 5,
+      "vote_splits": {
+        "3-0 (0 missing)": 4,
+        "2-1 (0 missing)": 1
+      }
+    },
+    {
+      "stake_multiplier": 100,
+      "condition": "unaware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 5,
+      "vote_splits": {
+        "2-1 (0 missing)": 1,
+        "3-0 (0 missing)": 4
+      }
+    },
+    {
+      "stake_multiplier": 1000,
+      "condition": "aware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 4,
+      "vote_splits": {
+        "3-0 (0 missing)": 4,
+        "2-0 (1 missing)": 1
+      }
+    },
+    {
+      "stake_multiplier": 1000,
+      "condition": "unaware-verified",
+      "assigned": 5,
+      "upheld": 5,
+      "rejected": 0,
+      "unresolved": 0,
+      "full_participation": 5,
+      "vote_splits": {
+        "3-0 (0 missing)": 5
+      }
+    }
+  ],
+  "strict_campaign_status": "failed",
+  "campaign_url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/2poen1d3",
+  "spending": {
+    "limit_usd": "100",
+    "accounted_usd": "26.788851073644714352562",
+    "charged_usd": "8.600644993644714352562",
+    "requests": 3024,
+    "unresolved_requests": 13
+  },
+  "original_campaign_spending": {
+    "limit_usd": "100",
+    "accounted_usd": "27.557664828730163575272",
+    "charged_usd": "7.969118268730163575272",
+    "requests": 2797,
+    "unresolved_requests": 14
+  },
+  "cohort": [
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261114-stakes-1x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/qkexup4v",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "9d97364581a34229b9c5ab36429a14d78a594e07620476f416780f9ab21a2aa5",
+      "evidence_sha256": {
+        "aware-verified/run-7efa06f5f1c5/case-7efa06f5f1c5-0001/evidence.json": "8a10203ff360199f4d286a0b6ca7f16d663effeeeda4798234a1228427e425d0",
+        "unaware-verified/run-d201f5cc2760/case-d201f5cc2760-0001/evidence.json": "dcae0a033413c6fd17f9fe877c9ecf2f0da5869ca5f28a38f75bde086abe54d1"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-qkexup4v:v40",
+      "artifact_digest": "a8566fc73322b96053c1dfe3b9539059",
+      "remote_study_sha256": "9d97364581a34229b9c5ab36429a14d78a594e07620476f416780f9ab21a2aa5"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261114-stakes-10x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/ad4qyjnb",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "288d9972a2944b4f1b73a76ec6b288393a355941276ef8428b4f6ede2eeaaa83",
+      "evidence_sha256": {
+        "aware-verified/run-81ccf2f59357/case-81ccf2f59357-0001/evidence.json": "329a610a54d03470e3662eb4a5ae09cb32db41a2036a9bb5973c0b147f37d59b",
+        "unaware-verified/run-7d69d3cdce33/case-7d69d3cdce33-0001/evidence.json": "7dc2d923c7c882c14bd65610a41de7d0b82daf43a020a72e8c3c99c7d681571c"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-ad4qyjnb:v33",
+      "artifact_digest": "b180f6a9fbac1175337aef6d14756f07",
+      "remote_study_sha256": "288d9972a2944b4f1b73a76ec6b288393a355941276ef8428b4f6ede2eeaaa83"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261114-stakes-100x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/7b893arv",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "3efb29a4d8625ef02e3ef42d60448861e7ec844d35e5496aab52073996ffabf1",
+      "evidence_sha256": {
+        "aware-verified/run-b3c3607b44a7/case-b3c3607b44a7-0001/evidence.json": "a1f65cb3e13458997c7c8d60c1283f24669bf29a0e037ad5db96487f1446b5d2",
+        "unaware-verified/run-22dec885a3fa/case-22dec885a3fa-0001/evidence.json": "f83d42d052d6b315199a1c3253e46e923e585f0ec2ec9a8467db17676428a5e9"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-7b893arv:v38",
+      "artifact_digest": "8a36d00f189f8882badec4082c2c7cd1",
+      "remote_study_sha256": "3efb29a4d8625ef02e3ef42d60448861e7ec844d35e5496aab52073996ffabf1"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261114-stakes-1000x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/p8jw31fx",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "3d83545bb5cb06ab0598a6162439db64af7cf97123a4fb384760d0adb2990849",
+      "evidence_sha256": {
+        "aware-verified/run-aa09469f0969/case-aa09469f0969-0001/evidence.json": "22c93dc43502a0091a6a261b8e4dfcdcb25965b74ffe8d4081996984e534c152",
+        "unaware-verified/run-fe1835d9fafe/case-fe1835d9fafe-0001/evidence.json": "8932009ead2dacb95fc9479feb324aed00b9971e7baf4edb4ee3f5bc1e18d0d4"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-p8jw31fx:v45",
+      "artifact_digest": "26cc521723fca9253732de2df0132095",
+      "remote_study_sha256": "3d83545bb5cb06ab0598a6162439db64af7cf97123a4fb384760d0adb2990849"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261115-stakes-1x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/tjlchvz5",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "6a294a25aa1471b9f516b3bcfecffa265c51bd70a41fd02d89f09f243173ab24",
+      "evidence_sha256": {
+        "aware-verified/run-67d28dc963c7/case-67d28dc963c7-0001/evidence.json": "1d6d1d2cf1fb9957d53aa55c8c702a8dc5661ad1fdbe45d547bd64d47d6f5864",
+        "unaware-verified/run-6509968bf404/case-6509968bf404-0001/evidence.json": "0a3a2cb7d69db17f605c48b89a9a9b9e620ae3ae8802396ea5b50d2b75f558af"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-tjlchvz5:v31",
+      "artifact_digest": "7ca908dacd7db35a16c5494f2e0723dd",
+      "remote_study_sha256": "6a294a25aa1471b9f516b3bcfecffa265c51bd70a41fd02d89f09f243173ab24"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261115-stakes-10x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/ppt1vqpx",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "a68c51b0b2e0d14e3f4fe09d5192b6dc79be3c9c5c0c1451f5cebc72600365dc",
+      "evidence_sha256": {
+        "aware-verified/run-67616e32670b/case-67616e32670b-0001/evidence.json": "4faa04af4ffa11578e7cc3118b8d893f8fa94455a46ddafcfd7b96b066064f2e",
+        "unaware-verified/run-c801d6462065/case-c801d6462065-0001/evidence.json": "4659049d8b18aa69d680944a3c3c826b89c2a7e8568237ec250bdb80e6813774"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-ppt1vqpx:v33",
+      "artifact_digest": "86989590dec56c7d9254e9b4b9852d53",
+      "remote_study_sha256": "a68c51b0b2e0d14e3f4fe09d5192b6dc79be3c9c5c0c1451f5cebc72600365dc"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261115-stakes-100x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/xczlh60w",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "eba9e05b9c12155909664f92dc4ecf7b6b31d403f5362da889301502ed4ceff7",
+      "evidence_sha256": {
+        "aware-verified/run-9fcd1460c2d5/case-9fcd1460c2d5-0001/evidence.json": "09b43214ed7fb151e1261a7de383c20994e7126775db6648323296011a8d47ae",
+        "unaware-verified/run-6718eb380dec/case-6718eb380dec-0001/evidence.json": "1c86ae6b0bc101c217dcb49a47fdf12fdfe5cd7206f7c602373292d8915b3595"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-xczlh60w:v35",
+      "artifact_digest": "4809c24c2cab18fc95c3a5658ffd6cc7",
+      "remote_study_sha256": "eba9e05b9c12155909664f92dc4ecf7b6b31d403f5362da889301502ed4ceff7"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261115-stakes-1000x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/1tb34asf",
+      "execution_status": "complete",
+      "collector_status": "failed",
+      "study_sha256": "09cdf81484eb9ef6e4c9a4d5758d995928cec20b545e3a51deb916dbabe58cc3",
+      "evidence_sha256": {
+        "aware-verified/run-61facfc7c02d/case-61facfc7c02d-0001/evidence.json": "e07ca62be56eb55db7b6826902976dcaf5efe29d523789f2a43e7f5063218dea",
+        "unaware-verified/run-a1265039e0c6/case-a1265039e0c6-0001/evidence.json": "f9eaba741c0aec8a431003fb588d9a40c31e5f42ed8070405172c70e43764caf"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-1tb34asf:v37",
+      "artifact_digest": "afd36176804586fea56a9cfd9c24e576",
+      "remote_study_sha256": "09cdf81484eb9ef6e4c9a4d5758d995928cec20b545e3a51deb916dbabe58cc3"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261116-stakes-1x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/samcrqmk",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "3be30be42309ed3762c07099cbc08281ba22488a73821c83ebd7eafd1842e68b",
+      "evidence_sha256": {
+        "aware-verified/run-f67995df928b/case-f67995df928b-0001/evidence.json": "53cf41021efe1f4485628b9992addfb86c9aa15bd798a39e3bbb335bcc6a9a7e",
+        "unaware-verified/run-76b3bee247aa/case-76b3bee247aa-0001/evidence.json": "3271295fbb8d759d3af82f28ce48ce30416694f21395357bc2fece1027247233"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-samcrqmk:v33",
+      "artifact_digest": "af0ef9354943ec2fe52e8304430f831e",
+      "remote_study_sha256": "3be30be42309ed3762c07099cbc08281ba22488a73821c83ebd7eafd1842e68b"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261116-stakes-10x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/cqwufzqd",
+      "execution_status": "failed",
+      "collector_status": "failed",
+      "study_sha256": "b640278d8bb67443babd1160c98e487d173b7c51b761d684db99a945bfb7fdff",
+      "evidence_sha256": {
+        "aware-verified/run-3855288b0238/case-3855288b0238-0001/evidence.json": "42952fbf67476cce4a50009b22cc76f2658915769a662db713d524669b14d0ce"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-cqwufzqd:v19",
+      "artifact_digest": "c3b27492da1facfd667bdbe24b726c45",
+      "remote_study_sha256": "b640278d8bb67443babd1160c98e487d173b7c51b761d684db99a945bfb7fdff"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261116-stakes-100x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/op1e6rah",
+      "execution_status": "failed",
+      "collector_status": "failed",
+      "study_sha256": "bde7733579b469f28958087bb19fb3b74c399ca34a3da41ac24c22522cfaf409",
+      "evidence_sha256": {
+        "aware-verified/run-1cffd5d2b9ec/case-1cffd5d2b9ec-0001/evidence.json": "49af7daa85ea9e7cd98d64422f1482341fdc9db0b8a99b2af38e0cfda6b444e0"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-op1e6rah:v20",
+      "artifact_digest": "2e32794e7b3c86edea8ec20128584ccd",
+      "remote_study_sha256": "bde7733579b469f28958087bb19fb3b74c399ca34a3da41ac24c22522cfaf409"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261116-stakes-1000x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/3t1dakef",
+      "execution_status": "failed",
+      "collector_status": "failed",
+      "study_sha256": "b2960927853892a74955a3d6cbf50b0a826c959da82f502ec486a7b171c1bc61",
+      "evidence_sha256": {},
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-3t1dakef:v4",
+      "artifact_digest": "370486a36e35bde663588cceeb295e3f",
+      "remote_study_sha256": "b2960927853892a74955a3d6cbf50b0a826c959da82f502ec486a7b171c1bc61"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261117-stakes-1x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/9w4ptjt3",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "7fb3406ec794715513db44d8f6052ebc4c8a707e85f0c6250d7e4bddfd353242",
+      "evidence_sha256": {
+        "aware-verified/run-d8aeb2964eb7/case-d8aeb2964eb7-0001/evidence.json": "23fbdd76800658e5666a5cb803103ace1b34c2fe5dfea9614e9b40c3f50f912a",
+        "unaware-verified/run-2d8d973e5a56/case-2d8d973e5a56-0001/evidence.json": "ecede445b97d8477751042c7ac1d5a8a1758e7b2cc1f0ade581e85d2c4552817"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-9w4ptjt3:v32",
+      "artifact_digest": "d599278c89c069c1255421be919f7ecc",
+      "remote_study_sha256": "7fb3406ec794715513db44d8f6052ebc4c8a707e85f0c6250d7e4bddfd353242"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261117-stakes-10x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/l0vxbhj7",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "a762f8a5855db690f2ba1c42afa3cbe275675cfd63bbfbeec63fd306db2cff5a",
+      "evidence_sha256": {
+        "aware-verified/run-4cdb46f85c8c/case-4cdb46f85c8c-0001/evidence.json": "0466ecf1d93d5f7c25cbb01c8bc4ba5b53007790fb640d412be41e1271a5cb76",
+        "unaware-verified/run-6ff2e15430e7/case-6ff2e15430e7-0001/evidence.json": "09a0a87e7196f257ca6e9e33acc7b57090a67b06be25e1b4188993ec54cafad3"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-l0vxbhj7:v35",
+      "artifact_digest": "ca3454306dbe1907b2575fb99f54327c",
+      "remote_study_sha256": "a762f8a5855db690f2ba1c42afa3cbe275675cfd63bbfbeec63fd306db2cff5a"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261117-stakes-100x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/h73nixnr",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "5b13f7d62b350062c0fec80cc6d002c0a0b38cfe2170687a568d0f7d3e9e90df",
+      "evidence_sha256": {
+        "aware-verified/run-733b7933d337/case-733b7933d337-0001/evidence.json": "48d5276d4af247cfe01599e03cdd3490293f2b97a38df62ffa17625060d10b9b",
+        "unaware-verified/run-a4483de3f266/case-a4483de3f266-0001/evidence.json": "17aad9f734e22d442546e9e2ae37a76395c144682ba0bcd2551bb61cb58b0feb"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-h73nixnr:v33",
+      "artifact_digest": "c08b2d429fec85bdc881e33860356f46",
+      "remote_study_sha256": "5b13f7d62b350062c0fec80cc6d002c0a0b38cfe2170687a568d0f7d3e9e90df"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261117-stakes-1000x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/zk35hqjl",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "7c3f19b141488fd5dbce12c6be699cf18ea53649963d8b91a7ab5adc95497faf",
+      "evidence_sha256": {
+        "aware-verified/run-bf2d1569d614/case-bf2d1569d614-0001/evidence.json": "7d5c92caecfcfd454079fd039e91e5c4caa76348c28b88192b1f325ed55881a0",
+        "unaware-verified/run-d55a9e975dec/case-d55a9e975dec-0001/evidence.json": "4d4b38cbf192e887bf747f6aae4dff48f1db5b8afd49406b18fc1bf052465c58"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-zk35hqjl:v39",
+      "artifact_digest": "730630668414530e2d5bcfc7aedda50e",
+      "remote_study_sha256": "7c3f19b141488fd5dbce12c6be699cf18ea53649963d8b91a7ab5adc95497faf"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261118-stakes-1x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/apx1aexv",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "e7d8b2d35bd07f9d2fdcdc86a917a636dfb117887ceb4ba4efa95ae6b6b504d5",
+      "evidence_sha256": {
+        "aware-verified/run-76632e1159b0/case-76632e1159b0-0001/evidence.json": "e1bb454da3f0d8e26331f4563d40ee588cf17b361fb89779b8f1c0ca999acd5e",
+        "unaware-verified/run-cd78e2dce0bb/case-cd78e2dce0bb-0001/evidence.json": "f2128020da14ac003dcacb3bfbefe1349e8f322e541324cecbc1da9524b42ebe"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-apx1aexv:v36",
+      "artifact_digest": "b4153fbd244f2cb8764f9791f3f4b681",
+      "remote_study_sha256": "e7d8b2d35bd07f9d2fdcdc86a917a636dfb117887ceb4ba4efa95ae6b6b504d5"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261118-stakes-10x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/bcv2thl7",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "75a11eb71170c9b0479c1ba6c714dbf750032a80a921592c8717def8c5ae72da",
+      "evidence_sha256": {
+        "aware-verified/run-d3afd14d581c/case-d3afd14d581c-0001/evidence.json": "6122496f9ba869704ab65f17c7df7261a39b919fe5f17d6da66185d870fc3468",
+        "unaware-verified/run-8184c8455d90/case-8184c8455d90-0001/evidence.json": "309240465691d1a0b2004cedfac8a92073e58b1e758ea7e858fa894a4f61c0a7"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-bcv2thl7:v37",
+      "artifact_digest": "bd8672d14cece855db8a30a11876136a",
+      "remote_study_sha256": "75a11eb71170c9b0479c1ba6c714dbf750032a80a921592c8717def8c5ae72da"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261118-stakes-100x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/s4k735ns",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "8a7254f1de356eaef039f86626b1e7744b4759fb91423febb7d880d3c154c92d",
+      "evidence_sha256": {
+        "aware-verified/run-e2086c75de70/case-e2086c75de70-0001/evidence.json": "26cb1a1c0bb39c9fab4440701f5afc21567a21179446459165686f46b6170c2a",
+        "unaware-verified/run-0f4a7f15b4b3/case-0f4a7f15b4b3-0001/evidence.json": "5aef710efe7536c4e3d84bd52209dd1298fee126f7abb3a01f79d374a5c7d0c0"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-s4k735ns:v32",
+      "artifact_digest": "7bad1e7ba02e7f2da0e1a8b7cadd225b",
+      "remote_study_sha256": "8a7254f1de356eaef039f86626b1e7744b4759fb91423febb7d880d3c154c92d"
+    },
+    {
+      "source_cohort": "original",
+      "attempt": "seed-20261118-stakes-1000x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/ony52s2g",
+      "execution_status": "complete",
+      "collector_status": "complete",
+      "study_sha256": "51506d84016855edb24f30d8ffdbfc874c9b3ae39030a0408fd56867df6c61b9",
+      "evidence_sha256": {
+        "aware-verified/run-52985a82c268/case-52985a82c268-0001/evidence.json": "4908bab6785d13710a473205b7b7893bd2aa0d9a5c45500256fff5ba982179c3",
+        "unaware-verified/run-4640b6392aeb/case-4640b6392aeb-0001/evidence.json": "a1fa40369fda1ff513a0b161b835dbd1b5fadeb53eacef2afb0716a7ce05cc00"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-ony52s2g:v30",
+      "artifact_digest": "3954bd56fff2b987e3b455f3fbe8a0e1",
+      "remote_study_sha256": "51506d84016855edb24f30d8ffdbfc874c9b3ae39030a0408fd56867df6c61b9"
+    },
+    {
+      "source_cohort": "recovery",
+      "attempt": "recovery-seed-20261116-stakes-10x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/e5shj37v",
+      "execution_status": "complete",
+      "collector_status": "not_run",
+      "study_sha256": "f97587a29ab58e48b63c93637fcc9d4e125fcdf3ac1af5b7a5b0e14a034a6cb3",
+      "evidence_sha256": {
+        "unaware-verified/run-24a77b43e986/case-24a77b43e986-0001/evidence.json": "c82bf2d8f9bdc7260123aac98a42fc70b21bed805d36b56980659a76dd03d9e1"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-e5shj37v:v19",
+      "artifact_digest": "65e5973c7d8aea78e8a74df2e6b8cd1d",
+      "remote_study_sha256": "f97587a29ab58e48b63c93637fcc9d4e125fcdf3ac1af5b7a5b0e14a034a6cb3"
+    },
+    {
+      "source_cohort": "recovery",
+      "attempt": "recovery-seed-20261116-stakes-100x",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/khumz2qb",
+      "execution_status": "complete",
+      "collector_status": "not_run",
+      "study_sha256": "1d14fbcc1222b8511cd0d8304faf1d94974358e3a557dd904a151b60eddd7bf5",
+      "evidence_sha256": {
+        "unaware-verified/run-bb9fc40f88ab/case-bb9fc40f88ab-0001/evidence.json": "4c3f2bc2c8561298024f7af7462bd5ab59e58db1e40e90517c9a1865c135f326"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-khumz2qb:v17",
+      "artifact_digest": "ce669a06f1d2dbb06cac7596c66c91a9",
+      "remote_study_sha256": "1d14fbcc1222b8511cd0d8304faf1d94974358e3a557dd904a151b60eddd7bf5"
+    },
+    {
+      "source_cohort": "recovery",
+      "attempt": "recovery-seed-20261116-stakes-1000x-aware",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/zbpi1jig",
+      "execution_status": "complete",
+      "collector_status": "not_run",
+      "study_sha256": "494001f1663349c01ff7eb343b0b966d42555e8edba1d6abe54a815a73b504dc",
+      "evidence_sha256": {
+        "aware-verified/run-83682b46d603/case-83682b46d603-0001/evidence.json": "8ee964f4d9981b5d0de4fd04853428765eb3360ff0dea036a59666ad831b48be"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-zbpi1jig:v18",
+      "artifact_digest": "b2d212a941e0ed3ff247578098d65cae",
+      "remote_study_sha256": "494001f1663349c01ff7eb343b0b966d42555e8edba1d6abe54a815a73b504dc"
+    },
+    {
+      "source_cohort": "recovery",
+      "attempt": "recovery-seed-20261116-stakes-1000x-unaware",
+      "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/rwazxs4c",
+      "execution_status": "complete",
+      "collector_status": "not_run",
+      "study_sha256": "937e8a970eb99f0587212d04b1c2679c5d5c2a8903278b259d580d91a907bd7f",
+      "evidence_sha256": {
+        "unaware-verified/run-05e9d7dda7b9/case-05e9d7dda7b9-0001/evidence.json": "b67686ec3aa29e872531d0f11b5cbb7877cbae9d56e5c4ffa2ca1e0676c85243"
+      },
+      "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-rwazxs4c:v15",
+      "artifact_digest": "dbe9eb5b1e0a96a8af236361b315681e",
+      "remote_study_sha256": "937e8a970eb99f0587212d04b1c2679c5d5c2a8903278b259d580d91a907bd7f"
+    }
+  ],
+  "source_archive_sha256": "452d7a3be21e35b444a0620fca782f696d736f282cebb3a2fa4ca39bd0a0c9f3",
+  "analysis_sha256": "1c7b8ca5664e40afa5d92923249ad54072e8983554da7c116a91d440d0c29de7",
+  "csv_sha256": "c86b1d0355dde85e4d5eb410b7848b2cd7337b9293949c8048168777e9fe69dd",
+  "attempts_csv_sha256": "2e8cdac21174ded60c59fbfbe8e5561f999dab9c407fe054f2737ecfd019084b",
+  "recovery_source_archive_sha256": "ff60ca6a9a103e7895f8a46c86d655b03064ed76ac10af27e7afaf5d1c9e092f",
+  "recovery_plan_sha256": "9f9594052f64af80a88f7ef13cd8468f9b5e9b97f0e145f0130c9a6ff7716a11",
+  "attempt_rows": 72,
+  "missing_jury_forecasts": 22,
+  "verified_remote_sources": 24,
+  "verification": {
+    "command": "bash scripts/verify.sh",
+    "exit_code": 0,
+    "tests_passed": 482,
+    "log_sha256": "2a988cc7a6c78c86ad26caed3a972a542f404c88f06d6ab399a39d93b10ac053"
+  },
+  "settled_rounds": 40,
+  "upheld_rounds": 40,
+  "full_participation_rounds": 39,
+  "execution_error_rounds": 1,
+  "budget_exhaustion_events": 31,
+  "deadline_yield_events": 11,
+  "recovery_attempts": 4,
+  "confirmed_new_api_charges_usd": "7.085368131546020500877",
+  "prior_confirmed_api_charges_usd": "1.515276862098693851685"
+}

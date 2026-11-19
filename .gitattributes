@@ -1,0 +1,6 @@
+# Generated list; union merges avoid a conflict on every added record, and the
+# next rebuild restores the order. See docs/decisions/README.md.
+docs/decisions/INDEX.md merge=union
+
+# Preserve the review manifest's hashes for the generated blank CSV forms.
+harness/research/sector-expansion/peer-review/adjudication/**/*.csv -text whitespace=cr-at-eol

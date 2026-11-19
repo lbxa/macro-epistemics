@@ -1,0 +1,58 @@
+% !TEX root = ../main.tex
+\section{Methodology}
+\label{sec:methods}
+\subsection{Source strata and models}
+The cohort comprises 15 FinQA, 15 numerical TAT-QA, 30 ContractNLI,
+30 SciFact and 30 MathDial source groups. Legal and science strata balance
+three reference classes (ten each). SciFact's InsufficientEvidence means
+no annotated support, rather than scientific falsity. MathDial uses
+15 erroneous workings and 15 reference-working controls; grading covers
+numerical solutions, not pedagogy.
+
+Hash ordering precedes output inspection and excludes pilot agreements
+(group identities and labels: Appendix~\ref{app:protocol}).
+
+DeepSeek V4 Pro 0813, GLM-5.3, Kimi K2.6, GPT-OSS-120B and Inkling 2 Small
+use native Cloudflare endpoints. Each receives every case once before Veracity
+is mentioned. Answers, explanations, quotations and correctness probabilities
+are frozen.
+
+\subsection{Branches, forecasts and executed verdicts}
+Four objections and seeds 101--105 yield
+$5\times120\times4\times5=12{,}000$ assignments. Usable initials receive review
+(reconsideration), pressure (evidence-free disagreement), false alternatives
+(reference-wrong answers with invalid rationales) or audit (checking operations,
+units, scope and exceptions, with available ContractNLI gold spans).
+All use existing material and warn that disagreement alone is not evidence.
+
+After disclosure, authors report current answers, stances, support for the
+original and forecasts of its correctness and acceptance. The harness adds
+a claim of source support. That wording cannot establish model-authored
+overstatement.
+
+Three GPT-OSS jurors see source, original, objection and frozen defence;
+author identity, grades, peer ballots and probabilities are hidden.
+Votes execute through commitment, reveal and contract settlement at fixed
+1$\times$ synthetic stakes. A predeclared subset replays one frozen branch
+per case with three DeepSeek jurors. Failures remain without replacement.
+
+\subsection{Grades, endpoints and uncertainty}
+\label{sec:uncertainty}
+Literal grades use numerical adapters or categorical references. A post hoc
+eight-case numerical sensitivity retains both grade sets
+(Section~\ref{sec:grading}); neither constitutes expert adjudication.
+
+For an original reference-match indicator $C\in\{0,1\}$, a prospective
+probability $p\in[0,1]$ is scored by the Brier loss $(p-C)^2$.
+Jury forecasts target acceptance instead. A concession loses an original
+reference match; a correction repairs a mismatch. Declared support is separate.
+Verdicts always concern the original. Missing answers and unsettled panels
+retain explicit denominators.
+
+Percentile intervals use 2,000 within-stratum source-group bootstrap resamples,
+retaining seeds. Paired differences match seeds and average within source.
+Sample SD summarizes seed-level aggregate rates using $n-1$, with $n\leq5$.
+Collapsed intervals do not imply population certainty; provider seeds do not
+establish independence.
+
+\input{sections/peer-review-methods}

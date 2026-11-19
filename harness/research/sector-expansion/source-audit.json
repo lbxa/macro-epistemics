@@ -1,0 +1,102 @@
+{
+  "version": "source-arithmetic-audit-v2",
+  "date": "2026-11-16",
+  "reviewer": "Codex automated source/arithmetic review; independent human adjudication pending",
+  "selection": "Post hoc diagnostic audit of shared disagreements; not an independent random sample of reference quality",
+  "scope": "Keep the literal adapter scores. Apply these eight transparent unit, rounding, or source-reference checks as a separately reported sensitivity analysis. Do not change participant inputs or resample model outputs. Version 2 extends the same reported-precision criterion to two further TAT-QA questions. The earlier six-check working analysis was not admitted as the final grading policy; all eight cases and their criteria are explicit here.",
+  "cases": [
+    {
+      "task_id": "tatqa:a6cc136d-ceb2-49d7-9a0b-fae5b6d0424c",
+      "kind": "reported_rounding",
+      "original_reference": "10.84, scale percent",
+      "source_excerpt": "Trail commission asset | 114,078 | 102,920",
+      "calculation": "(114078 - 102920) / 102920 * 100",
+      "expected_numerator": "11158",
+      "expected_denominator": "102920",
+      "default_answer_scale": "percent",
+      "expected_unit": "fraction",
+      "reason": "The prompt specifies no decimal precision. The exact source calculation is about 10.8414 percent, which rounds to 10.8 at one decimal or 10.84 at two. The literal benchmark comparison remains separately available."
+    },
+    {
+      "task_id": "tatqa:54b11fb5-014a-4042-affa-fe96ea5e5eaa",
+      "kind": "reported_rounding",
+      "original_reference": "96.33, scale million",
+      "source_excerpts": ["Transportation Solutions | $  160", "Industrial Solutions | 80", "Communications Solutions | 49"],
+      "calculation": "(160 + 80 + 49) / 3 * 1000000",
+      "expected_numerator": "289000000",
+      "expected_denominator": "3",
+      "default_answer_scale": "million",
+      "expected_unit": "currency_base",
+      "reason": "The source mean is 96.3333 million. The prompt specifies no decimal precision; 96.3 million and 96.33 million are both accurate at their reported precisions. Retain the stricter original score as well."
+    },
+    {
+      "task_id": "finqa:JPM/2008/page_117.pdf-2",
+      "kind": "adapter_unit_handling",
+      "original_reference": "70000000",
+      "source_excerpt": "( in millions ) | 1 basis point increase in jpmorgan chase credit spread\ndecember 31 2008 | $ 32\ndecember 31 2007 | $ 38",
+      "calculation": "(32 + 38) * 1000000",
+      "expected_base": "70000000",
+      "default_answer_scale": "million",
+      "expected_unit": "currency_base",
+      "reason": "The supplied table is in millions. Explicit 70 million is equivalent to the author-provided 70000000. The initial adapter failed to convert the declared currency scale. An unscaled response is interpreted in the supplied table's units, as the task instructions request."
+    },
+    {
+      "task_id": "mathdial:5000723/5/row574",
+      "kind": "adapter_unit_handling",
+      "original_reference": "1",
+      "source_excerpt": "If there are 38 million people in Canada, what is the moose population of Canada, in millions?",
+      "calculation": "38000000 / 19 / 2",
+      "expected_base": "1000000",
+      "default_answer_scale": "million",
+      "expected_unit": "population_base",
+      "reason": "The question explicitly requests millions. A response of 1 with scale million is the same quantity as the reference's 1 in question units."
+    },
+    {
+      "task_id": "finqa:RCL/2016/page_6.pdf-1",
+      "kind": "reported_rounding",
+      "original_reference": "1687.92",
+      "source_excerpts": ["503000 berths", "298 ships"],
+      "calculation": "503000 / 298",
+      "expected_numerator": "503000",
+      "expected_denominator": "298",
+      "default_answer_scale": "",
+      "expected_unit": "berths_per_ship",
+      "reason": "1688 is the nearest whole berth; 1687.92 is the two-decimal representation. The original prompt specifies no decimal precision. The sensitivity criterion rounds the exact source calculation to the precision explicitly reported by the answer, rather than changing the original adapter score."
+    },
+    {
+      "task_id": "finqa:PPG/2006/page_42.pdf-2",
+      "kind": "source_reference_disagreement",
+      "original_reference": "111%",
+      "source_excerpt": "31 , 2006 and 2005 the accrued asset retirement obligation was $ 10 million and as of dec .\n31 , 2004 it was $ 9 million .",
+      "calculation": "(10 - 10) * 1000000",
+      "expected_base": "0",
+      "default_answer_scale": "million",
+      "expected_unit": "currency_base",
+      "reason": "The question asks for the increase in 2006. The source reports 10 million in both 2006 and 2005. The supplied program divides 10 by 9, using the 2004 value and a ratio rather than the year-on-year increase."
+    },
+    {
+      "task_id": "finqa:GPN/2010/page_89.pdf-4",
+      "kind": "source_reference_disagreement",
+      "original_reference": "-4.1%",
+      "source_excerpts": ["non-vested at may 31 2009 | 762 | 42", "non-vested at may 31 2010 | 713 | 42"],
+      "calculation": "(713 * 42 - 762 * 42) / (762 * 42) * 100",
+      "expected_numerator": "-2058",
+      "expected_denominator": "32004",
+      "default_answer_scale": "percent",
+      "expected_unit": "fraction",
+      "reason": "The reference program uses 41 for the 2009 grant-date fair value, while the non-vested 2009 row states 42. The program's 41 belongs to the vested row. Both years' non-vested values use 42."
+    },
+    {
+      "task_id": "tatqa:ed47e72c-c67c-4c61-abfa-9aefcf4caa89",
+      "kind": "source_reference_disagreement",
+      "original_reference": "-0.26, scale percent",
+      "source_excerpt": "Loss from operations | $(25.0) | $(33.6) | $8.6",
+      "calculation": "(-25 / -33.6 - 1) * 100",
+      "expected_numerator": "-8.6",
+      "expected_denominator": "33.6",
+      "default_answer_scale": "percent",
+      "expected_unit": "fraction",
+      "reason": "The source derivation gives approximately -0.25595 as a fraction, or -25.595 percent. The annotation stores -0.26 together with a percent scale, unlike the other percentage examples. Keep this scale/reference inconsistency visible."
+    }
+  ]
+}

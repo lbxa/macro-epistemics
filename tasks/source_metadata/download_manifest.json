@@ -1,0 +1,50 @@
+[
+  {
+    "name": "aei_documentation.md",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2026_06_26/data_documentation.md",
+    "bytes": 7397,
+    "sha256": "1a01eeb7d34250b192aa9c906098bea1db971644e6bdb04497d87b7a4ed141a5"
+  },
+  {
+    "name": "aei_readme.md",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/README.md",
+    "bytes": 5262,
+    "sha256": "7f3a9c7c8fb2c04c55794810671926466698f171294cd2641075eb7bc403a9f0"
+  },
+  {
+    "name": "aei_claude_ai.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2026_06_26/data/aei_claude_ai_2026-06-26.csv",
+    "bytes": 219174671,
+    "sha256": "f974b358bce0e5a8417510c61da4342234cd0de9d9d0b62acf4c6dbcf8ec7b68"
+  },
+  {
+    "name": "aei_api.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2026_06_26/data/aei_1p_api_2026-06-26.csv",
+    "bytes": 77282477,
+    "sha256": "62197f003e001945ad130c2f26f5e07f3fda45ff41644df91444b04fd524a19f"
+  },
+  {
+    "name": "onet_task_statements.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2025_02_10/onet_task_statements.csv",
+    "bytes": 3592256,
+    "sha256": "82e4c418dc08475ef1263ad1e8c66ffa3357291370cd35ee1065ecea590597ec"
+  },
+  {
+    "name": "soc_structure.csv",
+    "url": "https://huggingface.co/datasets/Anthropic/EconomicIndex/resolve/4e5f69fab13a9c3f7d0dcc31a6f893a9818738f6/release_2025_02_10/SOC_Structure.csv",
+    "bytes": 77176,
+    "sha256": "05eb5e689fb471b7a66962b57bba6666dee2c3e6a6854f0f84faf423af68dd17"
+  },
+  {
+    "name": "gdpval.parquet",
+    "url": "https://huggingface.co/datasets/openai/gdpval/resolve/11e7900cdcac61bc4daf59e65feb238acda98fbf/data/train-00000-of-00001.parquet",
+    "bytes": 1913489,
+    "sha256": "f8422fab9b21d90c0ee5f0659842ab666d418cb8940842918f9f4b0df7ae0202"
+  },
+  {
+    "name": "gdpval_readme.md",
+    "url": "https://huggingface.co/datasets/openai/gdpval/resolve/11e7900cdcac61bc4daf59e65feb238acda98fbf/README.md",
+    "bytes": 1477,
+    "sha256": "1597a46f191bffd916d8140be98edcd5700cc9abb8877f022c869cc470aee2c5"
+  }
+]

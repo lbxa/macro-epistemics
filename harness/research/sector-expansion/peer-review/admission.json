@@ -1,0 +1,65 @@
+{
+  "schema": "peer-review-admission-v1",
+  "status": "verified",
+  "parent_artifact": "lbxa-corp/apart-epistemics-sprint/sector-study-da7e42f28ba54247:v128",
+  "parent_digest": "7d7230ca4d18fc07c1bb8e0009cdbc1d",
+  "artifacts": {
+    "revision": {
+      "artifact": "lbxa-corp/apart-epistemics-sprint/sector-study-6cffaa22ee0c470a:v20",
+      "digest": "179811a3578576b63d2d3c313f08a5e9",
+      "run_id": "6cffaa22ee0c470a",
+      "files": {
+        "branch.jsonl": "648adddac44df58c71e8cf1d9bacbb17970d0af92bdea67c18dacf76e8d40234",
+        "cases.json": "973a2156a2fee5bf65a0a23a72eada8025f5ad144de98e930b97d6685c286cf7",
+        "initial.jsonl": "07975632b15094c7bd655b1167299599d6d7fa316d34c5e22492ad3bdeaae520",
+        "interpretation.jsonl": "75ba4fee05e7ce60d8c101a3fd62b2960b0eab0cade04d21ba12a6718b56f341",
+        "progress.json": "80ec6db103748b9724c878abd4c3a265946d534994c6a616d94cc45f4fbe8f17",
+        "sensitivity.jsonl": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "source/agents.py": "a676d247c11c6ef6de8771bf64a0152743e6d4eeae74db87b53e911d697aa12b",
+        "source/assignments.json": "5e4f82d77e10fe985f74f4156756e4c7887ffba219dffcc29b9f9178acbad89b",
+        "source/config.py": "c37162b384a9b9b95c4bc36465be2836d6c979b420820e1e2c06821819affa2a",
+        "source/defence.md": "b8d2488eb965a09238ec5fc28318ca40506dade9a66f8a3df8788784e8b49d35",
+        "source/initial.md": "5e02b4eb99a9525752817bbbdc21270a41814eee60018fb18585f43c7bf64525",
+        "source/jury.md": "0fd413aa027a82e96c8801dd6f853dbb3edd5bdd3e7fe34bd687070d9d679a22",
+        "source/objection-protocol.md": "229d6729cb46ece4fb282388af9377493582b426b0692417908cd50d3e7c6b1c",
+        "source/sector_cases.py": "fdc78ab9ec132244fdb3f4c42eadfddf2ddf2e4ac836355aafe08f711be07158",
+        "source/sector_objections.py": "54721ae1ac412e4a478f9f599551a74315304493db781837cd4836295def6640",
+        "source/sector_revision.py": "92a5f4fb6551ae5918094c04529e42a0dc1922bbbbb100930ab86f47df1fc474",
+        "source/sector_study.py": "711a737bf5749e253d3032e99f1027c04d391165aed41212e928cfead59e03eb",
+        "source/spending.py": "70a931e465d0b4743fa4ed03c10a472a8a4d358bf6a0c876a559270f3926f704",
+        "study.json": "88c4999d6cdbb916f95d38d28cc41a0cc5c2a68299a6e4f4460427ee2ed489a3"
+      }
+    },
+    "judge": {
+      "artifact": "lbxa-corp/apart-epistemics-sprint/numeric-judge-extension-37ae1979dd144603:v0",
+      "digest": "f039f58c821a1c3241a168e5405c0444",
+      "run_id": "37ae1979dd144603",
+      "files": {
+        "observations.jsonl": "a1d23156799f18e23246640f6dfb970da416f54dce4a0f03aa8761855924ee7e",
+        "progress.json": "391fa3d1b26ce98cba6e0ccd8125cdcfa0a58bc69a7b78e84f4abfa7da466236",
+        "source/agents.py": "a676d247c11c6ef6de8771bf64a0152743e6d4eeae74db87b53e911d697aa12b",
+        "source/config.py": "c37162b384a9b9b95c4bc36465be2836d6c979b420820e1e2c06821819affa2a",
+        "source/judge-proofs.json": "dfc8dd3db5c3d94e28e265c6235016c8771d863e1d7477839f5d6029c54bca3d",
+        "source/judge-protocol.md": "a23e95de713b963c859f2f1cca46f7dc6f812b2894c7db2f3d87156da535f718",
+        "source/jury.md": "0fd413aa027a82e96c8801dd6f853dbb3edd5bdd3e7fe34bd687070d9d679a22",
+        "source/sector_cases.py": "fdc78ab9ec132244fdb3f4c42eadfddf2ddf2e4ac836355aafe08f711be07158",
+        "source/sector_judge_extension.py": "35f0228f1a3595c3db283a9ed5bdb4a9bc49ae95279c8033ad0447461511bca2",
+        "source/sector_objections.py": "54721ae1ac412e4a478f9f599551a74315304493db781837cd4836295def6640",
+        "source/sector_study.py": "711a737bf5749e253d3032e99f1027c04d391165aed41212e928cfead59e03eb",
+        "source/spending.py": "70a931e465d0b4743fa4ed03c10a472a8a4d358bf6a0c876a559270f3926f704",
+        "sources.json": "440c39616a03bd3baa885dbad17a725d67fc70a6a4142597f7545cfc85fbcf85",
+        "study.json": "0fe878913dbf938f73f5eb15df9d92fb3018116e5dc19b8e90d54ec95f45495f"
+      }
+    },
+    "execution_evidence": {
+      "artifact": "lbxa-corp/apart-epistemics-sprint/sector-objection-executed-evidence-6cffaa22ee0c470a:v0",
+      "digest": "682131423c15be7a17d4cf6108c90376",
+      "run_id": "2dad059d286a4612",
+      "files": {
+        "evidence-register.json": "a2ebde2b08a906f8e44203dc872d9a0d291a37bae662afd89e1206d47cf4c941",
+        "executed-evidence.tar.gz": "60c52b2bdfcb98ebd11f1e405cce170ebba1d411b01ae9cca3befd5f8af30b52",
+        "sector_revision_archive.py": "aa7e33f5af41656c021c88b980978cb56245f5b56e2975e2cb68a70d6d20287d"
+      }
+    }
+  }
+}

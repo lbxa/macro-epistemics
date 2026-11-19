@@ -1,0 +1,14 @@
+{
+  "url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/qxhgbqz6",
+  "api_host": "https://api.wandb.ai",
+  "artifact_name": "finance-micro-stakes-comparison",
+  "status": "complete",
+  "stake_multipliers": [
+    1,
+    10,
+    100,
+    1000
+  ],
+  "artifact": "lbxa-corp/apart-epistemics-sprint/finance-micro-stakes-comparison:v1",
+  "artifact_digest": "a23bd4cce6565fe19366bbafab9e8e1a"
+}

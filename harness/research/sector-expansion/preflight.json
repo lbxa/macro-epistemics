@@ -1,0 +1,405 @@
+{
+  "status": "proposal_preflight_only_no_model_performance",
+  "checked_at_utc": "2026-11-16T03:24:56.701661+00:00",
+  "http_status": 200,
+  "endpoint": "GET /accounts/{id}/ai/models/search?per_page=100",
+  "catalog_result_info": {
+    "count": 75,
+    "page": 1,
+    "per_page": 100,
+    "total_count": 334
+  },
+  "catalog_returned_entries": 75,
+  "complete_catalog_audit": false,
+  "inference_calls": 0,
+  "new_api_spend_usd": 0,
+  "catalog_source_sha256": "a45525861e01a7aa994672ca9787f5fe29a3c86caad74b85f96bc358c24fe3ab",
+  "selected_models": [
+    {
+      "name": "@cf/thinkingmachines/inkling-2-small",
+      "description": "Inkling 2 Small is a multimodal Mixture-of-Experts model from Thinking Machines Lab with 594B total and 18B active parameters and up to 1M tokens of context. It accepts text and image inputs and generates text, with built-in reasoning and tool calling.",
+      "properties": [
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "1048576"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "max",
+              "high",
+              "medium",
+              "low",
+              "minimal",
+              "none"
+            ],
+            "default_effort": "high",
+            "default_enabled": true,
+            "mandatory": false,
+            "normalizes_to": {
+              "null": "high",
+              "auto": "high",
+              "xhigh": "max"
+            }
+          }
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.3,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 1,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.1,
+              "currency": "USD"
+            }
+          ]
+        }
+      ],
+      "task": {
+        "id": "c329a1f9-323d-4e91-b2aa-582dd4188d34",
+        "name": "Text Generation",
+        "description": "Family of generative text models, such as large language models (LLM), that can be adapted for a variety of natural language tasks."
+      }
+    },
+    {
+      "name": "@cf/zai-org/glm-5.3",
+      "description": "GLM-5.3 is Z.ai's flagship agentic coding model, pairing a 1M-token context window with reasoning, function calling, and structured outputs to power multi-step, tool-driven development workflows.",
+      "properties": [
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "1048576"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "max",
+              "high",
+              "low"
+            ],
+            "default_effort": "max",
+            "normalizes_to": {
+              "none": "max",
+              "minimal": "max",
+              "medium": "max",
+              "xhigh": "max",
+              "null": "max"
+            },
+            "mandatory": true,
+            "default_enabled": true
+          }
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 1.4,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 4.4,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.26,
+              "currency": "USD"
+            }
+          ]
+        }
+      ],
+      "task": {
+        "id": "c329a1f9-323d-4e91-b2aa-582dd4188d34",
+        "name": "Text Generation",
+        "description": "Family of generative text models, such as large language models (LLM), that can be adapted for a variety of natural language tasks."
+      }
+    },
+    {
+      "name": "@cf/moonshotai/kimi-k2.6",
+      "description": "Kimi K2.6 is a frontier-scale open-source 1T parameter model with a 262.1k context window, multi-turn tool calling, vision inputs, and structured outputs for agentic workloads.",
+      "properties": [
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "262144"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "planned_deprecation_date",
+          "value": "2026-11-20"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "high",
+              "none"
+            ],
+            "default_effort": "high",
+            "normalizes_to": {
+              "low": "high",
+              "medium": "high",
+              "max": "high",
+              "null": "high"
+            },
+            "mandatory": false,
+            "default_enabled": true
+          }
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.95,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 4,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.16,
+              "currency": "USD"
+            }
+          ]
+        }
+      ],
+      "task": {
+        "id": "c329a1f9-323d-4e91-b2aa-582dd4188d34",
+        "name": "Text Generation",
+        "description": "Family of generative text models, such as large language models (LLM), that can be adapted for a variety of natural language tasks."
+      }
+    },
+    {
+      "name": "@cf/deepseek-ai/deepseek-v4-pro-0813",
+      "description": "DeepSeek V4 Pro is a high-capability reasoning model from DeepSeek with a one million token context window, built for long-horizon agentic workflows and complex, multi-step problem-solving",
+      "properties": [
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "1048576"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "planned_deprecation_date",
+          "value": "2026-11-20"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "max",
+              "high",
+              "low",
+              "none"
+            ],
+            "default_effort": "high",
+            "default_enabled": true,
+            "mandatory": false,
+            "normalizes_to": {
+              "null": "high",
+              "minimal": "low",
+              "medium": "high",
+              "xhigh": "high"
+            }
+          }
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 1.32,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 3.96,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.044,
+              "currency": "USD"
+            }
+          ]
+        }
+      ],
+      "task": {
+        "id": "c329a1f9-323d-4e91-b2aa-582dd4188d34",
+        "name": "Text Generation",
+        "description": "Family of generative text models, such as large language models (LLM), that can be adapted for a variety of natural language tasks."
+      }
+    },
+    {
+      "name": "@cf/deepseek-ai/deepseek-v4.1-flash-1017",
+      "description": "We introduce DeepSeek-V4.1-Flash, a multimodal Mixture-of-Experts (MoE) model with 552B backbone parameters and support for contexts of up to one million tokens. The model natively processes images and text, and generates text autoregressively.",
+      "properties": [
+        {
+          "property_id": "require_workers_paid",
+          "value": "true"
+        },
+        {
+          "property_id": "context_window",
+          "value": "1048576"
+        },
+        {
+          "property_id": "function_calling",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning",
+          "value": "true"
+        },
+        {
+          "property_id": "reasoning_effort",
+          "value": {
+            "supported_efforts": [
+              "max",
+              "high",
+              "low",
+              "none"
+            ],
+            "default_effort": "high",
+            "default_enabled": true,
+            "mandatory": false,
+            "normalizes_to": {
+              "null": "high",
+              "auto": "high",
+              "minimal": "none",
+              "medium": "high",
+              "xhigh": "max"
+            }
+          }
+        },
+        {
+          "property_id": "vision",
+          "value": "true"
+        },
+        {
+          "property_id": "price",
+          "value": [
+            {
+              "unit": "per M input tokens",
+              "price": 0.3,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M output tokens",
+              "price": 1.2,
+              "currency": "USD"
+            },
+            {
+              "unit": "per M cached input tokens",
+              "price": 0.006,
+              "currency": "USD"
+            }
+          ]
+        }
+      ],
+      "task": {
+        "id": "c329a1f9-323d-4e91-b2aa-582dd4188d34",
+        "name": "Text Generation",
+        "description": "Family of generative text models, such as large language models (LLM), that can be adapted for a variety of natural language tasks."
+      }
+    }
+  ],
+  "candidate_model_versions": 5,
+  "candidate_developer_families": 4,
+  "task_database_sha256": "8a3247c31485dc9d1c9677ba25339619ce3baca676e5535740e107d6bf98b3e9",
+  "task_filter": "input_status='self_contained' AND oracle_verification NOT LIKE 'reference_disagreement%'",
+  "task_counts": [
+    {
+      "benchmark_id": "finqa",
+      "eligible_records": 163,
+      "source_groups": 127
+    },
+    {
+      "benchmark_id": "tatqa",
+      "eligible_records": 167,
+      "source_groups": 123
+    },
+    {
+      "benchmark_id": "contractnli",
+      "eligible_records": 180,
+      "source_groups": 97
+    },
+    {
+      "benchmark_id": "scifact",
+      "eligible_records": 180,
+      "source_groups": 159
+    },
+    {
+      "benchmark_id": "mathdial",
+      "eligible_records": 120,
+      "source_groups": 108
+    }
+  ]
+}

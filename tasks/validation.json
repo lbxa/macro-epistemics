@@ -1,0 +1,14 @@
+{
+  "sqlite_integrity": "ok",
+  "foreign_key_violations": 0,
+  "duplicate_task_ids": 0,
+  "participant_export_fields": [
+    "input_id",
+    "task",
+    "materials"
+  ],
+  "model_calls": 0,
+  "Veracity_runs": 0,
+  "source_environments_executed": 0,
+  "checked_on": "2026-11-14"
+}

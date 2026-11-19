@@ -1,0 +1,93 @@
+% !TEX root = ../main.tex
+\section{Results}
+\label{sec:results}
+\subsection{Stable answers can preserve mismatches}
+From 12,000 assignments, 581 usable originals yield 11,620 executions,
+11,483 valid defences and 11,469 verdicts; 380 branches are unavailable and
+151 abort (Appendix~\ref{app:sector-completion}).
+
+Under audited grades (Table~\ref{tab:sector-headline}), pressure loses
+20/2,543 matches (0.8\%). Audit repairs 17/334 mismatches (5.1\%);
+314/334 replies still support their original.
+
+\begin{figure}[!htbp]
+ \centering\includegraphics[width=\linewidth]{figures/sector-concessions.pdf}
+ \caption{Loss of reference agreement by domain, model and objection under
+ the post hoc audited sensitivity. Denominators are valid defences of matching
+ originals. Pointwise 95\% percentile intervals use 2,000 source-group resamples
+ within sampling strata, retaining up to five seeds per source/condition.
+ The vertical range is 0--15\%; collapsed intervals do not imply certainty
+ about unseen cases.}
+ \label{fig:sector-concessions}
+\end{figure}
+
+\begin{table}[!htbp]
+ \centering\small\setlength{\tabcolsep}{4pt}
+ \input{tables/sector-headline}
+ \caption{Five-model summary under audited grades. Initial match is over
+ usable initials; pressure loss is over valid pressure defences of matching
+ originals; audit repair and support of the old answer are over audit
+ defences of initial mismatches. Mismatch upheld pools settled verdicts over
+ all four arms. Denominators repeat sources across seeds.}
+ \label{tab:sector-headline}
+\end{table}
+
+Legal audit repairs 11/153 mismatches, versus 3/158 under review. GPT-OSS's
+paired difference is 13.3 percentage points (95\% interval [0.0, 31.1];
+nine error sources). Science yields no repairs in 579 defences, yet
+539/570 panels uphold mismatching originals. Only seven sources contribute;
+annotation scope may explain the disagreement. Full readouts are in
+Appendices~\ref{app:sector-behavior}--\ref{app:sector-seeds}
+and~\ref{app:intermediate-evidence}.
+
+Figure~\ref{fig:sector-concessions} shows that neutral review also loses
+matches; Appendix~\ref{app:diagnostic-paired} gives paired challenge contrasts.
+
+\subsection{Confidence depends on the task and scoring target}
+
+Mean confidence exceeds reference accuracy for four of five models in legal
+reasoning and all five in science (Figure~\ref{fig:sector-confidence}). Kimi matches
+18/26 legal references (69.2\%) at 95.2\% mean confidence. Forecast targets
+and base rates differ (Tables~\ref{tab:sector-forecasts}
+and~\ref{tab:diagnostic-forecast-bases}); their Brier losses are not directly comparable.
+
+\subsection{Explanations in four completed disputes}
+\label{sec:trajectories}
+Selected excerpts illustrate response patterns, not treatment effects or
+private thought (source locators: Appendix~\ref{app:excerpt-provenance}).
+
+\begin{minipage}{\linewidth}
+\textbf{Correction without new facts.}
+Neutral review repairs GPT-OSS's double counting; the jury rejects the original.
+\input{tables/sector-case-education}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+\textbf{Resistance despite a failed grade.}
+DeepSeek's 70 million fails literal grading but passes unit-aware grading.\par
+\input{tables/sector-case-finance}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+\textbf{One omission, incompatible inferences.}
+Kimi and jurors disagree about silence versus negation; adjudication is pending.
+\input{tables/sector-case-legal}
+\end{minipage}
+
+\begin{minipage}{\linewidth}
+\textbf{Revision without accepting the alternative.}
+GLM rejects the false alternative but adopts a narrower reading than SciFact's
+reference.
+\input{tables/sector-case-science}
+\end{minipage}
+
+\subsection{A false defence changes observed verification}
+\label{sec:grading}
+The numerical audit changes 30 initial grades (Table~\ref{tab:grading}).
+A less ambiguous error is GLM's $1084\times108.51=117628.84$, maintained
+after audit and upheld unanimously; the product is 117624.84.
+A standalone diagnostic finds lower correct rejection with this defence,
+recovering with checked arithmetic (Appendix~\ref{app:arithmetic}). This
+selected source motivates the replication below.
+
+\input{sections/peer-review-results}

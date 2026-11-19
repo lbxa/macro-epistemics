@@ -1,0 +1,17 @@
+{
+  "amendments": [
+    {
+      "created_at": "2026-11-14T22:33:29.703802+00:00",
+      "previous_limit_usd": "5",
+      "new_limit_usd": "100",
+      "authorization": "Lucas Barbosa explicitly authorised US$100 API cap on 2026-11-14; vary Veracity stakes separately."
+    }
+  ],
+  "final_campaign_spending": {
+    "limit_usd": "100",
+    "accounted_usd": "5.716298302098693851685",
+    "charged_usd": "1.515276862098693851685",
+    "requests": 510,
+    "unresolved_requests": 3
+  }
+}

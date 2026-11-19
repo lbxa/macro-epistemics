@@ -1,0 +1,26 @@
+{
+  "run_id": "be3b408f03d8402e",
+  "run_url": "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/be3b408f03d8402e",
+  "artifact": "lbxa-corp/apart-epistemics-sprint/sector-peer-review-report-da7e42f28ba54247:v0",
+  "digest": "c7fe3d37428f6455487b558d1bec6912",
+  "manifest_sha256": "dba4d3e04edccc61abb7991d5f6bda7890e6c8adffb3ab2074f16d5a8f1b33c4",
+  "pdf_sha256": "dff73414aa279b7c0e633060684576a8a3c79520e30297aa4ebb7f0d4fc8eb9b",
+  "supplement_sha256": "f98573f4c3bd7e2a26e7f8de3a0643882ecdf2ff97f773fe6fdaddaed1746772",
+  "source_revision": "ad5b88d960592a7c6e9ea2479a3832f277c51679",
+  "parents": {
+    "lbxa-corp/apart-epistemics-sprint/sector-study-da7e42f28ba54247:v128": "7d7230ca4d18fc07c1bb8e0009cdbc1d",
+    "lbxa-corp/apart-epistemics-sprint/sector-report-da7e42f28ba54247:v2": "5a6c61802b1b27fbbd717e7de8802630",
+    "lbxa-corp/apart-epistemics-sprint/sector-study-6cffaa22ee0c470a:v20": "179811a3578576b63d2d3c313f08a5e9",
+    "lbxa-corp/apart-epistemics-sprint/numeric-judge-extension-37ae1979dd144603:v0": "f039f58c821a1c3241a168e5405c0444",
+    "lbxa-corp/apart-epistemics-sprint/sector-objection-executed-evidence-6cffaa22ee0c470a:v0": "682131423c15be7a17d4cf6108c90376"
+  },
+  "payload_files": 213,
+  "main_pages": 13,
+  "pdf_pages": 72,
+  "human_adjudication": "pending",
+  "public_release": false,
+  "submission_performed": false,
+  "remote_verified": true,
+  "verified_at": "2026-11-17T05:06:10.575201+00:00",
+  "verified_api_host": "https://api.wandb.ai"
+}

@@ -127,6 +127,7 @@ class DockerArena:
         # Every resource is labelled so cleanup never depends on container names.
         self.labels = {"veracity.run": run_id, "veracity.session": session or run_id}
         self.containers: list[Container] = []
+        self.gateway: Container | None = None
         self.networks = []
         self.volumes = []
         # Host directories bind-mounted into this arena's containers. close() deletes
@@ -264,7 +265,7 @@ class DockerArena:
             pids_limit=64,
             nano_cpus=1_000_000_000,
         )
-        self.containers.append(gateway)
+        self.gateway = gateway
         gateway.start()
         return gateway
 
@@ -349,13 +350,24 @@ class DockerArena:
 
         failures = []
         with ThreadPoolExecutor(max_workers=LIFECYCLE_WORKERS) as pool:
-            # Each phase finishes before its dependencies are removed. In
-            # particular, bind mounts outlive all containers, even on failure.
+            # The gateway shares every participant network. Drain participant
+            # removals before deleting the gateway's endpoints.
             for resources, kind, force in (
                 (self.containers, "container", True),
+                ((self.gateway,) if self.gateway is not None else (), "gateway", True),
                 (self.networks, "network", False),
                 (self.volumes, "volume", True),
             ):
+                if kind == "gateway" and self.gateway is not None:
+                    # Docker can leave a stale endpoint when removing the
+                    # gateway container. Detach while it is still addressable.
+                    for network in self.networks:
+                        try:
+                            network.disconnect(self.gateway, force=True)
+                        except APIError:
+                            # Startup may have failed before the attachment.
+                            # The final network removal checks for any leak.
+                            pass
                 results = pool.map(remove, reversed(resources), repeat(kind), repeat(force))
                 failures.extend(result for result in results if result is not None)
         shutil.rmtree(self.staging, ignore_errors=True)

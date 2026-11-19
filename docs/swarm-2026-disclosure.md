@@ -1,8 +1,7 @@
 # Swarm Alignment Hackathon 2026: provenance and research-report disclosure
 
-This imported disclosure applies to the prior Swarm Alignment project. It is
-retained for attribution; its sprint window and contribution register do not
-govern Epistemics Sprint work. See the [project scope](../README.md).
+This imported disclosure records the prior Swarm Alignment project's
+contribution window and source revisions.
 
 ## Cutoff and sources
 

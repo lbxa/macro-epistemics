@@ -4,6 +4,9 @@
 
 Every record, newest first. See [README](./README.md) for when and how to write one.
 
+- [Gateway teardown follows participants](./gateway-teardown-follows-participants.md) — 2026-11-19
+- [Hugging Face archives reviewed research exports](./hugging-face-archives-reviewed-research-exports.md) — 2026-11-19
+- [Publish current research assets](./publish-current-research-assets.md) — 2026-11-19
 - [The current website paper has its own asset](./current-website-paper-has-its-own-asset.md) — 2026-11-18
 - [Chart scroll motion preserves static data](./chart-scroll-motion-preserves-static-data.md) — 2026-11-17
 - [Cloudflare branch previews need explicit configuration](./cloudflare-branch-previews-need-explicit-configuration.md) — 2026-11-17

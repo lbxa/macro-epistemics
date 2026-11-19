@@ -13,20 +13,20 @@ const authors = [
   { name: "Stefan Gazzana", affiliation: "Roundarc" },
 ];
 const description = "Can AI models distinguish a claim worth defending from one they should correct? Results from five models and 120 benchmark tasks.";
-const codeUrl = "https://github.com/lbxa/apart-epistemics-sprint";
+const codeUrl = "https://github.com/lbxa/macro-epistemics";
 const paperUrl = "/files/confidence-correction-and-consensus.pdf";
+const dataUrl = "https://huggingface.co/buckets/lbxa/macro-epistemics";
 const artifactButtons = [
   { label: "Explore results", href: "#explore" },
   { label: "Paper", href: paperUrl },
-  { label: "Data", href: "/data/research.json" },
+  { label: "Data", href: dataUrl },
   { label: "Code", href: codeUrl },
 ];
 const resourceLinks = [
   { label: "Paper ↗", href: paperUrl },
-  { label: "Data ↓", href: "/data/research.json", download: true },
+  { label: "Data ↗", href: dataUrl },
   { label: "Data notes ↗", href: "/data/README.md" },
   { label: "Code ↗", href: codeUrl },
-  { label: "Film ↗", href: "/media/macro-epistemics-draft-01.mp4" },
   { label: "About Veracity ↗", href: "https://veracity.lbxa.net/" },
 ];
 ---
@@ -106,12 +106,6 @@ const resourceLinks = [
           </nav>
         </section>
       </div>
-
-      <footer class="border-t border-stone-200 py-8" aria-label="Research credits">
-        <div class="mx-auto max-w-3xl px-4 text-center text-xs leading-relaxed text-stone-600">
-          <p>Apart Research · AI × Epistemics Research Sprint · November 2026</p>
-        </div>
-      </footer>
     </main>
   </body>
 </html>

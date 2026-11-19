@@ -1,11 +1,10 @@
-# Epistemics Sprint research report
+# Macro-Epistemics research report
 
 The active report is the [peer-review working revision](epistemics/README.md),
 with source in `epistemics/main.tex`. `make -C report` builds
 `epistemics/build/main.pdf`. It presents the frozen five-model, four-domain
 study and separately versioned numerical replications; the ContractNLI pilot
-remains a separate earlier cohort. The working layout retains the supplied
-Apart template while a final peer-reviewed venue remains unselected.
+remains a separate earlier cohort. A final peer-reviewed venue remains unselected.
 Its authors are Lucas Barbosa (NYU) and Stefan Gazzana (Roundarc). Develop
 the report using `editor`; preserve reference validity, calibration and
 generalization limits. See the active README and
@@ -14,8 +13,8 @@ generalization limits. See the active README and
 
 ## Historical reports
 
-The reports below are imported research retained for reproducibility. They are not
-new Epistemics Sprint findings. The active project scope and venue are recorded
+The reports below are imported research retained for reproducibility. The active
+project scope and venue are recorded
 in [the paper brief](../docs/reporting/paper-brief.md) and
 [venue record](../docs/reporting/venue.md).
 
@@ -198,7 +197,7 @@ comparisons remain future work. This is not a submission-ready empirical study.
   replace independent scientific validation.
 - Use the [active manuscript README](epistemics/README.md) and
   [offline reproduction guide](REPRODUCIBILITY.md) for the peer-review revision;
-  imported reports and the original sprint artifact remain separate evidence.
+  imported reports and the original publication artifact remain separate evidence.
 - Require `peer_review_results.py` inputs to match the API-verified admission
   register and executed-evidence register before generating assets. Report
   bundles derive parent artifact/digest pairs from that admitted provenance,

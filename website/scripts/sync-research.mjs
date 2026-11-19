@@ -12,7 +12,7 @@ const inputPaths = [
   "report/data/sector-study.json", "report/epistemics/sector-statistics.json",
   "report/epistemics/sector-diagnostic-statistics.json", "report/data/arithmetic-diagnostic.json",
   "harness/research/sector-expansion/objection-leakage.json",
-  "website/public/files/macro-epistemics-paper.pdf",
+  "report/data/archived-sector-paper.pdf",
 ];
 const root = new URL("../../", import.meta.url);
 const inputHashes = Object.fromEntries(inputPaths.map((path) => [path,
@@ -35,7 +35,7 @@ admit(arithmetic.probe.manifest.parent_cases_sha256 === sector.provenance.cases_
   "arithmetic diagnostic uses a different task set");
 admit(sector.initials.length === 600 && sector.cases.length === 120
   && sector.branches.length === 12000, "the admitted cohort has changed");
-admit(inputHashes["website/public/files/macro-epistemics-paper.pdf"] === "9ab732be30fca65d052e027c1e50b1e07e86c0320ebd8d5e077c5c4cb56b9afc",
+admit(inputHashes["report/data/archived-sector-paper.pdf"] === "9ab732be30fca65d052e027c1e50b1e07e86c0320ebd8d5e077c5c4cb56b9afc",
   "paper PDF differs from the independently verified v1 artifact");
 
 const models = [
@@ -167,7 +167,7 @@ const research = { version: 2, summary, models, domains, arms, endpoints, initia
     leakageAnalysis: leakage.analysis_sha256, inputHashes,
     reportArtifact: "lbxa-corp/apart-epistemics-sprint/sector-report-da7e42f28ba54247:v1",
     reportDigest: "1e687f354c1e79d4f6ab05ad157fce52",
-    reportPdfSha256: inputHashes["website/public/files/macro-epistemics-paper.pdf"],
+    reportPdfSha256: inputHashes["report/data/archived-sector-paper.pdf"],
     reportRun: "https://forge.coreweave.com/wandb/lbxa-corp/apart-epistemics-sprint/runs/d6279cd7cd7b4136",
   },
 };

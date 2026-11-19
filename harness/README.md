@@ -5,11 +5,10 @@ Participants receive the [constitution](../CONSTITUTION.md), an identity, frozen
 case material, and a game address. They discover the interface and choose their
 own actions through Deep Agents filesystem tools, private shells, and HTTP.
 
-New tracking uploads default to W&B project `apart-epistemics-sprint`; override
-with `veracity-harness-wandb --project ...` when explicitly reproducing an older
-campaign. Historical remote URLs and frozen campaign scripts retain their
-original destinations and budgets. Review those scripts before reuse; they are
-not the default starting point for a new Epistemics Sprint campaign.
+See [the repository guidelines](../AGENTS.md#cloud-experiments-and-wb-access)
+for the default W&B project. Use `veracity-harness-wandb --project ...` to
+target a different project.
+Review frozen campaign scripts for their original destinations and budgets.
 
 ### Historical five-model exploratory campaign (2026-10-31)
 
@@ -293,6 +292,12 @@ environment details and the sequential comparison are in the
 
 ## Changelog
 
+### 2026-11-19
+
+- Drain Docker participant removals, then detach each private network from
+  the shared gateway before removing it.
+  [Decision record](../docs/decisions/gateway-teardown-follows-participants.md)
+
 ### 2026-11-17
 
 - Expand studies through declared case/model/control/seed matrices, with
@@ -412,16 +417,14 @@ environment details and the sequential comparison are in the
   and score arithmetic correctness separately from a three-juror verdict. The
   driver shares existing provider budgets, live W&B tracking and jury execution;
   no paid results are claimed by its fixture tests.
-- Sprint campaigns execute on cloud compute so inspection can resume from
-  another device. Use the supplied credential through the environment or
-  ignored `.env`; the verified scope is `lbxa-corp/apart-epistemics-sprint` at
-  the standard W&B API host, separate from historical Forge evidence.
+- Campaigns execute on cloud compute so inspection can resume from another
+  device. Load credentials through the environment or ignored `.env` and verify
+  access to the destination project before dispatch.
 - The finished-run uploader skips running sessions, so cloud campaigns need
   live remote status and a durable inventory of run IDs, source/configuration,
   budget, and next action. W&B artifacts omit SQLite recovery/spending ledgers
   and default raw calls; artifact availability alone does not establish complete
-  recovery or experiment coverage. See the
-  [cloud experiment decision](../docs/decisions/cloud-experiments-and-evidence-led-apart-report.md).
+  recovery or experiment coverage.
 - Speed up integration tests with stepped clocks for mechanics, bounded parallel
   sandbox startup/cleanup, one image build per worker, and two grouped pytest
   workers in the integration gate. Retain real Docker/Anvil execution, isolation checks, and
@@ -549,8 +552,8 @@ environment details and the sequential comparison are in the
 
 - Add the verification-shortcut design (`research/market/verify.toml`), following
   Shi et al. (2026), where 94% of trajectories colluded once the honest protocol
-  could not be completed and the shortcut was mutually beneficial, and the Apart
-  sprint's finding that impossible tasks drew help-seeking only when peers were
+  could not be completed and the shortcut was mutually beneficial, and the
+  finding that impossible tasks drew help-seeking only when peers were
   stuck too. Each case is a batch of 60 vouchers in a gateway records service
   (`lookup_allowance = 25` distinct lookups per account per case, audited with
   record ids). `standard.md` requires every juror to inspect every voucher

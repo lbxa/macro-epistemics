@@ -1,6 +1,6 @@
 ---
 name: editor
-description: Write, rewrite, polish, and review the Epistemics Sprint research report in report/. Apply to report structure, prose, mathematical exposition, methods, results, discussion, captions, and evidence-backed conclusions. Prioritize clear English, complete reasoning, intuitive explanations, coherent progression, and traceable evidence. Keep early drafts structural until experiments support substantive claims. Not for unrelated programming, Git, or build-only tasks.
+description: Write, rewrite, polish, and review the Macro-Epistemics research report in report/. Apply to report structure, prose, mathematical exposition, methods, results, discussion, captions, and evidence-backed conclusions. Prioritize clear English, complete reasoning, intuitive explanations, coherent progression, and traceable evidence. Keep early drafts structural until experiments support substantive claims. Not for unrelated programming, Git, or build-only tasks.
 ---
 
 # Editor
@@ -18,18 +18,14 @@ the brief governs the claims admitted by the evidence.
 
 ## Let the report develop with the experiments
 
-The active manuscript is `report/epistemics/main.tex`. At the beginning of the
-sprint, prepare title, metadata, section structure, and clearly marked
-placeholders. Research question, authors, track, and findings remain open until
-established. Do not manufacture material contributions to make the draft look
-finished. Historical manuscripts and their results are not new sprint evidence.
+The active manuscript is `report/epistemics/main.tex`. Establish title,
+metadata and section structure before drafting claims. Use the brief to check
+which findings the current evidence supports.
 
 Use the user's headings (Introduction, Related Work, Methodology, Results,
 Discussion, and References), the required Limitations and Dual-Use / Ethical
-Considerations appendix, and the supplied Apart PDF's additional sections and
-formatting. [Template provenance](../../../report/template/epistemics.md) records
-the source PDF and current venue requirements. Do not substitute an inherited
-arXiv or swarm report style for this template.
+Considerations appendix, and the working layout documented in
+[template provenance](../../../report/template/epistemics.md).
 
 As cloud experiment evidence arrives, update the brief's claim-to-evidence map
 before strengthening the report. Keep methods, results, discussion, limitations,

@@ -1,3 +1,13 @@
+# Project attribution update — 2026-11-19
+
+`make -C report` rebuilt the 65-page working manuscript with pdfLaTeX and
+latexmk. The final log contains no LaTeX warnings or unresolved citations.
+Compared all rendered pages with the prior website PDF and visually checked
+the 11 changed pages (1–4 and 6–12). The comparison covers title-page layout,
+text reflow, float order, and bibliography renumbering. The study, figures,
+and evidence identifiers are unchanged. Independent reference adjudication
+and author scientific review remain open.
+
 # First-page correspondence footnote — 2026-11-17
 
 Lucas Barbosa's author name links to the correspondence footnote. The email

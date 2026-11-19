@@ -1,7 +1,7 @@
 # Historical venue and submission records
 
 These imported records describe earlier manuscripts only. They do not select a
-venue, track, deadline, author list, or template for Epistemics Sprint. See the
+venue, track, deadline, author list, or template for Macro-Epistemics. See the
 active [venue record](venue.md).
 
 ## Current target: Swarm Alignment Hackathon, November 6–8, 2026

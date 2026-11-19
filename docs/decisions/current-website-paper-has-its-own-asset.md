@@ -1,7 +1,7 @@
 # The current website paper has its own asset
 
 - **Date:** 2026-11-18
-- **Status:** Accepted
+- **Status:** Superseded by publish-current-research-assets.md
 - **Deciders:** Lucas Barbosa
 - **Area:** website, report
 

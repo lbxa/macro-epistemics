@@ -23,10 +23,7 @@ source groups; it is not being replaced or enlarged to address the one-case
 diagnostic's narrower scope.
 
 The revision targets AI/NLP reliability and evaluation readers. TMLR is the
-proposed journal route; no submission or final venue choice is implied. The
-Apart manuscript and its archived v2 remain historical versions. The new
-working revision may exceed the sprint's eight-page limit to explain the
-evidence without shrinking plots or hiding essential qualifications.
+proposed journal route.
 
 Four feedback items have separate completion criteria:
 
@@ -98,7 +95,7 @@ agreement figure now appears in main Results §4.1, beside the headline table.
 Its evidence, estimates and intervals were unchanged; the appendix refers
 back to it. That layout retained eight main pages before the peer-review revision.
 
-## Completed Epistemics Sprint brief — 2026-11-16
+## Completed primary study brief — 2026-11-16
 
 Publication editorial pass: collection is complete. The single whole-paper
 edit preserves the SS1--SS11 and INT1--INT8 evidence mappings and all frozen
@@ -121,20 +118,16 @@ This is an independent project built from the imported Veracity codebase.
 The first empirical draft asks how a model's source classification changes
 under different challenges and whether a jury's verdict agrees with the source
 reference. Its working title is **Macro-Epistemics: Confidence Under Dispute**.
-Track 1 (Model Epistemics & Decision-Making Evals) is the primary
-framing; Track 2 supplies the related question of auditable verification signals.
-Authors are Lucas Barbosa (NYU) and Stefan Gazzana (Roundarc), as Lucas
-specified for this draft. The venue is Apart's AI x Epistemics Research Sprint,
-November 13–15, 2026. The existing constitution and benchmark protocol
+Authors are Lucas Barbosa (NYU) and Stefan Gazzana (Roundarc).
+The existing constitution and benchmark protocol
 describe the implemented starting point; they do not establish the new project's
 research contribution. The frozen pilot below supports its limited conditional
 claims. The five-model, four-domain study is the active expansion; historical
 campaigns and the pilot remain separate cohorts.
 
-The active manuscript is [the first empirical draft](../../report/epistemics/main.tex).
-It follows the user's
-recommended structure and supplied Apart PDF. `make -C report` builds
-`report/epistemics/build/main.pdf`. Its structural placeholders are now replaced
+The [manuscript source](../../report/epistemics/main.tex) builds to
+`report/epistemics/build/main.pdf` with `make -C report`. The first empirical
+draft replaced structural placeholders
 by the completed five-model sector study, generated figures and tables,
 source-located visible excerpts and a separate arithmetic diagnostic. The draft does not claim submission
 readiness or a general model ranking. The [first-draft review record](../../report/epistemics/review.md#first-empirical-draft--2026-11-15)

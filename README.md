@@ -2,7 +2,7 @@
   <img src="docs/assets/banner.webp" alt="Classical landscape with a giant overlooking mountains beneath a cloudy sky" width="100%">
 </p>
 
-<h1 align="center">Epistemics Sprint</h1>
+<h1 align="center">Macro-Epistemics</h1>
 
 <p align="center">
   <strong>A self-contained epistemics research project built on the Veracity game engine.</strong>
@@ -18,10 +18,9 @@
 
 ---
 
-This repository is the independent Epistemics Sprint project. It includes the
-Veracity engine, Python experiment harness, viewer, local agent tooling, and
-reporting sources. The inherited benchmark measures whether agents independently
-discover, establish, and execute
+Macro-Epistemics includes the Veracity engine, Python experiment harness,
+viewer, local agent tooling, and reporting sources. The inherited benchmark
+measures whether agents independently discover, establish, and execute
 coordination that violates a constitution for private benefit. A content
 verification game supplies the environment: a creator publishes a bonded claim,
 a challenger may dispute it, and jurors commit and reveal their judgments.
@@ -35,15 +34,11 @@ research papers, software, and political statements are content settings.
 
 ## Project scope and inherited evidence
 
-**Previous work disclosure:** The Veracity core Rust game engine and agent
-harness were previously built during the Apart Collusion Sprint. The original
-work is available in the
-[Apart Collusion Sprint repository](https://github.com/lbxa/apart-collusion-sprint).
+Our work during the Apart Research sprints inspired this project.
 
 The copied infrastructure and historical research are starting material for this
 project. `Veracity` remains the engine/package name to preserve commands, API
-contracts, and experiment reproducibility. New project environments and default
-tracking uploads use `apart-epistemics-sprint`.
+contracts, and experiment reproducibility.
 
 The Rust service, Solidity contracts, harness, client, experimental controls,
 viewer, and imported reports predate this project's independent development.
@@ -54,11 +49,8 @@ break audit links or imply that old results were obtained here.
 The active research separates reference agreement, confidence, answer revision
 and jury acceptance. The [paper brief](docs/reporting/paper-brief.md) records
 admitted evidence and remaining scientific gaps. The
-[active report](report/epistemics/README.md) retains the original Apart layout
-as a working revision; the [venue record](docs/reporting/venue.md) distinguishes
-the proposed peer-review route from the November 13–15, 2026 sprint target.
-Historical tracks and deadlines do not govern a new submission. New findings
-require their own admitted evidence; the migration itself establishes none.
+[active report](report/epistemics/README.md) is a working revision for peer review.
+The [venue record](docs/reporting/venue.md) describes the proposed publication route.
 
 The full standardized scenario suite, human annotation workflow, and benchmark
 session scorer remain incomplete. Imported payoff-only campaigns and fictional
@@ -186,13 +178,9 @@ benchmark performance.
 
 ### 2026-11-14
 
-- Run sprint experiments on cloud compute and use W&B for mobile inspection and
-  retained evidence. Build the report alongside results with the `editor` skill;
-  keep the initial Apart-formatted draft structural until claims are supported.
-- Establish Epistemics Sprint as the independent project identity, sharing one
-  repository-local skill source across Codex and Claude. Preserve Veracity's
-  package/API names and historical evidence identities for reproducibility; see
-  [the migration decision](docs/decisions/epistemics-sprint-owns-active-project-identity.md).
+- Run experiments on cloud compute and use W&B for remote inspection and retained
+  evidence. Build the report alongside results with the `editor` skill.
+- Share one repository-local skill source across Codex and Claude.
 
 ### 2026-10-28
 

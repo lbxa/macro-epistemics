@@ -21,19 +21,13 @@ bun run prepare:assets
 bun run dev
 ```
 
-`prepare:assets` verifies the committed working paper and the archive PDF
-pinned by the public evidence export. The paper links point to the working
-paper, refreshed by explicitly copying a reviewed build and updating its hash.
-The film stays in the ignored root `video/` directory. If absent in a clean checkout,
-asset preparation downloads `website-assets-v1`'s public GitHub release asset and
-checks its pinned SHA-256 before caching it there. Existing committed poster and
-captions are retained when local render exports are absent. The verified MP4 is
-linked into ignored `public/media/` and copied into Astro's static output.
+`prepare:assets` verifies the committed working paper and the archived PDF
+pinned by the public evidence export. The working paper is the PDF served by
+the website. Refresh it by copying a reviewed build and updating its hash.
 
 `bun run build` prepares these assets before building. Cloudflare Workers Builds
 publishes main to the existing `epistemics` Worker at `epistemics.lbxa.net`.
-Wrangler's name matches that target. Large assets remain outside Git history;
-the public release supplies reproducible cloud builds.
+Wrangler's name matches that target.
 The empty `previews` block enables Cloudflare's configured branch-preview
 command, `npx wrangler preview`; static assets stay at the top level.
 The custom `src/pages/404.astro` builds to `dist/404.html`, which Workers serves
@@ -60,9 +54,7 @@ Inspect the rendered page at both narrow and desktop widths after changes.
 - `src/components/FindingsExplorer.astro` and `src/data/research.json` own the
   completed sector study's initial and dispute charts and uncertainty. The
   compact controls initialize immediately; no disclosure gates the data.
-- Paper, film, code, data notes and [Veracity](https://veracity.lbxa.net/) are
-  direct resource links. The film and retained teaching components are not
-  mounted on the results page.
+- Paper, code and data notes are direct resource links.
 - `public/data/research.json` provides the same aggregates and provenance for
   download. It contains no credentials, raw model calls or recovery state.
 
@@ -125,12 +117,15 @@ writing identical `src/data/research.json` and `public/data/research.json`.
 
 ## Changelog
 
+### 2026-11-19
+
+- Serve the current working paper and keep the byte-pinned prior PDF under
+  `report/data/` for evidence verification. See the
+  [publication asset decision](../docs/decisions/publish-current-research-assets.md).
+
 ### 2026-11-18
 
-- Link the approved working paper at `/files/confidence-correction-and-consensus.pdf`.
-  Keep the earlier Macro-Epistemics PDF at its existing URL so the public
-  evidence export continues to reproduce its archived report hash. See the
-  [asset decision](../docs/decisions/current-website-paper-has-its-own-asset.md).
+- Link the working paper at `/files/confidence-correction-and-consensus.pdf`.
 
 ### Earlier updates
 
@@ -139,11 +134,8 @@ writing identical `src/data/research.json` and `public/data/research.json`.
   page; the existing Workers 404 routing needs no additional server code.
 - 2026-11-17: Added the explicit previews block required by Wrangler 4.163's
   branch-preview command after the production-style build succeeded in Cloudflare.
-- 2026-11-17: Prepared publication through the existing Cloudflare main-branch
-  integration. Restore and verify the ignored film from its pinned release asset
-  in clean builds, and align Wrangler with the production epistemics Worker.
+- 2026-11-17: Aligned Wrangler with the production epistemics Worker.
 - 2026-11-17: Renamed the header credit to AI Safety Research · Epistemics.
-- 2026-11-17: Shortened the header credit to Apart Research · Epistemics Sprint.
 - 2026-11-17: Removed Research draft from the header date line, retaining
   November 2026.
 - 2026-11-17: Added lightweight scroll-triggered chart reveals with interval

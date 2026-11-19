@@ -1,4 +1,4 @@
-# Epistemics Sprint skills
+# Macro-Epistemics skills
 
 This directory is the repository's skill source. `.claude/skills` is a relative
 symlink here; edit skills here so Claude and Codex receive the same instructions.
@@ -17,11 +17,11 @@ setup; a copied skill does not install them.
 - `visualizer/` owns the React viewer and `package-lock.json`. Its checks are
   `npm --prefix visualizer run check`, `npm --prefix visualizer test`, and
   `npm --prefix visualizer run build`; the root verification gate does not run them.
-- `report/epistemics/` owns the active sprint draft; `make -C report` builds it.
+- `report/epistemics/` owns the active manuscript; `make -C report` builds it.
   Other report sources and snapshots are inherited research. Use `editor` for
   report writing and review. Read
   `docs/reporting/README.md` before report work. The active brief and venue record
-  distinguish Epistemics Sprint plans from historical manuscripts.
+  describe the current revision and proposed publication route.
 
 ## Route by the task
 
@@ -39,11 +39,11 @@ their documented tools and authorization; do not enable remote operations just
 because their skill is present. Preserve existing experimental budgets and
 private-observation boundaries.
 
-This sprint's experiments run on cloud compute. Use `wandb-primary` to inspect
+Experiments run on cloud compute. Use `wandb-primary` to inspect
 runs and retained evidence with the supplied key. Follow `AGENTS.md` for host,
 project, credential loading, remote handoffs, and the distinction between live
 monitoring and the harness's finished-run uploader.
 
-New environments and tracking uploads use `apart-epistemics-sprint`. Historical
-artifact addresses, campaign names, source hashes, and append-only decisions
-retain their original identity. `Veracity` remains the engine/package namespace.
+See `AGENTS.md` for environment and tracking identifiers. Historical artifact
+addresses, campaign names, source hashes, and append-only decisions retain
+their original identity. `Veracity` remains the engine/package namespace.

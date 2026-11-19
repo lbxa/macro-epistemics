@@ -83,7 +83,7 @@ The 220 GDPval public task IDs cover 44 occupations and nine industry sectors. F
 
 ## Opening and searching
 
-`tasks/` is the `veracity-tasks` uv project in the Epistemics Sprint monorepo.
+`tasks/` is the `veracity-tasks` uv project in the Macro-Epistemics repository.
 It uses Python 3.12+ and the standard library, with no third-party dependencies.
 Its lockfile and environment are independent of `harness/`; the existing harness
 continues to own experiment execution and Veracity integration.

@@ -1,12 +1,11 @@
-# Epistemics Sprint report
+# Confidence, Correction, and Consensus
 
 ## Peer-review working revision
 
 The active paper is now titled *Confidence, Correction, and Consensus:
 Evaluating Language Models Under Dispute*. It retains the completed primary
-study and adds targeted replications as separate evidence. The original
-sprint layout and archived v2 remain historical; the current working version
-is not an anonymized journal submission and may exceed the old page cap.
+study and adds targeted replications as separate evidence. The current version
+is a working manuscript for peer review.
 See the [revision brief](../../docs/reporting/paper-brief.md) and
 [independent-review protocol](../../harness/research/sector-expansion/peer-review/ADJUDICATION.md).
 Human adjudication and author approval remain incomplete.
@@ -18,14 +17,7 @@ GPT-OSS's complete three-new-source comparison; DeepSeek's third comparison
 is unresolved. See the [admission register](../../harness/research/sector-expansion/peer-review/admission.json)
 and [offline reproduction guide](../REPRODUCIBILITY.md).
 
-The historical Apart **AI x Epistemics Research Sprint, November 13–15, 2026**
-draft used the title *Macro-Epistemics: Confidence Under Dispute* and the
-supplied sprint template; see [template provenance](../template/epistemics.md).
-The peer-review revision above supersedes that scientific title and page cap.
-Authors are Lucas Barbosa (NYU) and Stefan Gazzana (Roundarc), as supplied by
-Lucas. The sprint framing centered on Track 1, with Track 2 informing the
-jury-validity and provenance discussion. Neither version is a certified
-submission.
+Authors are Lucas Barbosa (NYU) and Stefan Gazzana (Roundarc).
 
 The [review record](review.md) preserves the original scaffold checks and the
 first empirical draft's evidence, numerical, compilation and visual checks.
@@ -147,8 +139,7 @@ cells remain N/A; the incomplete Kimi defence stays missing.
   the [concision decision](../../docs/decisions/report-concision-preserves-evidence.md).
 - Frame the peer-review revision around reference agreement, confidence,
   revision and jury acceptance as separate measurements. Preserve the main
-  domain figure and four source-located panels; the historical sprint page cap
-  does not govern the working journal revision. See the
+  domain figure and four source-located panels in the working revision. See the
   [cohort-preservation decision](../../docs/decisions/peer-review-revision-preserves-primary-cohort.md).
 - Match judge comparisons by source, judge, seed and call index before
   interpreting changes. Equal valid counts in two contexts can come from
@@ -164,9 +155,8 @@ cells remain N/A; the incomplete Kimi defence stays missing.
 ### 2026-11-16
 
 - Preserve the confirmed author names, affiliations and clickable title-page
-  correspondence footer. Do not restore the removed first-draft title footnote
-  or sprint-status paragraph during report rewrites; scientific limitations
-  and review status remain explicit elsewhere. See the
+  correspondence footer. Keep scientific limitations and review status in the
+  relevant sections of the paper and review record. See the
   [front-matter decision](../../docs/decisions/report-title-page-omits-sprint-draft-markers.md).
 - Move the domain reference-loss figure into the main Results, retaining its
   appendix cross-reference. Keep numerical inputs and model excerpts frozen;
@@ -242,11 +232,8 @@ cells remain N/A; the incomplete Kimi defence stays missing.
   until results arrive, then update the brief's claim-to-evidence map before
   strengthening claims; preserve concurrent edits rather than replacing the
   manuscript wholesale.
-- Preserve the supplied Apart PDF alongside the user's Methodology and
-  Discussion headings. `make -C report` builds this active draft; `baseline`
-  and `agentic` select historical manuscripts so old findings cannot silently
-  become current sprint results. See the
-  [report setup decision](../../docs/decisions/cloud-experiments-and-evidence-led-apart-report.md).
+- `make -C report` builds the active manuscript. The `baseline` and `agentic`
+  targets build the historical manuscripts.
 - Reuse the earlier report's black-header prompt/response panels through
   `report/trace-panels.tex`. The dummy exchange under Results is illustrative
   only and must be replaced with admitted evidence or removed.
@@ -255,6 +242,3 @@ cells remain N/A; the incomplete Kimi defence stays missing.
   and layout. Preserve this deliberate
   [font override](../../docs/decisions/report-uses-native-computer-modern.md)
   when checking template fidelity.
-- Establish a separate sprint scaffold using the current Apart template,
-  preserving imported research unchanged. Report development follows the
-  experiments rather than anticipating their results.

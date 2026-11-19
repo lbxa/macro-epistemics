@@ -12,7 +12,6 @@
 **Explanatory subtitle:** How AI claims hold up across domains.  
 **Research instrument:** Veracity. The accompanying paper remains *What Models Defend: Claim Revision and Jury Agreement*.  
 **Research credit:** Lucas Barbosa, NYU · Stefan Gazzana, Roundarc.  
-**Event:** Apart Research · AI x Epistemics Research Sprint · November 2026.
 
 **The story in one sentence:** Imagine a future in which people can challenge consequential AI claims, inspect the evidence, and learn from visible corrections; Macro-Epistemics studies how to make that possible, beginning with Veracity's claim-and-defence experiments.
 
@@ -38,7 +37,7 @@ The hook should work with sound off: **Your health. Your livelihood. Our future.
 
 ## Visual and musical direction
 
-Take inspiration from 3Blue1Brown's explanatory choreography: generous negative space, precise shapes, gentle transformations and diagrams that develop as the explanation develops. Set those ideas on a luminous ivory-and-cream canvas with deep forest-green typography and earthy botanical colors, following Lucas's direction for the Apart Research identity. The feeling is a beautifully typeset research notebook: warm paper, confident ink, delicate diagrams and quiet depth.
+Take inspiration from 3Blue1Brown's explanatory choreography: generous negative space, precise shapes, gentle transformations and diagrams that develop as the explanation develops. Use an ivory-and-cream canvas with deep forest-green typography and earthy botanical colors.
 
 The central visual object is a **cream answer card with a forest-green corner notch**. It starts as a recommendation, opens to reveal evidence, becomes the saved claim in our experiment, then joins an imagined network of inspectable claims and corrections. Its growing connections are drawn as precise, gently organic lines. This single object carries the film from a personal question to a human-scale vision.
 
@@ -50,7 +49,6 @@ The central visual object is a **cream answer card with a forest-green corner no
 | Jury outcome | Earth ochre `#795B2B`, always paired with a ring or the word **Jury**. Acceptance is not encoded as factual correctness. |
 | Corrected / error remains | Moss `#536B3F` plus a filled circle / burnt clay `#8C4B35` plus a cross. Symbols preserve the distinction in grayscale. |
 | Future work | Warm taupe ink `#655E49`, dashed outlines and a persistent **Proposed** label. Sage and sand may tint supporting shapes; explanatory text retains strong contrast. |
-| Apart identity | Use the approved Apart wordmark on ivory for the opening/closing lockup, with small event credits elsewhere. The dark-green, earthy direction comes from Lucas; these hex values are proposed production choices rather than verified official brand tokens. Reference the [Apart site](https://apartresearch.com/) and [media kit](https://apartresearch.com/media-kit) when selecting the final assets. |
 | Motion and material | Shapes transform into their next role like ink finding its place on paper. Use short arcs, eased movement, soft paper-layer shadows and translucent sage underlines. Settled charts hold still while the narrator explains them. One visual question at a time. |
 | Typography scale | Approximately 64–80 px for questions, 38–46 px for primary labels, and at least 26–30 px for necessary qualifiers at 1080p. Keep each quote to two or three short lines. |
 
@@ -99,7 +97,7 @@ The central visual object is a **cream answer card with a forest-green corner no
 
 **Picture and motion**
 
-- **00:10–00:13:** The opened card becomes the underline beneath **Macro-Epistemics**, set large in forest green. Below it: **Make AI Answerable**. Add a quiet Apart Research sprint credit. Let the name breathe.
+- **00:10–00:13:** The opened card becomes the underline beneath **Macro-Epistemics**, set large in forest green. Place **Make AI Answerable** below it.
 - **00:13–00:18:** Introduce **Veracity · claim-and-defence experiments**, then reveal **Task → Saved answer → Challenge**. A document, a table and a study abstract suggest the wider task landscape. Label the instrument **Research prototype**. The narrator supplies the plain-language explanation, leaving the screen uncluttered.
 - **00:18–00:22:** The saved card gains its forest-green corner notch. A translucent duplicate branches away to receive a challenge while the original remains fixed. Its text and evidence stay available for inspection.
 
@@ -214,12 +212,11 @@ The central visual object is a **cream answer card with a forest-green corner no
 
 - **01:47–01:51:** The person from Scene 1 asks a question. The evidence path stays visible as an answer changes. Set the invitation large in forest green: **Make AI answerable.**
 - **01:51–01:54:** Reveal **Macro-Epistemics** beneath it, followed by **Explore the research. Challenge the findings.** Keep the mood open and inviting.
-- **01:54–01:58:** Hold on cream with the Apart wordmark and the current research credits. The narrator has finished; the last four seconds belong to the image and melody.
+- **01:54–01:58:** Hold on cream with the author credits and let the melody resolve.
 
   **Macro-Epistemics**  
   *Make AI Answerable*  
-  Lucas Barbosa · NYU — Stefan Gazzana · Roundarc  
-  Apart Research · AI x Epistemics Research Sprint
+  Lucas Barbosa · NYU — Stefan Gazzana · Roundarc
 
   Small supporting line: **Paper: What Models Defend: Claim Revision and Jury Agreement**.
 
@@ -262,7 +259,7 @@ Before production, test the opening ten seconds independently, both with sound a
 
 **Editorial check — November 15, 2026:** verified nine contiguous scenes totaling 118 seconds, approximately 210 narration words, local source links, exact displayed excerpts, the correction counts, the seven reference-disagreeing verdicts and the conditional interval against the frozen snapshot/statistics. Narration and diagrams were reviewed together for observation-unit consistency. A timed spoken read-through, brand-asset selection and rendered-frame legibility checks belong to the production pass.
 
-**Visual revision — November 15, 2026:** Lucas specified ivory and cream backgrounds with Apart Research's dark greens and earthy colors. Version 2 applies that direction to the full canvas, typography, cards, charts, diagram strokes and opening/closing lockups. Timing, narration and research claims are retained.
+**Visual revision — November 15, 2026:** Lucas specified ivory and cream backgrounds with dark greens and earthy colors. Version 2 applies that direction to the full canvas, typography, cards, charts, diagram strokes and opening/closing lockups. Timing, narration and research claims are retained.
 
 **Narrative revision — November 16, 2026:** Lucas requested an informative, inspirational film with a stronger first ten seconds and an avant-garde account of the project's human implications. Version 3 introduces the audience-facing title *Make AI Answerable*, delays the project-name reveal until second ten, simplifies the technical middle and gives the shared-future vision a full 22-second act. The ivory/cream and earthy-green visual direction is retained. Earlier review counts describe their historical versions; review the current eight-scene cut before production.
 

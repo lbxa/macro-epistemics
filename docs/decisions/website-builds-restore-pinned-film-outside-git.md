@@ -1,7 +1,7 @@
 # Website builds restore the pinned film outside Git
 
 - **Date:** 2026-11-17
-- **Status:** Accepted
+- **Status:** Superseded by publish-current-research-assets.md
 - **Deciders:** Lucas Barbosa
 - **Area:** website, deployment
 

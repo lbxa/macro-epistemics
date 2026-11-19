@@ -1,7 +1,7 @@
 [project]
 name = "veracity-tasks"
 version = "0.1.0"
-description = "Source-linked occupational task candidates for Epistemics Sprint experiments"
+description = "Source-linked occupational task candidates for Macro-Epistemics experiments"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []

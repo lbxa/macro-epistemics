@@ -170,7 +170,8 @@ def test_container_is_owned_before_start_can_fail(monkeypatch, tmp_path):
     client.close.assert_called_once()
 
 
-def test_bind_mounted_staging_outlives_every_container_that_mounts_it(monkeypatch):
+@pytest.mark.parametrize("detach_fails", [False, True])
+def test_bind_mounted_staging_outlives_every_container_that_mounts_it(monkeypatch, detach_fails):
     # Deleting a bind-mount source before its container is removed crashed
     # Docker Desktop's file sharing and, with it, containerd.
     client = MagicMock()
@@ -179,15 +180,41 @@ def test_bind_mounted_staging_outlives_every_container_that_mounts_it(monkeypatc
     arena = DockerArena("staging-fixture")
     staging = arena.staging
     seen = []
-    client.containers.create.return_value.remove.side_effect = lambda **kwargs: seen.append(
-        staging.exists()
-    )
+    gateway, participant = MagicMock(), MagicMock()
+    client.containers.create.side_effect = [gateway, participant]
+    gateway.remove.side_effect = lambda **kwargs: seen.append(("gateway", staging.exists()))
+    participant.remove.side_effect = lambda **kwargs: seen.append(("participant", staging.exists()))
+    network = client.networks.create.return_value
+
+    def disconnect_gateway(*args, **kwargs):
+        seen.append(("disconnect gateway", staging.exists()))
+        if detach_fails:
+            raise APIError("Fixture detach failure")
+
+    network.disconnect.side_effect = disconnect_gateway
     (staging / "gateway").mkdir()
     (staging / "juror-1").mkdir()
-    gateway = arena.start_gateway(staging / "gateway", "Interface")
+    arena.start_gateway(staging / "gateway", "Interface")
     arena.start_participant("juror-1", staging / "juror-1", gateway)
+
+    # Pool submission defines the teardown phases. A shared gateway must
+    # never be in the same batch as the participant endpoints.
+    batches = []
+    executor = MagicMock()
+    executor.__enter__.return_value = executor
+
+    def remove_batch(function, resources, *args):
+        batch = tuple(resources)
+        batches.append(batch)
+        return map(function, batch, *args)
+
+    executor.map.side_effect = remove_batch
+    monkeypatch.setattr("veracity_harness.sandbox.ThreadPoolExecutor", lambda **kwargs: executor)
     arena.close()
-    assert seen == [True, True]
+    assert all(gateway not in batch or batch == (gateway,) for batch in batches)
+    network.disconnect.assert_called_once_with(gateway, force=True)
+    network.remove.assert_called_once_with()
+    assert seen == [("participant", True), ("disconnect gateway", True), ("gateway", True)]
     assert not staging.exists()
 
 

@@ -1,8 +1,7 @@
 # Seeded recruitment in agent juries
 
-This directory retains historical manuscripts and evidence from the copied
-project. Its sprint targets and results do not describe new Epistemics Sprint
-work; see the [active brief](../../docs/reporting/paper-brief.md).
+This directory retains historical manuscripts and evidence. See the
+[paper brief](../../docs/reporting/paper-brief.md) for the current study.
 
 The November manuscript, [When Bad Votes Spread](main.tex), addresses Track 2
 of the November Swarm Alignment Hackathon: reach and persistence after seeded

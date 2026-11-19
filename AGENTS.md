@@ -2,10 +2,10 @@
 
 ## Project Structure & Module Organization
 
-This is the independent Epistemics Sprint project. Keep active environment and
-default tracking identity as `apart-epistemics-sprint`; retain Veracity's existing
-package/API names. Imported reports, frozen campaigns, remote evidence URLs, and
-append-only decisions keep historical identities and are not new sprint results.
+Macro-Epistemics is an independent research project. Keep `apart-epistemics-sprint`
+as the active environment and default tracking identifier. Retain Veracity's
+existing package and API names. Imported reports, frozen campaigns, remote
+evidence URLs, and append-only decisions keep their historical identifiers.
 Read `.agents/skills/README.md` for local skill routing and package-specific checks.
 
 This repository implements the `SPEC.md` game engine and `/v1` API plus the Python experiment harness in `harness/`. `core/src/` contains `api`, `game`, `chain`, `chat`, `forum`, `store`, and configuration modules. `contracts/` owns Solidity rules, Foundry tests, and the deployment artifact. The harness owns agents, treatments, observations, and metrics; it calls HTTP. Keep financial authority in the contract.
@@ -51,7 +51,7 @@ Historical payoff-only campaigns are not constitution-conditioned benchmark evid
 
 ## Cloud experiments and W&B access
 
-Experiment runs for this sprint execute on cloud compute so Lucas can inspect
+Experiment runs execute on cloud compute so Lucas can inspect
 and direct them from another device. Use the repository's `wandb-primary` skill
 for runs, metrics, logs, and artifacts, and its Launch reference when the chosen
 runner uses W&B Launch. W&B tracking alone does not provide compute. Do not run
@@ -76,7 +76,7 @@ Connection scope:
   selecting a team. A read-only check on 2026-11-14 verified the supplied key
   against `https://api.wandb.ai`, default entity `lbxa-corp`, and accessible
   project `lbxa-corp/apart-epistemics-sprint`. Use that scope unless the user
-  supplies another one; historical Forge campaigns remain separate.
+  supplies another one. Historical Forge campaigns remain separate.
 - For a read-only connection check, create `wandb.Api(timeout=30)` after loading
   the environment, then query the target project or known run. Do not create a
   dummy run with `wandb.init()` to test authentication. On failure, distinguish
@@ -105,6 +105,30 @@ spending ledgers, and raw model calls are opt-in; protect those separately when
 remote recovery needs them. Participant inputs must never receive the W&B key
 or operator-only evidence. Keep existing budget and launch authorization limits;
 the supplied key does not authorize arbitrary spend, deletion, or public sharing.
+
+## Research data storage and sharing
+
+- **Local workspace or restricted runner.** Keep working and raw data in
+  ignored locations such as `harness/results/` and `.harness/`. Exclude raw
+  model calls and traces, private transcripts and operator audits, recovery
+  databases, checkpoints, spending ledgers, and caches from Hugging Face
+  exports. Keep credentials and signing material in the environment's secret
+  store or protected recovery storage.
+- **Repository.** Keep the curated snapshots in `report/data/` that report
+  builds or analyses read. Uploading a copy does not change those dependencies.
+- **Private Hugging Face archive.** When a data upload is requested, use the
+  [`lbxa/macro-epistemics` bucket](https://huggingface.co/buckets/lbxa/macro-epistemics).
+  Put reviewed experiment summaries, run manifests, and result tables under
+  `harness/results/`, and reviewed report datasets and supporting evidence
+  under `report/data/`. W&B continues to track live runs and versioned evidence.
+- **Upload and verify.** Confirm the destination is private. Use the `hf` CLI
+  to preview an explicitly selected file set. Check the selected files,
+  including archive contents, for secrets and private data before uploading.
+  Verify the remote paths and sizes and record the bucket location, source
+  run or snapshot version, and file hashes in the handoff.
+- **Public release.** Get explicit approval for the specific files and
+  destination before publishing data or changing bucket visibility. A link
+  to a private bucket still requires Hugging Face access.
 
 ## Decision Records
 
@@ -142,10 +166,8 @@ Read in this order:
 4. [Visuals](docs/reporting/visuals.md) and [LaTeX](docs/reporting/latex.md): figures, tables, diagrams, notation, and build conventions.
 5. [Review](docs/reporting/review.md): evidence, compilation, and rendered-page acceptance checks.
 
-Develop `/report` alongside the experiments. At this early stage, prepare only
-the sprint identity, metadata, section structure, and explicit placeholders.
-Do not write a material contribution, results narrative, or conclusion before
-the experiments support it. As results arrive, update the brief's evidence map
+Develop `/report` alongside the experiments. Draft claims only when the
+experiments support them. As results arrive, update the brief's evidence map
 and then the affected methods, results, discussion, captions, and limitations
 in small coherent revisions. Preserve concurrent edits and inspect the latest
 diff before changing shared report files. Do not overwrite another writer's work.
@@ -156,22 +178,14 @@ Report completion requires the brief's claim-to-evidence mapping, a reproducible
 PDF build, final-size visual inspection, and a recorded review with open gaps.
 Source notes and reusable examples are indexed in the reporting guide; consult
 them for technical lookup rather than expanding this entry point.
-The active structural draft is `report/epistemics/main.tex`; `make -C report`
-builds `report/epistemics/build/main.pdf`. Its working title is **Epistemics
-Sprint: Research Report**, for Apart's **AI x Epistemics Research Sprint,
-November 13–15, 2026**. Authors, affiliations, final title, and track remain
-unconfirmed. Keep the draft visibly provisional until evidence supports prose.
-Use the user's Introduction, Related Work, Methodology, Results, Discussion,
-required Limitations and Dual-Use / Ethical Considerations, and References
-structure, combined with the supplied Apart PDF's front matter, Conclusion,
-Code and Data, optional Author Contributions, and LLM Usage Statement. Keep
-the required ethics section as an appendix, as the live sprint guidelines
-require. Match the supplied template's layout; see `report/template/epistemics.md`.
-Use LaTeX's native Computer Modern text and mathematics, as Lucas requested,
-instead of the supplied PDF's Old Standard TT font.
+The active manuscript is `report/epistemics/main.tex`. `make -C report`
+builds `report/epistemics/build/main.pdf`. Keep the existing section
+structure and [working layout](report/template/epistemics.md), including
+the limitations and ethics appendix. Use LaTeX's native Computer Modern text
+and mathematics.
 
 The inherited baseline manuscript lives in `report/main.tex`, with prose in
 `report/sections/` and shared formatting in `report/preamble.tex`. Build it with
 `make -C report baseline`. Its admitted smoke evidence remains historical; the reusable
 teaching example in `docs/reporting/templates/` uses fictional counts. Neither
-constitutes new Epistemics Sprint evidence.
+constitutes new project evidence.

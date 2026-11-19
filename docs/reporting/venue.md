@@ -1,4 +1,4 @@
-# Epistemics Sprint venue record
+# Macro-Epistemics venue record
 
 ## Peer-review working revision — 2026-11-16
 
@@ -6,8 +6,7 @@ Lucas requested implementing external feedback toward a peer-reviewed
 publication. The proposed journal is TMLR; a focused non-archival workshop is
 an alternative. No submission is authorized by this revision, and the final
 venue is not selected. The active manuscript is a working revision in its
-existing typography, not a TMLR-formatted submission. The sprint's eight-page
-limit applies to the archived sprint version, not this expanded revision.
+existing typography.
 
 The official [TMLR author guide](https://www.jmlr.org/tmlr/author-guide.html),
 [acceptance criteria](https://www.jmlr.org/tmlr/acceptance-criteria.html) and
@@ -22,8 +21,8 @@ and reproducibility bundle. These are open release steps, not completed work.
 
 ## Historical sprint submission target
 
-The selected venue is **Apart Research: AI x Epistemics Research Sprint,
-November 13–15, 2026**. The first draft is anchored on Track 1, with a related
+The first draft targeted **Apart Research: AI x Epistemics Research Sprint,
+November 13–15, 2026**. It focused on Track 1, with a related
 Track 2 discussion. Authors are Lucas Barbosa (NYU) and Stefan Gazzana (Roundarc).
 The working title is *Macro-Epistemics: Confidence Under Dispute*.
 It is an empirical first draft, not a certified submission.
@@ -44,22 +43,17 @@ has been authorized or attempted by this setup task.
 
 ## Template and local manuscript
 
-Use the [official Google document](https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/edit),
-the user-supplied [source PDF](../../report/template/apart-epistemics-template.pdf),
-and [provenance/style record](../../report/template/epistemics.md). The supplied
-PDF governs visual formatting, with Lucas's explicit Computer Modern font
-override recorded in the provenance guide; the user's section names govern
-the adapted outline. Preserve the template's additional sections and the
-guidelines' required ethics appendix. These sources supersede the copied
-October collusion and November swarm requirements.
+The initial layout used the
+[official Google document](https://docs.google.com/document/d/17b3JWki-ZkaqdmqGI5d0gof-HwlGuWU9Mc1_klNZXKs/edit)
+and the supplied [source PDF](../../report/template/apart-epistemics-template.pdf).
+The [layout record](../../report/template/epistemics.md) documents the section
+structure and Computer Modern typography.
 
 The active source is `report/epistemics/main.tex`, with layout in `preamble.tex`
 and individual prose files ordered by `sections/outline.tex`. `make -C report` builds
 `report/epistemics/build/main.pdf` using pdfLaTeX via latexmk. The draft adapts
 Letter geometry, title rules, author block, and heading hierarchy, using native
-Computer Modern text and mathematics at Lucas's request. Compare the final populated PDF with the source
-template, check page/abstract limits, and record remaining deviations before
-declaring submission readiness.
+Computer Modern text and mathematics at Lucas's request.
 
 The [historical venue records](historical-venues.md) preserve template provenance,
 prior formatting choices, and original submission limits for imported manuscripts.

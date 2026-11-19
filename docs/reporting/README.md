@@ -4,13 +4,11 @@ Use these standards when planning, writing, illustrating, or reviewing the
 project's LaTeX research report. They encode recurring decisions and observable
 checks; routine LaTeX syntax remains reference material.
 
-The active project is Epistemics Sprint. Its peer-review working revision
+The active project is Macro-Epistemics. Its peer-review working revision
 contains the five-model study and separately admitted numerical extensions;
 the brief records the supported claims and remaining scientific gaps.
 Use the `editor` skill while developing the report alongside cloud experiments.
-The venue record distinguishes the proposed publication route from the earlier
-Apart sprint target. Imported reports retain their own evidence identities;
-old sprint tracks and deadlines do not govern a new submission.
+The venue record describes the proposed publication route.
 
 ## Table of contents
 
@@ -22,8 +20,7 @@ old sprint tracks and deadlines do not govern a new submission.
 | 4 | [Visuals](visuals.md) | Publication chart style, Matplotlib mean/SD figures, typography, palettes, tables, and diagrams |
 | 5 | [LaTeX](latex.md) | Compiler, packages, notation, equations, and references |
 | 6 | [Review](review.md) | Scientific support, reproducibility, PDF inspection, and completion |
-| Active report | [Epistemics Sprint working revision](../../report/epistemics/README.md) | Primary study, targeted replications, uncertainty, and build commands |
-| Template | [Apart template provenance](../../report/template/epistemics.md) | User-supplied PDF, formatting, section order, and official source |
+| Active report | [Macro-Epistemics working revision](../../report/epistemics/README.md) | Primary study, targeted replications, uncertainty, and build commands |
 | Report | [Historical baseline report](../../report/README.md#earlier-baseline-report) | Two-episode smoke evidence in `report/main.tex`; build separately with `make -C report baseline` |
 | Report | [Historical seeded recruitment report](../../report/agentic/README.md) | Imported November manuscript, completed C1 results, source-pinned cloud registry, controls and review gaps; October case studies retained separately |
 | Archive | [Historical venues](historical-venues.md) | Original sprint rules and template provenance for imported manuscripts |

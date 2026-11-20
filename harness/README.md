@@ -266,7 +266,8 @@ must remain distinct observations.
 
 ```sh
 uv run --project harness --locked pytest harness/tests
-uv run --project harness --locked pytest harness/tests/test_integration.py -m integration -n 2 --dist=loadgroup --durations=15
+uv run --project harness --locked pytest harness/tests/test_integration.py -m integration -n 0 --durations=15
+bash scripts/verify-harness.sh --no-docker
 bash scripts/verify-harness.sh
 bash scripts/verify.sh
 ```
@@ -282,15 +283,18 @@ real time; the dedicated real-time session test still waits for the host clock.
 Each participant keeps its own container and private network. Sandbox startup and
 cleanup use at most four Docker workers, draining startup before failure/cancellation
 cleanup and removing containers before networks, volumes, and mounted directories.
-The integration gate uses two pytest workers; `--dist=loadgroup` keeps the swarm
-scenarios together so two 17-participant arenas cannot overlap. The integration
-module builds its fixed sandbox image once per worker. Default unit tests keep
-their single-process execution.
-The measured 28-case integration run fell from 22m30s to 14m18s (36.4%);
-environment details and the sequential comparison are in the
-[benchmark notes](../docs/decisions/parallel-sandbox-lifecycle-and-stepped-mechanics-tests.md#measurements).
+The integration gate runs one test case at a time to limit peak daemon load and
+bridge allocation. The integration module builds its fixed sandbox image once
+per test session. Stop hooks run the fast shell checks. See the
+[verification guide](../docs/verification.md) for the available commands.
 
 ## Changelog
+
+### 2026-11-20
+
+- Run Docker acceptance serially in CI and explicit full verification so
+  large arenas do not compete for daemon resources during a single run.
+  [Decision record](../docs/decisions/separate-fast-hooks-from-runtime-verification.md)
 
 ### 2026-11-19
 

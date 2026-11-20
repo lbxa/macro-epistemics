@@ -20,11 +20,13 @@ This repository implements the `SPEC.md` game engine and `/v1` API plus the Pyth
 
 - `bash scripts/setup.sh`: install pinned local Foundry, build contracts, and fetch locked dependencies.
 - `cargo run -p veracity-game-service -- --local`: start the API with isolated Anvil.
-- `bash scripts/verify.sh`: run hooks, Solidity/Rust tests, artifact checks, formatting, Clippy, and builds.
+- `bash scripts/verify-fast.sh`: run shell fixtures and decision-index validation. Both Stop hooks use this entry point with a 30-second cap.
+- `bash scripts/verify.sh --no-docker`: run the fast checks, Foundry, Rust with real Anvil, and Python regressions on demand.
+- `bash scripts/verify.sh`: run the full gate in CI or explicitly, including serial Docker acceptance.
 - `cargo build --workspace --locked`: build workspace packages.
 - `cargo test --workspace --locked`: run unit, integration, and documentation tests.
 - `cargo test -p veracity-game-service`: test the service during iteration.
-- `bash scripts/verify-harness.sh`: run Python client/agent regressions and Docker-isolated engine acceptance tests after building Rust.
+- `bash scripts/verify-harness.sh`: run Python client/agent regressions and serial Docker-isolated engine acceptance after building Rust. Pass `--no-docker` for the Python checks alone.
 - `cargo fmt --all`: format Rust sources.
 - `cargo clippy --workspace --all-targets --all-features --locked -- -D warnings`: reject lint warnings.
 

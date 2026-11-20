@@ -2,19 +2,23 @@
 % Use native Computer Modern for text and mathematics.
 \usepackage[utf8]{inputenc}
 \usepackage{fix-cm}
-\usepackage[letterpaper,margin=1in]{geometry}
-\usepackage{amsmath,amssymb,booktabs,graphicx,microtype,longtable,array}
+\usepackage[letterpaper,margin=.8in]{geometry}
+\usepackage{amsmath,amssymb,booktabs,graphicx,microtype,longtable,array,varwidth}
 \usepackage{titlesec}
-\usepackage{placeins}
+\usepackage{placeins,balance,float}
 \input{../trace-panels}
 \usepackage[hidelinks]{hyperref}
 
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{10pt}
+\setlength{\parskip}{6pt}
+\setlength{\columnsep}{19pt}
+\setlength{\dbltextfloatsep}{15pt plus 2pt minus 3pt}
+\renewcommand{\dbltopfraction}{.86}
+\renewcommand{\dblfloatpagefraction}{.7}
+\raggedbottom
 \clubpenalty=10000
 \widowpenalty=10000
 \setlength{\skip\footins}{14pt}
-\AtBeginDocument{\setlength{\baselineskip}{15.7pt}}
 \titleformat{\section}{\fontsize{14}{21}\selectfont\bfseries}{\thesection.}{0.5em}{}
 \titleformat{\subsection}{\fontsize{13}{18}\selectfont\bfseries}{\thesubsection}{0.5em}{}
 \titlespacing*{\section}{0pt}{10pt}{10pt}

@@ -17,8 +17,8 @@
           {
             "type": "command",
             "command": "/bin/bash \"$CLAUDE_PROJECT_DIR\"/scripts/agent-hooks/stop-checks.sh",
-            "statusMessage": "Verifying repository before handoff",
-            "timeout": 900
+            "statusMessage": "Running fast verification",
+            "timeout": 30
           }
         ]
       }

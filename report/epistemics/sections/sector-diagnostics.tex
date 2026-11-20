@@ -478,6 +478,7 @@ numerical agreement does not grade teaching quality.}
 \input tables/diagnostic-ledger-education.tex
 \bottomrule\end{longtable}\endgroup
 
+\FloatBarrier
 \subsection{Visible traces selected by outcome pattern}
 \label{app:diagnostic-traces}
 Six post hoc examples select the lowest eligible branch ID per pattern with
@@ -488,36 +489,70 @@ field/excerpt/row/parent hashes. These are visible statements, not private reaso
 
 \textbf{Ordinary support.} The neutral-review pattern includes 2,420 replies
 that retain a matching answer, support it and receive an upheld verdict.
-The first example shows a simple calculation working as intended.
+Figure~\ref{fig:trace-routine-support} shows one such calculation.
+\begin{figure}[H]
 \input{tables/diagnostic-trace-1}
+ \caption{Routine support. Inkling keeps a reference-matching calculation
+ through neutral review, and all three jurors uphold it.}
+ \label{fig:trace-routine-support}
+\end{figure}
 
 \textbf{Verification can reject a mismatch.} There are 216 settled replies
-that retain a reference mismatch and receive rejection. This example preserves
-the disputed scope rather than treating every confident defence as persuasive.
+that retain a reference mismatch and receive rejection. The disputed scope is
+visible in Figure~\ref{fig:trace-mismatch-rejected}.
+\begin{figure}[H]
 \input{tables/diagnostic-trace-2}
+ \caption{Rejected mismatch. GPT-OSS continues to support its original
+ SciFact answer, and all three jurors reject it.}
+ \label{fig:trace-mismatch-rejected}
+\end{figure}
 
 \textbf{Pressure can produce a reference loss.} The twenty pressure losses
-include a different model on the same SciFact claim. Its narrower reading
-requires adjudication; changing labels does not by itself establish gullibility.
+include a different model on the same SciFact claim
+(Figure~\ref{fig:trace-pressure-loss}). Its narrower reading requires adjudication.
+Assessing gullibility requires evidence beyond the label change.
+\begin{figure}[H]
 \input{tables/diagnostic-trace-3}
+ \caption{Reference loss under pressure. DeepSeek moves from a matching
+ SciFact label to a mismatch, and two jurors uphold the original.}
+ \label{fig:trace-pressure-loss}
+\end{figure}
 
-\textbf{Author repair and jury acceptance can diverge.} Two repaired originals
-are upheld. The jury judges the saved original; an improved replacement does
-not retroactively validate it. The visible legal interpretation remains open
-to independent review.
+\textbf{Author repair and jury acceptance can diverge.} The jury judges the
+saved original. It upholds two originals whose replacements match the reference,
+including the legal interpretation in Figure~\ref{fig:trace-repair-upheld}.
+The improved grade concerns the replacement answer.
+\begin{figure}[H]
 \input{tables/diagnostic-trace-4}
+ \caption{Repair with an upheld original. DeepSeek revises a reference
+ mismatch to a match, and two jurors uphold the original. The legal
+ interpretation remains open to independent review.}
+ \label{fig:trace-repair-upheld}
+\end{figure}
 
 \textbf{A matching original can be rejected.} There are 309 instances where
-both original and replacement match the reference but the jury rejects the
-original. The selected consultant-disclosure example makes the inference
-disagreement inspectable rather than inferring a jury error solely from a label.
+both original and replacement match the reference and the jury rejects the
+original. Figure~\ref{fig:trace-match-rejected} shows the inference at issue
+in a consultant-disclosure dispute.
+\begin{figure}[H]
 \input{tables/diagnostic-trace-5}
+ \caption{Rejected reference match. GLM retains its ContractNLI label after
+ an audit, and all three jurors reject the original.}
+ \label{fig:trace-match-rejected}
+\end{figure}
 
 \textbf{The scalar endpoint can miss a useful qualification.} Twenty-three
-replies deny support while preserving a matching current grade. Here the
-author notes two lengths of rope even though the scalar reference is 25.
-This is a limitation of the endpoint, not automatic evidence of inconsistency.
+replies deny support while preserving a matching current grade. In
+Figure~\ref{fig:trace-scalar-qualification}, the author describes two lengths
+of rope and the scalar grader records only the match on 25.
+The scalar match leaves the consistency of the explanation unresolved.
+\begin{figure}[H]
 \input{tables/diagnostic-trace-6}
+ \caption{Qualification with a matching scalar answer. GPT-OSS retains the
+ scalar reference match while qualifying the original explanation. All three
+ jurors reject the original.}
+ \label{fig:trace-scalar-qualification}
+\end{figure}
 
 \clearpage
 \subsection{Full conditional readouts from the preceding legal pilot}

@@ -10,7 +10,7 @@ Under audited grades (Table~\ref{tab:sector-headline}), pressure loses
 20/2,543 matches (0.8\%). Audit repairs 17/334 mismatches (5.1\%);
 314/334 replies still support their original.
 
-\begin{figure}[!htbp]
+\begin{figure*}[!tp]
  \centering\includegraphics[width=\linewidth]{figures/sector-concessions.pdf}
  \caption{Loss of reference agreement by domain, model and objection under
  the post hoc audited sensitivity. Denominators are valid defences of matching
@@ -19,9 +19,9 @@ Under audited grades (Table~\ref{tab:sector-headline}), pressure loses
  The vertical range is 0--15\%; collapsed intervals do not imply certainty
  about unseen cases.}
  \label{fig:sector-concessions}
-\end{figure}
+\end{figure*}
 
-\begin{table}[!htbp]
+\begin{table*}[!tp]
  \centering\small\setlength{\tabcolsep}{4pt}
  \input{tables/sector-headline}
  \caption{Five-model summary under audited grades. Initial match is over
@@ -30,7 +30,7 @@ Under audited grades (Table~\ref{tab:sector-headline}), pressure loses
  defences of initial mismatches. Mismatch upheld pools settled verdicts over
  all four arms. Denominators repeat sources across seeds.}
  \label{tab:sector-headline}
-\end{table}
+\end{table*}
 
 Legal audit repairs 11/153 mismatches, versus 3/158 under review. GPT-OSS's
 paired difference is 13.3 percentage points (95\% interval [0.0, 31.1];
@@ -56,36 +56,57 @@ and~\ref{tab:diagnostic-forecast-bases}); their Brier losses are not directly co
 Selected excerpts illustrate response patterns, not treatment effects or
 private thought (source locators: Appendix~\ref{app:excerpt-provenance}).
 
-\begin{minipage}{\linewidth}
-\textbf{Correction without new facts.}
-Neutral review repairs GPT-OSS's double counting; the jury rejects the original.
-\input{tables/sector-case-education}
-\end{minipage}
+In education, neutral review repairs GPT-OSS's double counting
+(Figure~\ref{fig:trace-education}). In finance, DeepSeek's 70 million fails
+literal grading but passes unit-aware grading (Figure~\ref{fig:trace-finance}).
+Kimi and its jurors draw different inferences from the same contractual omission
+(Figure~\ref{fig:trace-legal}). GLM rejects the false alternative in the
+science case but adopts a narrower reading than the reference
+(Figure~\ref{fig:trace-science}).
 
-\begin{minipage}{\linewidth}
-\textbf{Resistance despite a failed grade.}
-DeepSeek's 70 million fails literal grading but passes unit-aware grading.\par
-\input{tables/sector-case-finance}
-\end{minipage}
-
-\begin{minipage}{\linewidth}
-\textbf{One omission, incompatible inferences.}
-Kimi and jurors disagree about silence versus negation; adjudication is pending.
-\input{tables/sector-case-legal}
-\end{minipage}
-
-\begin{minipage}{\linewidth}
-\textbf{Revision without accepting the alternative.}
-GLM rejects the false alternative but adopts a narrower reading than SciFact's
-reference.
-\input{tables/sector-case-science}
-\end{minipage}
+\begin{figure*}[!tp]
+ \tcbset{trace presentation/.style={
+   varwidth boxed title*=-26pt, fonttitle=\normalfont\footnotesize,
+   fontupper=\footnotesize, fontlower=\footnotesize,
+   left=6pt, right=6pt, top=6pt, bottom=5pt, before skip=5pt, after skip=3pt}}
+ \noindent
+ \begin{minipage}[t]{\columnwidth}
+  \vspace{0pt}
+  \input{tables/sector-case-education}
+  \caption{Education. GPT-OSS corrects its double counting after neutral review.
+  The jury rejects the original.}
+  \label{fig:trace-education}
+ \end{minipage}\hfill
+ \begin{minipage}[t]{\columnwidth}
+  \vspace{0pt}
+  \input{tables/sector-case-finance}
+  \caption{Finance. DeepSeek defends its answer despite a false alternative.
+  The literal and unit-aware graders disagree on the same response.}
+  \label{fig:trace-finance}
+ \end{minipage}
+ \par\medskip\noindent
+ \begin{minipage}[t]{\columnwidth}
+  \vspace{0pt}
+  \input{tables/sector-case-legal}
+  \caption{Legal reasoning. Kimi and its jurors interpret contractual silence
+  differently. Independent adjudication is pending.}
+  \label{fig:trace-legal}
+ \end{minipage}\hfill
+ \begin{minipage}[t]{\columnwidth}
+  \vspace{0pt}
+  \input{tables/sector-case-science}
+  \caption{Science. GLM rejects the false alternative and revises its answer to
+  InsufficientEvidence. All three jurors reject the original Supported claim.}
+  \label{fig:trace-science}
+ \end{minipage}
+\end{figure*}
 
 \subsection{A false defence changes observed verification}
 \label{sec:grading}
 The numerical audit changes 30 initial grades (Table~\ref{tab:grading}).
 A less ambiguous error is GLM's $1084\times108.51=117628.84$, maintained
-after audit and upheld unanimously; the product is 117624.84.
+after audit and upheld unanimously (Figure~\ref{fig:trace-arithmetic}).
+The product is 117624.84.
 A standalone diagnostic finds lower correct rejection with this defence,
 recovering with checked arithmetic (Appendix~\ref{app:arithmetic}). This
 selected source motivates the replication below.

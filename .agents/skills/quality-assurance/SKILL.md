@@ -13,10 +13,11 @@ with warnings denied. Preserve the committed `Cargo.lock` and pinned toolchain.
 
 ## Verification
 
-Use `bash scripts/verify.sh`: it runs hook tests, formatting, Clippy, tests, and
-builds. Both agent Stop hooks use this same gate; avoid duplicate pipelines.
-Iterate with a focused `cargo test -p veracity-game-service <test_name>`, then rerun the
-full gate after fixes. A failed or skipped runtime check is not success.
+Both Stop hooks use `bash scripts/verify-fast.sh` for shell fixtures and the
+decision index. Iterate with focused Cargo tests, then use
+`bash scripts/verify.sh --no-docker` for workspace formatting, Clippy, tests, and
+builds with Foundry and Python regressions. `bash scripts/verify.sh` also runs
+Docker acceptance in CI and on demand. Report any unresolved runtime checks.
 
 ## Tests That Prove Behavior
 

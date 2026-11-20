@@ -1,17 +1,15 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+case "$#:${1:-}" in
+  0:|1:--no-docker) ;;
+  *) printf 'Usage: bash scripts/verify.sh [--no-docker]\n' >&2; exit 2 ;;
+esac
+
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root"
 
-for test_script in "$repo_root"/scripts/agent-hooks/*.test.sh "$repo_root"/.claude/hooks/*.test.sh; do
-  [ -f "$test_script" ] || continue
-  bash "$test_script"
-done
-
-if [ -f "$repo_root/scripts/decision-index.py" ]; then
-  python3 "$repo_root/scripts/decision-index.py" --check
-fi
+bash "$repo_root/scripts/verify-fast.sh"
 
 export PATH="$repo_root/.tools/bin:$PATH"
 if [ -f "$repo_root/contracts/foundry.toml" ]; then
@@ -31,4 +29,4 @@ cargo fmt --all -- --check
 cargo clippy --workspace --all-targets --all-features --locked -- -D warnings
 cargo test --workspace --all-features --locked
 cargo build --workspace --all-targets --all-features --locked
-bash "$repo_root/scripts/verify-harness.sh"
+bash "$repo_root/scripts/verify-harness.sh" "$@"

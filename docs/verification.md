@@ -1,8 +1,21 @@
 # Verification map
 
-Run `bash scripts/setup.sh` once, then `bash scripts/verify.sh`. Verification
-must run actual local Anvil nodes; a missing tool or denied loopback listener is
-a failing check, never a reason to silently skip integration tests.
+| Entry point | Scope |
+| --- | --- |
+| `bash scripts/verify-fast.sh` | Local shell fixtures and decision-index validation. Both Stop hooks use this path with a 30-second cap. |
+| `bash scripts/verify.sh --no-docker` | Fast checks, Foundry and artifact checks, Rust with real Anvil, and Python client and agent regressions. Run on demand. |
+| `bash scripts/verify.sh` | Full verification, including every Docker acceptance case in one pytest process. CI uses this path. |
+
+Run `bash scripts/setup.sh` before the runtime suites. They require local Anvil
+listeners, and the full gate requires a running Docker daemon. A missing
+prerequisite fails the gate. Use the full gate for changes to Docker lifecycle,
+isolation, or integration. Run one full invocation at a time on a shared daemon
+because serial pytest scheduling applies within each invocation.
+
+The Stop hooks refresh the decision index before the fast checks and log under
+`.harness/verification/`. Fixture regressions enforce the hook entry points and
+timeouts. The fast gate intercepts heavyweight commands resolved through `PATH`,
+so new shell fixtures should stub toolchain and Docker calls.
 
 ## Protocol rules
 

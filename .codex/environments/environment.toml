@@ -9,6 +9,11 @@ script = "bash scripts/setup.sh"
 script = "cargo clean"
 
 [[actions]]
-name = "VERIFY"
+name = "VERIFY FAST"
+icon = "run"
+command = "bash scripts/verify-fast.sh"
+
+[[actions]]
+name = "VERIFY FULL"
 icon = "run"
 command = "bash scripts/verify.sh"

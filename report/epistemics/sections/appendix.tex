@@ -228,8 +228,14 @@ one is not proof of recovering reality.
 \section{Independently checked arithmetic}
 \label{app:arithmetic}
 The same checkable numerical error appears in the original, audit defence
-and all three juror assessments below, independently of annotation disputes.
+and all three juror assessments (Figure~\ref{fig:trace-arithmetic}).
+\begin{figure}[H]
 \input{tables/sector-arithmetic-case}
+ \caption{Arithmetic diagnostic trigger. GLM retains an incorrect product
+ after an audit prompt, and all three GPT-OSS jurors endorse the original.
+ This selected case motivated the standalone verification diagnostic.}
+ \label{fig:trace-arithmetic}
+\end{figure}
 
 The post hoc diagnostic yields 124/125 usable calls. Each family receives
 five seed blocks of three calls in four contexts: calculation, claim only,

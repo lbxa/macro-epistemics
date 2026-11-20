@@ -1,6 +1,6 @@
 % !TEX TS-program = pdflatexmk
 % !TEX encoding = UTF-8 Unicode
-\documentclass[11pt,letterpaper]{article}
+\documentclass[11pt,letterpaper,twocolumn]{article}
 \input{preamble}
 
 \title{Confidence, Correction, and Consensus: Evaluating Language Models Under Dispute}
@@ -8,28 +8,30 @@
 \date{}
 
 \begin{document}
+\twocolumn[{%
 \begin{center}
   \hrule height 3pt
-  \vspace{18pt}
+  \vspace{13pt}
   {\fontsize{20}{24}\selectfont\bfseries
     Confidence, Correction, and Consensus:\\Evaluating Language Models Under Dispute\par}
-  \vspace{18pt}
+  \vspace{13pt}
   \hrule height 1pt
-  \vspace{18pt}
+  \vspace{13pt}
   \begin{tabular}{cc}
     Lucas Barbosa\footnotemark & Stefan Gazzana\\
     {\small NYU} & {\small Roundarc}
   \end{tabular}\par
-  \footnotetext{Correspondence:
-    \href{mailto:lucas.barbosa@nyu.edu}{lucas.barbosa@nyu.edu}}
-  \vspace{18pt}
+  \vspace{13pt}
 
   {\fontsize{14}{18}\selectfont\bfseries Abstract\par}
-  \vspace{10pt}
-  \begin{minipage}{0.7\textwidth}
+  \vspace{7pt}
+  \begin{minipage}{0.86\textwidth}
     \input{sections/abstract}
   \end{minipage}
 \end{center}
+}]
+\footnotetext{Correspondence:
+  \href{mailto:lucas.barbosa@nyu.edu}{lucas.barbosa@nyu.edu}}
 
 \input{sections/outline}
 \end{document}

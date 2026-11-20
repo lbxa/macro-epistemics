@@ -132,15 +132,14 @@ secrets and must never be published. Public Amoy runs are explicit operations.
 
 ## Verification
 
-```sh
-bash scripts/verify.sh
-```
+| Command | When to use it |
+| --- | --- |
+| `bash scripts/verify-fast.sh` | Shell fixtures and decision-index validation. Both Stop hooks use it with a 30-second cap. |
+| `bash scripts/verify.sh --no-docker` | On-demand Foundry, Rust/Anvil, and Python checks. |
+| `bash scripts/verify.sh` | CI or explicit full verification, including serial Docker → Rust → Anvil acceptance. |
 
-The gate runs hook regressions, pinned Solidity tests/artifact checks, Rust
-formatting/Clippy/tests/builds, generated client checks, and the complete Python
-suite including Docker → Rust → Anvil acceptance. Missing chain or Docker
-infrastructure fails rather than silently skipping. No model API, public RPC,
-or funded public wallet is needed.
+Runtime suites require their local infrastructure. No model API, public RPC,
+or funded public wallet is needed. See the [verification guide](docs/verification.md).
 
 For deterministic harness iteration without Docker:
 

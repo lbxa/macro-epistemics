@@ -1,3 +1,90 @@
+# Compact bibliography — 2026-11-20
+
+Reduced reference entries from 9 pt to 8 pt and inspected both columns on
+page 8. All 17 entries remain legible and the Veracity preprint resolves as
+reference 1. The 63-page build passed without warnings. Only page 8 reflowed.
+
+# Veracity attribution — 2026-11-20
+
+Verified arXiv:2507.09972 against the original preprint. The paper cites it
+at the first mention of Veracity, in Related Work, and where Methodology
+describes the core engine. It resolves as reference 1. The 63-page build
+passed without warnings, and pages 1--5, 7 and 8 were checked after reflow.
+
+# Reference typography — 2026-11-20
+
+Reduced bibliography entries from 10 pt to 9 pt. The 63-page build passed
+without warnings. Page 8 retains balanced columns and all 17 entries.
+Extracted page layout changed only on page 8.
+
+# Two-column layout and numbered output panels — 2026-11-20
+
+The main text and references use two columns. The title and abstract span
+the page, as do wide figures and the main summary table. The appendix keeps
+full-width multipage tables. The four Results excerpts appear together on
+page 6 as Figures 3--6. The seven appendix excerpts also have individual
+captions and text references. All 11 figure labels resolve to distinct
+numbers, and the generated excerpt inputs retain their frozen content.
+
+A clean build with pdfTeX 1.40.27 and latexmk 4.86a produced 63 pages with
+no LaTeX warnings. I reviewed the rendered pages, the bibliography balance,
+the output panels at reading size, and the wide tables across page breaks.
+The baseline and agentic manuscripts also built with the shared panel style.
+Fast repository verification passed.
+
+```sh
+SOURCE_DATE_EPOCH=1795176000 FORCE_SOURCE_DATE=1 make -C report LATEXMK='latexmk -gg'
+```
+
+PDF SHA256 `63b7ea84fb17c65d343041877c62a529927f9a6449c17acbc2935de14af07a3c`.
+Independent reference adjudication and author scientific review remain open.
+
+# Experiment infographic — 2026-11-20
+
+Figure 1 on page 3 now opens with an illustrative task prompt and shows the
+harness's separate paths for model inference, Veracity disputes and evidence
+export. The caption identifies the example and describes the settlement and
+evidence boundaries. The [TikZ source](figures/experiment-architecture.tex)
+uses the research site's palette and embeds Iowan Old Style in the vector PDF.
+
+Generated the figure with XeTeX 0.999997 and built the paper with pdfTeX 1.40.27,
+both from TeX Live 2025. Run these commands from the repository root.
+
+```sh
+SOURCE_DATE_EPOCH=1795176000 FORCE_SOURCE_DATE=1 xelatex -no-shell-escape \
+  -interaction=nonstopmode -halt-on-error -output-directory=report/epistemics/figures \
+  report/epistemics/figures/experiment-architecture.tex
+SOURCE_DATE_EPOCH=1795176000 FORCE_SOURCE_DATE=1 make -C report LATEXMK='latexmk -gg'
+```
+
+The clean 65-page build and fast verification passed. A pixel comparison
+identified changes only on pages 3 and 4. Both pages were inspected, including
+Figure 1 at manuscript width and the standalone figure in grayscale.
+Independent reference adjudication and author scientific review remain open.
+
+PDF SHA256 `57068a02e3dc99ea7b2f3d858aee2e203a9b50cb3abf77a08d98300709b152f7`.
+
+# Experiment architecture figure — 2026-11-19
+
+Figure 1 sits in Methodology on page 3. The caption identifies the harness,
+the Veracity API and Rust engine, the Solidity contract on Anvil, and the
+versioned evidence used by offline analysis. This version used Mermaid CLI
+12.2.0 and embedded the site's Iowan Old Style font in the vector PDF.
+
+The clean build passed with TeX Live 2025, pdfTeX 1.40.27 and latexmk 4.86a.
+
+```sh
+SOURCE_DATE_EPOCH=1794821400 FORCE_SOURCE_DATE=1 make -C report LATEXMK='latexmk -gg'
+```
+
+The [65-page PDF](build/main.pdf) has no layout or cross-reference warnings.
+All 65 rendered pages were compared with the previous build. Page 3 was
+inspected at manuscript width, and the 28 pages with reflow or renumbering
+were reviewed for float placement and clipping. Independent reference
+adjudication and author scientific review remain open.
+
+PDF SHA256 `20b0f525f688b3477734312d5c70f94d26e87e15b2c21227607587b2890dd959`.
+
 # Project attribution update — 2026-11-19
 
 `make -C report` rebuilt the 65-page working manuscript with pdfLaTeX and

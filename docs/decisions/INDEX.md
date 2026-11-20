@@ -4,6 +4,8 @@
 
 Every record, newest first. See [README](./README.md) for when and how to write one.
 
+- [Separate fast Stop hooks from runtime verification](./separate-fast-hooks-from-runtime-verification.md) — 2026-11-20
+- [The two-column paper keeps a full-width supplement](./two-column-paper-keeps-a-full-width-supplement.md) — 2026-11-20
 - [Gateway teardown follows participants](./gateway-teardown-follows-participants.md) — 2026-11-19
 - [Hugging Face archives reviewed research exports](./hugging-face-archives-reviewed-research-exports.md) — 2026-11-19
 - [Publish current research assets](./publish-current-research-assets.md) — 2026-11-19

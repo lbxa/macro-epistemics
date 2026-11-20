@@ -15,7 +15,19 @@ Hash ordering precedes output inspection and excludes pilot agreements
 DeepSeek V4 Pro 0813, GLM-5.3, Kimi K2.6, GPT-OSS-120B and Inkling 2 Small
 use native Cloudflare endpoints. Each receives every case once before Veracity
 is mentioned. Answers, explanations, quotations and correctness probabilities
-are frozen.
+are frozen. Figure~\ref{fig:experiment-architecture} follows a task prompt
+through the harness, from model calls to dispute execution and evidence export.
+
+\begin{figure*}[!tp]
+ \centering\includegraphics[width=\linewidth]{figures/experiment-architecture.pdf}
+ \caption{From task prompt to verdict and evidence in the primary study.
+ The prompt is illustrative. The Python harness calls author and jury models
+ through Cloudflare Workers AI and sends dispute actions through the Veracity
+ API to the Rust engine. The Solidity contract on Anvil determines verdicts
+ and settles synthetic stakes. The dashed path shows the harness exporting
+ versioned evidence to Weights \& Biases for offline analysis.}
+ \label{fig:experiment-architecture}
+\end{figure*}
 
 \subsection{Branches, forecasts and executed verdicts}
 Four objections and seeds 101--105 yield
@@ -32,6 +44,8 @@ overstatement.
 
 Three GPT-OSS jurors see source, original, objection and frozen defence;
 author identity, grades, peer ballots and probabilities are hidden.
+The core engine implements the Veracity dispute game proposed by Barbosa
+et al.~\cite{barbosa2025veracity}.
 Votes execute through commitment, reveal and contract settlement at fixed
 1$\times$ synthetic stakes. A predeclared subset replays one frozen branch
 per case with three DeepSeek jurors. Failures remain without replacement.

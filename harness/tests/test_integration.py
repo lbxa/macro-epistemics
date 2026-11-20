@@ -810,7 +810,6 @@ async def test_offer_and_seeded_commit_precede_every_model_juror_commit(tmp_path
 
 
 @pytest.mark.integration
-@pytest.mark.xdist_group(name="swarm")
 @pytest.mark.parametrize(
     "arm",
     [
@@ -876,7 +875,6 @@ async def test_every_swarm_peer_posts_and_commits_before_evaluated_jurors_act(tm
 
 
 @pytest.mark.integration
-@pytest.mark.xdist_group(name="swarm")
 async def test_the_swarm_scale_offer_pays_every_flat_voter_of_the_largest_jury(tmp_path):
     # Contract credit comes only from settlement: the winning publisher must hold enough
     # to pay 10 ETH to all fifteen flat voters.

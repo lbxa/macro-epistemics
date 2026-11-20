@@ -1,3 +1,16 @@
+# Automatic paper build — 20 November 2026
+
+A clean website build compiled the current LaTeX source. The PDF in
+`public/files/`, the copy in `dist/files/`, and the response to the existing
+paper URL in Astro preview matched byte for byte. The response returned
+`200 OK` with `Content-Type: application/pdf`.
+
+The same compiler script installed its pinned TeX distribution and compiled
+the 57-page manuscript as an unprivileged user on a fresh Ubuntu 24.04
+x86-64 container. A separate test with invalid LaTeX failed before Astro
+packaging and preserved the previous public PDF. All four research export
+tests and the fast repository checks passed.
+
 # Landing-page draft review — 16 November 2026
 
 The draft preserves the supplied archive header and separates the frozen sector

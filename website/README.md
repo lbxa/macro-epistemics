@@ -21,12 +21,18 @@ bun run prepare:assets
 bun run dev
 ```
 
-`prepare:assets` verifies the committed working paper and the archived PDF
-pinned by the public evidence export. The working paper is the PDF served by
-the website. Refresh it by copying a reviewed build and updating its hash.
+`prepare:assets` verifies the archived PDF pinned by the public evidence
+export, compiles `report/epistemics/main.tex` through `make -C report`, and
+copies the result to `public/files/confidence-correction-and-consensus.pdf`.
+This public PDF is generated and ignored by Git. Use TeX Live with
+`latexmk` and `pdflatex` for local builds. The Linux x86-64 build installs
+the pinned TinyTeX toolchain automatically when TeX is missing.
 
-`bun run build` prepares these assets before building. Cloudflare Workers Builds
-publishes main to the existing `epistemics` Worker at `epistemics.lbxa.net`.
+`bun run build` runs this step before Astro copies the PDF to `dist/files/`.
+Cloudflare Workers Builds uses that command for its existing `epistemics`
+Worker at `epistemics.lbxa.net`. With custom build watch paths, include
+`report/*` alongside `website/*` so manuscript-only changes trigger builds.
+Compilation failures stop the build before the site is packaged.
 Wrangler's name matches that target.
 The empty `previews` block enables Cloudflare's configured branch-preview
 command, `npx wrangler preview`; static assets stay at the top level.
@@ -116,6 +122,12 @@ and completed counts, grading sensitivity and diagnostic denominators before
 writing identical `src/data/research.json` and `public/data/research.json`.
 
 ## Changelog
+
+### 2026-11-20
+
+- Compile the working manuscript on each site build and publish it at the
+  existing paper URL. See the
+  [build decision](../docs/decisions/website-builds-compile-the-working-paper.md).
 
 ### 2026-11-19
 

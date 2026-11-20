@@ -1,3 +1,29 @@
+# Normal bibliography type — 2026-11-20
+
+Restored the bibliography to normal 11 pt type and tightened entry spacing.
+All 17 entries fit in two balanced columns on page 8, with Appendix A
+starting below. The 57-page build passed without warnings. Pages 8--10
+were inspected after reflow. Later pages retain their prior layout with
+a one-page shift.
+
+# References and two-column appendices — 2026-11-20
+
+Page 8 contains all 17 bibliography entries in balanced columns, with
+Appendix A immediately beneath them. Appendix prose and model-output panels
+use the same column widths as the main text. Wide exhibits span the page,
+including all 19 multipage tables with repeated headers. The frozen figures
+and table inputs retain their original content.
+
+The clean build with pdfTeX 1.40.27 and latexmk 4.86a and the fast repository
+checks passed. The 56-page PDF was reviewed in contact sheets. Page 8 was
+also inspected at reading size, and all 11 output figure labels resolve.
+
+```sh
+SOURCE_DATE_EPOCH=1795176000 FORCE_SOURCE_DATE=1 make -C report LATEXMK='latexmk -gg'
+```
+
+PDF SHA256 `fd655e5532a51c50f53826f78c0727b73cb2a2a9596641254e2ae867a364901b`.
+
 # Compact bibliography — 2026-11-20
 
 Reduced reference entries from 9 pt to 8 pt and inspected both columns on

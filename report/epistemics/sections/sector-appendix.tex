@@ -5,8 +5,9 @@
 Each model receives 30 initials and 600 branches per domain (four conditions,
 five seeds). Missing initials remove 20 branches each. Defences remain usable
 without settled verdicts; Table~\ref{tab:sector-coverage} separates these stages.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\input{tables/sector-coverage}
  \caption{Available outputs over assigned counts. Initial availability includes
  lossless interpretation overlays while retaining raw failures. Defences and
@@ -15,6 +16,7 @@ without settled verdicts; Table~\ref{tab:sector-coverage} separates these stages
  \label{tab:sector-coverage}
 \end{table}
 
+\begin{multicols}{2}
 \section{Revision and jury support across domains}
 \label{app:sector-behavior}
 These audited rates supplement Figure~\ref{fig:sector-concessions}; literal
@@ -22,8 +24,9 @@ grades remain in the snapshot and \path{sector-metrics.csv}.
 Pointwise 95\% intervals use 2,000 within-stratum source-group resamples.
 Unadjudicated references, collapsed intervals and model-specific mismatch
 sets limit interpretation and ranking.
+\end{multicols}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
  \centering\includegraphics[width=\linewidth]{figures/sector-corrections.pdf}
  \caption{Correction of initial reference mismatches. Missing points denote
  no eligible observations, including two finance models with no observed
@@ -33,7 +36,7 @@ sets limit interpretation and ranking.
  \label{fig:sector-corrections}
 \end{figure}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\setlength{\tabcolsep}{3pt}
  \input{tables/sector-correction}
  \caption{Correction percentages, followed by eligible generations/source
@@ -43,7 +46,7 @@ sets limit interpretation and ranking.
  \label{tab:sector-correction}
 \end{table}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
  \centering\includegraphics[width=\linewidth]{figures/sector-wrong-upheld.pdf}
  \caption{Jury acceptance of a reference-mismatching original, conditional on
  a settled verdict. The target remains the frozen original even if the author
@@ -53,7 +56,7 @@ sets limit interpretation and ranking.
  \label{fig:sector-jury}
 \end{figure}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
  \centering\includegraphics[width=\linewidth]{figures/sector-confidence-change.pdf}
  \caption{Change in the forecast that the original answer is correct, relative
  to its initial confidence, in percentage points. All four arms disclose the
@@ -62,7 +65,7 @@ sets limit interpretation and ranking.
  \label{fig:sector-confidence-change}
 \end{figure}
 
-\begin{figure}[p]
+\begin{figure}[H]
  \centering\includegraphics[width=\linewidth]{figures/sector-benchmark-behavior.pdf}
  \caption{Benchmark-level endpoints under audited grades. Cells show point
  estimates and eligible completed generations ($N$), repeated within source
@@ -75,15 +78,16 @@ sets limit interpretation and ranking.
  \label{fig:benchmark-behavior}
 \end{figure}
 
-\clearpage
+\begin{multicols}{2}
 \section{Five-seed variation and forecast targets}
 \label{app:sector-seeds}
 Table~\ref{tab:sector-seeds} summarizes seed-level aggregate accuracy with
 sample SD ($n-1$, $n\leq5$). \path{sector-seeds.csv} retains means and eligible
 counts. Seed SD neither estimates document uncertainty nor establishes
 provider independence.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\setlength{\tabcolsep}{4pt}
  \input{tables/sector-seeds}
  \caption{Mean accuracy (sample SD) across the five seed-level aggregate
@@ -93,7 +97,7 @@ provider independence.
  \label{tab:sector-seeds}
 \end{table}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\input{tables/sector-forecasts}
  \caption{Brier losses for original-correctness forecasts under literal (L)
  and audited (A) grades, and forecasts of actual jury acceptance, pooled over
@@ -103,15 +107,16 @@ provider independence.
  \label{tab:sector-forecasts}
 \end{table}
 
-\clearpage
+\begin{multicols}{2}
 \section{Confidence ranking and mean confidence gaps}
 \label{app:confidence-ranking}
 Confidence AUC measures how often matches receive higher confidence than
 mismatches, counting ties as half; the mean confidence gap subtracts accuracy
 from confidence. AUC is undefined without both classes. These exploratory
 values lack intervals; some strata contain one error.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\setlength{\tabcolsep}{3pt}
  \input{tables/sector-confidence-diagnostics}
  \caption{Initial confidence diagnostics under the audited sensitivity.
@@ -122,7 +127,7 @@ values lack intervals; some strata contain one error.
  \label{tab:confidence-ranking}
 \end{table}
 
-\clearpage
+\begin{multicols}{2}
 \section{Cross-family jury replay}
 \label{app:judge-sensitivity}
 Frozen case indices rotate author and condition over one seed-101 branch
@@ -131,8 +136,9 @@ DeepSeek panels abort. Settled panels agree in 108/109 pairs, jointly
 upholding ten mismatches; DeepSeek upholds one additional legal mismatch.
 Agreement does not resolve correctness, and this small, unevenly crossed
 replay cannot estimate a general judge-family effect.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\setlength{\tabcolsep}{3pt}
  \input{tables/sector-jury-replay}
  \caption{Matched frozen-defence replay. Each domain has 30 planned
@@ -143,3 +149,5 @@ replay cannot estimate a general judge-family effect.
  additional independent tasks.}
  \label{tab:sector-jury-replay}
 \end{table}
+
+\begin{multicols}{2}

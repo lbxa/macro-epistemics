@@ -5,15 +5,19 @@
 \input{sections/results}
 \input{sections/discussion}
 \input{sections/conclusion}
-\clearpage
-\balance
-\input{sections/references}
-\newgeometry{margin=1in}
-\nobalance
 \onecolumn
-\setlength{\parskip}{10pt}
-\setlength{\baselineskip}{15.7pt}
+\begin{multicols}{2}
+\input{sections/references}
+\end{multicols}
 \appendix
+\addvspace{14pt}
+\titleformat{\section}{\raggedright\fontsize{14}{21}\selectfont\bfseries}
+ {\thesection.}{0.5em}{}
+\titleformat{\subsection}{\raggedright\fontsize{13}{18}\selectfont\bfseries}
+ {\thesubsection.}{0.5em}{}
+
+% Appendix prose balances in columns between the full-width exhibits.
+\begin{multicols}{2}
 \input{sections/appendix}
 \input{sections/sector-appendix}
 \input{sections/sector-diagnostics}

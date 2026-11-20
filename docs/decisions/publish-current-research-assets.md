@@ -1,7 +1,7 @@
 # Publish current research assets
 
 - **Date:** 2026-11-19
-- **Status:** Accepted
+- **Status:** Superseded by website-builds-compile-the-working-paper.md
 - **Deciders:** Lucas Barbosa
 - **Area:** Website and report
 

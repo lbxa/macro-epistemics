@@ -1,5 +1,4 @@
 % !TEX root = ../main.tex
-\clearpage
 \section{Intermediate evidence and complete readouts}
 \label{app:intermediate-evidence}
 These exploratory diagnostics trace frozen sources, answers, defences and
@@ -9,8 +8,9 @@ A scalar or label match is $M$; a mismatch is $X$. Grades use the audited
 sensitivity unless marked literal (L), without certifying references or
 explanations. Pointwise intervals resample sources within original strata;
 seeds, conditions and ballots remain grouped.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \begin{tabular}{>{\raggedright\arraybackslash}p{.40\linewidth}>{\raggedright\arraybackslash}p{.52\linewidth}}
 \toprule
@@ -36,6 +36,7 @@ report source tree unless explicitly prefixed.}
 \label{tab:diagnostic-index}
 \end{table}
 
+\begin{multicols}{2}
 \subsection{Source catalog and sampling flow}
 \label{app:diagnostic-bank}
 The bank contains 2,061 tasks, 19,530 O*NET descriptions across 974 occupations,
@@ -47,8 +48,9 @@ The cohort selects 120 source groups from five benchmarks within it
 Trials reside in harness exports, leaving the bank's \texttt{experiments}
 and \texttt{observations} empty. Catalog integration flags do not describe
 later execution.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small
 \begin{tabular}{lr}
 \toprule
@@ -95,14 +97,16 @@ indexed records.}
 \end{longtable}
 \endgroup
 
+\begin{multicols}{2}
 \subsection{Formatting, missingness and every grade transition}
 \label{app:diagnostic-transitions}
 Table~\ref{tab:diagnostic-format} separates 29 lossless interpretations from
 strict schema successes and unavailable outputs. Transition tables retain
 all 150 branches per model/domain/condition (30 initials, five seeds),
 including missing generations.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small\begin{tabular}{llrrrrr}
 \toprule Domain & Model & Assigned & Strict & Normalized & Usable & Missing\\\midrule
 \input tables/diagnostic-initial-format.tex
@@ -112,7 +116,6 @@ remaining missing outputs sum to assigned attempts. Usable equals strict
 plus normalized. The original failed schema observations remain retained.}
 \label{tab:diagnostic-format}
 \end{table}
-\FloatBarrier
 
 \begingroup\small\setlength{\tabcolsep}{3pt}
 \begin{longtable}{lllrrrrrr}
@@ -127,6 +130,7 @@ baseline. These numerical/label transitions do not score every explanatory claim
 \input tables/diagnostic-transitions.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{All paired contrasts against neutral review}
 \label{app:diagnostic-paired}
 To control changing completion sets, contrasts match seeds and average within
@@ -134,6 +138,7 @@ eligible sources before resampling. Positive contrasts mean more loss or
 repair, respectively. Collapsed intervals, possible even for nonzero
 differences in small strata, describe empirical resampling rather than
 population certainty. Intervals are not multiplicity-adjusted.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{4pt}
 \begin{longtable}{llrrr}
@@ -157,6 +162,7 @@ comparison. Source error sets differ between models.}
 \input tables/diagnostic-paired-correction.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{Confidence bins and near-certain mismatches}
 \label{app:diagnostic-confidence}
 Figure~\ref{fig:diagnostic-reliability} and Table~\ref{tab:diagnostic-reliability}
@@ -167,8 +173,9 @@ descriptive readouts do not validate a deployment policy.
 At confidence $\geq0.9$, 41/487 initials mismatch audited references;
 at 1.0, 5/112 do (Table~\ref{tab:diagnostic-high-confidence}). These conditional
 rates differ from high-confidence error incidence among all usable answers.
+\end{multicols}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/diagnostic-reliability.pdf}
 \caption{Initial reliability diagrams. Each point uses mean confidence and
 reference agreement in one probability bin. Labels are usable answer counts;
@@ -201,15 +208,16 @@ denominator, out of 2,000; empty resamples do not become zero accuracy.}
 \input tables/diagnostic-reliability.tex
 \bottomrule\end{longtable}\endgroup
 
-\FloatBarrier
+\begin{multicols}{2}
 \subsection{Confidence updates conditional on the original grade}
 Figures~\ref{fig:diagnostic-update-match} and~\ref{fig:diagnostic-update-mismatch}
 separate updates on matching and mismatching originals. Forecasts concern the
 frozen original. Every arm changes token allowance and discloses Veracity;
 audit redirects attention within existing material. These updates cannot
 isolate a platform effect.
+\end{multicols}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/diagnostic-confidence-match.pdf}
 \caption{Original-correct forecast changes for reference-matching initials,
 in percentage points from the initial forecast. Intervals resample source
@@ -217,7 +225,7 @@ groups and retain seeds. A decrease can reflect qualification of an explanation
 even when its final number or label remains matching.}
 \label{fig:diagnostic-update-match}
 \end{figure}
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/diagnostic-confidence-mismatch.pdf}
 \caption{The same update endpoint for initially mismatching answers. Empty
 finance strata remain unplotted. These model-specific error sets differ in
@@ -225,7 +233,7 @@ composition and can contain very few distinct sources.}
 \label{fig:diagnostic-update-mismatch}
 \end{figure}
 
-\FloatBarrier
+\begin{multicols}{2}
 \subsection{Matched forecast targets and base rates}
 \label{app:diagnostic-forecasts}
 Unlike Appendix~\ref{app:sector-seeds}, Table~\ref{tab:diagnostic-forecast-bases}
@@ -233,6 +241,7 @@ uses identical settled, fully scored rows for all targets: Original and
 Current are reference grades; Jury is acceptance of the original. Different
 base rates still prevent interpreting lower jury Brier loss as greater honesty
 or a better correctness forecast.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{4pt}
 \begin{longtable}{lllrrrr}
@@ -246,6 +255,7 @@ a model/domain because targets, not observations, change.}
 \input tables/diagnostic-forecast-bases.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{Stance, support and replacement grades}
 \label{app:diagnostic-support}
 No valid reply declares \emph{maintain} while denying support; no repaired
@@ -253,6 +263,7 @@ mismatch retains support for the old answer. Yet 23 replies withdraw support
 while their current answer remains matching. Qualification can concern an
 incomplete explanation rather than its number, as the rope example shows.
 Table~\ref{tab:diagnostic-support} keeps these endpoints separate.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{3pt}
 \begin{longtable}{llrrrrrrr}
@@ -269,6 +280,7 @@ about internal beliefs.}
 \input tables/diagnostic-support.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{Jury confusion counts and vote margins}
 \label{app:diagnostic-jury}
 The 11,469 verdicts comprise 9,767 upheld and 361 rejected matches, and
@@ -278,6 +290,7 @@ two are upheld and 44 rejected: jurors judge the original, not its replacement.
 Tables~\ref{tab:diagnostic-jury} and~\ref{tab:diagnostic-vote-patterns}
 separate 11,410 three-ballot panels from 59 settled two-ballot panels;
 missing ballots are not dissent. Counts remain reference-relative.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{3pt}
 \begin{longtable}{llrrrrrrr}
@@ -304,6 +317,7 @@ Forecasts are mean probabilities in percent. Unsettled is not a rejection.}
 \input tables/diagnostic-vote-patterns.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{Literal quotations and inference remain separate}
 \label{app:diagnostic-citations}
 Of 846 persistent mismatches with quotations all literally matching,
@@ -311,6 +325,7 @@ Of 846 persistent mismatches with quotations all literally matching,
 without establishing causation or invalid inference. The diagnostic searches
 whitespace-normalized task/document text, not semantic entailment;
 paraphrases and punctuation can cause literal mismatches.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{3pt}
 \begin{longtable}{llrrrrrrrr}
@@ -327,6 +342,7 @@ Domain & Model & 0 & L & N & 0 & L & N & Count & Upheld/settled\\\midrule\endhea
 \input tables/diagnostic-citations.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{What the five-seed distribution contains}
 \label{app:diagnostic-seeds}
 There are 1,977 complete five-output case-condition groups with a matching
@@ -334,8 +350,9 @@ initial and 252 with a mismatching initial; 71 and 24 further groups have
 at least one unavailable output. Figure~\ref{fig:diagnostic-seeds} and
 Table~\ref{tab:diagnostic-seeds} retain every 0/5 through 5/5 count.
 Conditions sharing an initial are related groups, not independent sources.
+\end{multicols}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/diagnostic-seed-distribution.pdf}
 \caption{Distribution of matching current answers within complete five-seed
 groups, pooled across domains and conditions. Cells are counts of
@@ -357,13 +374,14 @@ Missing initials are outside both original-grade strata.}
 \input tables/diagnostic-seed-stability.tex
 \bottomrule\end{longtable}\endgroup
 
-\FloatBarrier
+\begin{multicols}{2}
 \subsection{Which categorical confusions occur?}
 Matrices count initial labels by reference class; panel sizes and the format
 table retain missingness. Legal silence versus negation and scientific scope
 remain annotation-sensitive interpretations requiring review.
+\end{multicols}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/diagnostic-confusion-legal.pdf}
 \caption{Complete initial ContractNLI confusion counts for all five models.
 Rows are supplied references and columns model labels. Abbreviations are
@@ -371,7 +389,7 @@ defined in the sixth panel. Each model is assigned ten sources per reference
 class; unavailable outputs reduce observed counts.}
 \label{fig:diagnostic-confusion-legal}
 \end{figure}
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/diagnostic-confusion-science.pdf}
 \caption{Complete initial SciFact confusion counts. The InsufficientEvidence
 reference maps the absence of annotated support, not a universal scientific
@@ -379,12 +397,13 @@ truth claim. No new semantic grading is performed.}
 \label{fig:diagnostic-confusion-science}
 \end{figure}
 
-\FloatBarrier
+\begin{multicols}{2}
 \subsection{Sensitivity of the downstream rates to grading}
 Table~\ref{tab:diagnostic-grade-sensitivity} shows grading-induced changes to
 rates and denominators, using identical outputs and verdicts. The source-audit
 registry retains eight calculations, distinguishing units, precision and
 upstream reference disagreement.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{4pt}
 \begin{longtable}{llrrr}
@@ -398,6 +417,7 @@ same outputs, not treatment effects or human-adjudicated truth.}
 \input tables/diagnostic-grade-sensitivity.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{Reported resources and failure receipts}
 \label{app:diagnostic-resources}
 Exports retain 47,008 primary/replay and 125 standalone calls; lossless
@@ -411,6 +431,7 @@ identify reasoning quality or speed; the required timing and queue data are
 absent. Length finish reasons do not explain particular reasoning failures.
 Separate spending ledgers retain unreconciled holds; these receipts are not
 an invoice.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{3pt}
 \begin{longtable}{lllrrrrrrrr}
@@ -426,6 +447,7 @@ separate from the main and replay phases.}
 \input tables/diagnostic-resource-profile.tex
 \bottomrule\end{longtable}\endgroup
 
+\begin{multicols}{2}
 \subsection{A complete source ledger}
 \label{app:diagnostic-source-ledger}
 The four tables retain every source. Initials follow model order DeepSeek (D),
@@ -438,6 +460,7 @@ F/L/S/E codes link to full IDs, references, scales, URLs and hashes in
 \path{sector-source-ledger.csv}. TAT-QA keys use unambiguous eight-character
 prefixes. The 2,400-row source/arm ledger retains model, condition, original
 hash and ordered seed bits (101--105), with \texttt{-} for missing outcomes.
+\end{multicols}
 
 \begingroup\small\setlength{\tabcolsep}{3pt}
 \begin{longtable}{lp{.26\linewidth}rrrrrrrr}
@@ -478,7 +501,8 @@ numerical agreement does not grade teaching quality.}
 \input tables/diagnostic-ledger-education.tex
 \bottomrule\end{longtable}\endgroup
 
-\FloatBarrier
+\begin{multicols}{2}
+\tcbset{trace presentation/.style={column trace}}
 \subsection{Visible traces selected by outcome pattern}
 \label{app:diagnostic-traces}
 Six post hoc examples select the lowest eligible branch ID per pattern with
@@ -554,7 +578,6 @@ The scalar match leaves the consistency of the explanation unresolved.
  \label{fig:trace-scalar-qualification}
 \end{figure}
 
-\clearpage
 \subsection{Full conditional readouts from the preceding legal pilot}
 \label{app:diagnostic-pilot}
 The separate ContractNLI pilot uses three agreements/propositions, three
@@ -565,8 +588,9 @@ makes correction rates conditional; prospective confidence is absent.
 Its DeepSeek jury, 4096-token cap and authorized local orchestration differ
 from the cloud study. Results are not pooled. The archived pilot PDF/source
 and \path{contract-micro-g9t35ump:v734} retain the original register and hashes.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small\input{tables/classification}
 \caption{Pilot screening and retained-answer results. Initial is reference
 matches over fifteen screens per answerer; retained counts follow its selected
@@ -575,7 +599,7 @@ defences. Kimi has no selected error and remains N/A. This selection cannot
 estimate an occupational error prevalence.}
 \label{tab:diagnostic-pilot-classification}
 \end{table}
-\begin{table}[htbp]
+\begin{table}[H]
 \centering\small\input{tables/jury}
 \caption{All pilot verdict participation and mismatch acceptance. Wrong
 upheld uses settled reference-mismatching originals as its denominator;
@@ -583,7 +607,7 @@ missing verdicts and incomplete panels are separate. These are historical
 pilot results, not additional observations of the sector panel.}
 \label{tab:diagnostic-pilot-jury}
 \end{table}
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/correction-ci.pdf}
 \caption{Pilot correction readouts over the selected initial errors. The
 displayed exact binomial intervals are conditional on a fixed answer and an
@@ -591,14 +615,14 @@ independent-Bernoulli model for five generations. They are not source-group
 intervals over contracts and differ from the expanded study's uncertainty.}
 \label{fig:diagnostic-pilot-corrections}
 \end{figure}
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/jury-reference.pdf}
 \caption{Pilot verdicts for the selected initial mismatches, preserving
 rejected and upheld originals and separate missing verdicts. The source label
 remains an operational reference rather than certified legal truth.}
 \label{fig:diagnostic-pilot-jury}
 \end{figure}
-\begin{figure}[htbp]
+\begin{figure}[H]
 \centering\includegraphics[width=\linewidth]{figures/seed-outcomes.pdf}
 \caption{Every pilot correction outcome for the two selected initial
 mismatches. Cells record reference agreement of the current answer, not jury
@@ -607,3 +631,5 @@ multiply the number of contracts; the incomplete Kimi matching-answer branch
 is outside this selected-error matrix.}
 \label{fig:diagnostic-pilot-seeds}
 \end{figure}
+
+\begin{multicols}{2}

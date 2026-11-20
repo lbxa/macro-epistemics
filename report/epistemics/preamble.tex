@@ -5,17 +5,27 @@
 \usepackage[letterpaper,margin=.8in]{geometry}
 \usepackage{amsmath,amssymb,booktabs,graphicx,microtype,longtable,array,varwidth}
 \usepackage{titlesec}
-\usepackage{placeins,balance,float}
+\usepackage{multicol,float}
 \input{../trace-panels}
+\usepackage{xurl}
 \usepackage[hidelinks]{hyperref}
+
+\tcbset{column trace/.style={
+  varwidth boxed title*=-26pt, fonttitle=\normalfont\footnotesize,
+  fontupper=\footnotesize, fontlower=\footnotesize,
+  left=6pt, right=6pt, top=6pt, bottom=5pt, before skip=5pt, after skip=3pt}}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
 \setlength{\columnsep}{19pt}
+\setlength{\multicolsep}{8pt plus 2pt minus 2pt}
+\setlength{\premulticols}{130pt}
+\setlength{\maxbalancingoverflow}{0pt}
 \setlength{\dbltextfloatsep}{15pt plus 2pt minus 3pt}
 \renewcommand{\dbltopfraction}{.86}
 \renewcommand{\dblfloatpagefraction}{.7}
 \raggedbottom
+\raggedcolumns
 \clubpenalty=10000
 \widowpenalty=10000
 \setlength{\skip\footins}{14pt}

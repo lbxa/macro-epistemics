@@ -1,6 +1,7 @@
 # build output
 dist/
 latex-export/
+/public/files/confidence-correction-and-consensus.pdf
 
 # Local link to the production movie, whose bytes live in root video/.
 /public/media/*.mp4

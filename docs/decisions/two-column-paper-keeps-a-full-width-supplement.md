@@ -1,7 +1,7 @@
 # The two-column paper keeps a full-width supplement
 
 - **Date:** 2026-11-20
-- **Status:** Accepted
+- **Status:** Superseded by appendix-prose-flows-in-two-columns.md
 - **Deciders:** Lucas Barbosa (two-column layout and numbered output panels)
 - **Area:** report
 

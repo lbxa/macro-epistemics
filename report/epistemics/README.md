@@ -32,8 +32,8 @@ It is ready for creative review before implementation with `anim`.
 Build from the repository root with `make -C report`. The PDF is
 `report/epistemics/build/main.pdf`. Edit front matter in `main.tex`, shared layout
 in `preamble.tex`, and prose in individual `sections/` files, ordered through
-`sections/outline.tex`. The main text and references use two columns. The
-appendix uses full-page width for its multipage evidence tables. Preserve
+`sections/outline.tex`. The main text, references and appendix prose use two
+columns. Wide exhibits and multipage evidence tables span the page. Preserve
 concurrent report edits. Existing manuscripts elsewhere in `report/` remain
 historical, with `make -C report baseline` and `make -C report agentic` as their
 explicit build targets.

@@ -1,5 +1,5 @@
 % !TEX root = ../main.tex
-\section{Limitations and Dual-Use / Ethical Considerations}
+\section{Limitations and Dual-Use / \mbox{Ethical Considerations}}
 \label{app:limitations-ethics}
 \textbf{Sampling and identification.} Thirty selected source groups per domain
 do not represent industries. Most domains use one benchmark, confounding
@@ -47,8 +47,9 @@ Table~\ref{tab:sector-initial} uses audited grades; Figure~\ref{fig:sector-confi
 and the snapshot retain literal grades. Initial confidence contributes once,
 regardless of defence seeds. Lower Brier loss (0--1) is preferable; boundary
 intervals cannot bound unseen-task risk.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\input{tables/sector-grading}
  \caption{Initial numerical grading sensitivity. Correct counts use the same
  frozen outputs. Changes comprise eight source cases across five models;
@@ -56,7 +57,7 @@ intervals cannot bound unseen-task risk.
  \label{tab:grading}
 \end{table}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
  \centering\includegraphics[width=\linewidth]{figures/sector-confidence.pdf}
  \caption{Prospective confidence and initial accuracy, by model and domain.
  Each model is assigned 30 cases per domain. Gray circles use the frozen
@@ -68,7 +69,7 @@ intervals cannot bound unseen-task risk.
  \label{fig:sector-confidence}
 \end{figure}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\setlength{\tabcolsep}{4pt}
  \input{tables/sector-initial}
  \caption{Initial answer statistics by model and domain. Accuracy, confidence
@@ -79,7 +80,7 @@ intervals cannot bound unseen-task risk.
  \label{tab:sector-initial}
 \end{table}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
  \centering\includegraphics[width=\linewidth]{figures/sector-benchmarks.pdf}
  \caption{Initial accuracy by benchmark, using the same source-audited
  sensitivity as Table~\ref{tab:sector-initial}. Each cell shows the available
@@ -89,7 +90,7 @@ intervals cannot bound unseen-task risk.
  \label{fig:benchmarks}
 \end{figure}
 
-\clearpage
+\begin{multicols}{2}
 \section{Protocol excerpts}
 \label{app:protocol}
 Source groups are report IDs for FinQA, table IDs for TAT-QA, agreements for
@@ -230,6 +231,7 @@ one is not proof of recovering reality.
 The same checkable numerical error appears in the original, audit defence
 and all three juror assessments (Figure~\ref{fig:trace-arithmetic}).
 \begin{figure}[H]
+\tcbset{trace presentation/.style={column trace}}
 \input{tables/sector-arithmetic-case}
  \caption{Arithmetic diagnostic trigger. GLM retains an incorrect product
  after an audit prompt, and all three GPT-OSS jurors endorse the original.
@@ -243,8 +245,9 @@ frozen defence, and defence plus $108400+8672+552.84=117624.84$, expanding
 $1084(100+8+0.51)$. Prompts/hashes were frozen before shuffled dispatch.
 These standalone calls add no settlements; Figure~\ref{fig:arithmetic-context}
 shows variation conditional on one source.
+\end{multicols}
 
-\begin{figure}[htbp]
+\begin{figure}[H]
  \centering\includegraphics[width=\linewidth]{figures/arithmetic-context.pdf}
  \caption{A selected-case verification failure and recovery. Open points are
  the five seed-block rates (three calls each); filled markers are their means.
@@ -257,7 +260,7 @@ shows variation conditional on one source.
  \label{fig:arithmetic-context}
 \end{figure}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\setlength{\tabcolsep}{3pt}
  \input{tables/arithmetic-jurors}
  \caption{Arithmetic diagnostic by family and context. Mean and sample SD
@@ -268,14 +271,16 @@ shows variation conditional on one source.
  \label{tab:arithmetic-jurors}
 \end{table}
 
+\begin{multicols}{2}
 Five GLM replies receive checked arithmetic in the frozen conversation.
 Four correct the product, deny original support and reduce its forecast to
 0--5\%; one fails parsing (Table~\ref{tab:arithmetic-author}). All four valid
 main audit defences retain the error, with one unavailable. Three checked
 replies declare ``qualify'' while denying support, separating stance from
 support. Jury forecasts remain unscored because no panel judges these replies.
+\end{multicols}
 
-\begin{table}[htbp]
+\begin{table}[H]
  \centering\small\setlength{\tabcolsep}{3pt}
  \input{tables/arithmetic-author}
  \caption{Checked-evidence replies from the original GLM author. The
@@ -285,6 +290,7 @@ support. Jury forecasts remain unscored because no panel judges these replies.
  \label{tab:arithmetic-author}
 \end{table}
 
+\begin{multicols}{2}
 Diagnostic artifact: \path{arithmetic-diagnostic-4ad9a8544dff473f:v0}.
 
 Digest: \path{17469e0e688c710966d533d7e2e4bd79}.
